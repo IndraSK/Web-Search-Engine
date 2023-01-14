@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="googlebot" content="noindex, noarchive, nofollow, nosnippet">
+<meta name="robots" content="noindex, noarchive, nofollow">
+<meta name="slurp" content="noindex, noarchive, nofollow, noodp, noydir">
+<meta name="msnbot" content="noindex, noarchive, nofollow, noodp">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="expires" content="0">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TAC Study Online Survey</title>
+<link rel="shortcut icon" href="/redcap_v12.5.14/Resources/images/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="/redcap_v12.5.14/Resources/images/apple-touch-icon.png">
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/webpack/css/bundle.css?1667224959"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/webpack/css/fontawesome/css/all.min.css?1667224959"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/css/messenger.css?1667224794"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/css/style.css?1667224795"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/css/survey.css?1667224795"/>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/redcap_v12.5.14/Resources/css/survey_text_large.css?1667224795"/>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/webpack/js/bundle.js?1667224988"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Libraries/bundle.js?1667224847"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/base.js?1667224840"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Libraries/moment.min.js?1667224850"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Libraries/Chart.bundle.min.js?1667224848"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Libraries/patternomaly.min.js?1667224850"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Libraries/Chart.PluginLabels.js?1667224848"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/Survey.js?1667224845"></script>
+<script type="text/javascript" src="/redcap_v12.5.14/Resources/js/FontSize.js?1667224843"></script>
+</head>
+<body><script>var contactAdminButtonSettings = {"url":"https:\/\/www.redcap.ihrp.uic.edu\/surveys\/?s=EJF7TTC3C4&req_firstname=&req_lastname=&req_email=&piped_user_id=[survey respondent]&piped_pid=10711","label":"","sameTab":false,"hide":null,"removeSuggest":null,"topLink":null};</script><script src="https://www.redcap.ihrp.uic.edu/modules/modify_contact_admin_button_v2.2.0/js/modifyContactAdminButtonURL.js?1667650830"></script>
+<style type="text/css">
+body * { font-family: 'Open Sans',Helvetica,Arial,sans-serif !important; }
+</style>
+
+<style type="text/css">
+body { background-image: none; background-color: #cfe2f3; }
+#footer, #footer a { color: #000000 !important; }
+button, .btn-fileupload {color: #0C74A9 !important; }
+.btn-fileupload {background-color: #e6e6e6 !important; border-color: #999 !important; }
+.btn-fileupload:hover {background-color: #ededed !important; border-color: #ccc !important; }
+#econsent_confirm_instr2, #questiontable td, .floatMtxHdr td { color: #0b5394; }
+.matrix_first_col_hdr { color: #0b5394 !important; }
+div.enhancedchoice label { color: #0b5394 !important; border-color: #0b5394 !important; }
+div.enhancedchoice label.selectedradio, div.enhancedchoice label.selectedchkbox, div.enhancedchoice label.hover:hover { background-color: #0b5394; }
+#return_instructions, #econsent_confirm_instr2, #questiontable>tbody>tr>td, #questiontable td.labelmatrix>table>tbody>tr>td, .floatMtxHdr, .floatMtxHdr td { background-image: none; background-color: #ffffff; }
+div.enhancedchoice label { background-color: #ffffff; }
+div.enhancedchoice label.selectedradio, div.enhancedchoice label.selectedchkbox, div.enhancedchoice label.hover:hover { !important; border-color: #ffffff !important; }
+div.enhancedchoice label.selectedradio, div.enhancedchoice label.selectedradio a, div.enhancedchoice label.selectedchkbox, div.enhancedchoice label.selectedchkbox a, div.enhancedchoice label.hover:hover, div.enhancedchoice label.hover:hover a { color: #ffffff !important; }
+#econsent_confirm_checkbox_div, .header { color: #FFFFFF !important; }
+#econsent_confirm_checkbox_div, .header { background-image: none; border: none; background-color: #0b5394 !important; }
+#surveypagenum, #surveytitle, #surveyinstructions, #surveyinstructions p, #surveyinstructions div, #surveyacknowledgment, #surveyacknowledgment p, #surveyacknowledgment div { color: #0b5394; } 
+#return_corner a, #return_corner span, #return_corner i, #survey_queue_corner a, #dpop .popup-contents, #dpop .popup-contents span, #dpop .popup-contents i { color: #0b5394 !important; } 
+.mlm-switcher button.btn-outline-secondary { color: #0b5394 !important; border-color: #0b5394 !important; } 
+.mlm-switcher button.btn-primary { background-color: #0b5394 !important; } 
+#pagecontent, #container, #surveytitle, #surveyinstructions, #surveyinstructions p, #surveyinstructions div, #surveyacknowledgment, #surveyacknowledgment p, #surveyacknowledgment div { background-image: none; background-color: #FFFFFF; } 
+#changeFont { color: #000000 !important; }
+.mlm-switcher button.btn-primary { color: #FFFFFF !important; border-color: #FFFFFF !important; } 
+
+</style>
+
+<script type="text/javascript">
+if(typeof lang=='undefined'){var lang={}};
+lang.alerts_24='Alert';
+lang.calendar_popup_01='Close';
+lang.calendar_widget_choosetime='Choose Time';
+lang.calendar_widget_done='Done';
+lang.calendar_widget_hour='Hour';
+lang.calendar_widget_min='Minute';
+lang.calendar_widget_month_jan='Jan';
+lang.calendar_widget_month_feb='Feb';
+lang.calendar_widget_month_mar='Mar';
+lang.calendar_widget_month_apr='Apr';
+lang.calendar_widget_month_may='May';
+lang.calendar_widget_month_jun='Jun';
+lang.calendar_widget_month_jul='Jul';
+lang.calendar_widget_month_aug='Aug';
+lang.calendar_widget_month_sep='Sep';
+lang.calendar_widget_month_oct='Oct';
+lang.calendar_widget_month_nov='Nov';
+lang.calendar_widget_month_dec='Dec';
+lang.calendar_widget_month_day_long_sun='Sunday';
+lang.calendar_widget_month_day_long_mon='Monday';
+lang.calendar_widget_month_day_long_tues='Tuesday';
+lang.calendar_widget_month_day_long_wed='Wednesday';
+lang.calendar_widget_month_day_long_thurs='Thursday';
+lang.calendar_widget_month_day_long_fri='Friday';
+lang.calendar_widget_month_day_long_sat='Saturday';
+lang.calendar_widget_month_day_short_sun='Su';
+lang.calendar_widget_month_day_short_mon='Mo';
+lang.calendar_widget_month_day_short_tues='Tu';
+lang.calendar_widget_month_day_short_wed='We';
+lang.calendar_widget_month_day_short_thurs='Th';
+lang.calendar_widget_month_day_short_fri='Fr';
+lang.calendar_widget_month_day_short_sat='Sa';
+lang.calendar_widget_next='Next';
+lang.calendar_widget_prev='Prev';
+lang.dash_72='Enable color-blind accessibility';
+lang.dash_73='Disable color-blind accessibility';
+lang.dashboard_32='Today';
+lang.design_401='Okay';
+lang.design_718='Valid';
+lang.design_839='Special Functions';
+lang.edit_project_186='Learn how to use';
+lang.form_renderer_29='Now';
+lang.global_13='Time';
+lang.global_53='Cancel';
+lang.global_146='Smart Variables';
+lang.global_147='REDCap Auto Logout Warning';
+lang.global_148='Log In';
+lang.global_149='Continue on this page';
+lang.global_150='You will be automatically logged out of REDCap in <b>2 MINUTES</b> due to inactivity. Click the button below to prevent auto logout.';
+lang.global_151='You will be automatically logged out of REDCap in <b>30 SECONDS</b> due to inactivity. Click the button below to prevent auto logout.';
+lang.global_152='<b>Due to inactivity, your REDCap session has expired.</b> Click the button below to log in again.';
+lang.global_167='Regular View Mode';
+lang.global_168='Fullscreen Mode';
+lang.global_169='Update & Close Editor';
+lang.global_170='Logic Editor';
+lang.global_171='Error in syntax';
+lang.global_172='(The determination of validity may not be 100% accurate in all contexts.)';
+lang.global_173='Enter new logic here';
+lang.design_482='Codebook';
+lang.design_962='or open the';
+lang.global_132='Action Tags';
+lang.global_208='Use the text box below to compose your logic, calculation, action tags, etc. If you need more space, click the Fullscreen Mode button to enlarge the text box. When you are finished, click the \'Update\' button to minimize the Editor window.';
+lang.messaging_118='(click to go to project)';
+lang.messaging_119='(current project)';
+lang.messaging_177='NOTICE: It appears that you may have multiple browser windows/tabs open, which may prevent some things from working on this page until this page is refreshed. It is advised that you complete what you are doing, and then refresh this page.';
+</script>
+	<script type="text/javascript">
+	// Admin privileges
+	var super_user = 0;
+	var super_user_not_impersonator = 0;
+	var admin_rights = '0';
+	var account_manager = '0';
+	var access_system_config = '0';
+	var access_system_upgrade = '0';
+	var access_external_module_install = '0';
+	var access_admin_dashboards = '0';
+		// Project values
+	var missing_data_codes = [""];
+	var missing_data_codes_check = false;
+	var app_name = 'couse_screening_survey';
+	var pid = 10711;
+	var status = 0;
+	var draft_mode = 0;
+	var table_pk  = 'id'; var table_pk_label  = 'Participant ID';
+	var longitudinal = 0;
+	var auto_inc_set = 1;
+	var project_dashboard_allow_public = 1;
+	var file_upload_vault_enabled = 0;
+	var file_upload_versioning_enabled = 1;
+	var sendgrid_enabled = 0;
+	var data_resolution_enabled = 1;
+	var lock_record = 2;
+	var shared_lib_browse_url = 'https://redcap.vanderbilt.edu/consortium/library/login.php?callback=https%3A%2F%2Fwww.redcap.ihrp.uic.edu%2Fredcap_v12.5.14%2FSharedLibrary%2Freceiver.php%3Fpid%3D10711&institution=University+of+Illinois+at+Chicago&user=9d9129d20801f870d85e831229af9912';
+	var redcap_colorblind = 0;
+    $(function(){ $('.redcap-chart-colorblind-toggle').removeClass('invisible').find('a').html(window.lang.dash_72).click(function(){ toggleChartColorBlind(); } ); });
+		// System values
+	var redcap_version = '12.5.14';
+	var server_name = 'www.redcap.ihrp.uic.edu';
+	var app_path_webroot = '/redcap_v12.5.14/';
+	var app_path_webroot_full = 'https://www.redcap.ihrp.uic.edu/';
+	var app_path_images = '/redcap_v12.5.14/Resources/images/';
+	var page = 'surveys/index.php';
+    var secondary_pk = '';
+	var sendit_enabled = 1;
+	var surveys_enabled = 1;
+	var reports_allow_public = '1';
+	var rich_text_image_embed_enabled = 1;
+	var now = '2022-12-08 00:54:32'; var now_mdy = '12-08-2022 00:54:32'; var now_dmy = '08-12-2022 00:54:32';
+	var today = '2022-12-08'; var today_mdy = '12-08-2022'; var today_dmy = '08-12-2022';
+	var email_domain_allowlist = new Array();
+	var user_date_format_jquery = 'mm/dd/yy';
+	var user_date_format_validation = 'mdy';
+	var user_date_format_delimiter = '/';
+	var csv_delimiter = ',';
+	var ALLOWED_TAGS = '<code><video><source><caption><canvas><ol><ul><li><label><pre><p><a><br><center><font><b><i><u><h6><h5><h4><h3><h2><h1><hr><table><tbody><tr><th><td><thead><tfoot><img><span><div><em><strong><acronym><sub><sup><map><area>';
+	var AUTOMATE_ALL = '0';
+	var cookie_samesite = 'Lax';
+	var cookie_secure = true;
+		var datatables_disable = [];
+	var fakeObjectTag = 'objectwgp6dw03s1k5zitvv1u0d1hlcnvgand1sdzwmm9dt0zxk0u9';
+	function setDatePickerDefaults() {
+		$.datepicker.setDefaults({
+			closeText: window.lang.calendar_widget_done,
+			prevText: window.lang.calendar_widget_prev,
+			nextText: window.lang.calendar_widget_next,
+			currentText: window.lang.dashboard_32,
+			monthNamesShort:[
+				window.lang.calendar_widget_month_jan,
+				window.lang.calendar_widget_month_feb,
+				window.lang.calendar_widget_month_mar,
+				window.lang.calendar_widget_month_apr,
+				window.lang.calendar_widget_month_may,
+				window.lang.calendar_widget_month_jun,
+				window.lang.calendar_widget_month_jul,
+				window.lang.calendar_widget_month_aug,
+				window.lang.calendar_widget_month_sep,
+				window.lang.calendar_widget_month_oct,
+				window.lang.calendar_widget_month_nov,
+				window.lang.calendar_widget_month_dec,
+			],
+			dayNames:[
+				window.lang.calendar_widget_month_day_long_sun,
+				window.lang.calendar_widget_month_day_long_mon,
+				window.lang.calendar_widget_month_day_long_tues,
+				window.lang.calendar_widget_month_day_long_wed,
+				window.lang.calendar_widget_month_day_long_thurs,
+				window.lang.calendar_widget_month_day_long_fri,
+				window.lang.calendar_widget_month_day_long_sat,
+			],
+			dayNamesMin:[
+				window.lang.calendar_widget_month_day_short_sun,
+				window.lang.calendar_widget_month_day_short_mon,
+				window.lang.calendar_widget_month_day_short_tues,
+				window.lang.calendar_widget_month_day_short_wed,
+				window.lang.calendar_widget_month_day_short_thurs,
+				window.lang.calendar_widget_month_day_short_fri,
+				window.lang.calendar_widget_month_day_short_sat,
+			]
+		});
+	}
+	$(function(){
+		setDatePickerDefaults();
+	});
+	</script>
+	<div id="working">
+	<img data-rc-lang-attrs="alt=design_08" alt="Working..." src="/redcap_v12.5.14/Resources/images/progress_circle.gif"/>
+	&nbsp;<span data-rc-lang="design_08">Working...</span>
+</div>
+<div id="fade"></div>
+	<!-- Add hidden text for slider accessiblity on surveys -->
+	<div id="slider-0means" class="hidden"><span data-rc-lang="survey_1142">0% means</span></div>
+	<div id="slider-50means" class="hidden"><span data-rc-lang="survey_1143">50% means</span></div>
+	<div id="slider-100means" class="hidden"><span data-rc-lang="survey_1144">100% means</span></div>
+
+	<!-- Text used for field validation errors -->
+	<div id="valtext_divs">
+		<div id="valtext_number"><span data-rc-lang="config_functions_52">This value you provided is not a number. Please try again.</span></div>
+		<div id="valtext_integer"><span data-rc-lang="config_functions_53">This value you provided is not an integer. Please try again.</span></div>
+		<div id="valtext_vmrn"><span data-rc-lang="config_functions_54">The value entered is not a valid Vanderbilt Medical Record Number (i.e. 4- to 9-digit number, excluding leading zeros). Please try again.</span></div>
+		<div id="valtext_rangehard"><span data-rc-lang="config_functions_56">The value you provided must be within the suggested range</span></div>
+		<div id="valtext_rangesoft1"><span data-rc-lang="config_functions_57">The value you provided is outside the suggested range</span></div>
+		<div id="valtext_rangesoft2"><span data-rc-lang="config_functions_58">This value is admissible, but you may wish to double check it.</span></div>
+		<div id="valtext_time"><span data-rc-lang="config_functions_59">The value entered must be a time value in the following format HH:MM within the range 00:00-23:59 (e.g., 04:32 or 23:19).</span></div>
+		<div id="valtext_zipcode"><span data-rc-lang="config_functions_60">This field must be a 5 or 9 digit U.S. ZIP Code (like 94043). Please re-enter it now.</span></div>
+		<div id="valtext_phone"><span data-rc-lang="config_functions_61">This field must be a 10 digit U.S. phone number (like 415 555 1212). Please re-enter it now.</span></div>
+		<div id="valtext_email"><span data-rc-lang="config_functions_62">This field must be a valid email address (like joe@user.com). Please re-enter it now.</span></div>
+		<div id="valtext_regex"><span data-rc-lang="config_functions_77">The value you provided could not be validated because it does not follow the expected format. Please try again.</span></div>
+		<div id="valtext_requiredformat"><span data-rc-lang="config_functions_94">Required format:</span></div>
+	</div>
+	<!-- Regex used for field validation -->
+	<div id="valregex_divs">
+			<div id="valregex-postalcode_french" datatype="postal_code" label="Code Postal 5 caracteres (France)">/^((0?[1-9])|([1-8][0-9])|(9[0-8]))[0-9]{3}$/</div>
+			<div id="valregex-date_dmy" datatype="date" label="Date (D-M-Y)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4}))$/</div>
+			<div id="valregex-date_mdy" datatype="date" label="Date (M-D-Y)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4}))$/</div>
+			<div id="valregex-date_ymd" datatype="date" label="Date (Y-M-D)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31))))$/</div>
+			<div id="valregex-datetime_dmy" datatype="datetime" label="Datetime (D-M-Y H:M)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_mdy" datatype="datetime" label="Datetime (M-D-Y H:M)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_ymd" datatype="datetime" label="Datetime (Y-M-D H:M)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3]):[0-5]\d$/</div>
+			<div id="valregex-datetime_seconds_dmy" datatype="datetime_seconds" label="Datetime w/ seconds (D-M-Y H:M:S)">/^((29([-\/])02\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1\d|2[0-8])([-\/])(0[1-9]|1[012]))|((29|30)([-\/])(0[13-9]|1[012]))|(31([-\/])(0[13578]|1[02])))(\11|\15|\18)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-datetime_seconds_mdy" datatype="datetime_seconds" label="Datetime w/ seconds (M-D-Y H:M:S)">/^((02([-\/])29\3(\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00)))|((((0[1-9]|1[012])([-\/])(0[1-9]|1\d|2[0-8]))|((0[13-9]|1[012])([-\/])(29|30))|((0[13578]|1[02])([-\/])31))(\11|\15|\19)\d{4})) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-datetime_seconds_ymd" datatype="datetime_seconds" label="Datetime w/ seconds (Y-M-D H:M:S)">/^(((\d{2}([13579][26]|[2468][048]|04|08)|(1600|2[048]00))([-\/])02(\6)29)|(\d{4}([-\/])((0[1-9]|1[012])(\9)(0[1-9]|1\d|2[0-8])|((0[13-9]|1[012])(\9)(29|30))|((0[13578]|1[02])(\9)31)))) (\d|[0-1]\d|[2][0-3])(:[0-5]\d){2}$/</div>
+			<div id="valregex-email" datatype="email" label="Email">/^(?!\.)((?!.*\.{2})[a-zA-Z0-9\u0080-\u02AF\u0300-\u07FF\u0900-\u18AF\u1900-\u1A1F\u1B00-\u1B7F\u1D00-\u1FFF\u20D0-\u214F\u2C00-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u319F\u31C0-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF!#$%&'*+\-/=?^_`{|}~\d]+)(\.[a-zA-Z0-9\u0080-\u02AF\u0300-\u07FF\u0900-\u18AF\u1900-\u1A1F\u1B00-\u1B7F\u1D00-\u1FFF\u20D0-\u214F\u2C00-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u319F\u31C0-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF!#$%&'*+\-/=?^_`{|}~\d]+)*@(?!\.)([a-zA-Z0-9\u0080-\u02AF\u0300-\u07FF\u0900-\u18AF\u1900-\u1A1F\u1B00-\u1B7F\u1D00-\u1FFF\u20D0-\u214F\u2C00-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u319F\u31C0-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF\-\.\d]+)((\.([a-zA-Z\u0080-\u02AF\u0300-\u07FF\u0900-\u18AF\u1900-\u1A1F\u1B00-\u1B7F\u1D00-\u1FFF\u20D0-\u214F\u2C00-\u2DDF\u2F00-\u2FDF\u2FF0-\u2FFF\u3040-\u319F\u31C0-\uA4CF\uA700-\uA71F\uA800-\uA82F\uA840-\uA87F\uAC00-\uD7AF\uF900-\uFAFF]){2,63})+)$/i</div>
+			<div id="valregex-integer" datatype="integer" label="Integer">/^[-+]?\b\d+\b$/</div>
+			<div id="valregex-alpha_only" datatype="text" label="Letters only">/^[a-z]+$/i</div>
+			<div id="valregex-mrn_10d" datatype="mrn" label="MRN (10 digits)">/^\d{10}$/</div>
+			<div id="valregex-mrn_generic" datatype="mrn" label="MRN (generic)">/^[a-z0-9-_]+$/i</div>
+			<div id="valregex-number" datatype="number" label="Number">/^[-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?$/</div>
+			<div id="valregex-number_1dp_comma_decimal" datatype="number_comma_decimal" label="Number (1 decimal place - comma as decimal)">/^-?\d+,\d$/</div>
+			<div id="valregex-number_1dp" datatype="number" label="Number (1 decimal place)">/^-?\d+\.\d$/</div>
+			<div id="valregex-number_2dp_comma_decimal" datatype="number_comma_decimal" label="Number (2 decimal places - comma as decimal)">/^-?\d+,\d{2}$/</div>
+			<div id="valregex-number_2dp" datatype="number" label="Number (2 decimal places)">/^-?\d+\.\d{2}$/</div>
+			<div id="valregex-number_3dp_comma_decimal" datatype="number_comma_decimal" label="Number (3 decimal places - comma as decimal)">/^-?\d+,\d{3}$/</div>
+			<div id="valregex-number_3dp" datatype="number" label="Number (3 decimal places)">/^-?\d+\.\d{3}$/</div>
+			<div id="valregex-number_4dp_comma_decimal" datatype="number_comma_decimal" label="Number (4 decimal places - comma as decimal)">/^-?\d+,\d{4}$/</div>
+			<div id="valregex-number_4dp" datatype="number" label="Number (4 decimal places)">/^-?\d+\.\d{4}$/</div>
+			<div id="valregex-number_comma_decimal" datatype="number_comma_decimal" label="Number (comma as decimal)">/^[-+]?[0-9]*,?[0-9]+([eE][-+]?[0-9]+)?$/</div>
+			<div id="valregex-phone_australia" datatype="phone" label="Phone (Australia)">/^(\(0[2-8]\)|0[2-8])\s*\d{4}\s*\d{4}$/</div>
+			<div id="valregex-phone" datatype="phone" label="Phone (North America)">/^(?:\(?([2-9]0[1-9]|[2-9]1[02-9]|[2-9][2-9][0-9]|800|811)\)?)\s*(?:[.-]\s*)?([0-9]{3})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$/</div>
+			<div id="valregex-phone_uk" datatype="phone" label="Phone (UK)">/^((((\+44|0044)\s?\d{4}|\(?0\d{4}\)?)\s?\d{3}\s?\d{3})|(((\+44|0044)\s?\d{3}|\(?0\d{3}\)?)\s?\d{3}\s?\d{4})|(((\+44|0044)\s?\d{2}|\(?0\d{2}\)?)\s?\d{4}\s?\d{4}))(\s?\#(\d{4}|\d{3}))?$/</div>
+			<div id="valregex-postalcode_australia" datatype="postal_code" label="Postal Code (Australia)">/^\d{4}$/</div>
+			<div id="valregex-postalcode_canada" datatype="postal_code" label="Postal Code (Canada)">/^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1}\s*\d{1}[A-Z]{1}\d{1}$/i</div>
+			<div id="valregex-postalcode_germany" datatype="postal_code" label="Postal Code (Germany)">/^(0[1-9]|[1-9]\d)\d{3}$/</div>
+			<div id="valregex-ssn" datatype="ssn" label="Social Security Number (U.S.)">/^\d{3}-\d\d-\d{4}$/</div>
+			<div id="valregex-time_hh_mm_ss" datatype="time" label="Time (HH:MM:SS)">/^(\d|[01]\d|(2[0-3]))(:[0-5]\d){2}$/</div>
+			<div id="valregex-time" datatype="time" label="Time (HH:MM)">/^([0-9]|[0-1][0-9]|[2][0-3]):([0-5][0-9])$/</div>
+			<div id="valregex-time_mm_ss" datatype="time" label="Time (MM:SS)">/^[0-5]\d:[0-5]\d$/</div>
+			<div id="valregex-vmrn" datatype="mrn" label="Vanderbilt MRN">/^[0-9]{4,9}$/</div>
+			<div id="valregex-zipcode" datatype="postal_code" label="Zipcode (U.S.)">/^\d{5}(-\d{4})?$/</div>
+		</div>
+	<div id="random_text_hidden_div" style="display:none;">Nu8VLHagCpYSx5GyExbqo5zVtP9LVIoSwbqD4RhZCCjaY3NuBUfw7F8Q</div>
+<div id="pagecontainer" class="container-fluid" role="main"><div id="container"><div id="pagecontent">        <style>
+            #questiontable td.questionnum, #questiontable td.questionnummatrix {
+                display: none !important;
+            }
+            /* When we clean up the left space, we can extend enhanced choice options
+            to be full width for a better appearance */
+            div.enhancedchoice label { width: 100% }
+        </style>
+                <form id="frm" method="POST">
+            <h1 id='surveytitle' data-mlm='survey-title'>TAC Study Online Survey</h1>            <p class="text-center mb-4 mx-3"><b><span data-rc-lang="survey_1242">To proceed to the survey, please check off the box and click the button below.</span></b></p>
+			            <div class="g-recaptcha"></div>
+            <div class="text-center surveysubmit mt-3">
+                 <button class="jqbutton" type="submit"><span data-rc-lang="survey_1243">Begin survey</span></button>
+            </div>
+        </form>
+        <script type="text/javascript">
+            var onloadCallback = function() {
+                var e = $('.g-recaptcha')[0];
+                grecaptcha.render(e, { 'sitekey' : '6LdMbkcaAAAAAIlDFxAJF4X_RKcxAbUpY2GtazvS' });
+                $('#container').show();
+            };
+        </script>
+        <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+        <style type="text/css">
+            #frm { margin-top: 10px; }
+            #pagecontainer { max-width: 600px;}
+            #container { display:none; margin: 50px 0 0;  border-radius: 15px; }
+            #pagecontent { padding: 10px 10px 20px; }
+            .g-recaptcha > div{ margin: 10px auto !important; text-align: center; width: auto !important; height: auto !important; }
+        </style>
+        </div></div><div id="footer" class="d-none d-sm-block col-md-12" aria-hidden="true"><a href="https://projectredcap.org" tabindex="-1" target="_blank">Powered by REDCap</a></div></div></body></html>

@@ -1,0 +1,140 @@
+
+<HTML>
+<!-- <BODY BGCOLOR="#AAAAAA" TEXT="#000000" LINK="#9690CC"> -->
+
+<BODY BGCOLOR="#FFFFFF">
+
+<HEAD> 
+<TITLE> CS411 Spring 2020 </TITLE>
+</HEAD>
+<BODY>
+<H2>
+<center>
+CS 411 - Spring 2022 (under construction ...)
+</center>
+</H2> 
+<h1>
+<center>
+Artificial Intelligence I
+</center>
+</H1>
+<br> 
+
+<H3> Course Objective </h3>
+<p>This course aims to introduce the field of Artificial Intelligence.
+
+<center> <h3> Think and Ask! </h3> </center>
+<p> If you have questions about any topic or assignment, DO ASK me, TA or 
+even your classmates for help. I am here to help and to make the course 
+understood. DO NOT delay your questions. There is no such thing as a 
+stupid question. The only obstacle to learning is laziness. Please use 
+Blackboard to post your questions.</p>
+
+</p> 
+<h3> General Information </h3> 
+<UL>
+<LI> Instructor: Bing Liu 
+<ul> 
+   <li> Email: <a href="http://www.cs.uic.edu/~liub"> Bing Liu</a>
+   <li> Office: CS 3190c, North End, 3rd Floor, Library
+</ul>
+<LI> Course Call Numbers: 44910* and 44911+
+<LI> Lecture
+     <ul>
+       <li> Time: 2:00-3:15pm, Tuesdays and Thursdays
+       <LI> Room: TBH 180F
+     </ul>
+
+<li> Instructor office hours: 10:30am-12:30pm Tuesdays
+
+<LI> Teaching assistants, and their emails and office hours
+<ul>
+<li>Jiangshu Du, jdu25@uic.edu. 3:00 - 4:00pm Wednesdays
+<li>Sepideh Esmaeilpourcharandabi, sesmae2@uic.edu, 11am-12pm, Wednesdays
+</ul>
+</ul>
+
+</UL>
+
+<H3>Grading</H3>
+<UL>
+<li> Final Exam: 35%
+<ul>
+<!-- <li> Time and date: TBA -->
+</ul>
+<li> Midterm: 25%
+<ul>
+<!-- <li> Time and date: TBA -->
+</ul>
+<li> Programming assignments: 20%
+<li> Quizzes: 20%
+</ul>
+<P>
+<H3>Prerequisites</H3>
+<UL>
+<li> Grade of C or better in CS 251.
+</ul>
+<p>
+<H3> Teaching materials </H3> 
+<ul>
+
+<li> Required text:
+<ul>
+<li>Artificial Intelligence: A Modern Approach. Fourth edition, by Stuart Russell and Peter Norvig, Pearson, 2020. ISBN 978-0134610993.
+</ul>
+<li> Reference books
+  <ul>
+<li>Web Data Mining: Exploring Hyperlinks, Contents and Usage Data. Second Edition, by Bing Liu, Springer, ISBN 978-3-642-19459-7. 
+<li> Expert Systems: Principles and Programming. By Giarratano and Riley, ISBN 0-534-73744-6
+<li>Lifelong Machine Learning. Second Edition, by Bing Liu, Morgan & Claypool Publishers, August 2018
+<li>Sentiment Analysis: mining sentiments, opinions, and emotions. Second Edition, by Bing Liu, Cambridge University Press, 2020
+
+  <li> Machine Learning, by Tom M. Mitchell, McGraw-Hill, ISBN 0-07-042807-7
+  </ul>
+</ul>
+<H3> Topics and Slides (slides will be uploaded to Blackboard as we go along) </H3> 
+
+<ol> 
+<li> Introduction <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/CS511-intro.ppt"> Slides </a> -->
+<li> Solving problems by searching <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-search.doc"> Slides </a> -->
+<li> Constraint satisfaction problem <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/T3-3-CS411-constraint-satisfaction.ppt"> Slides </a>
+<li> Game playing <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-game.doc"> Slides </a> -->
+<li> Propositional logic and reasoning <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-propositional-logic.ppt"> Slides </a> -->
+<li> First-order logic and reasoning <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-first-order-logic.ppt"> Slides </a> -->
+<li> Reasoning under uncertainty <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-uncertainty.ppt"> Slides </a> -->
+<li> Supervised learning: decision tree and naive Bayes <!--<a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-06/CS411-machine-learning.ppt"> Slides </a> -->
+<li> Supervised learning: linear regression and logistic regression <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-06/CS411-supervised-learning.ppt"> Slides </a> -->
+<li> Supervised learning: neural networks and deep learning <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-06/CS411-supervised-learning.ppt"> Slides </a> -->
+<li> Unsupervised learning <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/cs411-unsupervised-learning.doc"> Slides </a> -->
+<li> Advanced topic: Introduction to sentiment analysis and opinion mining <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/CS411-opinion-synthesis.ppt"> Slides </a> -->
+<li> Advanced topic: Introduction to lifelong and continual learning <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/CS411-lifelong-learning.ppt"> Slides </a> -->
+<li> Wrapup <!-- <a href="http://www.cs.uic.edu/~liub/teach/cs411-spring-22/CS411-wrapup.ppt"> Slides </a> -->
+</ol>
+
+<!--<H3> Project - graded  (you will demo your programs to me)</H3>
+<ul>
+<li> TBA
+</ul>
+
+<H3> Paper presentation - graded </h3>
+<ul>
+<li> Schedule has been sent through emails.
+</ul>
+</ol>
+-->
+<br>
+<H3> Rules and Policies </H3> 
+<uL>
+<li> <b>Statute of limitations</b>: No grading questions or complaints, no matter how justified, will be listened to one week after the item in question has been returned. 
+<li> <b>Cheating</b>: Cheating will not be tolerated. All work you submitted must be entirely your own. Any suspicious similarities between students' work (this includes, exams and program) will be recorded and brought to the attention of the Dean. The MINIMUM penalty for any student found cheating will be to receive a 0 for the item in question, and dropping your final course grade one letter. The MAXIMUM penalty will be expulsion from the University. 
+<li> <b>MOSS</b>: Sharing code with your classmates is not acceptable!!! All programs will be screened using the Moss (Measure of Software Similarity.) system. 
+<li> <b>Late assignments</b>: Late assignments will not, in general, be accepted. They will never be accepted if the student has not made special arrangements with me at least one day before the assignment is due. If a late assignment is accepted it is subject to a reduction in score as a late penalty. 
+
+</ul>
+<br>
+Back to <a href="http://www.cs.uic.edu/~liub">Home Page</a>
+<ADDRESS>
+By Bing Liu, Dec. 20 2021
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,314 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script> -->
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="files/style.css" type="text/css">
+	<title>Christopher Tran</title>
+
+  <meta name="msvalidate.01" content="21366AD1101FF00C4C33AF6911CCE37D" />
+	<meta name="google-site-verification" content="3nEXT02AD5mF4sir_MNrCWrFu6UAEDSf7JK7IvDcV9k" />
+</head>
+
+<style>
+
+</style>
+
+<body>
+	<a id="top"> </a>
+	<div class="titleBar">
+		<h1>Christopher Tran</h1>
+		<ul class="hList">
+			<li>
+				<a href="#ABOUTME">ABOUT ME</a>
+				<!-- </li><li><a href="#RESEARCHINTERESTS">RESEARCH INTERESTS</a> -->
+			</li>
+
+			<li>
+				<a href="#PUBLICATIONS">PUBLICATIONS</a>
+				<!-- </li><li><a href="#EDUCATION">EDUCATION</a> -->
+			</li>
+
+			<li>
+				<a href="#EXPERIENCE">EXPERIENCE</a>
+			</li>
+
+			<li>
+				<a href="#TEACHING">TEACHING</a>
+			</li>
+
+			</li>
+			<li>
+				<a href="#INTERESTS">INTERESTS</a>
+			</li>
+		</ul>
+	</div>
+	<div class="content">
+		<!-- <img src="./files/chris_head.jpg" alt="photo" style="width:256px;height:198px;" align="left"> -->
+		<img src="files/head.jpg" alt="photo" width="256" height="198" align="left">
+
+		<pre>PhD Candidate</pre>
+		<pre>Computer Science</pre>
+		<pre>University of Illinois at Chicago</pre>
+		
+
+		<p style="margin-left:360px; font-size: 90%;">
+
+			<a href="https://www.cs.uic.edu/~ctran/docs/chris_tran_cv.pdf"> CV</a> (updated May 2022).
+
+		</p>
+
+		<br>
+		<br>
+		<div class="row">
+			<div class="column">
+				<a href="https://github.com/chris-tran-16"> <img src="files/github.png" alt="photo" style="width:32px;height:32px;" align="left" hspace="0"></a>
+			</div>
+			<div class="column">
+				<a href="https://twitter.com/chris_tran16"> <img src="files/twitter_black.svg" alt="photo" style="width:32px;height:32px;" align="left" hspace="5"></a>
+			</div>
+			<div class="column">
+				<a href="https://www.linkedin.com/in/christran16/"><img src="files/linkedin.png" alt="photo" style="width:32px;height:32px;" align="left" hspace="0"></a>
+			</div>
+			<div class="column">
+				<a href="mailto:ctran29@uic.edu"><img src="files/email.png" alt="photo" style="width:32px;height:32px;" align="left" hspace="5"></a>
+			</div>
+		</div>
+
+	</div>
+	<hr>
+
+	<div id="ABOUTME" class="content">
+		<h2> ABOUT ME </h2>
+		<p>
+			Hi, my name is Chris. I received my double B.S. in Computer Science and Mathematics from Delaware State University. Currently, I am a PhD candidate in Computer Science at the University of Illinois at Chicago, working with Professor <a href="http://www.cs.uic.edu/~elena">Elena Zheleva</a>.
+			Currently, my main focus is in the realm of causal inference, particularly using machine learning for estimating heterogeneous treatment effects.
+			<br>
+		</p>
+		<p>
+			I'm also interested in applying causal inference and machine learning for applications to social science, privacy, social networks.
+		</p>
+	</div>
+
+	<hr>
+	<div id="PUBLICATIONS" class="content">
+		<h2> PUBLICATIONS </h2>
+
+		<p>
+			Improving Data-driven Heterogeneous Treatment Effect Estimation Under Structure Uncertatinty
+			<br>
+			<i>
+				<b>C. Tran</b> E. Zheleva
+			</i>
+			<br>
+			To be published in the ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2022
+		</p>
+
+		<p>
+			Heterogeneous Peer Effects in the Linear Threshold Model
+			<br>
+			<i>
+				<b>C. Tran</b> E. Zheleva
+			</i>
+			<br>
+			Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2022
+			<a href="https://arxiv.org/abs/2201.11242">[Preprint PDF]</a>
+		</p>
+
+		<p>
+			Heterogeneous Effects of Software Patches in a Multiplayer Online Battle Arena Game
+			<br>
+			<i>
+				Y. He, <b>C. Tran</b>, J. Jiang, K. Burghardt, E. Ferrara, E. Zheleva, K. Lerman
+			</i>
+			<br>
+			16th International Conference on the Foundations of Digital Games (FDG), 2021
+			<a href="https://dl.acm.org/doi/pdf/10.1145/3472538.3472550">[PDF]</a>
+		</p>
+
+		<p>
+			Helping Users Automatically Find and Manage Sensitive, Expendable Files in Cloud Storage
+			<br>
+			<i>
+				M. T. Khan, <b>C. Tran</b>, S. Singh, D. Vasilkov, C. Kanich, B. Ur, E. Zheleva
+			</i>
+			<br>
+			Proceedings of the USENIX Security Symposium (USENIX), 2021
+			<a href="https://www.cs.uic.edu/~ctran/docs/khan-usenix2021.pdf">[PDF]</a>
+			<br>
+			We developed an app based on this paper! Learn whats taking up space or hidden in your Google Drive: <a href="https://cloudsweeper.app/">https://cloudsweeper.app/</a>
+		</p>
+
+		<p>Heterogeneous Threshold Estimation for Linear Threshold Modeling
+			<br>
+			<i>
+				<b>C. Tran</b>, E. Zheleva
+			</i>
+			<br>
+			KDD Workshop on Mining and Learning with Graphs (MLG), 2020 (Contributed Talk) 
+			<a href="http://www.mlgworkshop.org/2020/papers/MLG2020_paper_23.pdf">[PDF]</a>
+		</p>
+
+		<p>Paths to Empathy: Heterogeneous Effects of Reading Personal Stories Online
+			<br>
+			<i>
+				M. Roshanaei, <b>C. Tran</b>, S. Morelli, C. Caragea, E. Zheleva
+			</i>
+			<br>
+			IEEE Conference on Data Science and Advanced Analytics (DSAA), 2019
+			<a href="https://www.cs.uic.edu/~ctran/docs/roshanaei-dsaa2019.pdf">[PDF]</a>
+		</p>
+
+		<p>Moving Beyond Set-It-And-Forget-It Privacy Settings on Social Media
+			<br>
+			<i>M. Mondal, G. Yilmaz, N. Hirsch, M. Khan, M. Tang, <b>C. Tran</b>, C. Kanich, B. Ur, E. Zheleva</i>
+			<br>
+			ACM Conference on Computer and Communications Security (CCS), 2019
+			<a href="https://www.cs.uic.edu/~ctran/docs/mondal-ccs2019.pdf">[PDF]</a>
+		</p>
+
+		<p>Learning Triggers for Heterogeneous Treatment Effects
+			<br>
+			<i><b>C. Tran</b>, E. Zheleva.</i>
+			<br>
+			Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2019
+			<a href="https://arxiv.org/pdf/1902.00087.pdf">[PDF]</a> <a href="https://github.com/edgeslab/CTL">[Code]</a>
+		</p>
+
+		<p>Making Retrospective Data Management Usable (Poster)
+			<br>
+			<i>N. Hirsch, C. Kanich, M. Khan, X. Liu, M. Mondal, M. Tang, <b>C. Tran</b>, B. Ur, W. Wang, G. Yilmaz, E. Zheleva.</i>
+			<br>
+			14th Symposium On Usable Privacy and Security (SOUPS), August 2018
+		</p>
+
+		<p>
+			Privacy Preservation in Shared Images (a survey) <a href="https://www.cs.uic.edu/~ctran/docs/ChrisTranWCP.pdf">[PDF]</a> <a href="https://www.cs.uic.edu/~ctran/docs/ChrisTranWCPSlides.pdf">[Slides]</a>
+			<br>
+			<i><b>C. Tran</b></i>
+			<br>
+			In fulfillment of the UIC CS PhD qualifying exam, April 2018
+		</p>
+
+	</div>
+
+	<hr>
+	<div id="EXPERIENCE" class="content">
+		<h2>EXPERIENCE </h2>
+
+		<p>
+			<a href="https://www.sift.net/"><b>Smart Information Flow Technologies (SIFT)</b></a>, Minneapolis, MN
+			<br>
+			Research Intern, May 2019 - November 2019
+			<br>
+			- Modeling and identifying factors for gender bias in data
+			<br>
+			- Learning behavior in swarm data
+			<br>
+			- Novel recommendations for document data
+		</p>
+
+		<p>
+			<a href="https://www.statsperform.com/"><b>STATS Perform (formerly STATS LLC)</b></a>, Chicago, IL
+			<br>
+			Artificial Intelligence (AI) Intern, May 2018 - August 2018
+			<br>
+			- Leverage deep learning models to predict ball ownership and movement from tracking data in basketball
+		</p>
+
+
+	</div>
+
+	<hr>
+	<div id="TEACHING" class="content">
+		<h2>TEACHING </h2>
+
+		<p>
+			<b>Teaching Assistant</b> 
+			<br>
+			<i>Introdution to Machine Learning (CS412)</i>
+			<br>
+			Fall 2018, Spring 2021
+			<br>
+			<a href="https://catalog.uic.edu/ucat/course-descriptions/cs/">University of Illinois at Chicago</a></p>
+		</p>
+
+		<p>
+			<b>Teaching Assistant</b> 
+			<br>
+			<i>Mathematical Foundations of Computing (CS 151)</i>
+			<br>
+			Spring 2017, Fall 2017, Spring 2018
+			<br>
+			<a href="https://catalog.uic.edu/ucat/course-descriptions/cs/">University of Illinois at Chicago</a></p>
+		</p>
+
+		<p>
+			<b>Teaching Assistant</b> 
+			<br>
+			<i>Program Design I (CS 111)</i>
+			<br>
+			Summer 2017
+			<br>
+			<a href="https://catalog.uic.edu/ucat/course-descriptions/cs/">University of Illinois at Chicago</a></p>
+		</p>
+
+		<p>
+			<b>Teaching Assistant</b> 
+			<br>
+			<i>C/C ++ Programming for Engineers with MatLab (CS 109)</i>
+			<br>
+			Fall 2016
+			<br>
+			<a href="https://catalog.uic.edu/ucat/course-descriptions/cs/">University of Illinois at Chicago</a></p>
+		</p>
+
+	</div>
+
+	<hr>
+	<div id="INTERESTS" class="content">
+		<!-- <a href="#top" style="margin-bottom: 20px; margin-right: 20px; float:right;"> Back to top </a> -->
+		<h2>Hobbies and Interests </h2>
+		In my spare time I like to play video games. 
+		
+		I'm currently playing a variety of games in my free time. I sometimes stream at <a href="https://twitch.tv/kanetsugutv">https://twitch.tv/kanetsugutv</a>.
+		<br>
+		<br>
+
+		<!-- I used to play League of Legends (LoL), Teamfight Tactics (TFT) and Eternal Return: Black Survival. I peaked Diamond 3 in TFT in set 3.5. -->
+		<!-- <br>
+		<br>
+		<div class="ImageHolder">
+			<img class="Image" src="files/tft_set3.png" alt="photo" class="center", style="width:15%">
+		</div>
+		<br>
+		<br> -->
+
+		Other than video games, I like to spend time with our cat, Maomao:
+		<br>
+		<br>
+
+		<div class="ImageHolder">
+			<img class="Image" src="files/maomao_wink.jpg" alt="photo" style="width:8%">
+			<img class="Image" src="files/maomao_background.jpg" alt="photo" style="width:20%">
+			<img class="Image" src="files/maomao_tissue.jpeg" alt="photo" style="width:10%">
+			<img class="Image" src="files/maomao desk.jpg" alt="photo" style="width:15%">
+			<img class="Image" src="files/maomao stare.jpg" alt="photo" style="width:12%">
+		</div>
+		  
+	</div>
+	<hr>
+
+	<noscript>
+
+</body>
+
+</html></noscript></body>
+
+</html>

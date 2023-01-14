@@ -1,0 +1,68 @@
+ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Undergrdauate Intent to Enroll</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
+<!--[if IE 5]>
+<style type="text/css"> 
+/* place css box model fixes for IE 5* in this conditional comment */
+.myUIC #sidebar1 { width: 180px; }
+.myUIC #sidebar2 { width: 190px; }
+</style>
+<![endif]-->
+<style type="text/css">
+<!--
+.style1 {color: #FFFFFF}
+body {
+	margin-left: 50px;
+	margin-right: 100px;
+}
+-->
+</style>
+
+<!---<link href="newlogin.css" rel="stylesheet" type="text/css" />
+
+<script src ="https://ossswebcs.admin.uillinois.edu/portal_UIC/FancyZoom.js" type="text/javascript"></script>
+<script src ="https://ossswebcs.admin.uillinois.edu/portal_UIC/FancyZoomHTML.js" type="text/javascript"></script> --->
+</head>
+
+<body class="myUIC" onload="setupZoom()">
+
+<div id="container">
+  <div id="header">
+    <!-- end #header --></div>
+  
+
+
+<div id="mainContent">
+    <h3>Undergraduate Student Intent To Enroll Instructions</h3>
+    
+    <div>
+      <p><strong>Graduate and Professional Students:</strong> This process is for undergraduate students only.  Your college or department may require you to let them know if you plan on attending UIC.  Please follow the instructions provided by your college or department.</p>
+
+	        <p><center><b><u><a href="/portal_uic/myuic/intenttoenroll2.html" target="_blank">Newly Admitted</a></b></u></center></p>
+			<p>&nbsp;</p>
+    </div>
+    
+    
+</div>
+  <!-- end #mainContent -->
+  <div id="mainContent3"> </div> 
+   <p>
+     <!--end #mainContent3-->
+  </p>
+   <p>&nbsp;
+     
+      </p>
+  
+ 
+    
+  <div id="footer">
+    <p align="center" class="style1">Copyright Â© 2022 The Board of Trustees of the University of Illinois</p>
+  <!-- end #footer --></div>
+<!-- end #container --></div>
+</body>
+</html>

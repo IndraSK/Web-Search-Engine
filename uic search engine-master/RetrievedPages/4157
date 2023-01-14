@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang=""><head>
+	<meta name="generator" content="Hugo 0.83.1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Shishir Adhikari</title>
+    <meta name="description" content="Computer Science PhD Student">
+    <meta name="author" content='Shishir Adhikari'>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" href="/sass/researcher.min.css">
+
+    
+        <link rel="icon" type="image/ico" href="https://sadhik9.people.uic.edu/favicon_io/favicon.ico">
+    
+
+    <link rel="alternate" type="application/rss+xml" href="https://sadhik9.people.uic.edu/index.xml" title="Shishir Adhikari" />
+    
+        
+    
+</head>
+
+    <body><div class="container mt-5">
+    <nav class="navbar navbar-expand-sm flex-column flex-sm-row text-nowrap p-0">
+        <a class="navbar-brand mx-0 mr-sm-auto" href="https://sadhik9.people.uic.edu" title="Shishir Adhikari">
+          
+          Shishir Adhikari
+        </a>
+        <div class="navbar-nav flex-row flex-wrap justify-content-center">
+            
+                
+                
+                    <a class="nav-item nav-link" href="/#about-me" title="About Me">
+                        About Me
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/#publications" title="Publications">
+                        Publications
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/#teaching" title="Teaching">
+                        Teaching
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/#contact" title="Contact">
+                        Contact
+                    </a>
+                    
+                        <span class="nav-item navbar-text mx-1">/</span>
+                    
+                
+                    <a class="nav-item nav-link" href="/shishir-adhikari-cv.pdf" title="CV">
+                        CV
+                    </a>
+                    
+                
+            
+        </div>
+    </nav>
+</div>
+<hr>
+<div id="content">
+<div class="container">
+    <h2 id="about-me">About Me</h2>
+<p><figure class="avatar"><img src="/shishir.jpg"
+         alt="avatar"/>
+</figure>
+
+I am a Ph.D. student in the Department of Computer Science at the University of Illinois at Chicago (UIC). I am working under the supervision of professor <a href="https://www.cs.uic.edu/~elena/">Elena Zheleva</a> in the EDGES lab. My research interests lie at the intersection of Causal Inference, Knowledge Discovery, and Machine Learning. Currently, I am working on causal discovery from healthcare data and heterogeneous treatment effect estimation.</p>
+<p>I completed my Bachelor&rsquo;s degree in Electronics and Communication Engineering from the Tribhuvan University (TU) in Fall 2014. Before joining UIC, I worked as a Software Engineer on big data analytics, custom search engine, and web application development.</p>
+<hr>
+<h2 id="publications">Publications</h2>
+<p><strong>Shishir Adhikari</strong>, Akshay Uppal, Robin Mermelstein, Tanya Berger-Wolf, Elena Zheleva. <em>Understanding the Dynamics between Vaping and Cannabis Legalization Using Twitter Opinions</em>. AAAI Conference on Web and Social Media (ICWSM) 2021.</p>
+<p><strong>Shishir Adhikari</strong>, Guido Muscioni, Mark Shapiro, Plamen Petrov, Elena Zheleva. Discovering Heterogeneous Causes of Repeated Undesirable Outcomes. Under submission 2022.</p>
+<p><strong>Shishir Adhikari</strong>. <em>Causal Structure Learning when Data is not Independent and Identically Distributed (non-IID)</em>. A written critique as partial fulfillment of the requirements for Ph.D. qualifier examination 2020. <a href="/shishir_wcp20.pdf">PDF</a></p>
+<hr>
+<h2 id="teaching">Teaching</h2>
+<p>Teaching Assistant<br>
+<em>Introduction to Data Science (CS418)</em><br>
+Spring 2020, Spring 2022</p>
+<p>Teaching Assistant<br>
+<em>Machine Organization (CS261)</em><br>
+Fall 2018, Spring 2019, Fall 2019</p>
+<hr>
+<h2 id="awards">Awards</h2>
+<p><a href="/gradTA2020.pdf">Outstanding Graduate TA Award 2020</a> by the Department of Computer Science, University of Illinois at Chicago</p>
+<hr>
+<h2 id="contact">Contact</h2>
+<ul>
+<li>Email: sadhik9 [at] uic [dot] edu</li>
+<li><a href="https://github.com/itsmeccr">Github</a></li>
+</ul>
+<p><strong>Social</strong></p>
+<ul>
+<li><a href="https://linkedin.com/in/shishirad">Linkedin</a></li>
+<li><a href="https://twitter.com/itsmeccr">Twitter</a></li>
+</ul>
+
+</div>
+
+        </div><div id="footer" class="mb-5">
+    <hr>
+    <div class="container text-center">
+        
+            <a href="https://twitter.com/itsmeccr" class="fab fa-twitter fa-1x" title="Twitter"></a>
+        
+            <a href="https://linkedin.com/in/shishirad" class="fab fa-linkedin fa-1x" title="Linkedin"></a>
+        
+    </div>
+    
+        <div class="container text-center">
+            <a href="https://github.com/itsmeccr" title="By Shishir Adhikari"><small>By Shishir Adhikari</small></a>
+        </div>
+    
+</div>
+</body>
+</html>

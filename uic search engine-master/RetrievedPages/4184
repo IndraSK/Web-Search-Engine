@@ -1,0 +1,53 @@
+
+<!-- saved from url=(0058)http://www.cs.uic.edu/~liub/diagnosticDM/diagnosticDM.html -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="allow-search" content="YES">
+<meta name="searchtitle" content="making reviews a huge source of information for question answering. 
+[Bing Liu, Zhiyuan Chen, machine learning, topic model, LDA, LTM, AMC] by webmaster@cs.uic.edu">
+<meta name="keywords" content="online reviews for question answering, Data Mining, Text Mining">
+<meta name="description" content="making online reviews a source of knowledge for question answering">
+<meta name="page-type" content="Reviews and question answering">
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="All">
+<meta name="author" content="liub">
+<meta name="abstract" content="Lifelong Machine Learning and Big Data">
+<!--<base target="Main">--><base href="." target="Main">
+<title> Question Answering with Reviews </title>
+</head><body bgcolor="#f5f5f5">
+<br>
+<h1> <center>Question Answering Using Online Reviews </center></h1>
+<h2> <center>Review Reading Comprehension</center></h2>
+<br>
+<br>
+
+<p> 
+Whenever we want to buy a product or use a service, we often have some 
+questions about the product or service. If these questions can be answered 
+immediately, it will help us make the purchase decision enormously. Thus, 
+question-answering plays an important role in e-commerce. This work 
+explores the potential of turning customer reviews into a large
+source of knowledge that can be used to answer user questions. 
+We call this problem <i>Review Reading Comprehension</i> (RRC). 
+
+<p> 
+Given the ever-changing environment of products and services, it is very 
+hard, if not impossible, to pre-compile an up-to-date and reliable knowledge 
+base to cover a wide assortment of questions that customers may ask, such 
+as in factoid based KB-QA. As a compromise, many online businesses leverage 
+community question-answering (CQA) to crowdsource answers from existing 
+customers. However, the problem with this approach is that many questions 
+are not answered, and if they are answered, the answers are delayed, which
+is not suitable for interactive QA. In this work, we explore the potential 
+of using product reviews as a large source of user experiences that can 
+be exploited to obtain answers to user questions
+
+<br><br>
+<h3> Publications </h3>
+
+<ul>
+
+<p> <li> Hu Xu, Bing Liu, Lei Shu and Philip S. Yu.  <a href="https://arxiv.org/pdf/1904.02232.pdf">BERT Post-Training for Review Reading Comprehension and Aspect-based Sentiment Analysis</a>. to appear in <i>Proceedings of the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-2019)</i>. June 2–7, 2019. Minneapolis, USA.</p>
+
+</ul>
+<br><p>Created on April 14, 2019 by <a href="http://www.cs.uic.edu/~liub">Bing Liu</a>.
+</p></body></html>

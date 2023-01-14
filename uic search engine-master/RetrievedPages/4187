@@ -1,0 +1,132 @@
+
+<!-- saved from url=(0058)http://www.cs.uic.edu/~liub/diagnosticDM/diagnosticDM.html -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="allow-search" content="YES">
+<meta name="searchtitle" content="lifelong learning, lifelong machine learning, data mining, big data, chatbot, open world learning
+[Bing Liu, Zhiyuan Chen, machine learning, topic model, LDA, LTM, AMC] by webmaster@cs.uic.edu">
+<meta name="keywords" content="Lifelong Learning, Lifelong Topic Model, Big Data, Topic Model, Knowledge-based Topic Model, Data Mining, Text Mining">
+<meta name="description" content="Lifelong Machine Learning and Big Data">
+<meta name="page-type" content="Lifelong Machine Learning and Big Data">
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="All">
+<meta name="author" content="liub">
+<meta name="abstract" content="Lifelong Machine Learning and Big Data open world learning">
+<!--<base target="Main">--><base href="." target="Main">
+<title> Open-World Machine Learning or Set Recognition or Classification</title>
+</head><body bgcolor="#f5f5f5">
+
+<h1> <center>Open-World Machine Learning and Classification</center></h1>
+<h3> <center>(Open-world Recognition, Open Set Recognition, Open-world AI)<br> 
+A form of <a href="https://www.cs.uic.edu/~liub/lifelong-learning.html">Lifelong Learning</a></center>
+</h3>
+
+<br>
+<b><span style="font-size:16pt"><font color=#ff0000>Second Edition:</font>
+"<a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>."
+by Z. Chen and B. Liu, Morgan & Claypool, August 2018 (1st edition, 2016)</span></b><br/>
+<ul>
+<li>Three new chapters have been added and others have been updated and/or reorganized.</li>
+<li> One Chapter is dedicated to <a href="http://www.cs.uic.edu/~liub/lifelong-learning/open-world-learning.pdf">Open World Learning</a>
+<li> <b>Any AI system (e.g., chatbot and self-driving car) that cannot learn in deployment (e.g., chatting and driving) in the real-world open envoronment is not truly intelligent.</b>
+</ul>
+
+<p> <b><span style="font-size:14pt">An interview in <a href="https://www.nature.com/articles/d41586-022-01962-y">Nature</a> Outlook, July 20, 2022.</span></b><br/>
+
+<p> <b><span style="font-size:14pt"><a href="http://www.cs.uic.edu/~liub/On-the-Job-Learning-ICML2020-CL-WS.pdf">Learning on the Job in the Open World</a>. Invited talk given at the <i>Continual Learning Workshop</i> @ ICML-2020, July 17, 2020. </span></b><br/>
+<br>
+<b>Motivation</b>: Sooner or later, AI agents will need to explore and learn 
+by themsleves in the real world. They cannot forever depend 
+on manually labeled data. The real world is open and dynamic, and
+full of unknowns. AI agents must be able to detect the unknowns and 
+learn them in a self-supervised manner. They should not make 
+the <i> <a href="https://aclweb.org/anthology/N16-1061">closed-world assumption</a></i> any more. 
+
+<p> <b>Open world learning (OWL)</b> (a.k.a. <b>open world recognition or classification, </b> or <b>open-world AI)</b> is getting increasingly important as the learning agent is increasingly <b>working in or facing the real-world open and dynamic environment</b>, e.g., chatbot and self-driving car, where the agent <b>cannot assume or expect</b> 
+what it will see in the real-world contains only what it has learned previously. For example, a chatbot cannot assume that it knows everything that a user may say. A self-driving car cannot assume that the real-world has only things that it has seen and learned before. <b>The core of open-world learning or open-world AI is about recognizing unknowns and learning them so that the AI agent will become more and more knowledgeable</b>. 
+
+<p> Classic machine learning makes the <i><b><a href="https://aclweb.org/anthology/N16-1061">closed world assumption</a></b></i>, i.e., the classes that the agent sees in training are what it will see in testing (no new objects or classes can appear in testing) (Fei and Liu 2016). A more realistic scenario is to expect <b>unseen classes</b> during testing (open world). In this case, the goal is to design a learning algorithm that can classify data of the known/seen classes into their respective classes and also to reject/detect instances from unknown/unseen classes. This problem is called <b>open-world learning (or open-world classification)</b>. Apart from detecting the unseen classes, open-world learning should also incrementally or continually learn the new classes. 
+
+<h3>Tasks of open-world learning (OWL)</h3>
+
+<ul>
+<li> <b>Task 1</b>: learn a classifier that can perform classification of test instances that belong to training/seen 
+classes used in learning, and detect/reject instances that do not belong to 
+the training/seen classes - (the <b>DOC</b> algorithm (<a href="https://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">EMNLP-2017</a>) 
+is quite powerful for this task for both text and images). 
+<ul> <li>Note - <b>Rejection here is not the same as the traditional outlier/anormaly detection</b>. Tradtional outlier detection typically detects outliers 
+from a given dataset based on some unsupervised learning methods, while 
+rejection in open-world learning detects unseen class instances ("outliers") on the 
+fly in testing using the classifier trained with only seen class examples (supervised learning), 
+and the classifier also does classification of test instances from the 
+seen classes. 
+</ul>
+<li> <b>Task 2</b>: ask the user to provide the unseen classes in the 
+rejected instances or automatically discover the unseen classes based 
+on the knowledge learned in the past (<a href="https://arxiv.org/abs/1801.05609">Shu et al. 2018</a>).
+<li> <b>Task 3</b>: incrementally learn the new/unseen classes 
+(<a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Fei et al. 2016</a>; <a href="https://arxiv.org/abs/1809.06004">Xu et al. 2019</a>) 
+without retraining from scratch and without catastrophic forgetting. 
+</ul>
+
+<b>Open-world learning in dialogue systems</b>: We have been working on this topic for the past two years because in dialogues unknown or new things happen all the time. See our 2020 and 2021 papers below. 
+
+
+<p>In the process, the system learns and accumulates more and more knowledge (<a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Fei et al. 2016</a>). 
+The learner is <i>self-motivated</i> and <i>it knows what it does and does not know.</i> With intelligent systems such as chatbots and self-driving cars increasingly facing the real-world open (unknown) environments, we can no longer make the <b>closed world assumption</b>. 
+
+
+<br>
+<br>
+
+<h3> Publications </h3>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TextBook</b>: Zhiyuan Chen and Bing Liu. <a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>. Morgan & Claypool, 2018 (2nd edition), 2016 (1st edition). 
+
+<ul>
+
+<p><li>Nianzu Ma, Sahisnu Mazumder, Alexander Politowicz, Bing Liu, Eric Robertson and Scott Grigsby. <a href="https://www.cs.uic.edu/~liub/publications/EMNLP-Ma.pdf">Detecting and Characterizing Semantic Novelties in Factual Text Involving Named Entities</a>. <i>Proceedings of The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP-2022)</i>, December 7–11, 2022.
+
+<p><li>Sepideh Esmaeilpour, Lei Shu, Bing Liu. <a href="https://www.cs.uic.edu/~liub/publications/CoLLAs2022_open_set_recognition">Open-set Recognition via Augmentation-based Similarity Learning</a>. <i>Proceedings of Conference on Lifelong Learning Agents (CoLLAs 2022)</i>, August 22-24, 2022.
+
+<p><li>Mengyu Wang, Yijia Shao, Haowei Lin, Wenpeng Hu, and Bing Liu. 
+<a href="https://www.cs.uic.edu/~liub/publications/ECML-2022-OOD-detection.pdf">CMG: A Class-Mixed Generation Approach to Out-of-Distribution Detection</a>. <i>Proceedings of ECML/PKDD-2022</i>, September 19-23, 2022, Grenoble, France.
+
+
+<p><li>Bing Liu, Sahisnu Mazumder, Eric Robertson, and Scott Grigsby. 
+<a href="https://arxiv.org/abs/2203.08994">AI Autonomy: Self-Initiation, Adaptation and Continual Learning</a>. <i>arXiv:2203.08994 [cs.AI]</i>, March 17, 2022.
+
+<p><li>Bing Liu, Eric Robertson, Scott Grigsby, and Sahisnu Mazumder. <a href="https://arxiv.org/abs/2110.11385">Self-Initiated Open World Learning for Autonomous AI Agents</a>. <i>Proceedings of AAAI Symposium on 'Designing Artificial Intelligence for Open Worlds</i>,' March 21-23, 2022.
+
+<p><li>Sepideh Esmaeilpour, Bing Liu, Eric Robertson, Lei Shu. <a href="https://arxiv.org/abs/2109.02748">Zero-Shot Out-of-Distribution Detection Based on the Pretrained Model CLIP</a>. <i>Proceedings of AAAI-2022</i> (virtual), Feb 21 - 28, 2022.
+
+<p><li>Bing Liu, Eric Robertson, Scott Grigsby, and Sahisnu Mazumder. 
+<a href="https://arxiv.org/abs/2110.11385">Self-Initiated Open World Learning for Autonomous AI Agents</a>. <i>arXiv:2110.11385 [cs.AI]</i>, 2021.
+
+<p> <li> Bing Liu and Sahisnu Mazumder. <a href="https://www.cs.uic.edu/~liub/publications/LINC_paper_AAAI_2021_camera_ready.pdf">Lifelong and Continual Learning Dialogue Systems: Learning during Conversation</a>. <i>Proceedings of AAAI-2021</i>. 2021. 
+
+<p><li>Nianzu Ma, Alexander Politowicz, Sahisnu Mazumder, Jiahua Chen, Bing Liu, Eric Robertson and Scott Grigsby. <a href="https://aclanthology.org/2021.emnlp-main.66.pdf">Semantic Novelty Detection in Natural Language Descriptions</a>. <i>Proceedings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP-2021)</i>, 7 – 11 November 2021, Punta Cana, Dominican Republic.
+
+<p> <li> Sahisnu Mazumder,  Bing Liu,  Shuai Wang, and Sepideh Esmaeilpour. 
+<a href="https://www.cs.uic.edu/~liub/publications/neurips_2020_workshop_HLDS_camera_ready.pdf">An Application-Independent Approach to Building Task-Oriented Chatbots with Interactive Continual Learning</a>. <i>NeurIPS-2020 Workshop on Human in the Loop Dialogue Systems (HLDS-2020)</i>. 2020. 
+
+<p> <li> Sahisnu Mazumder, Bing Liu, Nianzu Ma, Shuai Wang. <a href="https://www.cs.uic.edu/~liub/publications/Neurips_workshop_HAMLETS_camera_ready.pdf">Continuous and Interactive Factual Knowledge Learning in Verification Dialogues</a>. to appear at <i>NeurIPS-2020 Workshop on Human And Machine in-the-Loop Evaluation and Learning Strategies (HAMLETS-2020)</i>. 2020. 
+
+<p> <li> Bing Liu. <a href="https://aaai.org/ojs/index.php/AAAI/article/view/7079/6933">Learning on the Job: Online Lifelong and Continual Learning</a>. <i>Proceedings of 34th AAAI Conference on Artifical Intelligence (AAAI-2020)</i>, Feb 7-12, 2020, New York City. (This work was done while I was on leave in Peking University).
+
+
+<p><li>Hu Xu, Bing Liu, Lei Shu and P. Yu. <a href="https://arxiv.org/abs/1809.06004">Open-world Learning and Application to Product Classification</a>. <i>Proceedings of the Web Conference</i> (formerly known as the WWW conference), San Francisco, May 13-17, 2019.
+
+<p> <li> Lei Shu, Hu Xu, Bing Liu. <a href="https://arxiv.org/abs/1801.05609">Unseen Class Discovery in Open-world Classification</a>. <i>arXiv:1801.05609 [cs.LG]</i>, 2018. 
+
+<p> <li> Lei Shu, Hu Xu, Bing Liu. <a href="http://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">DOC: Deep Open Classification of Text Documents</a>. <i>Proceedings of 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP-2017, oral presentation short paper)</i>, September 7–11, 2017, Copenhagen, Denmark.
+
+
+<p> <li>Geli Fei, Shuai Wang, and Bing Liu. 2016. <a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Learning Cumulatively to Become More Knowledgeable</a>. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2016)</i>, August 13-17, San Francisco, USA. 
+
+<p> <li> Geli Fei, and Bing Liu. 2016. <a href="https://pdfs.semanticscholar.org/c5b5/56807c19548384886a060216672c11121a72.pdf?_ga=1.25126456.34606428.1491067408">Breaking the Closed World Assumption in Text Classification</a>. <i>Proceedings of NAACL-HLT 2016 </i>, June 12-17, San Diego, USA.
+
+</p>
+</ul>
+<br><p>Created on Jan 24, 2018 by <a href="http://www.cs.uic.edu/~liub">Bing Liu</a>.
+<br><br>
+</p></body></html>

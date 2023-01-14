@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xml:lang="en" lang="en"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:art="http://simile.mit.edu/2003/10/ontologies/artstor#"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:sioctypes="http://rdfs.org/sioc/types#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ov="http://open.vocab.org/terms/"
+	xmlns:oac="http://www.openannotation.org/ns/"
+	xmlns:scalar="http://scalar.usc.edu/2012/01/scalar-ns#"
+	xmlns:shoah="http://tempuri.org/"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:exif="http://ns.adobe.com/exif/1.0/"
+	xmlns:iptc="http://ns.exiftool.ca/IPTC/IPTC/1.0/"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:id3="http://id3.org/id3v2.4.0#"
+	xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+	xmlns:vra="http://purl.org/vra/"
+	xmlns:cp="http://scalar.cdla.oxycreates.org/commonplace/terms/"
+	xmlns:tk="http://localcontexts.org/tk/"
+>
+<head>
+<title>A Search For Unity: Rudy Lozano and Coalition Building in Chicago</title>
+<base href="https://exhibits.library.uic.edu/lozano/index.4" />
+<meta name="description" content="" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="A Search for Unity: A Search For Unity: Rudy Lozano and Coalition Building in Chicago" />
+<meta property="og:site_name" content="A Search for Unity: Rudy Lozano and Coalition Building in Chicago" />
+<meta property="og:url" content="https://exhibits.library.uic.edu/lozano/index" />
+<meta property="og:description" content="" />
+<meta property="og:image" content="https://exhibits.library.uic.edu/lozano/media/LOZA12_005_ovf1_035.jpg" />
+<meta property="og:type" content="article" />
+<link rel="canonical" href="https://exhibits.library.uic.edu/lozano/index" />
+<link rel="shortcut icon" href="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/favicon_16.gif" />
+<link rel="apple-touch-icon" href="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/favicon_114.jpg" />
+<link id="urn" rel="scalar:urn" href="urn:scalar:version:13539" />
+<link id="view" href="splash" />
+<link id="default_view" href="splash" />
+<link id="primary_role" rel="scalar:primary_role" href="http://scalar.usc.edu/2012/01/scalar-ns#Path" />
+<link id="scalar_version" href="2.5.5
+" />
+<link id="book_id" href="30" />
+<link id="parent" href="https://exhibits.library.uic.edu/lozano/" />
+<link id="approot" href="https://exhibits.library.uic.edu/system/application/" />
+<link id="flowplayer_key" href="" />
+<link id="soundcloud_id" href="" />
+<link id="recaptcha2_site_key" href="6Lc_9bsUAAAAAMOec9clhmedj_8KzNrYyRMFP5m8" />
+<link id="recaptcha_public_key" href="" />
+<link id="google_maps_key" href="" />
+<link id="CI_elapsed_time" href="0.8157" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/reset.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/bootstrap-accessibility.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/common.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/scalarvis.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/header.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/widgets.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/responsive.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/timeline.min.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/timeline.theme.scalar.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/screen_print.css" media="screen,print" />
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/yepnope.1.5.3-min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/yepnope.css.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/html5shiv/dist/html5shiv.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.bootstrap-modal.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.bootstrap-accessibility.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/main.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.dotdotdot.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarheader.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarpage.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarmedia.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarmediadetails.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarindex.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarhelp.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarcomments.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarsearch.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarvisualizations.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarstructuredgallery.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarwidgets.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.tabbing.js"></script>
+</head>
+<body class="primary_role_path" style="background-image:url(https://exhibits.library.uic.edu/lozano/media/Loza004%20resized.jpg);">
+
+<article>
+	<header>
+		<noscript><div class="error notice-js-required"><p>This site requires Javascript to be turned on. Please <a href="http://www.btny.purdue.edu/enablejavascript.html">enable Javascript</a> and reload the page.</p></div></noscript>
+		<!-- Book -->
+		<span resource="https://exhibits.library.uic.edu/lozano" typeof="scalar:Book">
+			<span property="dcterms:title" content="A Search for Unity"><a id="book-title" href="https://exhibits.library.uic.edu/lozano/index"><span data-hide-versions="true">A Search for Unity</span><span class="subtitle">: Rudy Lozano and Coalition Building in Chicago</span></a></span>
+			<a class="metadata" aria-hidden="true" rel="dcterms:hasPart" href="https://exhibits.library.uic.edu/lozano/index"></a>
+			<a class="metadata" aria-hidden="true" rel="dcterms:tableOfContents" href="https://exhibits.library.uic.edu/lozano/toc"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/toc" typeof="scalar:Page">
+			<span class="metadata" property="dcterms:title">Main Menu</span>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/introduction#index=1"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago#index=2"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/for-our-rights#index=3"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant#index=4"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents#index=5"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage#index=6"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues#index=7"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit#index=8"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/lozano/en-espanol#index=9"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/introduction" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/introduction.23"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/introduction.23" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Introduction</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/introduction"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/making-mexican-chicago" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago.22"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/making-mexican-chicago.22" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Making Mexican Chicago</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/for-our-rights" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/for-our-rights.15"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/for-our-rights.15" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">For Our Rights</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/for-our-rights"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/the-militant-migrant" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant.16"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/the-militant-migrant.16" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">The Militant Migrant</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/with-or-without-documents" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents.20"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/with-or-without-documents.20" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">With or Without Documents</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/a-new-higher-stage" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage.15"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/a-new-higher-stage.15" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">A New Higher Stage</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/the-struggle-continues" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues.7"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/the-struggle-continues.7" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">The Struggle Continues</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/about-this-exhibit" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit.8"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/about-this-exhibit.8" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">About this Exhibit</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/en-espanol" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/en-espanol.4"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/en-espanol.4" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Buscando la unidad: Rudy Lozano y la formación de alianzas en Chicago</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/en-espanol"></a>
+		</span>
+		<!-- Page -->
+		<h1 property="dcterms:title">A Search For Unity: Rudy Lozano and Coalition Building in Chicago</h1>
+		<span resource="https://exhibits.library.uic.edu/lozano/index" typeof="scalar:Composite">
+			<a class="metadata" aria-hidden="true" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+			<a class="metadata" aria-hidden="true" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/lozano"></a>
+			<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+			<span class="metadata" aria-hidden="true" property="scalar:banner">media/LOZA12_005_ovf1_035.jpg</span>
+			<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+			<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-15T09:00:23-05:00</span>
+			<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4585"></a>
+		</span>
+		<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+			<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+			<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+		</span>
+		<span class="metadata" aria-hidden="true" id="book-id">30</span>
+		<a class="metadata" aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/index"></a>
+		<span class="metadata" aria-hidden="true" property="ov:versionnumber">4</span>
+		<span class="metadata" aria-hidden="true" property="scalar:defaultView">splash</span>
+		<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+		<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-16T10:11:03-05:00</span>
+		<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13539"></a>
+		<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+			<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+			<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+		</span>
+	</header>
+	<span property="sioc:content"></span>
+
+	<section>
+		<h1>Contents of this path:</h1>
+		<ol class="path_of">
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13563:1" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/introduction.23#index=1"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/introduction" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/introduction.23"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4500"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/introduction.23" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/introduction"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Introduction">
+						<a href="https://exhibits.library.uic.edu/lozano/introduction">Introduction</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">23</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T09:52:16-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13563"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13558:2" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago.22#index=2"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/making-mexican-chicago" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago.22"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<span class="metadata" aria-hidden="true" property="scalar:background">media/Loza004 resized.jpg</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4504"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/making-mexican-chicago.22" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Making Mexican Chicago">
+						<a href="https://exhibits.library.uic.edu/lozano/making-mexican-chicago">Making Mexican Chicago</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">22</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T09:39:13-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13558"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13583:3" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/for-our-rights.15#index=3"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/for-our-rights" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/for-our-rights.15"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:17-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4493"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/for-our-rights.15" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/for-our-rights"></a>
+					<span aria-hidden="true" property="dcterms:title" content="For Our Rights">
+						<a href="https://exhibits.library.uic.edu/lozano/for-our-rights">For Our Rights</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">15</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/21"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T10:26:48-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13583"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/21" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Elena Bulgarella</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c92f0605b2ba97cea97486e46bf140ec3c1560aa</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13568:4" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant.16#index=4"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/the-militant-migrant" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant.16"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4505"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/the-militant-migrant.16" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/the-militant-migrant"></a>
+					<span aria-hidden="true" property="dcterms:title" content="The Militant Migrant">
+						<a href="https://exhibits.library.uic.edu/lozano/the-militant-migrant">The Militant Migrant</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">16</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T10:07:43-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13568"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13631:5" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents.20#index=5"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/with-or-without-documents" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents.20"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4506"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/with-or-without-documents.20" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/with-or-without-documents"></a>
+					<span aria-hidden="true" property="dcterms:title" content="With or Without Documents">
+						<a href="https://exhibits.library.uic.edu/lozano/with-or-without-documents">With or Without Documents</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">20</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-08-02T09:38:17-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13631"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13577:6" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage.15#index=6"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/a-new-higher-stage" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage.15"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:17-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4486"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/a-new-higher-stage.15" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage"></a>
+					<span aria-hidden="true" property="dcterms:title" content="A New Higher Stage">
+						<a href="https://exhibits.library.uic.edu/lozano/a-new-higher-stage">A New Higher Stage</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">15</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T10:20:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13577"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13578:7" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues.7#index=7"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/the-struggle-continues" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues.7"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-03T14:45:18-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4507"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/the-struggle-continues.7" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/the-struggle-continues"></a>
+					<span aria-hidden="true" property="dcterms:title" content="The Struggle Continues">
+						<a href="https://exhibits.library.uic.edu/lozano/the-struggle-continues">The Struggle Continues</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">7</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">gallery</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-23T10:22:01-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13578"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:13539:13550:8" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/lozano/index.4"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit.8#index=8"></a>
+				<span resource="https://exhibits.library.uic.edu/lozano/about-this-exhibit" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit.8"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-05-06T13:17:33-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:4546"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/about-this-exhibit.8" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/lozano/about-this-exhibit"></a>
+					<span aria-hidden="true" property="dcterms:title" content="About this Exhibit">
+						<a href="https://exhibits.library.uic.edu/lozano/about-this-exhibit">About this Exhibit</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">8</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/lozano/users/7"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2022-06-22T09:05:44-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:13550"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/lozano/users/7" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">David Greenstein</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">c7fc3212990439fbd3c1dd961272d52f1519d8e6</span>
+				</span>
+			</li>
+		</ol>
+	</section>
+	</article>
+
+</body>
+</html>

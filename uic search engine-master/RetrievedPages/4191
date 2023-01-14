@@ -1,0 +1,303 @@
+
+<HTML>
+<!-- <BODY BGCOLOR="#AAAAAA" TEXT="#000000" LINK="#9690CC"> -->
+
+<BODY BGCOLOR="#FFFFFF">
+
+<HEAD> 
+<TITLE> CS 583 Fall 2022 </TITLE>
+</HEAD>
+<BODY>
+<H2>
+<center>
+CS 583 - Fall 2022
+</center>
+</H2> 
+<h1>
+<center>
+Data Mining and Text Mining
+</H1>
+</center>
+
+<!-- <center>
+<h3>Taught Online Asynchronously
+<br>
+Using <a href="https://uic.blackboard.com">Blackboard</a> and <a href="https://uic.zoom.us/"> Zoom </a>
+</H3>
+</center> -->
+
+
+<H3> Course Objective </h3>
+<p>This course has three objectives. First, to provide students with a solid background in the <b>classic data mining and machine learning techniques</b> and to introduce the <b>latest research topics</b> (e.g., <b>out-of-distribution (novelty) detection, learning after model deployment, and lifelong/continual learning</b>). Second, to ensure that students are able to read, and critically evaluate data mining research papers. Third, to ensue that students are able to implement and to use some of the important data mining and text mining algorithms. 
+
+<p> <b>Think and Ask!</b> If you have questions about any topic or assignment, DO ASK me, TA or 
+your classmates for help, I am here to make the course 
+understood. DO NOT delay your questions. There is no such thing as a 
+stupid question. The only obstacle to learning is laziness. </p>
+
+<!-- <h3>Online Platforms </h3>
+<p> We will mainly use <a href="https://uic.blackboard.com">Blackboard</a> and <a href="https://uic.zoom.us/">Zoom</a> for teaching and learning. Please get yourself familarized with the systems. </p>
+-->
+
+<!--<p>This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. The class pages are given below. </p> -->
+
+
+<table> 
+<tr>
+<td width="30%" valign=top> 
+<h3> General Information </h3> 
+<UL>
+<LI> Instructor: Bing Liu 
+<ul> 
+   <li> Email: <a href="http://www.cs.uic.edu/~liub"> Bing Liu</a>
+   <li> Office: CS 3190c, North End, 3rd Floor, Library
+<!--   <li> Tel: (312) 355 1318
+   <li> Office: North end, 3rd floor, library -->
+</ul>
+<!-- <li> Teaching Assistant (TA)
+  <ul>
+     <li> Sections 1 and 2: Sepideh Esmaeilpourcharandabi
+     <li> Email: sesmae2@uic.edu
+     <li> Section 2: Shuai Wang, swang207@uic.edu; 
+     <li> Office hours: 11am - 12pm on Wednesdays 
+     <li> Office hours will be conducted on <a href="https://uic.zoom.us/">Zoom</a> 
+  </ul>-->
+</ul>
+</td>
+
+<td width="30%" valign=top> 
+<h3> Section 1 </h3>
+<ul>
+<LI> Course Call Number: 30286
+<LI> Lecture time slots: 12:30 - 1:45pm  Tue & Thu
+<LI> Lecture hall: TBH 180D
+<li> Instructor office hours: 10:30am-12:00am Tue
+<!-- <li> TA office hour: 11am - 12pm on Wed (CS offices in Library - North end, third floor) -->
+
+<!--     <li> Office hours will be conducted on <a href="https://uic.zoom.us/">Zoom</a>
+     <li> Piazza class page: <a href="https://piazza.com/uic/fall2020/cs583session1/home"> here </a> -->
+</ul>
+</td>
+
+<td width="30%" valign=top> 
+<!-- <h3> Section 2 </h3>
+<ul>
+<LI> Course Call Number: 45283
+<LI> Lecture time slots: 2:00pm - 3:15pm  Tue & Thu
+     <ul>
+       <li> 2:00pm - 3:15pm  Tue & Thu
+     </ul> 
+<LI> Lecture hall: LH 312
+<li> Instructor office hours: 10:30am - 12:00am Tue
+<li> TA office hour: 11am - 12pm on Wed (CS offices in Library -- North end, third floor)
+     <li> Office hours will be conducted on <a href="https://uic.zoom.us/">Zoom</a>     <li> Piazza class page: <a href="https://piazza.com/uic/fall2020/cs583session2/home"> here </a>
+</ul> -->
+</td></tr></table>
+
+
+<H3>Grading</H3>
+</ul>
+<li> Final Exam: TBA
+<ul>
+</ul>
+<li> Midterm: TBA
+<ul>
+</ul>
+<li> Quizzes: TBA
+<ul>
+</ul>
+<li> Assignments: TBA
+<ul>
+<li> Programming assignments: TBA
+<li> A small text mining research project: TBA
+<!-- <li> (5%) A research project presentation -->
+</ul>
+<li> Assignments and the research project are done in groups of 2. Discussions with 
+other students are allowed, but each group has to write your own code.
+<ul>
+<li> Grading: live demo + code submission
+<li> <b>MOSS</b>: Sharing code with your classmates is not acceptable!!! All programs will be screened using the Moss (Measure of Software Similarity.) system. 
+
+</ul>
+</ul>
+</ul>
+<P>
+<H3>Prerequisites</H3>
+<UL>
+<li> Knowledge of probability and algorithms 
+<li> Knowledge of any programming language for projects
+</ul>
+<p>
+<H3> Teaching materials </H3> 
+<ul>
+<li> Required Textbooks:
+<ul>
+<li><a href="http://www.cs.uic.edu/~liub/WebMiningBook.html"><b>Web data 
+Mining</b> - Exploring Hyperlinks, Contents and Usage Data</a>, By Bing Liu, Second Edition, Springer, July 2011, ISBN 978-3-642-19459-7 
+  <li> <a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf">Lifelong machine learning</a>, by Zhiyuan Chen and Bing Liu, Morgan & Claypool Publishers, 2018 (second edition).
+  <li> <a href="https://www.amazon.com/Sentiment-Analysis-Opinions-Sentiments-Emotions-ebook/dp/B00Y37YXIG">Sentiment Analysis: Mining Opinions, Sentiments, and Emotions</a>, by Bing Liu, Cambridge University Press, 2020 (second edition).
+</ul>
+<li> References
+  <ul>
+  <li> Data mining: Concepts and Techniques, by Jiawei Han and Micheline Kamber, Morgan Kaufmann Publishers, ISBN 1-55860-489-8. 
+  <li> Introduction to Data Mining, by Pang-Ning Tan, Michael Steinbach, and Vipin Kumar, Pearson/Addison Wesley, ISBN 0-321-32136-7. 
+  <li> Data Miining. by Charu Aggarwal, Springer, 2015. ISBN 978-3-319-14142-8
+  <li> Machine Learning, by Tom M. Mitchell, McGraw-Hill, ISBN 0-07-042807-7
+  <li> Principles of Data Mining, by David Hand, Heikki Mannila, Padhraic Smyth, The MIT Press, ISBN 0-262-08290-X. 
+
+  </ul>
+<li> Data mining resource site: <a href="http://www.kdnuggets.com/index.html"> KDnuggets Directory </a>
+</ul>
+<H3> Topics (subject to change; the reading list follows each chapter title)</H3> 
+
+<ol> 
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-22/CS583-introduction.ppt"> Introduction </a>
+
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-data-prep.ppt"> Data pre-processing  </a>
+<ul>
+<li> Data cleaning
+<li> Data transformation
+<li> Data reduction
+<li> Discretization
+</ul>
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-association-sequential-patterns.ppt"> Association rules and sequential patterns</a> (Sections 2.1 - 2.7)
+     <ul> 
+<!--     <li> Basic concepts -->
+     <li> Apriori Algorithm
+     <li> Mining association rules with multiple minimum supports 
+     <li> Mining class association rules
+     <li> Sequetial pattern mining
+     <li> Summary
+     </ul>
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-22/CS583-supervised-learning.ppt"> Supervised learning </a> and <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-22/CS583-Linear-regression_Gradient-descent_Neural-networks.pdf"> Linear regression, gradient descent and neural networks </a> (Chapter 3)
+     <ul> 
+<!--     <li> Basic concepts -->
+     <li> Decision tree induction
+     <li> Classifier evaluation
+<!--     <li> Rule induction -->
+<!--     <li> Rule induction and classification based on association rules -->
+     <li> Naive-Bayesian learning
+     <li> Naive-Bayesian learning for text classification
+     <li> Support vector machines
+     <li> Linear regression and gradient descent
+     <li> Neural Networks
+     <li> K-nearest neighbor
+     <li> Bagging and boosting
+     <li> Summary
+     </ul>
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-22/CS583-unsupervised-learning.ppt"> Unsupervised learning (Clustering)</a> (Chapter 4)
+     <ul> 
+<!--     <li> Basic concepts -->
+     <li> K-means algorithm
+     <li> Representation of clusters
+     <li> Hierarchical clustering
+     <li> Distance functions and data standardization
+<!--     <li> Which clustering algorithm to use? -->
+     <li> Cluster evaluation
+     <li> Discovering holes and data regions
+     <li> Summary
+     </ul>
+
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-semi-supervised-learning.ppt"> Semi-supervised learning </a> (Sections 5.1.1, 5.1.2, 5.2.1 - 5.2.4) 
+     <ul>
+     <li> LU learning: Learning from labeled and unlabeled examples
+     <li> PU learning: Learning from positive and unlabeled examples
+     <li> Novelty (or out-of-distribution) detection
+     </ul>
+
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-info-retrieval.ppt"> Introduction to Information retrieval and Web search</a> (Sections 6.1 - 6.6, and 6.8)
+     <ul>
+     <li> Information retrievel models
+     <li> Basic text processing and representation
+     <li> Cosine similarity
+     <li> Relevance feedback and Rocchio algorithm
+     </ul> 
+
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-link-analysis.ppt">Social network analysis</a> (Sections 7.1 - 7.4)
+     <ul>
+     <li> Centrality and prestige
+     <li> Citation analysis: co-citation and bibliographic coupling
+     <li> The PageRank algoithm (of Google)
+     <li> The HITS algorithm: authorities and hubs
+<!--     <li> Mining communities on the Web -->
+     </ul>
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-opinion-mining.ppt"> Sentiment analysis and opinion mining </a> (Sections 11.1 - 11.6; check out my <a href="http://www.cs.uic.edu/~liub">two books</a>)
+
+<ul>
+<li> Sentiment analysis and emotion analysis problems
+<li> Document-level Sentiment classification
+<li> Sentence-level subjectivity and sentiment classification
+<li> Aspect-level sentiment analysis
+<li> Mining comparative opinions 
+<li> Sentiment lexicon generation
+</ul>
+
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-recommender-systems.ppt"> Recommender systems</a> 
+<ul>
+<li>Content-based recommendation
+<li>Collaborative filtering based recommendation
+<ul>
+<li> K-nearest neighbor
+<li> Association rules
+<li> Matrix factorization
+</ul>
+</ul>
+
+
+<li> <a href="https://www.cs.uic.edu/~liub/teach/cs583-fall-22/CS583-lifelong-and-continual-learning.pptx">Lifelong and continual learning</a> (the Lifelong Machine Learning book and research papers)
+
+     <ul>
+     <li> Introduction to lifelong/continual learning
+     <li> Class and task continual learning
+     <li> Out-of-Distribution Detection and Open-world learning
+     <li> Learning after model deployment (on-the-job learning)
+     </ul>
+
+<!--
+<li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-21/Lifelong-and-Continual-Learning-Dialogue-Systems.pptx"> Continuous learning chatbots</a> 
+<ul>
+<li>Introduction to dialogue systems
+<li>Continual learning in intent classification
+<li>Continuous learning of new language expressions
+<li>Continuous learning of new world knowledge
+</ul>
+-->
+
+
+<!-- <li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-structured-data-extraction.ppt"> Web data extraction</a> (Sections 9.1 and 9.2)
+<ul>
+<li> Wrapper induction 
+<li> Automated extraction
+</ul> -->
+<!-- <li> <a href="http://www.cs.uic.edu/~liub/teach/cs583-fall-20/CS583-information-integration.ppt"> Information integration</a> (Section 10.8) -->
+</ul> 
+
+</ol>
+<!-- <H3> Projects - graded  (you will demo your programs to me)</H3>
+<ul>
+<li> Each group consists of 2 students, and will work on two assignments
+<ol>
+<li> Algorithm implementation: TBA
+<li> Research: TBA 
+</ol> -->
+</ul>
+</ol>
+<H3> Rules and Policies </H3> 
+<uL>
+<li> <b>Statute of limitations</b>: No grading questions or complaints, no matter how justified, will be listened to one week after the item in question has been returned. 
+<li> <b>Cheating</b>: Cheating will not be tolerated. All work you submitted must be entirely your own. Any suspicious similarities between students' work (this includes, exams and program) will be recorded and brought to the attention of the Dean. The MINIMUM penalty for any student found cheating will be to receive a 0 for the item in question, and dropping your final course grade one letter. The MAXIMUM penalty will be expulsion from the University. 
+<li> <b>Late submission</b>: Late submission of assignment or quiz will not be accepted unless it is due to some extraordinary circumstances. 
+
+</ul>
+
+<h3>UIC Conunseling Center </h3>
+<p> We value your mental health and emotional wellness as part of the UIC student experience. The UIC Counseling Center offers an array of services to provide additional support throughout your time at UIC, including workshops, peer support groups, counseling, self-help tools, and initial consultations to speak to a mental health counselor about your concerns. Please visit the Counseling Center website for more information (https://counseling.uic.edu/). Further, if you think emotional concerns may be impacting your academic success, please contact your faculty and academic advisers to create a plan to stay on track.
+
+<br>
+<br>
+My <a href="http://www.cs.uic.edu/~liub">Home Page</a>
+<ADDRESS>
+By Bing Liu, Aug 15, 2020
+</ADDRESS>
+</BODY>
+</HTML>

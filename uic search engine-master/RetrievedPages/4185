@@ -1,0 +1,310 @@
+
+<!-- saved from url=(0058)http://www.cs.uic.edu/~liub/diagnosticDM/diagnosticDM.html -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="allow-search" content="YES">
+<meta name="searchtitle" content="continual learning, lifelong machine learning, data mining, big data
+[Bing Liu, Zhiyuan Chen, machine learning, topic model, LDA, LTM, AMC] by webmaster@cs.uic.edu">
+<meta name="keywords" content="Lifelong Learning, Lifelong Topic Model, Big Data, Topic Model, Knowledge-based Topic Model, Data Mining, Text Mining">
+<meta name="description" content="Lifelong Machine Learning and Big Data">
+<meta name="page-type" content="Lifelong Machine Learning and Big Data">
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="All">
+<meta name="author" content="liub">
+<meta name="abstract" content="Lifelong Machine Learning - Continual Learning">
+<!--<base target="Main">--><base href="." target="Main">
+<title> Lifelong and Continual Machine Learning </title>
+</head><body bgcolor="#f5f5f5">
+
+<h1> <center>Lifelong and Continual Learning </center></h1>
+<!-- <h2> <center>Necessary for Intelligence </h2> -->
+<h3> <center>Learn as "Humans" do for Artificial General Intelligence (AGI)
+</center> </h3>
+<br>
+<b><span style="font-size:16pt"><font color=#ff0000>Second Edition:</font>
+"<a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>."
+by Z. Chen and B. Liu, Morgan & Claypool, August 2018 (1st edition, 2016). </span></b><br/>
+<li>Added three new chapters: (4) <a href="http://www.cs.uic.edu/~liub/lifelong-learning/continual-learning.pdf">Continual Learning and Catastrophic Forgetting</a>, (5) <a href="http://www.cs.uic.edu/~liub/lifelong-learning/open-world-learning.pdf">Open-world Learning</a>, (8) <a href="http://www.cs.uic.edu/~liub/lifelong-learning/lifelong-learning-in-dialogues.pdf">Continuous Knowledge Learning in Chatbots</a>
+<li> Introduced the concept of <i>learning on the job</i> or <i>learning while working</i>. </li> 
+<li> Updated and/or reorganized the other chapters.</li>
+<li> Download the first edition, <a href="https://www.cs.uic.edu/~liub/2016-Lifelong-Machine-Learning-final.pdf">Lifelong Machine Learning</a>, Nov 2016.</li>
+<br>
+
+<b><span style="font-size:16pt"><font color="red">An Interview</font> in <a href="https://www.nature.com/articles/d41586-022-01962-y">Nature</a> Outlook, July 20, 2022.</span></b><br>
+
+<h2> Tutorials and Short Courses</h2>
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/SIGIR-2022-CL-Chatbot.html">Continual Learning Dialogue Systems - Learning during Conversation</a>. <font color="red">Tutorial</font> @ SIGIR-2022, Madrid | July 11-15, 2022. (Sahisnu Mazumder and Bing Liu) </span></b><br> 
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/Part-1-continual-learning-slides.pdf">Lifelong and Continual Learning</a>. <font color="red">A Short PhD Course</font> (8 hours), Aalborg University, June 14 and 16, 2022. (Bing Liu and Zixuan Ke)</span></b><br> 
+
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/IJCAI21-Continual-Learning-Dialogue-Systems-after-Deployment.html">Continual Learning Dialogue Systems - Learning on the Job after Model Deployment</a>. <font color="red">Tutorial</font> (Aug. 20) @ IJCAI-2021 August 21-26, 2021, Montreal, Canada. (Sahisnu Mazumder and Bing Liu)</span></b><br> 
+
+<h2> Keynote and Invited Talks</h2>
+
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/neurIPS-2022.pdf">Theory and Algorithms for Open World Continual Learning</a>. Keynote talk @ <i>IEEE Inter. Conf. on Cloud Computing and Intelligent Systems (CCIS-2022)</i>, Nov. 27, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/neurIPS-2022.pdf">Continual Learning: From Theory to Algorithms</a>. Invited talk @ CCF BigBdata 2022, Nov. 18-20, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/CDSC-WEST-2022.pdf">Continual Learning of Natural Language Processing Tasks</a>. Invited talk @ CDSC-WEST-2022, Nov. 1, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="https://arxiv.org/pdf/2203.08994.pdf">Autonomous AI: Self-Initiated Continual Learning in the Open World</a>. Invited talk @ CIIS Open-world Learning Forum, Sept. 18, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="https://arxiv.org/pdf/2203.08994.pdf">Autonomous Machine Learning: Continual Learning in the Open World</a>. Invited talk @ Intel Labs, July 25, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/lifelong-continual-learning.pdf">AI Autonomy: Pre- and Post-deployment Continual Learning</a>. Invited talk @ PyData Chicago, June 30, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/lifelong-continual-learning.pdf">Post-deployment Contiunal Learning</a>. Invited talk @ CVPR workshop - CLVision: Workshop on Continual Learning in Computer Vision (3rd Edition), June 20, 2022.</span></b><br> 
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/continual-learning-in-pre-post-deployment.pdf">Continual Learning in Pre- and Post-Deployment</a>. Invited talk @ Megagon Labs, June 10, 2022.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/continual-learning-in-pre-post-deployment.pdf">Batch and Online Continual Learning and Beyond.</a> Invited talk @ Zhenjiang Labs, May 26, 2022.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Self-Initiated-Open-CL.pdf">AI Autonomy: Continual Learning on the Job</a>. Distinguished research talk @ Amazon Alexa, Mar. 4, 2022.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Self-Initiated-Open-CL.pdf">Self-Motivated and Self-Supervised Open-World Continual Learning</a>. Invited talk @ Mind & Machine Intelligence Summit @ UCSB, Feb. 16-17, 2022.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Self-Initiated-CL.pdf">Self-Initiated Continual Learning for Autonomous Agents</a>. Keynote talk @ The 16th International Conference on Intelligent Systems and Knowledge Engineering (ISKE 2021), Nov. 27, 2021.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Self-Initiated-OWL.pdf">Self-Initiated Open World Learning for Autonomous Agents</a>. Talk @ A DARPA Sail-On Program meeting. Oct 29, 2021.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Self-motivated-Continual-Learning-for-knowledge-Accumulation.pdf">Self-motivated Continual Learning for Knowledge Accumulation</a>. Invited talk @ NeSy-2021 Continual Learning Session, Oct. 25, 2021.</span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Continual-and-on-the-job-learning.pdf">Continual and On-the-Job Learning</a>. Invited talk @ IJCAI-2021 Workshop on Continual Semi-supervised Learning, Aug.19-20, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Continual-and-Interactive-Learning-after-Model-Deployment.pdf">Continual and Interactive Learning after Model Deployment</a>. Invited talk @ Baidu Research, July 27, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Continual-and-Interactive-Learning-after-Model-Deployment.pdf">Continual and Interactive Learning after Model Deployment</a>. Keynote talk @ International Conference on Data Intelligence and Knowledge Services, July 10, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Continual-and-Interactive-Learning-after-Model-Deployment.pdf">Continual and Interactive Learning after Model Deployment</a>. Invited talk @ Allen Institute for Artificial Intelligence (AI2), June 18, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Lifelong-and-Continual-Learning-Dialogue-Systems.pdf">Continual Learning Dialogue Systems - Learning after Model Deployment</a>. Invited talk @ ICLR-21 Workshop on Neural Conversational AI, May 7, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/On-the-Job-Learning-ICML2020-CL-WS.pdf">Learning on the Job in the Open World</a>. Invited talk @ Information Sciences Institute, Univesity of Southern California, Sept.11, 2020. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/On-the-Job-Learning-ICML2020-CL-WS.pdf">Learning on the Job in the Open World</a>. Invited talk @ ICML-2020 Workshop on Continual Learning, July 17, 2020. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Lifelong-Machine-Learning-Tutorial-KDD-2016.pdf">Lifelong Machine Learning Tutorial</a>. Title: lifelong machine learning and computer reading the Web, KDD-2016, August 13-17, 2016, San Francisco, USA. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/IJCAI15-tutorial.html">Lifelong Machine Learning Tutorial</a>, IJCAI-2015, July 25-31, 2015, Buenos Aires, Argentina.</span></b><br>
+
+<b><span style="font-size:13pt">A Podcast: "<a href="http://worldofpiggy.com/podcast/2017/03/28/lifelong-machine-learning/">Machines that Learn Like Humans</a>" by my former student Zhiyuan Chen and Francesco Gadaleta (host).</span></b><br/>
+
+<table> 
+<tr>
+<td width="50%" valign=top>
+<b><span style="font-size:13pt"><a href="http://lifelongml.org/">A Resource Site</a> maintained by Eric Eaton's group</span></b><br/> 
+</td>
+<td width="50%" valign=top>
+<b><span style="font-size:14pt">DARPA program: <a href="http://www.darpa.mil/news-events/2017-03-16">Lifelong Learning Machines (L2M)</a>, 3/16/2017</span></b><br/>
+</td>
+</tr>
+</table>
+<p>
+The classic machine learning paradigm learns in isolation. 
+Given a dataset, a learning algorithm is applied to a dataset to produce 
+a model without considering any previously learned knowledge. 
+This paradigm needs a large number of training examples and is 
+only suitable for well-defined and narrow tasks in closed environments. 
+Looking ahead, to deal with these limitations and to learn more like 
+humans, I believe that it is necessary to do <b><i>lifelong machine 
+learning</i></b> or simply <b><i>lifelong learning</i></b> 
+(also called <b><i>continual learning</i></b> or even <b><i>continuous 
+learning</i></b>), which tries to mimic "human learning" to build 
+a <i>lifelong learning machine</i>. The key characteristic of 
+"human learning" is the <i>continual learning and adaptation to 
+new environments</i> - we accumulate the knowledge 
+gained in the past and use the knowledge to help future learning 
+and problem solving with possible adaptations. Ideally, it should also be 
+able to discover new tasks and learn on the job in open environments in
+a self-supervised manner. Without the lifelong learning capability, 
+AI systems will probably never be truly intelligent. 
+learning machine or agent to <i>continually learn and 
+accumulate knowledge</i>, and to become more and more 
+knowledgeable and better and better at learning. 
+
+<p> <b>Human learning is very different</b>: I believe that no human being has ever been given 1000 positive and 
+1000 negative documents (or images) and asked to learn a text classifier. 
+As we have accumulated so much knowledge in the past and understand it, 
+we can usually learn with little effort and few examples. If we don't 
+have the accumulated knowledge, even if we are given 2000 training 
+examples, it is very hard to learn manually. For example, I don't 
+understand Arabic. If you give me 2000 Arabic documents and ask me to 
+build a classifier, I cannot do it. But that is exactly what current 
+machine learning is doing. That is not how humans learn.
+
+<h3>Our Work</h3>
+
+Some of my work uses <a href="https://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html">sentiment analysis</a> (SA) tasks and data because it is the problems that I encountered in a SA startup that motivated me to work on lifelong learning or continual learning. SA is very hard to scale-up without lifelong learning. 
+
+<ul>
+<li><b>Continual Learning</a> (<a href="https://openreview.net/forum?id=ryGvcoA5YX">ICLR-2019</a>, AAAI-2021, NeurIPS-2020, NeurIPS-2021)</b>. Overcoming catastrophic forgetting and transferring knowledge across tasks
+
+<li> <b>Lifelong Unsupervised Learning</b>: 
+<!--  (<a href="http://www.cs.uic.edu/~zchen/papers/ICML2014-Zhiyuan(Brett)Chen.pdf">ICML-2014</a>, <a href="http://www.cs.uic.edu/~zchen/papers/KDD2014-Zhiyuan(Brett)Chen.pdf">KDD-2014</a>, <a href="http://www2016.net/proceedings/proceedings/p167.pdf">WWW-2016</a>, <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11973/12051">AAAI-2016</a>, <a href="http://www.cs.uic.edu/~liub/publications/emnlp2016.pdf">EMNLP-2016)</a></b>: -->
+<ul>
+<li> <b><i>Lifelong topic modeling</i></b> (<a href="http://www.cs.uic.edu/~zchen/papers/ICML2014-Zhiyuan(Brett)Chen.pdf">ICML-2014</a>, <a href="http://www.cs.uic.edu/~zchen/papers/KDD2014-Zhiyuan(Brett)Chen.pdf">KDD-2014</a>, <a href="\http://www2016.net/proceedings/proceedings/p167.pdf">WWW-2016</a>):
+retain the topics learned from previous domains and uses the knowledge for future modeling in other domains. <!-- This paradigm is powerful because different domains or tasks share a great deal of concepts or topics, which can be exploited to generate much better topics for the new task. -->
+<li> <b><i>Lifelong belief propagation</i></b> (<a href="http://www.cs.uic.edu/~liub/publications/emnlp2016.pdf">EMNLP-2016</a>): use the knowledge 
+learned previously to expand the graph and to obtain more accurate prior 
+probabilty distributions.
+<li> <b><i>Lifelong information extraction</i></b> (<a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11973/12051">AAAI-2016</a>): make use of previously learned knowledge for better extraction. 
+</ul>
+<li><b>Lifelong Supervised Learning</b> (<a href="http://www.cs.uic.edu/~zchen/papers/ACL2015-Short-Zhiyuan(Brett)Chen.pdf">ACL-2015</a>, <a href="http://www.cs.uic.edu/~liub/publications/acl17_LifelongCRF.pdf">ACL-2017</a>): 
+<ul>
+<li><b>Using a generative model</b> (<a href="http://www.cs.uic.edu/~zchen/\
+papers/ACL2015-Short-Zhiyuan(Brett)Chen.pdf">ACL-2015</a>): The ACL-2015 work is about lifelong learning using a generative model. It is used for sentiment classification.
+</ul>
+<li> <b>Learning on the Job</b> (<a href="https://www.cs.uic.edu/~liub/publications/acl17_LifelongCRF.pdf">ACL-2017</a> and <a href="https://arxiv.org/abs/1907.13295">SIGDIAL-2019</a>): This work is about learning after a model has been deployed in an application, i.e., learning while working. 
+<li><b><a href="http://www.cs.uic.edu/~liub/open-classification.html">Open world Learning</a> (a.k.a. open world classification or open classification)</b> (<a href=""http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">KDD-2016</a>, EMNLP-2017): this learning paradigm is becoming very important as AI agents (e.g., self-driving cars and chatbots)
+are increasingly facing the real-world open and dynamic environments, where there are always new or unexpected objects. 
+But traditional learning makes the close-world assumption: test instances must be from only the training/seen classes, which is not true in the open world. 
+Ideally, an open-world learner should be able to do the following:
+<ul>
+<li> detecting instances of unseen classes - not seen in training (the <b>DOC algorithm</b> (<a href="https://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">EMNLP-2017</a>) is quite powerful for this task for both text and images), 
+<li> autmatically identifying unseen classes from the detected instances in a <i>self-supervised</i> manner, and
+<li> incrementally learning the new/unseen classes. 
+</ul>
+In this process, the system becomes more and more knowledgeable and better 
+at learning. It also knows what it does and does not know.</i>
+
+<li><b> <a href="http://www.cs.uic.edu/~liub/continuous-learning-chatbot.html">Continuous Learning in Dialogues</a> (<a href="https://arxiv.org/abs/1907.13295">SIGDIAL-2019</a>)</b>: Dialogue systems or Chatbots have been very popular in recent years, but they cannot learn new knowledge during conversation, i.e., their knowledge is fixed beforehand and cannot be expanded during chatting. In this work, we aim to build a <i>lifelong and interactive</i> knowledge learning engine for chatbots. 
+
+</ul>
+<h3> Related Learning Paradigms: Transfer learning, multitask learning, and lifelong learning</h3>
+<ul>
+<li> <b>Characterisitcs of lifelong learning</b>: (1) learning continuously (ideally in the open world), (2) accumulating the previously learned knowledge to become more and more knowledgeable, (3) using the knowledge to learn more knowledge and adapting it for problem solving, (4) discovering new problems/tasks to be learned and learning them incrementally, and (5) learning on the job or learning while working, improving model during testing or model applications.  
+<li> <b>Transfer learning vs. lifelong learning</b>: Transfer learning 
+uses the source domain labeled data to help target domain learning. 
+Unlike lifelong learning, transfer learning is not continual and has 
+no knowledge retention (as it uses source labeled data, not learned 
+knowledge). The source must be similar to the target (which 
+are normally selected by the user). It is also only one-directional: 
+source helps target, but not the other way around because the target has no
+or little labeled data. 
+
+<li><b>Multitask learning vs. lifelong learning</b>: Multitask learning 
+jointly 
+optimizes learning of multiple tasks. Although it is possible to make 
+it continual, multitask learning does not retain any explicit knowledge 
+except data, and when the number of task is really large, it is hard to 
+re-learn everything when faced with a new task.
+</ul>
+
+<h3> Publications </h3>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TextBook</b>: Zhiyuan Chen and Bing Liu. <a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>. Morgan & Claypool, 2018 (2nd edition), 2016 (1st edition). 
+
+<ul>
+
+<p><li>Zixuan Ke and Bing Liu. <a href="https://arxiv.org/abs/2211.12701">Continual Learning of Natural Language Processing Tasks: A Survey</a>. <i>arXiv:2211.12701 [cs.CL]</i>, Nov. 23, 2022.
+
+<p><li>Gyuhak Kim, Changnan Xiao, Tatsuya Konishi, Zixuan Ke and Bing Liu. <a href="https://arxiv.org/abs/2211.02633">A Theoretical Study on Solving Continual Learning</a>. <i>Proceedings of Thirty-sixth Conference on Neural Information Processing Systems (NeurIPS-2022)</i>, Nov. 28 - Dec. 9, 2022.
+
+<p><li>Zixuan Ke, Haowei Lin, Yijia Shao, Hu Xu, Lei Shu and Bing Liu. <a href="https://arxiv.org/abs/2210.05549">Continual Training of Language Models for Few-Shot Learning</a>. <i>Proceedings of The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP-2022)</i>, December 7–11, 2022.
+
+
+<p><li>Gyuhak Kim, Zixuan Ke, and Bing Liu. <a href="https://www.cs.uic.edu/~liub/publications/MORE-COLLAS-2022.pdf">A Multi-Head Model for Continual Learning via Out-of-Distribution Replay</a>. <i>Proceedings of Conference on Lifelong Learning Agents (CoLLAs 2022)</i>, August 22-24, 2022.
+
+<p><li>Yiduo Guo, Bing Liu and Dongyan Zhao. <a href="https://proceedings.mlr.press/v162/guo22g/guo22g.pdf">Online Continual Learning through Mutual Information Maximization</a>. <i>Proceedings of The 39th International Conference on Machine Learning (ICML-2022)</i>, Baltimore, Maryland USA July 17-23, 2022.
+
+
+<p><li>Gyuhak Kim, Sepideh Esmaeilpour, Changnan Xiao, Bing Liu. <a href="https://openaccess.thecvf.com/content/CVPR2022W/CLVision/papers/Kim_Continual_Learning_Based_on_OOD_Detection_and_Task_Masking_CVPRW_2022_paper.pdf">Continual Learning Based on OOD Detection and Task Masking</a>. <i>Proceedings of the CVPR-2022 Workshop on Continual Learning in Computer Vision</i>, 2022.
+
+
+<p><li>Bing Liu, Sahisnu Mazumder, Eric Robertson, and Scott Grigsby. 
+<a href="https://arxiv.org/abs/2203.08994">AI Autonomy: Self-Initiation, Adaptation and Continual Learning</a>. <i>arXiv:2203.08994 [cs.AI]</i>, March 17, 2022.
+
+<p><li>Bing Liu, Eric Robertson, Scott Grigsby, and Sahisnu Mazumder. <a href="https://arxiv.org/abs/2110.11385">Self-Initiated Open World Learning for Autonomous AI Agents</a>. <i>Proceedings of AAAI Symposium on 'Designing Artificial Intelligence for Open Worlds</i>,' March 21-23, 2022.
+
+
+<p><li>Tatsuya Konishi, Mori Kurokawa, Chihiro Ono,  Zixuan Ke,  Gyuhak Kim, Bing Liu. <a href="https://www.cs.uic.edu/~liub/publications/PAKDD-2022-CL.pdf"> Partially Relaxed Masks for Knowledge Transfer without Forgetting in Continual\
+ Learning</a>. <i>Proceedings of 26th Pacific-Asia Conference on Knowledge Discovery and Data Mining (PAKDD-22).</i>, MAY 16-19, 2022, Chengdu, China.
+
+<p><li>Yiduo Guo, Wenpeng Hu, Dongyan Zhao, Bing Liu. <a href="https://aaai-2022.virtualchair.net/poster_aaai4905">Adaptive Orthogonal Projection for Batch and Online Continual Learning</a>. <i>Proceedings of AAAI-2022</i> (virtual), Feb 21 - 28, 2022.
+
+<p><li>Bing Liu, Eric Robertson, Scott Grigsby, and Sahisnu Mazumder. 
+<a href="https://arxiv.org/abs/2110.11385">Self-Initiated Open World Learning for Autonomous AI Agents</a>. <i>arXiv:2110.11385 [cs.AI]</i>, 2021.
+
+<p><li>Zixuan Ke, Bing Liu, Nianzu Ma, Hu Xu, Lei Shu. <a href="https://openreview.net/pdf?id=RJ7XFI15Q8f">Achieving Forgetting Prevention and Knowledge Transfer in Continual Learning</a>. <i>Proceedings of Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS-2021)</i>, Dec 6th - 14th, 2021.
+
+<p><li>Qi Qin, Wenpeng Hu, Han Peng, Dongyan Zhao, Bing Liu. <a href="https://openreview.net/pdf?id=2ybxtABV2Og">BNS: Building Network Structures Dynamically for Continual Learning</a>. <i>Proceedings of Thirty-fifth Conference on Neural Information Processing Systems (NeurIPS-2021)</i>, Dec 6th - 14th, 2021. 
+
+<p><li>Zixuan Ke, Bing Liu, Hu Xu and Lei Shu. <a href="https://aclanthology.org/2021.emnlp-main.550.pdf">CLASSIC: Continual and Contrastive Learning of Aspect Sentiment Classification Tasks</a>. <i>Proceedings of 2021 Conference on Empirical Methods in Natural Language Processing (EMNLP-2021)</i>, 7 – 11, November 2021, Punta Cana, Dominican Republic. 
+
+
+<p> <li>Zixuan Ke, Hu Xu and Bing Liu. <a href="https://aclanthology.org/2021.naacl-main.378.pdf">Adapting BERT for Continual Learning of a Sequence of Aspect Sentiment Classification Tasks</a>. <i>Proceedings of Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL-2021)</i>. Jun 6 - 11, 2021, Mexico City, Mexico. 
+
+<p><li>Wenpeng Hu, Qi Qin, Mengyu Wang, Jinwen Ma, and Bing Liu. <a href="https://www.cs.uic.edu/~liub/publications/AAAI2021_PCL.pdf">Continual Learning by Using Information of Each Class Holistically</a>. <i>Proceedings of AAAI-2021</i>. 2021.
+
+
+<p> <li> Bing Liu and Sahisnu Mazumder. <a href="https://www.cs.uic.edu/~liub/publications/LINC_paper_AAAI_2021_camera_ready.pdf">Lifelong and Continual Learning Dialogue Systems: Learning during Conversation</a>. <i>Proceedings of AAAI-2021</i>. 2021. 
+
+<p><li>Zixuan Ke, Bing Liu, and Xingchang Huang. <a href="https://proceedings.neurips.cc/paper/2020/file/d7488039246a405baf6a7cbc3613a56f-Paper.pdf">Continual Learning of a Mixed Sequence of Similar and Dissimilar Tasks</a>. <i>Proceedings of 34th Conference on Neural Information Processing Systems (NeurIPS 2020)</i>, Dec. 6-12, 2020, Vancouver, Canada.
+
+<!--<p><li>Wenpeng Hu, Mengyu Wang, Qi Qin, Jinwen Ma, and Bing Liu. 
+<a href="https://proceedings.neurips.cc/paper/2020/file/dd1970fb03877a235d530476eb727dab-Paper.pdf">HRN: A Holistic Approach to One Class Learning</a>. 
+<i>Proceedings of 34th Conference on Neural Information Processing Systems (NeurIPS 2020)</i>, Dec. 6-12, 2020, Vancouver, Canada. -->
+
+<p> <li> Sahisnu Mazumder,  Bing Liu,  Shuai Wang, and Sepideh Esmaeilpour. 
+<a href="https://www.cs.uic.edu/~liub/publications/neurips_2020_workshop_HLDS_camera_ready.pdf">An Application-Independent Approach to Building Task-Oriented Chatbots with Interactive Continual Learning</a>. <i>NeurIPS-2020 Workshop on Human in the Loop Dialogue Systems (HLDS-2020)</i>. 2020. 
+
+<p> <li> Sahisnu Mazumder, Bing Liu, Nianzu Ma, Shuai Wang. <a href="https://www.cs.uic.edu/~liub/publications/Neurips_workshop_HAMLETS_camera_ready.pdf">Continuous and Interactive Factual Knowledge Learning in Verification Dialogues</a>. <i>NeurIPS-2020 Workshop on Human And Machine in-the-Loop Evaluation and Learning Strategies (HAMLETS-2020)</i>. 2020. 
+
+<p> <li> Bing Liu and Sahisnu Mazumder. <a href="https://arxiv.org/abs/2009.10750">Lifelong Learning Dialogue Systems: Chatbots that Self-Learn On the Job</a>. arXiv:2009.10750 [cs.CL], Sept. 22, 2020. 
+
+<p> <li> Zixuan Ke, Bing Liu, Hao Wang, and Lei Shu. <a href="https://www.cs.uic.edu/~liub/publications/ECML-PKDD-2020.pdf">Continual Learning with Knowledge Transfer for Sentiment Classification.</a> <i>Proceedings of European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML-PKDD-2020)</i>, Ghent, Belgium, 14-18, September 2020.
+
+<p> <li> Bing Liu. <a href="https://aaai.org/ojs/index.php/AAAI/article/view/7079/6933">Learning on the Job: Online Lifelong and Continual Learning</a>. <i>Proceedings of 34th AAAI Conference on Artifical Intelligence (AAAI-2020)</i>, Feb 7-12, 2020, New York City. (This work was done while I was on leave in Peking University).
+
+
+<p> <li> Sahisnu Mazumder, Bing Liu, Shuai Wang, Nianzu Ma. <a href="https://arxiv.org/abs/1907.13295">Lifelong and Interactive Learning of Factual Knowledge in Dialogues</a>. <i>Proceedings of Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL-2019)</i>, 11-13 September 2019, Stockholm, Sweden.
+
+<p><li>Hao Wang, Bing Liu, Shuai Wang, Nianzu Ma and Yan Yang. <a href="http://proceedings.mlr.press/v101/wang19f/wang19f.pdf">Forward and Backward Knowledge Transfer for Sentiment Classification</a>. <i>Proceedings of The Eleventh Asian Conference on Machine Learning (ACML-2019)</i>, PMLR 101:457-472, 2019.
+
+<p><li>Hu Xu, Bing Liu, Lei Shu and P. Yu. <a href="https://arxiv.org/abs/1809.06004">Open-world Learning and Application to Product Classification</a>. <i>Proceedings of the Web Conference</i> (formerly known as the WWW conference), San Francisco, May 13-17, 2019.
+
+<p><li>Wenpeng Hu, Zhou Lin, Bing Liu, Chongyang Tao, Zhengwei Tao, Jinwen Ma, Dongyan Zhao, Rui Yan. <a href="https://openreview.net/pdf?id=ryGvcoA5YX">Overcoming Catastrophic Forgetting for Continual Learning via Model Adaptation</a>. <i> Proceedings of the Seventh International Conference on Learning Representations (ICLR-2019)</i>, New Orleans, Louisiana, May 6 – 9, 2019.
+
+
+<p><li>Guangyi Lv, Shuai Wang, Bing Liu, Enhong Chen, and Kun Zhang. Sentiment Classification by Leveraging the Shared Knowledge from a Sequence of Domains. <i>Proceedings of the 24th International Conference on Database Systems for Advanced Applications (DASFAA-2019)</i>, April 22-25, 2019.
+
+<p><li>Shuai Wang, Guangyi Lv, Sahisnu Mazumder, Geli Fei, and Bing Liu. Lifelong Learning Memory Networks for Aspect Sentiment Classification. <i>Proceedings of 2018 IEEE International Conference on Big Data (IEEE BigData 2018)</i>, Seattle, December 10-13, 2018. 
+
+<p> <li> Lei Shu, Hu Xu, and Bing Liu. 
+<a href="https://arxiv.org/abs/1801.05609">Unseen Class Discovery in Open-world Classification</a>. arXiv:1801.05609 [cs.LG], 18 Jan. 2018. 
+
+<p> <li> Sahisnu Mazumder, Nianzu Ma, and Bing Liu.  
+<a href="https://arxiv.org/abs/1802.06024">Towards a Continuous Knowledge Learning Engine for Chatbots</a>. arXiv:1802.06024 [cs.CL], 16 Feb. 2018. <b>Previous title</b>: "<a href="https://arxiv.org/abs/1802.06024">Towards an Engine for Lifelong Interactive Knowledge Learning in Human-Machine Conversations</a>".
+
+
+<p> <li> Hu Xu, Bing Liu, Lei Shu and Philip S. Yu. Lifelong Domain Word Embedding via Meta-Learning. <i>Proceedings of International Conference on Artificial Intelligence (IJCAI-ECAI-2018)</i>. July 13-19 2018, Stockholm, Sweden. 
+
+<p> <li> Bing Liu. <a href="http://www.cs.uic.edu/~liub/publications/continuous-learning.pdf">Lifelong Machine Learning: a Paradigm for Continuous Learning</a>. <i>Frontier Computer Science</i>, 2017, 11(3): 359–361.
+
+<p> <li> Lei Shu, Hu Xu, Bing Liu. <a href="http://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">DOC: Deep Open Classification of Text Documents</a>. <i>Proceedings of 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP-2017, oral presentation short paper)</i>, September 7–11, 2017, Copenhagen, Denmark.
+
+<p> <li>Lei Shu, Hu Xu, and Bing Liu. <a href="http://www.cs.uic.edu/~liub/publications/acl17_LifelongCRF.pdf">Lifelong Learning CRF for Supervised Aspect Extraction</a>. <i>Proceedings of Annual Meeting of the Association for Computational Linguistics (ACL-2017, oral presentation short paper)</i>, July 30-August 4, 2017, Vancouver, Canada.
+
+<p> <li>Lei Shu, Bing Liu, Hu Xu, and Annice Kim. <a href="http://www.cs.uic.edu/~liub/publications/emnlp2016.pdf">Lifelong-RL: Lifelong Relaxation Labeling for Separating Entities and Aspects in Opinion Targets</a>. <i>Proceedings of 2016 Conference on Empirical Methods in Natural Language Processing (EMNLP-2016)</i>, November 1–5, 2016, Austin, Texas, USA.
+
+<p> <li>Geli Fei, Shuai Wang, and Bing Liu. 2016. <a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Learning Cumulatively to Become More Knowledgeable</a>. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2016)</i>, August 13-17, San Francisco, USA. 
+
+<p> <li> Geli Fei, and Bing Liu. 2016. <a href="https://pdfs.semanticscholar.org/c5b5/56807c19548384886a060216672c11121a72.pdf?_ga=1.25126456.34606428.1491067408">Breaking the Closed World Assumption in Text Classification</a>. <i>Proceedings of NAACL-HLT 2016 </i>, June 12-17, San Diego, USA.
+
+<p> <li> Shuai Wang, Zhiyuan Chen, and Bing Liu. <a href="http://www2016.net/proceedings/proceedings/p167.pdf">Mining Aspect-Speciﬁc Opinion using a Holistic Lifelong Topic Model</a>. <i>Proceedings of the International World Wide Web Conference (WWW-2016)</i>, April 11-15, 2016, Montreal, Canada. 
+
+<p> <li> Qian Liu, Bing Liu, Yuanlin Zhang, Doo Soon Kim and Zhiqiang Gao. <a href="http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11973/12051">Improving Opinion Aspect Extraction using Semantic Similarity and Aspect Associations</a>. <i>Proceedings of Thirtieth AAAI Conference on Artificial Intelligence (AAAI-2016)</i>, February 12–17, 2016, Phoenix, Arizona, USA.
+
+<p> <li> Zhiyuan Chen, Nianzu Ma and Bing Liu. <a href="http://www.cs.uic.edu/~zchen/papers/ACL2015-Short-Zhiyuan(Brett)Chen.pdf">Lifelong Learning for Sentiment Classification</a>. <i>Proceedings of the 53st Annual Meeting of the Association for Computational Linguistics (ACL-2015, short paper)</i>, 26-31, July 2015, Beijing, China. 
+
+<p> <li> Zhiyuan Chen and Bing Liu. <a href="http://www.cs.uic.edu/~zchen/papers/KDD2014-Zhiyuan(Brett)Chen.pdf">Mining Topics in Documents: Standing on the Shoulders of Big Data.</a>. <i>Proceedings of the 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2014)</i>, August 24-27, New York, USA. [<a href="https://github.com/czyuan/AMC.git"><b>Code</b></a>] [<a href="http://www.cs.uic.edu/~zchen/downloads/KDD2014-Chen-Dataset.zip"><b>Dataset</b></a>]
+</p>
+<p> <li> Zhiyuan Chen and Bing Liu. <a href="http://www.cs.uic.edu/~zchen/papers/ICML2014-Zhiyuan(Brett)Chen.pdf">Topic Modeling using Topics from Many Domains, Lifelong Learning and Big Data</a>. <i>Proceedings of the 31st International Conference on Machine Learning (ICML 2014)</i>, June 21-26, Beijing, China. 
+
+<p> <li> Zhiyuan Chen, Arjun Mukherjee, and Bing Liu. <a href="https://www.cs.uic.edu/~zchen/papers/ACL2014-Zhiyuan(Brett)Chen-Latest.pdf">Aspect Extraction with Automated Prior Knowledge Learning</a>. <i>Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (ACL 2014)</i>, June 22-27, 2014, Baltimore, USA. 
+</p>
+</ul>
+<br><p>Created on Sep 24, 2014 by <a href="http://www.cs.uic.edu/~liub">Bing Liu</a>.
+</p></body></html>

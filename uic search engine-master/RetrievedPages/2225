@@ -1,0 +1,780 @@
+<!DOCTYPE html
+  PUBLIC "XSLT-compat">
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Stars & Stripes - UIC Student Veterans Affairs Newsletter 11.3.2022</title>
+      <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+      <style>
+					@import url('https://fonts.googleapis.com/css?family=Lato:wght@400;700');
+					@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700');
+					@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700');
+					@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700');					
+					@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700');					
+				</style>
+      <style>
+					@font-face {
+					font-family: 'Montserrat';
+					font-style: normal;
+					font-weight: 400;
+					}
+					@font-face {
+					font-family: 'Lato';
+					font-style: normal;
+					font-weight: 400;
+					}
+					@font-face {
+					font-family: 'Roboto';
+					font-style: normal;
+					font-weight: 400;
+					}
+					@font-face {
+					font-family: 'Source+Sans+Pro';
+					font-style: normal;
+					font-weight: 400;
+					}
+					@font-face {
+					font-family: 'Open+Sans';
+					font-style: normal;
+					font-weight: 400;
+					}				
+				</style>
+   </head>
+   <body style="margin:0;"><!-- SKIN ID:58815 --><!--[if (gte mso 9) | (gte IE 7)]>
+      <style>
+                    table#wrapper 
+                    { 
+                        width:600px !important; 
+                    } 
+                </style><![endif]--><!--[if mso]>
+      <style>
+					.fallback-font {
+						font-family: Arial, sans-serif !important;
+					}
+				</style><![endif]-->
+      <style>
+                    table#wrapper
+                    {
+                        max-width:600px !important;
+                        box-shadow:none;
+                    }
+                    table th, 
+                    table td
+                    {
+                        padding:0 !important;
+                    }
+                    .col-2 table td {
+                    padding: 10px !important;
+                    }
+                    #outlook a
+                    {
+                        padding:0;
+                    }
+                    .ExternalClass
+                    {
+                        width:100%;
+                    }
+                    .ExternalClass, 
+                    .ExternalClass p, 
+                    .ExternalClass span, 
+                    .ExternalClass font, 
+                    .ExternalClass td, 
+                    .ExternalClass div
+                    {
+                        line-height:100% !important;
+                    }
+                    #footer a
+                    {
+                        color: #FFFFFF;
+                        text-decoration: underline;
+                    }
+                    #footer a:hover
+                    {
+                        color: #;
+                        text-decoration: underline;
+                    }
+                    #footer img
+                    {
+                        border:0;
+                    }
+					#main td{
+						padding:0;
+					}
+				</style>
+      <style>
+					span.previewText {
+						display: none !important;
+						max-height: 0;
+						overflow: hidden;
+						width: 75px;
+					}</style> <style type="text/css">
+#main td  {
+padding:0px;
+}
+#main td .edu-uiuc-webservices-calendar-title  {
+padding-top:2px;
+padding-bottom:1px;
+padding-right:10px;
+
+}
+</style>
+ <span class="previewText"> </span><div style="display: none; max-height: 0px; overflow: hidden;"> &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌</div><!-- SKIN BODY -->
+      <table bgcolor="#EFF1F1" style="background-color:#EFF1F1; width:100%; border-collapse:collapse; border-spacing:0;">
+         <tbody>
+            <tr>
+               <td><!-- SKIN ARCHIVE LINK -->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" id="archive-label" style="max-width:600px; border-spacing:0;"><!-- ARCHIVE_LINK_START -->
+                     <tr>
+                        <td align="left" bgcolor="#EFF1F1" style="background:#EFF1F1; line-height:12px; padding:0;">&nbsp;</td>
+                     </tr>
+                     <tr>
+                        <td align="center" bgcolor="#EFF1F1" colspan="5" style="font-size:13px; height:18px; line-height:18px; font-family:arial;" class="fallback-font"><a href="https://emails.uofi.uic.edu/newsletter/655216461.html" style="color:#EEEEEE;text-decoration: underline;"><span id="archive-label" style="color:#EEEEEE;">Click here to see this online</span></a></td>
+                     </tr><!-- ARCHIVE_LINK_STOP -->
+                     <tr>
+                        <td align="left" bgcolor="#EFF1F1" style="background:#EFF1F1;line-height:12px;padding:0;">&nbsp;</td>
+                     </tr>
+                  </table><!-- SKIN TABLE -->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" id="wrapper" style="border:1px solid #D6D9DB;max-width:600px;border-collapse:collapse; border-spacing:0;"><!-- HEADER ROW-->
+                     <tr id="header">
+                        <td align="left" colspan="3" style="padding:0;width:100%;border-bottom:none;"><img alt="Stars &amp; Stripes UIC Student Veterans Affairs' Newsletter" src="https://skins.webservices.illinois.edu/files/58815/wizard_header.jpg?iIndex=1007T092936" style="vertical-align:top;width:100%;"></td>
+                     </tr>
+                     <tbody>
+                        <tr>
+                           <td align="left" colspan="3" style="padding:0;width:100%;">
+                              <table background="#ffffff" bgcolor="#ffffff" cellpadding="0" cellspacing="0" id="content-tb" style="background:#ffffff; border:none; border-top:none; border-spacing:0; width:100%;">
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" class="content-td" style="padding:0;width:100%;min-height:20vh;" width="100%;">
+                                          <table cellpadding="0" cellspacing="0" class="content-div" style="width:100%; border-spacing:0;">
+                                             <tr>
+                                                <td>
+                                                   <div id="system-form-header"></div><!-- MESSAGE START --> <!--CONTENT_STARTS--><!-- SKIN: 58815 --><style rel="stylesheet" type="text/css"><!--[if mso]>
+			.fallback-font-heading {
+				font-family: Arial, sans-serif !important;
+			}<![endif]--></style>
+<table cellpadding="0" cellspacing="0" style="border:none;width:100%;">
+   <tr>
+      <td style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td>
+   </tr>
+</table><!-- BLOCK_h2 --><!-- ELEMENT_2945350_START --><a id="element_2945350" name="element_2945350"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>Welcome!</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945350_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945351_START --><style rel="stylesheet" type="text/css">
+            #content_2 a {
+                color:#D50032;
+            }
+            #content_2 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945351" name="element_2945351"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_2" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><!-- embedded video code start -->
+                     <table align="right" style="border-spacing:0;float:left:" width="136">
+                        <tr>
+                           <td width="16">&nbsp;</td>
+                           <td><img border="0" src="https://emails.illinois.edu/files/655216461/processed_2945351.png?p=1103T201607" alt="Woman with long dark hair wearing a teal blouse."></td>
+                        </tr>
+                        <tr>
+                           <td height="6" style="height:6px; line-height:6px; font-size:6px;">&nbsp;</td>
+                        </tr>
+                     </table><!-- embedded video code end --><p>Hello, I&rsquo;m Dr. Mia Garcia-Hills, Director of UIC office of Student Veterans Affairs. I am the daughter of a Korean War veteran, the niece of a World War II veteran and the proud aunt of two generations of Army and Air Force service members. I graduated from UIC in 2001 and am grateful for the opportunity to give back to the University that helped make my college dream a reality.</p>
+<p>Welcome to UIC Student Veterans Affairs' newsletter, Stars and Stripes! Here you can stay up to date with Federal policies, UIC Student Veterans Affairs news, events, and announcements. We thank you for being part of our community and hope you enjoy reading our newsletter. Archived newsletter editions are available on our <a style="color: #d50032;" title="Stars and Stripes newsletter Archive" href="https://dos.uic.edu/student-veterans-affairs/stars-stripes-newsletters/" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">website</span></a>.</p>
+<hr /></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945351_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2945352_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2945352_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2945353_START --><a id="element_2945353" name="element_2945353"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>U.S. Department of Veteran Affairs Updates</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945353_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945354_START --><style rel="stylesheet" type="text/css">
+            #content_5 a {
+                color:#D50032;
+            }
+            #content_5 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945354" name="element_2945354"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_5" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><strong><span style="font-size: 13pt;">Attendance Verification</span> <br /></strong>Any pending change (including School Certifying Official submissions) in place when the student&rsquo;s monthly verification is received at the end of the month blocks the verification text or email going to the student. It does not block the release of the housing payment for the student unless no verification has occurred for the past 2 months.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945354_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945355_START --><style rel="stylesheet" type="text/css">
+            #content_6 a {
+                color:#CC0000;
+            }
+            #content_6 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945355" name="element_2945355"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_6" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><span style="font-size: 13pt;"><strong>Promise to Address Comprehensive Toxics (PACT) Act</strong></span><br />The <a style="color: #cc0000;" title="PACT Act link" href="https://www.va.gov/resources/the-pact-act-and-your-va-benefits" target="_blank" rel="noopener"><span style="color: #cc0000; font-weight: bold;">PACT Act</span></a> is a new law that expands VA health care and benefits for Veterans exposed to burn pits and other toxic substances. The law expands and extends eligibility for VA health care for Veterans with toxic exposures and Veterans of the Vietnam, Gulf War, and post-9/11 eras. It also adds more presumptive-exposure locations for Agent Orange and radiation. The PACT Act requires VA to provide a toxic exposure screening to every Veteran enrolled in VA healthcare.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945355_STOP --><!-- BLOCK_content --><!-- ELEMENT_2946807_START --><style rel="stylesheet" type="text/css">
+            #content_7 a {
+                color:#D50032;
+            }
+            #content_7 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2946807" name="element_2946807"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_7" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><span style="font-size: 13pt;"><strong>VA Scholarships</strong></span><br />Are you studying in a field related to medicine or healthcare? VA offers scholarships to students who work in a VA healthcare facility serving our nation&rsquo;s Veterans. Scholarships cover many degrees and certifications and are also often tax-exempt. <a style="color: #d50032;" title="VA Scholarship Info link" href="https://www.vacareers.va.gov/Benefits/EducationSupport/#scholarships" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">VA Scholarship Info</span></a></p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2946807_STOP --><!-- BLOCK_image --><!-- ELEMENT_2945356_START --><a id="element_2945356" name="element_2945356"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100%">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="image_8" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td>
+                     <div style="text-align: center;">
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; border-spacing:0;" width="100%">
+                           <tr>
+                              <td colspan="3"><img align="center" border="0" src="https://emails.illinois.edu/files/655216461/processed_2945356.png?p=1103T201607" style="display:block;width:100%;" width="600" alt="Student veterans wearing camouflage folding the American flag outside Student Center East."></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945356_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2945357_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2945357_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2945358_START --><a id="element_2945358" name="element_2945358"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>UIC Student Veterans Affairs Updates</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945358_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945359_START --><style rel="stylesheet" type="text/css">
+            #content_11 a {
+                color:#D50032;
+            }
+            #content_11 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945359" name="element_2945359"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_11" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><strong><span style="font-size: 13pt;">C&iacute;sar Student Veterans Center November Hours<br /></span></strong>The C&iacute;sar Student Veterans Center is open Monday through Friday, 8:30am - 5pm.&nbsp;The center is located in Student Center East (SCE), Room 248, on the second floor. Go through the right side (west) of Inner Circle, making a right near Circle Burger, left through the Wellness Center, down the hallway through the Commuter Student Resource Center, and finally along the left (north) wall to the office.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945359_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945360_START --><style rel="stylesheet" type="text/css">
+            #content_12 a {
+                color:#D50032;
+            }
+            #content_12 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945360" name="element_2945360"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_12" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><span style="font-size: 13pt;"><strong>Spring 2023 Enrollment Certifications</strong></span><br />UIC&rsquo;s Spring semester begins on January 9, 2023; however, Spring 23 enrollment certification processing begins on November 15, 2022. Students who used GI Bill during fall 22 and plan to continue GI Bill in Spring 23 are only required to upload a completed and signed advisor verification to be processed. If GI Bill eligibility has changed since submitting a Certificate of Eligibility for Fall 2022, a new certificate or a screen shot of current statement of benefits must also be submitted.<br /><br />New Spring 2023 students and first-time GI Bill recipients are required to submit a 2022-2023 annual benefit form and must also upload advisor verification form to be processed. For instructions, review the New Student Veteran Reservist and Dependent/Spouses To-Do List available on our <a style="color: #d50032;" title="Benefits and Forms Web page link" href="https://dos.uic.edu/student-veterans-affairs/benefits-and-form" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">Benefits and Forms Web page</span></a>.&nbsp;</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945360_STOP --><!-- BLOCK_line --><!-- ELEMENT_2946994_START --><table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-spacing:0; line-height:1px; height:1px; max-height:1px;">
+   <tbody>
+      <tr>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+         <td style="background:#DADAD9; font-size:1px; padding:0; line-height:1px; height:1px; width:90%; max-height:1px;" width="90%">&nbsp;</td>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2946994_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2945363_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2945363_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2945364_START --><a id="element_2945364" name="element_2945364"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="left" style="width:90%;text-align:left;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="left" style="padding: 0; line-height: 30.8px; text-align:left;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>November Give Away</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945364_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945365_START --><style rel="stylesheet" type="text/css">
+            #content_16 a {
+                color:#D50032;
+            }
+            #content_16 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945365" name="element_2945365"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_16" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><!-- embedded video code start -->
+                     <table align="right" style="border-spacing:0;float:left:" width="216">
+                        <tr>
+                           <td width="16">&nbsp;</td>
+                           <td><img border="0" src="https://emails.illinois.edu/files/655216461/processed_2945365.png?p=1103T201607" alt="Person holding a red phone holder with a smiley face and SVA logo imprinted."></td>
+                        </tr>
+                        <tr>
+                           <td height="6" style="height:6px; line-height:6px; font-size:6px;">&nbsp;</td>
+                        </tr>
+                     </table><!-- embedded video code end --><p><span style="font-size: 13pt;"><strong>SVA Foam Phone Holder</strong></span><br />Stop by C&iacute;sar Student Veterans Center during the month of November to pick up your Student Veterans Affairs foam phone holder. This cell phone holder doubles as a squeezable stress reliever.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945365_STOP --><!-- BLOCK_line --><!-- ELEMENT_2947005_START --><table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-spacing:0; line-height:1px; height:1px; max-height:1px;">
+   <tbody>
+      <tr>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+         <td style="background:#DADAD9; font-size:1px; padding:0; line-height:1px; height:1px; width:90%; max-height:1px;" width="90%">&nbsp;</td>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947005_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2945366_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2945366_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2945367_START --><a id="element_2945367" name="element_2945367"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>Stars &amp; Stripes Friday Feature</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945367_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945368_START --><style rel="stylesheet" type="text/css">
+            #content_20 a {
+                color:#D50032;
+            }
+            #content_20 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945368" name="element_2945368"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_20" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><!-- embedded video code start -->
+                     <table align="right" style="border-spacing:0;float:left:" width="216">
+                        <tr>
+                           <td width="16">&nbsp;</td>
+                           <td><img border="0" src="https://emails.illinois.edu/files/655216461/processed_2945368.png?p=1103T201607" alt="Young man with a mustache and slight chin hair, wearing a brown knit cap and grey jacket, in front of a background with icicles"></td>
+                        </tr>
+                        <tr>
+                           <td height="6" style="height:6px; line-height:6px; font-size:6px;">&nbsp;</td>
+                        </tr>
+                     </table><!-- embedded video code end --><p><span style="font-size: 13pt;"><strong>Jake Souvannavong</strong></span><br /><strong>Entrepreneurship Major, Freshman</strong><br /><strong>US Department of Veterans Affairs Work Study Allowance Program Participant&nbsp;</strong><br />Hello, I'm Jake Souvannavong, queer icon at University of Illinois Chicago. I'm using education benefits as a dependent to an active duty USN Lieutenant Commander. I am enrolled in the College of Business with a major in Entrepreneurship. Owning a business or helping others succeed in their enterprises is what I aspire to do. <br /><br />I graduated from Highland Park High School in 2020, took two years off school to work and grow, and now I'm very excited to be attending UIC and working with Student Veteran Affairs. Applying for my own benefits was a bit of a struggle because I wasn't fully prepared to go back to school, so while I'm here I'd like to help incoming students in their preparation as much as I can, especially students like me who have a gap in their education. <br /><br />My advice to incoming student veterans and military connected students? Don't be afraid to start a new chapter in your education. I stick by the phrase, "Prepare for the worst but hope for the best."<br />Working with SVA, I hope to be a resource that can help you take the first steps to achieving your goals at UIC. If you see me, say Hi!</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945368_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2947187_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947187_STOP --><!-- BLOCK_image --><!-- ELEMENT_2947172_START --><a id="element_2947172" name="element_2947172"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100%">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="image_22" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td>
+                     <div style="text-align: left;">
+                        <table align="left" border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; border-spacing:0;" width="100%">
+                           <tr>
+                              <td colspan="3"><a href="http://go.uic.edu/veteransweek" style="border:0;" target="_blank"><img align="left" border="0" src="https://emails.illinois.edu/files/655216461/processed_2947172.png?p=1103T201607" style="display:block;width:100%;" width="600" alt="Veterans Week Fall 2022"></a></td>
+                           </tr>
+                        </table>
+                     </div>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2947172_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2945370_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2945370_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2945371_START --><a id="element_2945371" name="element_2945371"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>Community</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2945371_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945372_START --><style rel="stylesheet" type="text/css">
+            #content_25 a {
+                color:#D50032;
+            }
+            #content_25 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945372" name="element_2945372"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_25" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><span style="font-size: 14pt;"><strong>Register for Veterans Week Programs!</strong></span><br />Monday, November 7<br />9am - 5pm<br /><a style="color: #d50032;" title="C&iacute;sar Center Open House, and External Resources Event link" href="https://www.eventbrite.com/e/452999462587" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">C&iacute;sar Center Open House, and External Resources Event</span></a><br /><br />Wednesday, November 9 <br />11am - 2pm<br /><a style="color: #d50032;" title="Women Veterans Wellness Event link" href="https://www.eventbrite.com/e/453018810457" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">Women Veterans Wellness Event</span></a><br /><br />Thursday, November 10<br />9am - 4pm<br /><a style="color: #d50032;" title="Demystifying VA Benefits link" href="https://www.eventbrite.com/e/453056051847" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">Demystifying VA Benefits</span></a><br /><br />Friday, November 11<br />11am - 12pm<br /><a style="color: #d50032;" title="Flag Raising Ceremony" href="https://www.eventbrite.com/e/453059361747" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">Flag Raising Ceremony</span></a><br />Student, faculty, and staff who are members of UIC&rsquo;s veteran community are encouraged to attend in uniform. All attendees are invited to bring photos of veterans to raise in gratitude to their service during this event.<br /><br /><em>Note: 5k/3k has been postponed...details to come.</em></p>
+<p>For Veterans Week details, visit <a style="color: #d50032;" title="Veterans Week link" href="http://go.uic.edu/veteransweek" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">go.uic.edu/veteransweek</span></a>.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945372_STOP --><!-- BLOCK_line --><!-- ELEMENT_2947182_START --><table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-spacing:0; line-height:1px; height:1px; max-height:1px;">
+   <tbody>
+      <tr>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+         <td style="background:#DADAD9; font-size:1px; padding:0; line-height:1px; height:1px; width:90%; max-height:1px;" width="90%">&nbsp;</td>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947182_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2947189_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947189_STOP --><!-- BLOCK_content --><!-- ELEMENT_2945373_START --><style rel="stylesheet" type="text/css">
+            #content_28 a {
+                color:#D50032;
+            }
+            #content_28 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2945373" name="element_2945373"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_28" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><!-- embedded video code start -->
+                     <table align="right" style="border-spacing:0;float:left:" width="136">
+                        <tr>
+                           <td width="16">&nbsp;</td>
+                           <td><img border="0" src="https://emails.illinois.edu/files/655216461/processed_2945373.png?p=1103T201607" alt="Veteran Integration to Academic Leadership"></td>
+                        </tr>
+                        <tr>
+                           <td height="6" style="height:6px; line-height:6px; font-size:6px;">&nbsp;</td>
+                        </tr>
+                     </table><!-- embedded video code end --><p><strong><span style="font-size: 13pt;">Veteran Integration to Academic Leadership</span><br /></strong>Veteran Integration to Academic Leadership (VITAL) will be at UIC on Thursday, November 10, 9am - 4pm in the C&iacute;sar Student Veteran Center. Stop by and meet Shankar Peterson, LCSW!&nbsp;&nbsp;</p>
+<p>Shankar Peterson obtained his Master of Social Work from the UIC Jane Addams College of Social Work. Previously, Shankar worked in a program to permanently house homeless Veterans and provide ongoing housing case management. Currently, Shankar works at Veterans Integration to Academic to Leadership. The goal of VITAL is to build relationships with student veterans to help them navigate VA, school, and community resources. Shankar likes to think of his duties as removing barriers to graduation. VITAL&rsquo;s mission is to connect veterans to resources they have earned.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2945373_STOP --><!-- BLOCK_line --><!-- ELEMENT_2947025_START --><table border="0" cellpadding="0" cellspacing="0" style="width: 100%; border-spacing:0; line-height:1px; height:1px; max-height:1px;">
+   <tbody>
+      <tr>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+         <td style="background:#DADAD9; font-size:1px; padding:0; line-height:1px; height:1px; width:90%; max-height:1px;" width="90%">&nbsp;</td>
+         <td align="left" style="padding:0; width:5%; font-size:1px; line-height:1px; height:1px; max-height:1px;" width="5%">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947025_STOP --><!-- BLOCK_spacer --><!-- ELEMENT_2947026_START --><table aria-hidden="true" border="0" cellpadding="0" cellspacing="0" style="border:none; width:100%; border-spacing:0;">
+   <tbody>
+      <tr>
+         <td style="padding:0; line-height: 24px; width:100%;">&nbsp;</td>
+      </tr>
+   </tbody>
+</table><!-- ELEMENT_2947026_STOP --><!-- BLOCK_h2 --><!-- ELEMENT_2947023_START --><a id="element_2947023" name="element_2947023"></a><table border="0" cellpadding="0" cellspacing="0" style="width:100%; border: none; width: 100%; border-spacing:0;">
+   <tr>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+      <td align="" style="width:90%;text-align:;" width="90%">
+         <table border="0" cellpadding="0" cellspacing="0" style="background:; border: none; width: 100%; border-spacing: 0;">
+            <tbody>
+               <tr>
+                  <td align="" style="padding: 0; line-height: 30.8px; text-align:;">
+                     <h2 class="fallback-font" style="color: #225E9D; font-family: Arial, arial; font-size: 22px; font-weight: bold; line-height: 30.8px; margin: 0;"><strong>Career Corner</strong></h2>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+      <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+   </tr>
+</table><!-- ELEMENT_2947023_STOP --><!-- BLOCK_content --><!-- ELEMENT_2947007_START --><style rel="stylesheet" type="text/css">
+            #content_32 a {
+                color:#D50032;
+            }
+            #content_32 p {
+                line-height: 22.4px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2947007" name="element_2947007"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_32" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:22.4px;font-size:14px;color:#363636"><p><span style="font-size: 13pt;"><strong>Careers at the Archdiocese of Chicago</strong></span><br />The Archdiocese of Chicago, the third largest in the United States, and its employees serve more than 2.2 million Catholics in 221 parishes in Cook and Lake counties. The archdiocese's 155 elementary and secondary schools comprise one of the largest U.S. private school systems and has received 96 U.S. Department of Education Blue Ribbon Awards. Pastored by Cardinal Blase J. Cupich, the archdiocese has more than 15,000 mission-driven employees within the diverse communities they serve. Veterans have held positions in schools, finance, IT, and other departments within the archdiocese. For job opportunities, contact Archdiocesan Careers at <a style="color: #d50032;" title="Email Archdiocesan Careers" href="mailto:careers@archchicago.org" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">careers@archchicago.org</span></a>, Archdiocesan Recruitment at <a style="color: #d50032;" title="Email Archdiocesan Recruitment" href="mailto:recruitment@archchicago.org" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">recruitment@archchicago.org</span></a>, and Teacher Recruitment at <a style="color: #d50032;" title="Email Teacher Recruitment" href="mailto:ocsrecruitment@archchicago.org" target="_blank" rel="noopener"><span style="color: #d50032; font-weight: bold;">ocsrecruitment@archchicago.org</span></a>.</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2947007_STOP --><table cellpadding="0" cellspacing="0" style="border:none;width:100%;">
+   <tr>
+      <td style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td>
+   </tr>
+</table><!--CONTENT_ENDS--> <!-- MESSAGE END --></td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </td>
+                        </tr><!-- SKIN FOOTER -->
+                        <tr>
+                           <td align="left" bgcolor="#143F72" colspan="3" style="background:#143F72;padding:0;line-height:8px;border-top:1px solid #48484A;">&nbsp;</td>
+                        </tr>
+                        <tr id="footer-wrapper">
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#143F72" border="0" id="footer" style="width:530px;text-align:center;background-color:#143F72;color:#FFFFFF;font-family:Arial ,arial;font-size:85%;line-height:24px;padding:0;" class="fallback-font"><p style="line-height: 16px; text-align: center;"><span style="font-size: 10pt; color: #ffffff; font-family: arial, helvetica, sans-serif;"><span class="e2ma-style"><span class="e2ma-style"><strong><a title="UIC website link" href="http://uic.edu" target="_blank" rel="noopener"><img src="https://samarketing.uic.edu/logos/images/CAMP.CIRC.SM.RGB.PNG" alt="UIC Circle logo" width="40" height="39" /></a><br /><br />UIC Student Veterans Affairs<br /></strong></span></span><span class="e2ma-style" style="text-decoration: none;"><a style="font-weight: inherit; color: #ffffff;" title="UIC Student Veterans Affairs link" href="http://veterans.uic.edu" data-type="url" data-name="UIC Student Veterans Affairs link">veterans.uic.edu</a></span><span class="e2ma-style"><span class="e2ma-style"><span style="font-weight: inherit;"> | <a style="color: #ffffff;" href="mailto:studentveteransaff@uic.edu">studentveteransaff@uic.edu</a></span></span></span></span></p>
+<p style="line-height: 14px; text-align: center;"><span style="font-size: 10pt; color: #ffffff; font-family: arial, helvetica, sans-serif;">follow us @uiclife</span></p></td>
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td align="left" bgcolor="#143F72" colspan="3" style="background:#143F72;padding:0;line-height:8px;">&nbsp;</td>
+                        </tr>
+                        <tr id="social-wrapper">
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#143F72" border="0" id="social" style="width:530px;text-align:center;background-color:#143F72;color:#FFFFFF;font-family:Arial ,arial;font-size:85%;line-height:24px;padding:0;" class="fallback-font">
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                 <tr>
+                                    <td style="height:56px; width:42px;"><a href="https://www.facebook.com/uiclife" style="text-decoration:none;" target="_blank"><img alt="Facebook" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/logo-circle-white/Facebook.png" style="height:28px; width:28px;" title="Facebook" width="28"></a></td>
+                                    <td style="height:56px; width:42px;"><a href="https://www.instagram.com/uiclife" style="text-decoration:none;" target="_blank"><img alt="Instagram" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/logo-circle-white/Instagram.png" style="height:28px; width:28px;" title="Instagram" width="28"></a></td>
+                                    <td style="height:56px; width:42px;"><a href="https://www.twitter.com/uiclife" style="text-decoration:none;" target="_blank"><img alt="Twitter" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/logo-circle-white/Twitter.png" style="height:28px; width:28px;" title="Twitter" width="28"></a></td>
+                                    <td style="height:56px; width:42px;"><a href="https://www.youtube.com/uiclife" style="text-decoration:none;" target="_blank"><img alt="YouTube" height="28" src="https://skins.webservices.illinois.edu/webservices/public/social/logo-circle-white/YouTube.png" style="height:28px; width:28px;" title="YouTube" width="28"></a></td>
+                                 </tr>
+                              </table>
+                           </td>
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td align="left" bgcolor="#143F72" colspan="3" style="background:#143F72;padding:0;line-height:8px;">&nbsp;</td>
+                        </tr><!-- SUBSCRIBE UNSUBSCRIBE -->
+                        <tr id="subscribe-wrapper">
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#143F72" border="0" id="subscribe" style="width:530px;text-align:center;background-color:#143F72;color:#FFFFFF;font-family:Arial ,arial;font-size:85%;line-height:24px;padding:0;" class="fallback-font"><span id="subscription"></span></td>
+                           <td align="left" bgcolor="#143F72" style="background:#143F72;padding:0;width:35px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td align="left" bgcolor="#143F72" colspan="3" style="background:#143F72;padding:0;line-height:8px;">&nbsp;</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td align="left" height="16" style="line-height:16px;height:16px;padding:0;">&nbsp;</td>
+            </tr>
+         </tbody>
+      </table><script>
+            		if(window.top != window.self)
+            		{ 
+	            		document.body.style.backgroundColor = '#EFF1F1';
+    				}
+            	</script></body>
+</html>

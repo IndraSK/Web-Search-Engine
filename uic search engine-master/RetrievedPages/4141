@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+    <title>CS 494: Cloud Data Center Systems &middot; Home and Announcements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Course web page for CS 494 (CDCS) at UIC.">
+    <link rel="shortcut icon" type="image/ico" href="/~brents/cs494-cdcs/images/favicon.ico">
+    <link href="/~brents/cs494-cdcs/css/bootstrap.css" rel="stylesheet">
+    <link href="/~brents/cs494-cdcs/css/site.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></sc\
+ript>
+    <![endif]-->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-21532225-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+    <!-- Place anything custom after this. -->
+  </head>
+  <body>
+    
+    <div class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/~brents/cs494-cdcs">CS 494: Cloud Data Center Systems</a>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+  <div class="bs-sidebar hidden-print" >
+    <ul class="nav bs-sidenav">
+      
+
+      
+      
+      
+        <li class="active"><a href="/~brents/cs494-cdcs/">home</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/syllabus.html">syllabus</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/schedule.html">schedule</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/reading.html">reading</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/reviews.html">reviews</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/presentations.html">presentations</a> </li>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs/homeworks.html">homeworks</a> </li>
+        
+        <ul class="nav">
+          
+            <li   ><a href="/~brents/cs494-cdcs/homework0.html">homework0</a> </li>
+          
+            <li   ><a href="/~brents/cs494-cdcs/homework1.html">homework 1</a> </li>
+          
+            <li   ><a href="/~brents/cs494-cdcs/homework2.html">homework 2</a> </li>
+          
+        </ul>
+        
+        
+        
+
+      
+      
+      
+        <li ><a href="/~brents/cs494-cdcs"></a> </li>
+        
+        
+        
+        <li><a href="https://piazza.com/uic/spring2019/cs494cdcs">discussion</a></li>
+    </ul>
+  </div>
+</div>
+
+        <div class="col-md-9" role="main">
+          <h1 id="cs-494-cloud-data-center-systems">CS 494: Cloud Data Center Systems</h1>
+
+<p><img class="img-responsive hidden-xs" src="/~brents/cs494-cdcs/images/cloud_network.png" /></p>
+
+<h3 id="announcements">Announcements</h3>
+
+<p><strong>A link to the project topics has been posted on Piazza!</strong>
+<strong>The github class repo for the final project can be found
+<a href="https://classroom.github.com/g/SdrEF2jT">here</a></strong></p>
+
+<p><strong>The schedule has been updated to move machine learning forward!</strong></p>
+
+<p>Lectures are now being recorded through ACCC!  You should have access
+to lecture recordings through blackboard.</p>
+
+<p> 
+ 
+ </p>
+
+<h4 id="basics">Basics</h4>
+<p><strong>Meets</strong>: Burnham Hall 208 TR 12:30am-1:45pm<br />
+<strong>Instructor</strong>: <a href="/~brents/">Brent Stephens</a><br />
+<strong>Reading</strong>: There is no book for this course.  See the <a href="/~brents/cs494-cdcs/reading.html">Reading List</a>.<br />
+<strong>Office Hours</strong>: 2pm-3pm Tuesday
+<strong>Office</strong>: SEO 1330<br />
+<strong>Discussion</strong>: <a href="https://piazza.com/uic/spring2019/cs494cdcs">CS 494 Piazza</a><br /></p>
+
+<p><strong>TA</strong>: David Porter<br />
+<strong>Office Hours</strong>: MW 12pm-1pm @ SEO 1108 , and by request by <a href="https://piazza.com/uic/spring2019/cs494cdcs">piazza</a><br />
+<!--
+**Office**: SEO 805<br>
+**Office Hours**: 3pm-5pm Tuesday, and by request by [email][snyderp]<br>
+--></p>
+
+<h4 id="acknowledgements">Acknowledgements</h4>
+
+<p>This course is based on similar courses from other universities, so it
+is important to acknowledge the following people and courses:</p>
+
+<ul>
+  <li><a href="http://pages.cs.wisc.edu/~akella/">Aditya Akella</a>: <a href="http://pages.cs.wisc.edu/~akella/CS744/F17/">CS744 F17</a></li>
+  <li><a href="https://www.mosharaf.com/">Mosharaf Chowdhury</a>: <a href="https://github.com/mosharaf/eecs598/tree/f17-bigdata">EECS F17</a></li>
+  <li><a href="http://shivaram.org/">Shivaram Venkataraman</a>: <a href="http://pages.cs.wisc.edu/~shivaram/cs744-fa18/">CS744 F18</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- Footer
+    ================================================== -->
+    <div class="clearfix"></div>
+    <footer class="bs-footer" role="contentinfo">
+    <div class="container">    
+         <ul class="footer-links">
+          <li><a href="https://www.cs.uic.edu/~brents/">Brent Stephens</a></li>
+          <li class="muted">&middot;</li>
+          <li><a href="https://www.cs.uic.edu/">UIC Computer Science</a></li>
+        </ul>
+    </div>
+    </footer>
+    <!-- JS and analytics only. -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="//code.jquery.com/jquery.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="/~brents/cs494-cdcs/js/bootstrap.min.js"></script>
+
+
+
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+  </body>
+</html>
+
+

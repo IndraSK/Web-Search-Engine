@@ -1,0 +1,193 @@
+
+<!-- saved from url=(0058)http://www.cs.uic.edu/~liub/diagnosticDM/diagnosticDM.html -->
+<html><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="allow-search" content="YES">
+<meta name="searchtitle" content="lifelong learning, lifelong machine learning, data mining, big data, chatbot, open world learning
+[Bing Liu, Zhiyuan Chen, machine learning, topic model, LDA, LTM, AMC] by webmaster@cs.uic.edu">
+<meta name="keywords" content="Lifelong Learning, Lifelong Topic Model, Big Data, Topic Model, Knowledge-based Topic Model, Data Mining, Text Mining">
+<meta name="description" content="Lifelong Machine Learning and Big Data">
+<meta name="page-type" content="Lifelong Machine Learning and Big Data">
+<meta name="revisit-after" content="14 days">
+<meta name="audience" content="All">
+<meta name="author" content="liub">
+<meta name="abstract" content="Lifelong Machine Learning and Big Data open world learning">
+<!--<base target="Main">--><base href="." target="Main">
+<title> Autonomous Machine Learning after Model Deployment</title>
+</head><body bgcolor="#f5f5f5">
+
+<h1> <center>Autonomous Learning: Learning on the Job <br> 
+- Continual Learning after Deployment </center></h1>
+
+<b><span style="font-size:16pt"><center>Interactive AI and <a href="https://www.cs.uic.edu/~liub/lifelong-learning.html">
+Lifelong Learning</a> </center></span></b>
+
+<b><span style="font-size:15pt"><center> Self-Initiated Learning through
+Interaction with Humans and the Environment</center></span></b><br> 
+
+<!--<h2><center> Learning through
+interaction with humans and environment <br>
+Interactive AI and <a href="https://www.cs.uic.edu/~liub/lifelong-learning.html">Lifelong Learning</a></center>
+</h2> -->
+<br>
+<b><span style="font-size:16pt"><font color=#ff0000>Second Edition:</font>
+"<a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>."
+by Z. Chen and B. Liu, Morgan & Claypool, August 2018 (1st edition, 2016)</span></b><br/>
+<ul>
+<li>Three new chapters have been added and others have been updated and/or reorganized.</li>
+<li> One Chapter is dedicated to <a href="http://www.cs.uic.edu/~liub/lifelong-learning/open-world-learning.pdf">Open World Learning</a>
+<li> <b>Any AI system (e.g., chatbot and self-driving car) that cannot learn in deployment (e.g., chatting and driving) in the real-world open envoronment is not truly intelligent.</b>
+</ul>
+
+<b><span style="font-size:13pt"><a href="https://www.cs.uic.edu/~liub/IJCAI21-Continual-Learning-Dialogue-Systems-after-Deployment.html">Continual Learning Dialogue Systems - Learning on the Job after Model Deployment</a>. <font color="red">Tutorial</font> @ IJCAI-2021, August 21-26, 2021, Montreal, Canada. </span></b><br> 
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Continual-and-Interactive-Learning-after-Model-Deployment.pdf">Continual and Interactive Learning after Model Deployment</a>. Invited talk @ Allen Institute for Artificial Intelligence (AI2), June 18, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/continual-learning-dialogue-system.pdf">Continual Learning Dialogue Systems - Learning after Model Deployment</a>. Invited talk @ ICLR-21 Workshop on Neural Conversational AI, May 7, 2021. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/On-the-Job-Learning-ICML2020-CL-WS.pdf">Learning on the Job in the Open World</a>. Invited talk @ Information Sciences Institute, Univesity of Southern California, Sept.11, 2020. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/On-the-Job-Learning-ICML2020-CL-WS.pdf">Learning on the Job in the Open World</a>. Invited talk @ ICML-2020 Workshop on Continual Learning, July 17, 2020. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/Lifelong-Machine-Learning-Tutorial-KDD-2016.pdf">Lifelong Machine Learning Tutorial</a>. Title: lifelong machine learning and computer reading the Web, KDD-2016, August 13-17, 2016, San Francisco, USA. </span></b><br>
+
+<b><span style="font-size:13pt"><a href="http://www.cs.uic.edu/~liub/IJCAI15-tutorial.html">Lifelong Machine Learning Tutorial</a>, IJCAI-2015, July 25-31, 2015, Buenos Aires, Argentina.</span></b><br>
+
+
+<br>
+<b>Motivation for Autonomous Learning</b>: It is known that about 70% 
+of our human knowledge comes 
+from “on-the-job” learning. Only about 10% is learned through formal
+education and the rest 20% is learned through observation of others 
+(imitation). An autonomous AI system must have this capability - its 
+machine learning algorithm must be able to learn autonomously on the job 
+or while working <b>after model deployment</b>. As the real world is 
+too complex and constantly changing, it is impossible to learn everything 
+through offline training using manually labeled data. An autonomous learning 
+agent has to explore and learn by itself in the real world, which is 
+open and constantly change - full of unknowns. AI agents must be able to 
+detect the unknowns and learn them in a self-supervised manner through 
+its interaction with humans, other agents, and the real-world environment. 
+It should not make the <i> <a href="https://aclweb.org/anthology/N16-1061">closed-world assumption</a></i> any more. Here are two motiviating examples:
+
+<ul>
+
+<li> <b>Greeting bot in a hotel:</b> At any point in time, the bot 
+has learned to recognize all existing hotel guests. When it sees an 
+existing guest, it can call him/her by his/her first name and chat (e.g., Hi John, how are you today?). It must also detect any new guests that it 
+has not seen before. On seeing a new guest, it can say hello, ask for
+his/her name (e.g., "Welcome to our hotel. What is your name, sir?"), take 
+pictures, and learn to recognize the guest. Next time when it sees the 
+new guest again, it can call him/her by his/her first name and chat 
+like an old friend.
+<li> <b>Self-driving car:</b> I worked on self-driving car for a year. Once when we were 
+doing a road test, the car suddenly stopped and refused to move.
+The road was completely clear and we could not see anything wrong. 
+Debugging back in the lab found that there was a small stone on the 
+road detected by a sensor. This made me think: why cannot the car tell us 
+what the problem was in natural language? Why cannot we tell the car to 
+go ahead also in natural language? Our instruction serves a piece of 
+supervisory information to enable the car to learn so that in the future 
+when a simialr situation occurs, it can behave correctly.
+
+</ul>
+
+<p> <b>Autonomous Learning</b>: Like human on-the-job learning, it studies
+ <b>learning after model deployment or during model application</b> (or testing) - after a good model 
+has been built and deployed in an application. 
+In classic machine learning, once a model is built, it is 
+deployed in an application. During application, 
+the model remains fixed or unchanged. Autonomous learning (or on-the-job learning) investigates 
+continuous learning after model deployment, which involves the following steps 
+<br>
+<ol>
+<li>continuously discover new tasks to learn by the agent itself. This is called <i> Open World Learning</i> or <i> Out-of-Distribtuion Detection</i>. 
+<li>gather "free" training data through the agent’s own active effort via interaction with humans, other agents and the environment. 
+<li>incrementally learn the new tasks without interrupting the application to become more and more knowledgeable. This is continual learning. 
+</ol>
+Here we emphesize interaction with humans and the environment to find new tasks and to naturally label training data (see the two motivating examples above).
+
+<p> <b>Interactive AI</b>: This is also called <i><b>Interactive Self-Supervision</b></i>. Step 2 is the key for on-the-job 
+learning, i.e., how to find the hidden classes and obtain labeled training 
+data. This must be done through actions initiated by the system itself 
+without interrupting the application. That is, it must learn actively on 
+its own based on its prior knowledge by observing and interaction with 
+the environment and humans to obtain explicit or implicit feedback to serve 
+as supervision. The interaction with humans should be through natural 
+language dialogues. It is not possible for an autonomous intelligent agent 
+to rely solely on massive manual labeled training data to learn passively 
+offline forever. 
+
+
+
+<!--<b>Open world machine learning</b> (a.k.a. <b>open world recognition or classification, </b> or <b>open-world AI)</b> is getting increasingly important as the learning agent is increasingly <b>working in or facing the real-world open and dynamic environment</b>, e.g., chatbot and self-driving car, where the agent <b>cannot assume or expect</b> 
+what it will see in the real-world contains only what it has learned previously. For example, a chatbot cannot assume that it knows everything that a user may say. A self-driving car cannot assume that the real-world has only things that it has seen and learned before. <b>The core of open-world learning or open-world AI is about recognizing unknowns and learning them so that the AI agent will become more and more knowledgeable</b>. 
+
+<p> Classic machine learning makes the <i><b><a href="https://aclweb.org/anthology/N16-1061">closed world assumption</a></b></i>, i.e., the classes that the agent sees in training are what it will see in testing (no new objects or classes can appear in testing) (Fei and Liu 2016). A more realistic scenario is to expect <b>unseen classes</b> during testing (open world). In this case, the goal is to design a learning algorithm that can classify data of the known/seen classes into their respective classes and also to reject/detect instances from unknown/unseen classes. This problem is called <b>open-world learning (or open-world classification)</b>. Apart from detecting the unseen classes, open-world learning should also incrementally or continually learn the new classes. 
+
+<h3>Tasks of open-world learning (OWL)</h3>
+
+<ul>
+<li> <b>Task 1</b>: learn a classifier that can perform classification of test instances that belong to training/seen 
+classes used in learning, and detect/reject instances that do not belong to 
+the training/seen classes - (the <b>DOC</b> algorithm (<a href="https://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">EMNLP-2017</a>) 
+is quite powerful for this task for both text and images). 
+<ul> <li>Note - <b>Rejection here is not the same as the traditional outlier/anormaly detection</b>. Tradtional outlier detection typically detects outliers 
+from a given dataset based on some unsupervised learning methods, while 
+rejection in open-world learning detects unseen class instances ("outliers") on the 
+fly in testing using the classifier trained with only seen class examples (supervised learning), 
+and the classifier also does classification of test instances from the 
+seen classes. 
+</ul>
+<li> <b>Task 2</b>: ask the user to provide the unseen classes in the 
+rejected instances or automatically discover the unseen classes based 
+on the knowledge learned in the past (<a href="https://arxiv.org/abs/1801.05609">Shu et al. 2018</a>).
+<li> <b>Task 3</b>: incrementally learn the new/unseen classes 
+(<a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Fei et al. 2016</a>; <a href="https://arxiv.org/abs/1809.06004">Xu et al. 2019</a>) 
+without retraining from scratch and without catastrophic forgetting. 
+</ul>
+<p>In the process, the system learns and accumulates more and more knowledge (<a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Fei et al. 2016</a>). 
+The learner is <i>self-motivated</i> and <i>it knows what it does and does not know.</i> With intelligent systems such as chatbots and self-driving cars increasingly facing the real-world open (unknown) environments, we can no longer make the <b>closed world assumption</b>. 
+
+-->
+<br>
+<br>
+
+<h3> Publications </h3>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>TextBook</b>: Zhiyuan Chen and Bing Liu. <a href="https://www.cs.uic.edu/~liub/lifelong-machine-learning.html">Lifelong Machine Learning</a>. Morgan & Claypool, 2018 (2nd edition), 2016 (1st edition). 
+
+<ul>
+
+<p><li>Bing Liu, Sahisnu Mazumder, Eric Robertson, and Scott Grigsby. 
+<a href="https://arxiv.org/abs/2203.08994">AI Autonomy: Self-Initiation, Adaptation and Continual Learning</a>. <i>arXiv:2203.08994 [cs.AI]</i>, March 17, 2022.
+
+<p> <li> Bing Liu and Sahisnu Mazumder. <a href="https://www.cs.uic.edu/~liub/publications/LINC_paper_AAAI_2021_camera_ready.pdf">Lifelong and Continual Learning Dialogue Systems: Learning during Conversation</a>. to appear in <i>Proceedings of AAAI-2021</i>. 2021. 
+
+<p> <li> Sahisnu Mazumder,  Bing Liu,  Shuai Wang, and Sepideh Esmaeilpour. 
+<a href="https://www.cs.uic.edu/~liub/publications/neurips_2020_workshop_HLDS_camera_ready.pdf">An Application-Independent Approach to Building Task-Oriented Chatbots with Interactive Continual Learning</a>. to appear at <i>NeurIPS-2020 Workshop on Human in the Loop Dialogue Systems (HLDS-2020)</i>. 2020. 
+
+<p> <li> Sahisnu Mazumder, Bing Liu, Nianzu Ma, Shuai Wang. <a href="https://www.cs.uic.edu/~liub/publications/Neurips_workshop_HAMLETS_camera_ready.pdf">Continuous and Interactive Factual Knowledge Learning in Verification Dialogues</a>. to appear at <i>NeurIPS-2020 Workshop on Human And Machine in-the-Loop Evaluation and Learning Strategies (HAMLETS-2020)</i>. 2020. 
+
+<p> <li> Bing Liu and Chuhe Mei. <a href="https://arxiv.org/abs/2011.09811">Lifelong Knowledge Learning in Rule-based Dialogue Systems</a>. arXiv:2011.09811 [cs.AI], 2020. 
+
+<p> <li> Bing Liu. <a href="https://aaai.org/ojs/index.php/AAAI/article/view/7079/6933">Learning on the Job: Online Lifelong and Continual Learning</a>. <i>Proceedings of 34th AAAI Conference on Artifical Intelligence (AAAI-2020)</i>, Feb 7-12, 2020, New York City. (This work was done while I was on leave in Peking University).
+
+<p> <li> Sahisnu Mazumder, Bing Liu, ShuaiWang, Nianzu Ma. <a href="https://arxiv.org/abs/1907.13295">Lifelong and Interactive Learning of Factual Knowledge in Dialogues</a>. to appear in <i>Proceedings of Annual Meeting of the Special Interest Group on Discourse and Dialogue (SIGDIAL-2019)</i>, 11-13 September 2019, Stockholm, Sweden.
+
+
+<p><li>Hu Xu, Bing Liu, Lei Shu and P. Yu. <a href="https://arxiv.org/abs/1809.06004">Open-world Learning and Application to Product Classification</a>. to appear in <i>Proceedings of the Web Conference</i> (formerly known as the WWW conference), San Francisco, May 13-17, 2019.
+
+<p> <li> Lei Shu, Hu Xu, Bing Liu. <a href="https://arxiv.org/abs/1801.05609">Unseen Class Discovery in Open-world Classification</a>. <i>arXiv:1801.05609 [cs.LG]</i>, 2018. 
+
+<p> <li> Lei Shu, Hu Xu, Bing Liu. <a href="http://www.cs.uic.edu/~liub/publications/emnlp17-camera-ready.pdf">DOC: Deep Open Classification of Text Documents</a>. <i>Proceedings of 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP-2017, oral presentation short paper)</i>, September 7–11, 2017, Copenhagen, Denmark.
+
+
+<p> <li>Geli Fei, Shuai Wang, and Bing Liu. 2016. <a href="http://www.kdd.org/kdd2016/papers/files/rpp0426-feiA.pdf">Learning Cumulatively to Become More Knowledgeable</a>. <i>Proceedings of SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD-2016)</i>, August 13-17, San Francisco, USA. 
+
+<p> <li> Geli Fei, and Bing Liu. 2016. <a href="https://pdfs.semanticscholar.org/c5b5/56807c19548384886a060216672c11121a72.pdf?_ga=1.25126456.34606428.1491067408">Breaking the Closed World Assumption in Text Classification</a>. <i>Proceedings of NAACL-HLT 2016 </i>, June 12-17, San Diego, USA.
+
+</p>
+</ul>
+<br><p>Created on July 15, 2020 by <a href="http://www.cs.uic.edu/~liub">Bing Liu</a>.
+<br><br>
+</p></body></html>

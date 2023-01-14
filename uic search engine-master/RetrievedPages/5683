@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xml:lang="en" lang="en"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:ctag="http://commontag.org/ns#"
+	xmlns:art="http://simile.mit.edu/2003/10/ontologies/artstor#"
+	xmlns:sioc="http://rdfs.org/sioc/ns#"
+	xmlns:sioctypes="http://rdfs.org/sioc/types#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:ov="http://open.vocab.org/terms/"
+	xmlns:oac="http://www.openannotation.org/ns/"
+	xmlns:scalar="http://scalar.usc.edu/2012/01/scalar-ns#"
+	xmlns:shoah="http://tempuri.org/"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:exif="http://ns.adobe.com/exif/1.0/"
+	xmlns:iptc="http://ns.exiftool.ca/IPTC/IPTC/1.0/"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:id3="http://id3.org/id3v2.4.0#"
+	xmlns:dwc="http://rs.tdwg.org/dwc/terms/"
+	xmlns:vra="http://purl.org/vra/"
+	xmlns:cp="http://scalar.cdla.oxycreates.org/commonplace/terms/"
+	xmlns:tk="http://localcontexts.org/tk/"
+>
+<head>
+<title>A Circle of Care: Horizon Hospice, 1978-2015</title>
+<base href="https://exhibits.library.uic.edu/horizon-hospice/index.16" />
+<meta name="description" content="Important papers and photographs from the hospice's archives" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:title" content="A Circle of Care: Horizon Hospice, 1978-2015: A Circle of Care: Horizon Hospice, 1978-2015" />
+<meta property="og:site_name" content="A Circle of Care: Horizon Hospice, 1978-2015: by Special Collections and University Archives, UIC Library" />
+<meta property="og:url" content="https://exhibits.library.uic.edu/horizon-hospice/index" />
+<meta property="og:description" content="Important papers and photographs from the hospice's archives" />
+<meta property="og:image" content="https://exhibits.library.uic.edu/horizon-hospice/media/HORI_01_0004_0007.jpg" />
+<meta property="og:type" content="article" />
+<link rel="canonical" href="https://exhibits.library.uic.edu/horizon-hospice/index" />
+<link rel="shortcut icon" href="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/favicon_16.gif" />
+<link rel="apple-touch-icon" href="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/favicon_114.jpg" />
+<link id="urn" rel="scalar:urn" href="urn:scalar:version:12814" />
+<link id="view" href="splash" />
+<link id="default_view" href="splash" />
+<link id="primary_role" rel="scalar:primary_role" href="http://scalar.usc.edu/2012/01/scalar-ns#Path" />
+<link id="scalar_version" href="2.5.5
+" />
+<link id="book_id" href="19" />
+<link id="parent" href="https://exhibits.library.uic.edu/horizon-hospice/" />
+<link id="approot" href="https://exhibits.library.uic.edu/system/application/" />
+<link id="flowplayer_key" href="" />
+<link id="soundcloud_id" href="" />
+<link id="recaptcha2_site_key" href="6Lc_9bsUAAAAAMOec9clhmedj_8KzNrYyRMFP5m8" />
+<link id="recaptcha_public_key" href="" />
+<link id="google_maps_key" href="" />
+<link id="CI_elapsed_time" href="0.3759" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/reset.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/bootstrap-accessibility.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/common.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/scalarvis.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/header.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/widgets.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/responsive.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/timeline.min.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/timeline.theme.scalar.css" />
+<link type="text/css" rel="stylesheet" href="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/css/screen_print.css" media="screen,print" />
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/yepnope.1.5.3-min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/yepnope.css.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/arbors/html5_RDFa/js/html5shiv/dist/html5shiv.js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.bootstrap-modal.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.bootstrap-accessibility.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/main.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.dotdotdot.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.scrollTo.min.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarheader.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarpage.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarmedia.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarmediadetails.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarindex.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarhelp.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarcomments.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarsearch.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarvisualizations.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarstructuredgallery.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/scalarwidgets.jquery.js"></script>
+<script type="text/javascript" src="https://exhibits.library.uic.edu/system/application/views/melons/cantaloupe/js/jquery.tabbing.js"></script>
+</head>
+<body class="primary_role_path">
+
+<article>
+	<header>
+		<noscript><div class="error notice-js-required"><p>This site requires Javascript to be turned on. Please <a href="http://www.btny.purdue.edu/enablejavascript.html">enable Javascript</a> and reload the page.</p></div></noscript>
+		<!-- Book -->
+		<span resource="https://exhibits.library.uic.edu/horizon-hospice" typeof="scalar:Book">
+			<span property="dcterms:title" content="A Circle of Care: Horizon Hospice, 1978-2015"><a id="book-title" href="https://exhibits.library.uic.edu/horizon-hospice/index">A Circle of Care: Horizon Hospice, 1978-2015<span class="subtitle">: by Special Collections and University Archives, UIC Library</span></a></span>
+			<a class="metadata" aria-hidden="true" rel="dcterms:hasPart" href="https://exhibits.library.uic.edu/horizon-hospice/index"></a>
+			<a class="metadata" aria-hidden="true" rel="dcterms:tableOfContents" href="https://exhibits.library.uic.edu/horizon-hospice/toc"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/toc" typeof="scalar:Page">
+			<span class="metadata" property="dcterms:title">Main Menu</span>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice#index=1"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising#index=2"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach#index=3"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids#index=4"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers#index=5"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education#index=6"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies#index=7"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush#index=8"></a>
+			<a class="metadata" rel="dcterms:references" href="https://exhibits.library.uic.edu/horizon-hospice/credits#index=9"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice.40"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice.40" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">The Origins of Horizon Hospice</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/fundraising" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising.27"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/fundraising.27" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Fundraising</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/community-outreach" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach.31"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/community-outreach.31" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Community Outreach</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids.35"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids.35" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Treating people with AIDS</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/volunteers" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers.20"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/volunteers.20" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Volunteers</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education.30"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education.30" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Palliative care education</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies.18"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies.18" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Complementary alternative medicine therapies</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush.18"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush.18" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">Collaboration with Rush University Medical Center</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/credits" typeof="scalar:Composite">
+			<a class="metadata" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/credits.8"></a>
+			<a class="metadata" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+		</span>
+		<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/credits.8" typeof="scalar:Version">
+			<span class="metadata" property="dcterms:title">About the exhibit</span>
+			<span class="metadata" property="dcterms:description"></span>
+			<a class="metadata" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/credits"></a>
+		</span>
+		<!-- Page -->
+		<h1 property="dcterms:title">A Circle of Care: Horizon Hospice, 1978-2015</h1>
+		<span resource="https://exhibits.library.uic.edu/horizon-hospice/index" typeof="scalar:Composite">
+			<a class="metadata" aria-hidden="true" rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+			<a class="metadata" aria-hidden="true" rel="dcterms:isPartOf" href="https://exhibits.library.uic.edu/horizon-hospice"></a>
+			<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+			<span class="metadata" aria-hidden="true" property="scalar:banner">media/HORI_01_0004_0007.jpg</span>
+			<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+			<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:33:15-05:00</span>
+			<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1944"></a>
+		</span>
+		<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+			<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+			<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+		</span>
+		<span class="metadata" aria-hidden="true" id="book-id">19</span>
+		<a class="metadata" aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/index"></a>
+		<span class="metadata" aria-hidden="true" property="ov:versionnumber">16</span>
+		<span class="metadata" aria-hidden="true" property="dcterms:description">Important papers and photographs from the hospice's archives</span>
+		<span class="metadata" aria-hidden="true" property="scalar:defaultView">splash</span>
+		<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+		<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-16T16:03:20-05:00</span>
+		<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12814"></a>
+		<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+			<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+			<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+		</span>
+	</header>
+	<span property="sioc:content"></span>
+
+	<section>
+		<h1>Contents of this path:</h1>
+		<ol class="path_of">
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12818:1" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice.40#index=1"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice.40"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:35:17-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1945"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice.40" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice"></a>
+					<span aria-hidden="true" property="dcterms:title" content="The Origins of Horizon Hospice">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/the-origins-of-horizon-hospice">The Origins of Horizon Hospice</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">40</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1946</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-17T09:33:53-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12818"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12851:2" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising.27#index=2"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/fundraising" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising.27"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:36:33-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1946"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/fundraising.27" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/fundraising"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Fundraising">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/fundraising">Fundraising</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">27</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1947</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-18T14:01:25-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12851"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12821:3" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach.31#index=3"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/community-outreach" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach.31"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:36:49-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1947"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/community-outreach.31" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Community Outreach">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/community-outreach">Community Outreach</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">31</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1948</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-17T09:47:04-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12821"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12827:4" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids.35#index=4"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids.35"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:37:47-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1948"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids.35" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Treating people with AIDS">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/treating-people-with-aids">Treating people with AIDS</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">35</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">3679</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-17T13:43:35-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12827"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12833:5" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers.20#index=5"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/volunteers" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers.20"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-02-16T11:14:00-06:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:3679"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/volunteers.20" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/volunteers"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Volunteers">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/volunteers">Volunteers</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">20</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">3640</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-17T13:53:12-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12833"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12789:6" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education.30#index=6"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education.30"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-02-15T14:40:30-06:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:3640"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education.30" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Palliative care education">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/palliative-care-education">Palliative care education</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">30</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1949</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-16T15:22:38-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12789"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12836:7" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies.18#index=7"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies.18"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:38:08-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1949"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies.18" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Complementary alternative medicine therapies">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/cam-therapies">Complementary alternative medicine therapies</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">18</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1950</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-17T13:55:49-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12836"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12806:8" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush.18#index=8"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush.18"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T13:38:36-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1950"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush.18" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush"></a>
+					<span aria-hidden="true" property="dcterms:title" content="Collaboration with Rush University Medical Center">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/collaboration-with-rush">Collaboration with Rush University Medical Center</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">18</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<span class="metadata" aria-hidden="true" property="scalar:continue_to_content_id">1952</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-16T15:38:06-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12806"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+			<!-- Outward item -->
+			<li resource="urn:scalar:path:12814:12808:9" typeof="oac:Annotation">
+				<a aria-hidden="true" rel="oac:hasBody" href="https://exhibits.library.uic.edu/horizon-hospice/index.16"></a>
+				<a aria-hidden="true" rel="oac:hasTarget" href="https://exhibits.library.uic.edu/horizon-hospice/credits.8#index=9"></a>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/credits" typeof="scalar:Composite">
+					<a aria-hidden="true"  rel="dcterms:hasVersion" href="https://exhibits.library.uic.edu/horizon-hospice/credits.8"></a>
+					<span class="metadata" aria-hidden="true" property="scalar:isLive">1</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2020-10-27T16:28:04-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:content:1952"></a>
+				</span>
+				<span aria-hidden="true" resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/credits.8" typeof="scalar:Version">
+					<a aria-hidden="true" rel="dcterms:isVersionOf" href="https://exhibits.library.uic.edu/horizon-hospice/credits"></a>
+					<span aria-hidden="true" property="dcterms:title" content="About the exhibit">
+						<a href="https://exhibits.library.uic.edu/horizon-hospice/credits">About the exhibit</a>
+					</span>
+					<span aria-hidden="true" property="scalar:fullname"></span>
+					<span class="metadata" aria-hidden="true" property="ov:versionnumber">8</span>
+					<span class="metadata" aria-hidden="true" property="scalar:defaultView">plain</span>
+					<a class="metadata" aria-hidden="true" rel="prov:wasAttributedTo" href="https://exhibits.library.uic.edu/horizon-hospice/users/15"></a>
+					<span class="metadata" aria-hidden="true" property="dcterms:created">2021-06-16T15:43:17-05:00</span>
+					<a class="metadata" aria-hidden="true" rel="scalar:urn" href="urn:scalar:version:12808"></a>
+				</span>
+				<span resource="https://exhibits.library.uic.edu/horizon-hospice/users/15" typeof="foaf:Person">
+					<span class="metadata" aria-hidden="true" property="foaf:name">Megan Keller Young</span>
+					<span class="metadata" aria-hidden="true" property="foaf:mbox_sha1sum">2e72a529e58eee72bb9ae4f1e37365aa654232ca</span>
+				</span>
+			</li>
+		</ol>
+	</section>
+	</article>
+
+</body>
+</html>

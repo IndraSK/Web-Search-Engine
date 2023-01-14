@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link href="css/site.css" rel="stylesheet">
+
+    <title>UIC Law GPA Calculator</title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon-32x32.png"/>
+  </head>
+  <body>
+    <main>
+        <div class="container py-4">
+          <header class="pb-3 mb-4 border-bottom">
+            <a href="./index.html" class="d-flex align-items-center text-dark text-decoration-none">
+              
+            <img src="./images/University_of_Illinois_at_Chicago_circle_logo.svg.png">
+            <h3 class="ms-2">UIC Law Registrarâs Office</h3>
+            </a>
+          </header>
+      
+          <div class="p-3 mb-4 bg-light rounded-3">
+            <div class="container-fluid">
+              <h1 class="display-5 fw-bold">GPA Calculator</h1>
+              <p class="col-md">This calculator can be used for you to plan your goals and also to project your new GPA. Do remember that this is an unofficial tool, only as accurate as the information you enter. GPA is calculated by dividing the total grade points earned by the total amount of quality hours.</p>
+              
+<div class="accordion" id="accordionHelp">
+  <div class="accordion-item">
+    <h5 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        How do I calculate my GPA for the current term only?
+      </button>
+    </h5>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionHelp">
+      <div class="accordion-body">
+        <ul>
+			<li>Leave the Current Cumulative GPA table blank.</li>
+			<li>Enter the name, number of units, and your grade for each course. Note that the "grade entered" is the grade you anticipate for each course.</li>
+			<li>After you enter the credit and a grade potential grade for each class, your GPA estimates will be displayed in the third table.</li>
+		</ul>
+      </div>
+    </div>
+  </div>
+
+</div>		  
+			  
+			 
+            </div>
+          </div>
+      
+          <div class="row align-items-md-stretch">
+
+            <div class="col-md-12">
+              <div class="h-100 p-5 bg-light rounded-3">
+                
+            <form class="fillpage form" name="gpa_calc" id="gpa_calc">
+                <fieldset class="fillpage">
+                    
+                    <table id="cumGPA">
+                        <caption>Current Cumulative GPA</caption>
+                        <tr>
+                            <th scope="col">Cumulative Quality Credits</th>
+                            <th scope="col">Cumulative GPA (4.0 scale)</th>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="curUnits" id="curUnits" maxlength="3" class="shortInput form-control" /></td>
+                            <td>
+                                <input type="text" name="curGPA" id="curGPA" maxlength="6" class="medInput form-control" />
+                                <input type="hidden" name="effUnits" id="effUnits" />
+                                <input type="hidden" name="effQps" id="effQps" />
+                            </td>
+                        </tr>
+                    </table>
+                    <table id="termUnits">
+                        <caption>
+                            Current Courses
+                        </caption>
+                        <tr>
+                            <th scope="col">Course Title</th>
+                            <th scope="col">Credits</th>
+                            <th scope="col">Potential Grade </th>
+                        </tr>
+                        <tr id="newRow">
+                            <td><input type="text" name="course[]" class="form-control" placeholder="(Optional) Course Name" /></td>
+                            <td><input type="text" name="units[]" maxlength="1" class="shortInput form-control" /></td>
+                            <td>
+                                <select class="form-control" name="gradeHigh[]" id="gradeHigh1">
+                                    <option value="4.01">A+</option>
+                                    <option value="4">A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1">D</option>
+                                    <option value="0">WF</option>
+                                    <option value="0">F</option>
+                                </select>
+
+
+                                <input type="hidden" name="highPoints[]" id="highPoints1" value="0" readonly="readonly" />
+                                <input type="hidden" name="lowPoints[]" id="lowPoints1" value="0" readonly="readonly" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input class="form-control" type="text" name="course[]" id="course2" placeholder="(Optional) Course Name" /></td>
+                            <td><input class="form-control shortInput" type="text" name="units[]" id="units2" maxlength="1" /></td>
+                            <td>
+                                <select class="form-control" name="gradeHigh[]" id="gradeHigh2">
+                                    <option value="4.01">A+</option>
+                                    <option value="4">A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1">D</option>
+                                    <option value="0">WF</option>
+                                    <option value="0">F</option>
+                                </select>
+                                <input type="hidden" name="highPoints[]" id="highPoints2" value="0" readonly="readonly" />
+                                <input type="hidden" name="lowPoints[]" id="lowPoints2" value="0" readonly="readonly" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input class="form-control" type="text" name="course[]" id="course3" placeholder="(Optional) Course Name" /></td>
+                            <td><input class="form-control shortInput" type="text" name="units[]" id="units3" maxlength="1" /></td>
+                            <td>
+                                <select class="form-control" name="gradeHigh[]" id="gradeHigh3">
+                                    <option value="4.01">A+</option>
+                                    <option value="4">A</option>
+                                    <option value="3.67">A-</option>
+                                    <option value="3.33">B+</option>
+                                    <option value="3">B</option>
+                                    <option value="2.67">B-</option>
+                                    <option value="2.33">C+</option>
+                                    <option value="2">C</option>
+                                    <option value="1.67">C-</option>
+                                    <option value="1">D</option>
+                                    <option value="0">WF</option>
+                                    <option value="0">F</option>
+                                </select>
+                                <input type="hidden" name="highPoints[]" id="highPoints3" value="0" readonly="readonly" />
+                                <input type="hidden" name="lowPoints[]" id="lowPoints3" value="0" readonly="readonly" />
+                            </td>
+                        </tr>
+                    </table>
+                    <a href="javascript:void()" onclick="javascript:addNewRow()">Add New Row</a>&nbsp;&nbsp;
+                    <a href="javascript:void()" onclick="javascript:removeRow()">Remove Row</a>&nbsp;&nbsp;
+                    <a id="cumGPAButton" href="javascript:void()" onclick="javascript:toggleCumGPA()">Hide Cumulative GPA</a>
+                    <br />&nbsp;<br />
+                    <table>
+                        <tr>
+                            <th scope="col"><label for="totUnits">Total Credits:</label></th>
+                            <td>
+                                <input type="hidden" id="qPointsHigh" class="medInput" value="0" readonly="readonly" />
+                                <input type="hidden" id="qPointsLow" readonly="readonly" class="medInput" value="0" />
+                                <input type="text" id="totUnits" class="medInput form-control" value="0" readonly="readonly" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="col"><label for="gpaHigh">GPA: </label></th>
+                            <td><input type="text" id="gpaHigh" class="medInput form-control" value="0" readonly="readonly" /></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+              </div>
+            </div>
+          </div>
+      
+          <footer class="pt-3 mt-4 text-muted border-top">
+            UIC Law | Information Technology Services
+          </footer>
+        </div>
+      </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+   
+
+    <script src="js/site.js"></script>
+  </body>
+</html>

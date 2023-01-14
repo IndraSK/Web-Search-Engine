@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Website style adapted from http://compbio.cs.uic.edu/netinf17/-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Elena Zheleva, Course on Causal Inference and Learning, University of Illinois at Chicago (UIC)">
+    <link rel="shortcut icon" type="image/ico" href="../../img/uic.ico">
+    <meta name="author" content="Elena Zheleva">
+
+    <title>CS 594 - Causal Inference and Learning</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../../css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--link href="css/css.css" rel="stylesheet" type="text/css">
+    <link href="../../css/css(1).css" rel="stylesheet" type="text/css">
+    <link href="../../css/css(2).css" rel="stylesheet" type="text/css">
+    <link href="../../css/css(3).css" rel="stylesheet" type="text/css"-->
+    <link href="../../css/print.css" rel="stylesheet" type="text/css" media="print" >
+    <!--link href="css/fa-fonts.css" rel="stylesheet" type="text/css"-->
+
+<style>
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+table {
+  border-spacing: 15px;
+}
+</style>
+</head>
+
+<body id="page-top" class="index">
+    <!-- Google Analytics -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-96672401-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+
+<!-- StatCounter Analytics -->
+<script type="text/javascript">
+var sc_project=11304851; 
+var sc_invisible=1; 
+var sc_security="279e2772"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="site stats"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11304851/0/279e2772/1/" alt="site
+stats"></a></div></noscript>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Main</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#news">News</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#teaching">Teaching</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pubs">Publications</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">Service</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#bio">Bio</a>
+                    </li>
+                </ul>
+            </div-->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading text-left">CS 594 Causal Inference and Learning</div>
+                <div class="intro-lead-in text-left">University of Illinois at Chicago, Fall 2019</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="intro">
+        <div class="container">
+            <div class="row text-justify">
+                <div class="col-lg-4 text-left">
+                <p class="large text-muted"> 
+                <br>
+               <b>Time: </b> TTh 11-12:15pm
+                </p>
+                <p class="large text-muted">
+                       <b>Location: </b> Taft Hall 216
+                </p>
+                <p class="large text-muted"><b>Instructor</b>: <a href="../../">Prof. Elena Zheleva</a>
+                
+                </p>     
+                <p class="large text-muted"><b>Office hours</b>: TBD, SEO 1140</p> 
+                <p class="large text-muted"><b>Contact:</b> 
+                <script type="text/javascript">
+//<![CDATA[
+<!--
+var x="function f(x){var i,o=\"\",l=x.length;for(i=l-1;i>=0;i--) {try{o+=x.c" +
+"harAt(i);}catch(e){}}return o;}f(\")\\\"function f(x,y){var i,o=\\\"\\\\\\\""+
+"\\\\,l=x.length;for(i=0;i<l;i++){y%=127;o+=String.fromCharCode(x.charCodeAt" +
+"(i)^(y++));}return o;}f(\\\"\\\\>4?(3:\\\\\\\\016\\\\\\\\025L\\\\\\\\024\\\\"+
+"\\\\026\\\\\\\\014\\\\\\\\022\\\\\\\\002\\\\\\\\004\\\\\\\\007BIP\\\\\\\\01" +
+"4N\\\\\\\\007\\\\\\\\002\\\\\\\\024\\\\\\\\024N(W\\\\\\\\033\\\\\\\\026\\\\" +
+"\\\\021\\\\\\\\025\\\\\\\\016\\\\\\\\024F\\\\\\\\030\\\\\\\\004hdnfrdFraj$n" +
+"hxR-0e{gxp+K:\\\\\\\\\\\\\\\\wzuqB=\\\\\\\\036DXKAICQIi_BO\\\\\\\\003KKE\\\\"+
+"\\\\r\\\\\\\\035R\\\\\\\\n\\\\\\\\027\\\\\\\\037\\\\\\\\014\\\\\\\\010\\\\\\"+
+"\\002\\\"\\\\,90)\\\"(f};)lo,0(rtsbus.o nruter};)i(tArahc.x=+o{)--i;0=>i;1-" +
+"l=i(rof}}{)e(hctac};l=+l;x=+x{yrt{)29=!)31/l(tAedoCrahc.x(elihw;lo=l,htgnel" +
+".x=lo,\\\"\\\"=o,i rav{)x(f noitcnuf\")"                                     ;
+while(x=eval(x));
+//-->
+//]]>
+</script>
+               </p>
+<p><br>
+Two roads diverged in a yellow wood,<br>
+And sorry I could not travel both [...] <br>
+I took the one less traveled by, <br>
+And that has made all the difference. <br>
+--Robert Frost
+</p>
+                </div>
+                <div class="col-lg-8 text-left">
+                      <p style="margin-left: 2em" align="left"><i>"The dramatic success in machine learning has led to an explosion of
+AI applications and increasing expectations for autonomous systems that exhibit human-level intelligence. These expectations, however,
+have met with fundamental obstacles that cut across many application areas. [... One of the obstacles] concerns the understanding of cause-effect connections. This hallmark of human cognition is [...] a necessary (though not sufficient) ingredient for achieving human-level intelligence.
+This ingredient should allow computer systems to choreograph a parsimonious and modular representation of their environment, interrogate that representation, distort it by acts of imagination and finally answer "What if?" kind of questions. Examples are interventional questions: ÎWhat if I make it happen?â and retrospective or explanatory questions: ÎWhat if I had acted differently?â or Îwhat if
+my flight had not been late?â Such questions cannot be articulated, let alone answered by systems that operate in purely statistical
+mode, as do most learning machines today."</i>
+<br>--From "<a href="https://cacm.acm.org/magazines/2019/3/234929-the-seven-tools-of-causal-inference-with-reflections-on-machine-learning/fulltext">The Seven Tools of Causal Inference
+with Reflections on Machine Learning</a>" by Judea Pearl
+</p> 
+                      <h3 class="section-heading">Course Description</h3>
+                      <p class="large">
+                      Causal reasoning is an integral part of data science and artificial intelligence. The goal of the course on Causal Inference and Learning is to introduce students to methodologies and algorithms for causal reasoning and connect various aspects of causal inference, including methods developed within computer science, statistics, and economics. The course will cover state-of-the-art research on causal reasoning and prepare students to conduct research in this area. 
+</p>
+                      <h3 class="section-heading">Course objectives</h3>
+                      <p class="large">
+                      This is a seminar course. The goal of the course is to expose graduate students to state-of-the-art research on causal inference. The class project plays a central role in the course, and it should be taken as an opportunity to connect your research area of interest to the course topics.
+                      </p>
+                      <h3>Course format</h3> 
+                      <p>Approximately one third of the course will be lecture-based using the following book by 
+                      Judea Pearl, Madelyn Glymour and Nicholas Jewell: <i>Causal Inference in Statistics: A Primer</i> (Wiley Press 2016). 
+                      The rest of the course will cover recent papers from the growing body of research on causal inference.</p>
+
+                      <h3 class="section-heading">Student deliverables</h3>
+                      <p class="large">
+                      Homework - 15%
+                      <br>Paper summaries and discussion - 15%
+                      <br>Presentations - 20% 
+                      <br>Course project - 50% (proposal, progress report, final presentation, final report)
+                      </p>
+                      
+                      <h3>Prerequisites</h3> <p class="large">CS 412 Introduction to Machine Learning or consent of the instructor.</p>
+
+<p class="large">We will be using <a href="http://piazza.com/uic/fall2019/cs594/home">Piazza</a> for all course discussions and materials. Students registered for the course will be sent an enrollment email before the first day of class.
+                      </p>
+                      <h3>Course schedule (check Piazza for most up-to-date)</h3>
+                      
+<table border="1" cellspacing="0" cellpadding="6px">
+<tbody>
+<tr>
+<td>Date</td>
+<td>Topic</td>
+<td>Assigned Reading</td>
+<td>Presenter</td>
+<td>Announcements</td>
+</tr>
+<tr>
+<td>8/27</td>
+<td>Introduction</td>
+<td>
+<br>
+Syllabus
+<br>
+<a href="https://plato.stanford.edu/entries/causation-counterfactual/" target="_blank" rel="noopener noreferrer">Philosophy of causality</a></td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>8/29</td>
+<td>Why causality?</td>
+<td><br>
+Judea Pearl. <a href="http://www.google.com/url?q=http%3A%2F%2Fftp.cs.ucla.edu%2Fpub%2Fstat_ser%2Fr481.pdf&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNH6AdEj_ElpTpTEhgqdRQ_YeLjfcg" target="_blank" rel="noopener noreferrer">The Seven Pillars of Causal Reasoning with Reflections on Machine Learning</a>. Communications of the ACM. 2019.
+<br>
+Brenden M. Lake, Tomer D. Ullman, Joshua B. Tenenbaum, Samuel J. Gershman. <a href="https://www.google.com/url?q=https%3A%2F%2Farxiv.org%2Fabs%2F1604.00289&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEOJPqVSRNGhGccNIrmKyzjVC8V3Q" target="_blank" rel="noopener noreferrer">Building Machines That Learn and Think Like People</a>. 2016.</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/3</td>
+<td>Hypothesis testing and randomized controlled trials</td>
+<td>
+CIT Ch. 11 (book list at the end of table)<br>
+PTDS Ch. 18</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/5</td>
+<td>Statistical models: review</td>
+<td>CISP Ch. 1</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/10</td>
+<td>Structural causal models</td>
+<td>CISP Ch. 1</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/12</td>
+<td>Graphical models</td>
+<td>CISP Ch. 2</td>
+<td>Professor</td>
+<td>
+HW 1 out </td>
+</tr>
+<tr>
+<td>9/17</td>
+<td>Interventions, adjustment formula, back-door criterion</td>
+<td>CISP Ch. 3.1-3.3</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/19</td>
+<td>Front-door criterion, covariate-specific effects, inverse probability weighing</td>
+<td>CISP Ch. 3.4-3.6</td>
+<td>Professor</td>
+<td>HW 1 due 11:59pm</td>
+</tr>
+<tr>
+<td>9/24</td>
+<td>Mediation and causal inference in linear systems</td>
+<td>CISP Ch. 3.7-3.8</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>9/26</td>
+<td>Defining and computing counterfactuals</td>
+<td>CISP Ch. 4.1-2.1</td>
+<td>Professor</td>
+<td>Project proposal due</td>
+</tr>
+<tr>
+<td>10/1</td>
+<td>Counterfactual probabilities, counterfactuals in linear systems</td>
+<td>CISP Ch. 4.3</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>10/3</td>
+<td>Counterfactuals: attribution, mediation, practical uses</td>
+<td>CISP Ch. 4.4-4.5</td>
+<td>Professor</td>
+<td>
+HW 2 out</td>
+</tr>
+<tr>
+<td>10/8</td>
+<td>Causal entropy</td>
+<td><br>
+Ziebart, Bignell, Dey. <a href="https://www.cs.uic.edu/pub/Ziebart/Publications/ziebart2013maximum.pdf" target="_blank" rel="noopener noreferrer">The principle of maximum causal entropy for estimating interacting processes</a>. IEEE Transactions on Information Theory 2013.</td>
+<td>
+Guest lecture:
+<br>
+Prof. Brian Ziebart
+</td>
+<td></td>
+</tr>
+<tr>
+<td>10/10</td>
+<td>Selection and transportability bias</td>
+<td><br>
+Bareinboim, Pearl. <a href="https://www.pnas.org/content/113/27/7345" target="_blank" rel="noopener noreferrer">Causal inference and the data fusion problem</a>. PNAS 2016.
+<br>
+Bareinboim, Tian, Pearl. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.643.1334&amp;rep=rep1&amp;type=pdf" target="_blank" rel="noopener noreferrer">Recovering from selection bias in causal and statistical inference</a>. AAAI 2014. (best paper award)</td>
+<td>
+Guest lecture:
+<br>
+Prof.
+Ali Tafti
+</td>
+<td></td>
+</tr>
+<tr>
+<td>10/15</td>
+<td>Causal discovery I</td>
+<td>
+<br>
+CPS Ch. 5
+<br>
+Sridhar, Pujara, Getoor. "<a href="https://www.ijcai.org/proceedings/2018/0709.pdf" target="_blank" rel="noopener noreferrer">Scalable probabilistic causal structure discovery</a>." IJCAI 2018. <a href="https://bitbucket.org/linqs/causpsl" target="_blank" rel="noopener noreferrer">Code</a>.
+</td>
+<td>Shishir, Moh</td>
+<td></td>
+</tr>
+<tr>
+<td>10/17</td>
+<td>Causal discovery II</td>
+<td><br>
+Chalupka, Perona, Eberhardt. <a href="http://proceedings.mlr.press/v51/chalupka16.pdf" target="_blank" rel="noopener noreferrer">Multi-level cause-effect systems</a>. AISTATS 2016. <a href="http://www.vision.caltech.edu/~kchalupk/code.html" target="_blank" rel="noopener noreferrer">Code</a>.
+<br>
+Beckers, Eberhardt, Halpern. <a href="http://auai.org/uai2019/proceedings/papers/210.pdf" target="_blank" rel="noopener noreferrer">Approximate causal abstraction</a>. UAI 2019. </td>
+<td>Aditi, Ragib</td>
+<td>HW 2 due 11:59pm</td>
+</tr>
+<tr>
+<td>10/22</td>
+<td>Confounding bias</td>
+<td><br>
+D'Amour. <a href="http://proceedings.mlr.press/v89/d-amour19a/d-amour19a.pdf" target="_blank" rel="noopener noreferrer">On multi-cause causal inference with unobserved confounding: Counterexamples, impossibility, and alternatives.</a> AISTATS 2019.
+<br>
+Wang, Blei. <a href="https://arxiv.org/pdf/1805.06826.pdf" target="_blank" rel="noopener noreferrer">The blessings of multiple causes</a>. Arxiv 2018. <a href="https://colab.research.google.com/github/blei-lab/deconfounder_tutorial/blob/master/deconfounder_tutorial.ipynb" target="_blank" rel="noopener noreferrer">Code</a>.</td>
+<td>Professor</td>
+<td></td>
+</tr>
+<tr>
+<td>10/24</td>
+<td>Interference bias</td>
+<td><br>
+Ogburn, VanderWeele. <a href="https://projecteuclid.org/euclid.ss/1421330547" target="_blank" rel="noopener noreferrer">Causal diagrams for interference</a>. Statistical science. 2014.</td>
+<td>Rushit, Harikrishna</td>
+<td></td>
+</tr>
+<tr>
+<td>10/29</td>
+<td>Causal inference in networks I</td>
+<td><br>
+Bhattacharya, Malinsky, Shpitser. <a href="http://auai.org/uai2019/proceedings/papers/372.pdf" target="_blank" rel="noopener noreferrer">Causal inference under interference and network uncertainty</a>. UAI 2019.
+<br>
+Arbour, Garant, Jensen. <a href="http://www.kdd.org/kdd2016/papers/files/rfp0878-arbourA.pdf" target="_blank" rel="noopener noreferrer">Inferring network effects in observational data</a>. KDD 2016.</td>
+<td>Ben, Chris</td>
+<td></td>
+</tr>
+<tr>
+<td>10/31</td>
+<td>Causal inference in networks II</td>
+<td>
+<br>
+Shalizi, Thomas. <a href="https://arxiv.org/abs/1004.4704" target="_blank" rel="noopener noreferrer">Homophily and contagion are generically confounded in observational social network studies</a>. Sociological Methods and Research, 40, 2011.
+</td>
+<td>Zahra, Zohreh</td>
+<td></td>
+</tr>
+<tr>
+<td>11/5</td>
+<td>Causal inference in social sciences</td>
+<td><br>
+Varian. <a href="http://www.pnas.org/content/113/27/7310.full.pdf" target="_blank" rel="noopener noreferrer">Causal inference in economics and marketing</a>, PNAS 2016.
+<br>
+Shmueli. <a href="https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf" target="_blank" rel="noopener noreferrer">To explain or to predict?</a>, Stat. Science 2010.<br>
+Athey. <a href="https://www.nber.org/chapters/c14009" target="_blank" rel="noopener noreferrer">Impact of machine learning on economics</a>. Chapter in <em>The Economics of AI: An Agenda</em>. 2018.</td>
+<td>Professor</td>
+<td>Progress report due 11:59pm</td>
+</tr>
+<tr>
+<td>11/7</td>
+<td>Causal inference in networks III</td>
+<td><br>
+Toulis, Kao. <a href="http://proceedings.mlr.press/v28/toulis13.pdf" target="_blank" rel="noopener noreferrer">Estimation of causal peer influence effects</a>. ICML 2013.
+<br>
+Eckles, Kizilcec, Bakshy. <a href="http://www.pnas.org/content/113/27/7316.full.pdf" target="_blank" rel="noopener noreferrer">Estimating peer effects in networks with peer encouragement designs</a>. PNAS 2016.</td>
+<td>Matteo, Niccolo</td>
+<td></td>
+</tr>
+<tr>
+<td>11/12</td>
+<td>Matching and propensity modeling</td>
+<td><br>
+Shahid, Zheleva. <a href="https://www.cs.uic.edu/~elena/pubs/shahid-why19.pdf" target="_blank" rel="noopener noreferrer">Counterfactual learning in networks: An empirical study of model dependence</a>. AAAI-WHY 2019. 
+<br>
+Stuart. <a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.753.724&amp;rep=rep1&amp;type=pdf" target="_blank" rel="noopener noreferrer">Matching methods for causal inference: a review and look forward</a>. Stat. Science 2010.</td>
+<td>Badhru, Kathy</td>
+<td></td>
+</tr>
+<tr>
+<td>11/14</td>
+<td>Causal inference and NLP</td>
+<td><br>
+Wang, Culotta. <a href="https://arxiv.org/pdf/1811.04890.pdf" target="_blank" rel="noopener noreferrer">When do words matter? Understanding the impact of lexical choice on audience perception using individual treatment effect estimation</a>. AAAI 2019.
+<br>
+Landeiro, Tran, Culotta. <a href="http://cs.iit.edu/~culotta/pubs/landeiro19discovering.pdf" target="_blank" rel="noopener noreferrer">Discovering and Controlling for Latent Confounds in Text Classification Using Adversarial Domain Adaptation</a>. SDM 2019.</td>
+<td>
+Guest lecture:
+<br>
+Prof. Aron Culotta
+</td>
+<td></td>
+</tr>
+<tr>
+<td>11/19</td>
+<td>Heterogeneous treatment effects</td>
+<td><br>
+KÃ¼nzel, Sekhon, Bickel, Yu. <a href="https://www.pnas.org/content/pnas/116/10/4156.full.pdf" target="_blank" rel="noopener noreferrer">Metalearners for estimating heterogeneous treatment effects using machine learning</a>. PNAS 2019.
+<br>
+Tran, Zheleva. <a href="https://www.cs.uic.edu/~elena/pubs/tran-aaai19.pdf" target="_blank" rel="noopener noreferrer">Learning triggers for heterogeneous treatment effects</a>. AAAI 2019.</td>
+<td>Elisa, Jean-Philippe</td>
+<td></td>
+</tr>
+<tr>
+<td>11/21</td>
+<td>Causal inference and machine learning</td>
+<td><br>
+Scholkopf, Janzing, Peters, Sgouritsa, Zhang, Mooij. <a href="http://is.tuebingen.mpg.de/fileadmin/user_upload/files/publications/2012/ICML2012_Schoelkopf-etal.pdf" target="_blank" rel="noopener noreferrer">On causal and anticausal inference</a><em>. </em>ICML 2012<em>.</em>
+<br>
+Peters, Janzing, Scholkopf. <a href="http://proceedings.mlr.press/v9/peters10a/peters10a.pdf" target="_blank" rel="noopener noreferrer">Identifying cause and effect on discrete data using Additive Noise Models</a>. AISTAT 2010.</td>
+<td>
+Rishabh,
+Jishnu </td>
+<td></td>
+</tr>
+<tr>
+<td>11/26</td>
+<td>Causal inference, reinforcement and transfer learning</td>
+<td><br>
+Lee, Bareinboim. <a href="http://papers.nips.cc/paper/7523-structural-causal-bandits-where-to-intervene.pdf" target="_blank" rel="noopener noreferrer">Structural causal bandits: where to intervene</a>. NIPS 2018.
+<br>
+Bengio, Deleu, Rahaman, Rosemary, Lachapelle, Bilaniuk, Goyal, Pal. <a href="https://arxiv.org/abs/1901.10912" target="_blank" rel="noopener noreferrer">A meta-transfer objective for learning to disentangle causal mechanisms</a>. Arxiv 2019. <a href="https://github.com/authors-1901-10912/A-Meta-Transfer-Objective-For-Learning-To-Disentangle-Causal-Mechanisms" target="_blank" rel="noopener noreferrer">Code</a>.</td>
+<td>Kathy, Ishan</td>
+<td></td>
+</tr>
+<tr>
+<td>11/28</td>
+<td>No class (Thanksgiving)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12/3</td>
+<td>Presentations</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12/5</td>
+<td>Presentations</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12/9</td>
+<td>Finals week</td>
+<td></td>
+<td></td>
+<td>Final project due 11:59pm
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+<strong>Required textbook:</strong>
+
+<br>[<strong>CISP</strong>] Judea Pearl, Madelyn Glymour, Nicholas Jewell (2016). <a href="https://www.amazon.com/Causal-Inference-Statistics-Judea-Pearl/dp/1119186846" target="_blank" rel="noopener noreferrer"><em>Causal Inference in Statistics: A Primer</em></a>. Wiley Press. <a href="http://bayes.cs.ucla.edu/PRIMER/pearl-etal-2016-primer-errata-pages-august2019.pdf" target="_blank" rel="noopener noreferrer">Errata</a>. (<a href="https://ebookcentral-proquest-com.proxy.cc.uic.edu/lib/uic/detail.action?docID=4383483" target="_blank" rel="noopener noreferrer">ebook from library</a>). <a href="http://bayes.cs.ucla.edu/PRIMER/Manual" target="_blank" rel="noopener noreferrer">Solutions to selected problems</a>. <a href="http://dagitty.net/primer/index.html" target="_blank" rel="noopener noreferrer">DAGitty solutions to selected problems</a>.
+
+<br><br>
+<strong>Optional textbooks:</strong>
+<br>
+[<strong>WHY</strong>] Judea Pearl, Dana Mackenzie (2018): <a href="https://www.amazon.com/Book-Why-Science-Cause-Effect/dp/046509760X" target="_blank" rel="noopener noreferrer"><em>The Book of Why</em></a>. Basic Books.
+<br>[<strong>CMRI</strong>] Judea Pearl (2009): <em><a href="http://www.google.com/url?q=http%3A%2F%2Fbayes.cs.ucla.edu%2FBOOK-2K%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFasRR4_6AG4Zk1fblPStX6PeeJ-g" target="_blank" rel="noopener noreferrer">Causality: Models, Reasoning, and Inference</a></em>. Cambridge University Press. (<a href="https://ebookcentral-proquest-com.proxy.cc.uic.edu/lib/uic/detail.action?docID=1103807" target="_blank" rel="noopener noreferrer">ebook from library</a>)
+<br>[<strong>ECI</strong>] Jonas Peters, Dominik Janzing, Bernhard SchÃ¶lkopf (2017): <em><a href="https://www.google.com/url?q=https%3A%2F%2Fmitpress.mit.edu%2Fbooks%2Felements-causal-inference&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGHr_GZSnTtjNFS0iSXGDpHoth0Vw" target="_blank" rel="noopener noreferrer">Elements of Causal Inference: Foundations and Learning Algorithms</a></em>. MIT Press.
+<br>[<strong>CPS</strong>] Spirtes, Glymour, Scheines (2000): <em><a href="https://www.researchgate.net/profile/Peter_Spirtes/publication/242448131_Causation_Prediction_and_Search/links/0deec534be5d6a4fa7000000.pdf" target="_blank" rel="noopener noreferrer">Causation, prediction and search</a></em>. MIT Press.
+<br>[<strong>CI</strong>] Hernan, Robins (2020). <a href="https://www.hsph.harvard.edu/miguel-hernan/causal-inference-book/" target="_blank" rel="noopener noreferrer"><em>Causal inference</em></a>. Chapman &amp; Hall. 
+<br>[<strong>CISSBS</strong>] Guido Imbens and Donald Rubin (2015): <em><a href="https://www.cambridge.org/us/academic/subjects/statistics-probability/statistical-theory-and-methods/causal-inference-statistics-social-and-biomedical-sciences-introduction" target="_blank" rel="noopener noreferrer">Causal Inference for Statistics, Social and Biomedical Sciences</a></em>. Cambridge University Press.
+<br>[<strong>PTDS</strong>] Lau, Gonzalez, Nolan: <i><a href="https://www.textbook.ds100.org/" target="_blank" rel="noopener noreferrer">Principles and techniques of data science</a></i>. 
+<br>[<strong>CIT</strong>] Adhikari, DeNero: <em><a href="https://www.inferentialthinking.com/" target="_blank" rel="noopener noreferrer">Computational and Inferential thinking</a></em>. 
+
+                </div>
+            </div>
+        </div>
+    </section>
+   </p>
+
+
+                      
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-darkest-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                </div>
+                <!--div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div-->
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <!--script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script-->
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+
+</body>
+</html>

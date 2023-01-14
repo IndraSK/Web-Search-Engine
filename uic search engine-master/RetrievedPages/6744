@@ -1,0 +1,585 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>PhD in Pharmaceutical Sciences &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/courseleaf.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">UIC Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<header id="header-new">
+	<div class="wrap">
+		<div class="logo-header">
+			<a href="//www.uic.edu">
+				<img src="/images/logo2021.png" alt="University of Illinois Chicago" />
+			</a>
+		</div>
+		<nav class="catalog-quicklinks" aria-label="catalog quicklink">
+			<button id="hamburger" aria-controls="mobile-menu" data-toggle="#mobile-menu" aria-expanded="false">
+				<span class="sr-only">Toggle menu</span>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</button>
+			<div id="mobile-menu">
+			<ul id="quicklinks">
+				<li><a href="/ucat/">Undergraduate</a></li>
+				<li><a href="/gcat">Graduate</a></li>
+				<li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+			</ul>
+			<div id="search" role="search">
+				<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+				</form>
+			</div><!-- end #search -->
+		</div><!-- /#mobile-menu -->
+		</nav>
+	</div>
+</header>
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <a href="/">
+			<h1>Academic Catalog</h1>
+		</a>
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<section id="banner" aria-labbledby="banner-header"
+ class="grad"
+>
+    <div class="wrap">
+
+
+		<div class="banner-text">
+			<h2 id="banner-header">2022-2024 Graduate Catalog</h2>
+		</div>
+
+
+
+
+    </div><!--end .wrap -->
+</section><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <a id="cl-menu-control" href="#" class="togglenav">
+                <span class="cl-menu-text">Catalog Navigation</span>
+                <!-- <a class="cl-menu-btn" href="#">Catalog Navigation</a> -->
+				<svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation"><title>Down arrow icon</title><g fill="none" fill-rule="evenodd"><circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"></circle><path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"></path></g></svg>
+			</a><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="isparent"><a href="/ucat/">Undergraduate Catalog</a></li>
+	<li class="active isparent"><a href="/gcat/">Graduate Catalog</a>
+	<ul class="nav levelone" id="/gcat/">
+		<li><a href="/gcat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/gcat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/gcat/graduate-study/">Graduate Study at UIC</a></li>
+		<li class="isparent"><a href="/gcat/degree-programs/">Degree Programs</a></li>
+		<li class="active isparent"><a href="/gcat/colleges-schools/">Colleges &amp;&#8203; Schools</a>
+		<ul class="nav leveltwo" id="/gcat/colleges-schools/">
+			<li class="isparent"><a href="/gcat/colleges-schools/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/dentistry/">College of Dentistry</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/education/">College of Education</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/engineering/">College of Engineering</a></li>
+			<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+			<li><a href="/gcat/colleges-schools/law/">School of Law</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/medicine/">College of Medicine</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/nursing/">College of Nursing</a></li>
+			<li class="active isparent"><a href="/gcat/colleges-schools/pharmacy/">College of Pharmacy</a>
+			<ul class="nav levelthree" id="/gcat/colleges-schools/pharmacy/">
+				<li><a href="/gcat/colleges-schools/pharmacy/pharmd/">Pharmacy (Professional Program: PharmD)</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/cer/">Comparative Effectiveness Research</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/forensic-sci/">Forensic Science</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/forensic-tox/">Forensic Toxicology</a></li>
+				<li class="active isparent"><a href="/gcat/colleges-schools/pharmacy/pharmaceutical-sciences/">Pharmaceutical Sciences</a>
+				<ul class="nav levelfour" id="/gcat/colleges-schools/pharmacy/pharmaceutical-sciences/">
+					<li class="active self"><a href="#" onclick="return false;">PhD in Pharmaceutical Sciences</a></li>
+				</ul>
+				</li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/psop/">Pharmacy</a></li>
+				<li><a href="/gcat/colleges-schools/pharmacy/pharmd-phd/">Joint PharmD/&#8203;PhD Program</a></li>
+			</ul>
+			</li>
+			<li class="isparent"><a href="/gcat/colleges-schools/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/social-work/">Jane Addams College of Social Work</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/gcat/colleges-schools/council-teacher-education/">Council on Teacher Education</a></li>
+			<li><a href="/gcat/colleges-schools/addl-opps/">Additional Opportunities for Graduate and Professional Study</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/gcat/course-descriptions/">Graduate Course Descriptions</a></li>
+		<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+		<li><a href="/gcat/graduatefaculty/">Graduate Faculty</a></li>
+		<li><a href="/gcat/archive-links/">Archive &amp;&#8203; Links</a></li>
+		<li><a href="http://grad.uic.edu" target="_blank">Graduate College Website</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/gcat/">Graduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/">Colleges&nbsp;&amp;&nbsp;Schools</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/pharmacy/">College&nbsp;of&nbsp;Pharmacy</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/pharmacy/pharmaceutical-sciences/">Pharmaceutical&nbsp;Sciences</a><span class="crumbsep">/</span></li><li><span class="active">PhD in Pharmaceutical Sciences</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">PhD in Pharmaceutical Sciences</h1>
+
+
+
+<div id="textcontainer" class="page_content">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+<h2>Admission Requirements</h2>
+<p>In addition to the Graduate College minimum requirements, applicants must meet the following program requirements:</p>
+<ul>
+	<li><strong>Baccalaureate Field</strong> Pharmacy, chemistry, biological sciences, or a related biomedical science area</li>
+	<li><strong>Grade Point Average</strong> At least 3.00/4.00 for the final 60 semester (90 quarter) hours of undergraduate study</li>
+	<li><strong>Tests Required</strong> None</li>
+	<li><strong>Minimum English Competency Test Score</strong>
+	<ul>
+		<li><strong>TOEFL</strong> 80, with subscores of Reading 19, Listening 17, Speaking 20, and Writing 21 (iBT Test); 60, with subscores of Reading 19, Listening 17, Writing 21 (revised Paper-Delivered Test), <strong>OR,</strong></li>
+		<li><strong>IELTS</strong> 6.5, with subscores of 6.0 for all four categories, <strong>OR</strong>,</li>
+		<li><strong>PTE-Academic </strong>54, with subscores of Reading 51, Listening 47, Speaking 53, and Writing 56</li>
+	</ul>
+	</li>
+	<li><strong>Letters of Recommendation</strong> Three required from individuals who are familiar with the applicant’s training, ability, character, and potential for successful completion of the program.</li>
+	<li><strong>Personal Statement</strong> Required. Applicants are encouraged to state their specific interest in the program.</li>
+</ul>
+<h2>Degree Requirements—PhD in Pharmaceutical Sciences</h2>
+<ul>
+	<li><strong>Minimum Semester Hours Required</strong> 96 from the baccalaureate, 64 from the master’s.</li>
+	<li><strong>Course Work</strong> At least 20 hours must be in 400- to 500-level didactic courses.</li>
+</ul>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20501" title="GC 501" class="bubblelink code" onclick="return showCourse(this, 'GC 501');">GC 501</a></div></td><td>Scientific Integrity and Responsible Research</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20501" title="PSCI 501" class="bubblelink code" onclick="return showCourse(this, 'PSCI 501');">PSCI 501</a></div></td><td>Drug Discovery, Design, and Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20502" title="PSCI 502" class="bubblelink code" onclick="return showCourse(this, 'PSCI 502');">PSCI 502</a></div></td><td>Training in Research Presentation (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Biostatistics (any graduate-level course, 1 hour minimum)</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<p>Students must select one of five concentrations:</p>
+<ul>
+	<li>Pharmaceutics and Drug Delivery</li>
+	<li>Pharmacognosy</li>
+	<li>Chemistry in Drug Discovery</li>
+	<li>Molecular Mechanisms and Therapeutics</li>
+	<li>Forensics</li>
+</ul>
+<h3 class="toggle">Pharmaceutics and Drug Delivery Concentration</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BSTT%20400" title="BSTT 400" class="bubblelink code" onclick="return showCourse(this, 'BSTT 400');">BSTT 400</a></div></td><td>Biostatistics I (or equivalent) <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20470" title="GC 470" class="bubblelink code" onclick="return showCourse(this, 'GC 470');">GC 470</a></div></td><td>Essentials for Animal Research</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20471" title="GC 471" class="bubblelink code" onclick="return showCourse(this, 'GC 471');">GC 471</a></div></td><td>Experimental Animal Techniques</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20510" title="PSCI 510" class="bubblelink code" onclick="return showCourse(this, 'PSCI 510');">PSCI 510</a></div></td><td>Principles of Pharmaceutics and Drug Delivery</td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">At least 9 hours must be in 400- to 500-level didactic courses and selected in consultation with the student's research advisor</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>a</dt><dd start-indent="3%"><p class="noindent"><em>This 4-hour course will count 1 hour toward the program core statistics requirement and 3 hours toward the Pharmaceutics and Drug Delivery concentration requirements. Students will not receive credit for two introductory statistics courses.</em></p></dd></dl>
+<h3 class="toggle">Pharmacognosy Concentration</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20520" title="PSCI 520" class="bubblelink code" onclick="return showCourse(this, 'PSCI 520');">PSCI 520</a></div></td><td>Research Techniques in Pharmacognosy (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20521" title="PSCI 521" class="bubblelink code" onclick="return showCourse(this, 'PSCI 521');">PSCI 521</a></div></td><td>Structure Elucidation of Natural Products (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20522" title="PSCI 522" class="bubblelink code" onclick="return showCourse(this, 'PSCI 522');">PSCI 522</a></div></td><td>Advanced Pharmacognosy (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">At least 9 hours must be in 400- to 500-level didactic courses and selected in consultation with the student's research advisor</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3 class="toggle"> Chemistry in Drug Discovery Concentration</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20530" title="PSCI 530" class="bubblelink code" onclick="return showCourse(this, 'PSCI 530');">PSCI 530</a></div></td><td>Principles of Medicinal Chemistry (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHAR%20422" title="PHAR 422" class="bubblelink code" onclick="return showCourse(this, 'PHAR 422');">PHAR 422</a></div></td><td>Fundamentals of Drug Action (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">At least 9 hours must be in 400- to 500-level didactic courses and selected in consultation with the student's research advisor</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3 class="toggle">Molecular Mechanisms and Therapeutics Concentration</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Biochemistry (e.g., <a href="/search/?P=GEMS%20501" title="GEMS 501" class="bubblelink code" onclick="return showCourse(this, 'GEMS 501');">GEMS 501</a> or equivalent graduate-level biochemistry course)</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Molecular Biology (e.g., <a href="/search/?P=GEMS%20502" title="GEMS 502" class="bubblelink code" onclick="return showCourse(this, 'GEMS 502');">GEMS 502</a> or equivalent molecular biology course)</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A minimum of 3 hours  in the following courses:</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BSTT%20400" title="BSTT 400" class="bubblelink code" onclick="return showCourse(this, 'BSTT 400');">BSTT 400</a></div></td><td>Biostatistics I</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GEMS%20511" title="GEMS 511" class="bubblelink code" onclick="return showCourse(this, 'GEMS 511');">GEMS 511</a></div></td><td>Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GEMS%20515" title="GEMS 515" class="bubblelink code" onclick="return showCourse(this, 'GEMS 515');">GEMS 515</a></div></td><td>Receptor Pharmacology and Cell Signaling</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=MIM%20560" title="MIM 560" class="bubblelink code" onclick="return showCourse(this, 'MIM 560');">MIM 560</a></div></td><td>Microbial Pathogenesis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">PSCI 540</span></div></td><td><div><span class="courselistcomment commentindent">Cancer Biology and Therapeutics</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">At least 9 hours must be in 400- to 500-level didactic courses and selected in consultation with the student's research advisor</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3 class="toggle">Forensics Concentration</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20580" title="BPS 580" class="bubblelink code" onclick="return showCourse(this, 'BPS 580');">BPS 580</a></div></td><td>Forensic Science: Survey and Foundations</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20581" title="BPS 581" class="bubblelink code" onclick="return showCourse(this, 'BPS 581');">BPS 581</a></div></td><td>Forensic Analysis of Biological Evidence</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20582" title="BPS 582" class="bubblelink code" onclick="return showCourse(this, 'BPS 582');">BPS 582</a></div></td><td>Forensic Chemistry and Trace Evidence Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20583" title="BPS 583" class="bubblelink code" onclick="return showCourse(this, 'BPS 583');">BPS 583</a></div></td><td>Physical Pattern Evidence Analysis</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20584" title="BPS 584" class="bubblelink code" onclick="return showCourse(this, 'BPS 584');">BPS 584</a></div></td><td>Forensic Drug Analysis and Toxicology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20587" title="BPS 587" class="bubblelink code" onclick="return showCourse(this, 'BPS 587');">BPS 587</a></div></td><td>Forensic Science Seminar (at least two semesters)</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BPS%20588" title="BPS 588" class="bubblelink code" onclick="return showCourse(this, 'BPS 588');">BPS 588</a></div></td><td>Expert Witness Testimony and Courtroom Demeanor</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">At least 9 hours must be in 400- to 500-level didactic courses and selected in consultation with the student's research advisor</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3>Other Requirements </h3>
+<ul>
+	<li><strong>Examinations </strong>
+	<ul>
+		<li><em>Departmental Qualifying Examination: </em>Not required.</li>
+		<li><em>Preliminary Examination</em>: Required; written and oral.</li>
+	</ul>
+	</li>
+	<li><strong>Dissertation </strong>Required; including oral defense.</li>
+	<li><strong>Other Requirements</strong> Students are required to complete research rotations during their first year of study (up to 4 semester hours of <span class="sc_courseinline"><a href="/search/?P=PSCI%20592" title="PSCI 592" class="bubblelink code" onclick="return showCourse(this, 'PSCI 592');">PSCI 592</a></span>).</li>
+
+</ul>
+
+<h2>Degree Requirements—MS in Pharmaceutical Sciences</h2>
+<ul>
+	<li><strong>Minimum Semester Hours Required</strong> 32</li>
+	<li><strong>Course Work</strong></li>
+</ul>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20501" title="GC 501" class="bubblelink code" onclick="return showCourse(this, 'GC 501');">GC 501</a></div></td><td>Scientific Integrity and Responsible Research</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20501" title="PSCI 501" class="bubblelink code" onclick="return showCourse(this, 'PSCI 501');">PSCI 501</a></div></td><td>Drug Discovery, Design, and Development</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20502" title="PSCI 502" class="bubblelink code" onclick="return showCourse(this, 'PSCI 502');">PSCI 502</a></div></td><td>Training in Research Presentation</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Biostatistics (any graduate-level course, 1-hour minimum)</span></div></td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<p> Students must select one of four concentrations:</p>
+<ul>
+	<li>Pharmaceutics and Drug Delivery</li>
+	<li>Pharmacognosy</li>
+	<li>Chemistry in Drug Discovery</li>
+	<li>Molecular Mechanisms and Therapeutics</li>
+</ul>
+<h3 class="toggle">Pharmaceutics and Drug Delivery Concentration (MS)</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BSTT%20400" title="BSTT 400" class="bubblelink code" onclick="return showCourse(this, 'BSTT 400');">BSTT 400</a></div></td><td>Biostatistics I (or equivalent) <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20470" title="GC 470" class="bubblelink code" onclick="return showCourse(this, 'GC 470');">GC 470</a></div></td><td>Essentials for Animal Research</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GC%20471" title="GC 471" class="bubblelink code" onclick="return showCourse(this, 'GC 471');">GC 471</a></div></td><td>Experimental Animal Techniques</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20510" title="PSCI 510" class="bubblelink code" onclick="return showCourse(this, 'PSCI 510');">PSCI 510</a></div></td><td>Principles of Pharmaceutics and Drug Delivery</td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<dl class="sc_footnotes" aria-label="Footnotes"><dt>a</dt><dd start-indent="3%"><p class="noindent"><em>This 4-hour course will count 1 hour toward the program core statistics requirement and 3 hours toward the Pharmaceutics and Drug Delivery concentration requirements. Students will not get credit for two introductory biostatistics courses.</em></p></dd></dl>
+<h3 class="toggle">Pharmacognosy Concentration (MS)</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20520" title="PSCI 520" class="bubblelink code" onclick="return showCourse(this, 'PSCI 520');">PSCI 520</a></div></td><td>Research Techniques in Pharmacognosy (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20521" title="PSCI 521" class="bubblelink code" onclick="return showCourse(this, 'PSCI 521');">PSCI 521</a></div></td><td>Structure Elucidation of Natural Products (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20522" title="PSCI 522" class="bubblelink code" onclick="return showCourse(this, 'PSCI 522');">PSCI 522</a></div></td><td>Advanced Pharmacognosy (or equivalent)</td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3 class="toggle">Chemistry in Drug Discovery Concentration (MS)</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PSCI%20530" title="PSCI 530" class="bubblelink code" onclick="return showCourse(this, 'PSCI 530');">PSCI 530</a></div></td><td>Principles of Medicinal Chemistry (or equivalent)</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHAR%20422" title="PHAR 422" class="bubblelink code" onclick="return showCourse(this, 'PHAR 422');">PHAR 422</a></div></td><td>Fundamentals of Drug Action (or equivalent)</td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3 class="toggle">Molecular Mechanisms and Therapeutics Concentration (MS)</h3>
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Concentration Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Biochemistry (e.g., <a href="/search/?P=GEMS%20501" title="GEMS 501" class="bubblelink code" onclick="return showCourse(this, 'GEMS 501');">GEMS 501</a> or equivalent graduate-level biochemistry course)</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">Molecular Biology (e.g., <a href="/search/?P=GEMS%20502" title="GEMS 502" class="bubblelink code" onclick="return showCourse(this, 'GEMS 502');">GEMS 502</a> or equivalent molecular biology course)</span></div></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A minimum of 3 hours in the following courses:</span></div></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BSTT%20400" title="BSTT 400" class="bubblelink code" onclick="return showCourse(this, 'BSTT 400');">BSTT 400</a></div></td><td>Biostatistics I</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GEMS%20515" title="GEMS 515" class="bubblelink code" onclick="return showCourse(this, 'GEMS 515');">GEMS 515</a></div></td><td>Receptor Pharmacology and Cell Signaling</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=GEMS%20511" title="GEMS 511" class="bubblelink code" onclick="return showCourse(this, 'GEMS 511');">GEMS 511</a></div></td><td>Molecular Genetics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">PSCI 540</span></div></td><td><div><span class="courselistcomment commentindent">Cancer Biology and Therapeutics</span></div></td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=MIM%20554" title="MIM 554" class="bubblelink code" onclick="return showCourse(this, 'MIM 554');">MIM 554</a></div></td><td>Molecular Aspects of Microbiology</td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+<h3>Other Requirements </h3>
+<ul>
+	<li><strong>Comprehensive Examination</strong> None.</li>
+	<li><strong>Thesis, Project, or Course-Work-Only Options</strong> Thesis required. Students must earn at least 6 hours in <span class="sc_courseinline"><a href="/search/?P=PSCI%20598" title="PSCI 598" class="bubblelink code" onclick="return showCourse(this, 'PSCI 598');">PSCI 598</a></span>.</li>
+
+</ul>
+</div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2022-2024 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" aria-labeledby="dialog-title" class="screen" role="dialog">
+	<div class="print-header">
+		<h2 id="dialog-title">Print Options</h2>
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+<div class="print-option"><div class="option-head"><a class="option-name" href="/gcat/colleges-schools/pharmacy/pharmaceutical-sciences/phd/phd.pdf" role="button">Download Page (PDF)</a></div><p class="option-desc"><em>The PDF will include all information unique to this page.</em></p></div><div class="print-option"><div class="option-head"><a class="option-name" href="/pdf/2022-23-graduate.pdf" target="_blank">Download PDF of the entire Graduate Catalog</a></div><p class="option-desc"><em>All pages in the campus catalog.</em></p></div>    </div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

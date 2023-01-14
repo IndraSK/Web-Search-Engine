@@ -1,0 +1,938 @@
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0" /><link href="/TDPortal/Content/Styles/font-awesome.min.css?v=20221125000826" rel="stylesheet" type="text/css" id="lnkFontAwesome" /><script src="/TDPortal/Content/Scripts/jquery/2.2.4/jquery.min.js?v=20221125000826"></script><script src="/TDPortal/Content/Scripts/jquery-migrate/1.4.1/jquery-migrate.min.js?v=20221125000826"></script><script src="/TDPortal/Content/Scripts/jquery-ui/1.12.1/jquery-ui-1.12.1.custom.timepicker.min.js?v=20221201132058"></script><link href="/TDPortal/Content/Styles/jquery-ui/1.12.1/jquery-ui.compiled.min.css?v=20221125000826" rel="stylesheet" type="text/css"  /><link href="/TDPortal/Content/bootstrap/3.4.1/dist/css/bootstrap.min.css?v=20221125000826" rel="stylesheet" type="text/css" id="lnkBootstrapCSS" /><script src="/TDPortal/Content/bootstrap/3.4.1/dist/js/bootstrap.min.js?v=20221125000826"></script><link href="/TDClient/Styles/bootstrap_custom.min.css?v=20221125000822" rel="stylesheet" type="text/css"  /><link href="/TDClient/Styles/TDStyles.min.css?v=20221201132056" rel="stylesheet" type="text/css"  /><link href="https://help.uillinois.edu/TDPortal/BE/Style/2/TDClient/37?v=20210124013324" rel="stylesheet" type="text/css" /><script src="/TDPortal/Content/Scripts/tdx/TDJSFramework.compiled.min.js?v=20221201132058"></script><script src="/TDPortal/Content/Scripts/underscore/1.12.1/underscore-min.js?v=20221125000826"></script>
+<script src="/TDClient/Scripts/clientOS.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/collapseMe.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/tdsearchfilter.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/SiteSearch.min.js?v=20221125000822"></script>
+<script src="/TDPortal/Content/Scripts/tdx/elasticsearchAutocomplete/elasticsearchAutocomplete.min.js?v=20221125000826"></script>
+<link id="ctl00_ctl00_lnkFavicon" rel="shortcut icon" href="https://help.uillinois.edu/TDPortal/BE/Icon/2/37?v=20210124013324" />
+
+    
+    <script async src="//www.googletagmanager.com/gtag/js?id=UA-185980340-1"></script>
+    <script>
+
+      $(function () {
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        // Be sure to set the proper cookie domain to the customer's full subdomain when sending the pageview hit.
+        gtag('config', 'UA-185980340-1', { 'cookie_domain': 'help.uillinois.edu' });
+
+        });
+
+    </script>
+
+  
+
+  <script>
+
+      $(function () {
+        var masterUi = MasterUI({
+          isPostback: false,
+        baseUrl: '/TDClient/',
+        isTdGoogleAnalyticsEnabled: true,
+        isAuthenticated: false
+        });
+
+      $('#collapseMe').collapseMe({
+        toggleVisibilitySelector: '.navbar-toggle'
+      });
+
+    });
+
+      // The sub-nav menu uses padding-top to position itself below the header bar and main navigation sections. When the
+      // window is resized, there is a chance that the content of these header or nav sections wraps, causing the height
+      // to change, potentially covering the sub-nav menu, which is obviously a big usability problem. This function
+      // listens for when the window size or orientation is changing (and also when the window first loads), and adjusts
+      // the padding so that the sub-nav menu appears in the correct location.
+      $(window).bind('load ready resize orientationchange', function () {
+        var headerHeight = $('#divMstrHeader').height();
+        $('#navShim').css({
+          "padding-top": headerHeight
+        });
+
+        $('#content').css({
+          "padding-top": headerHeight,
+          "margin-top": headerHeight * -1
+        });
+      });
+  </script>
+
+  
+  
+
+  
+
+  <script src="/TDPortal/Content/select2/v3/select2.min.js?v=20221202190234"></script><link href="/TDPortal/Content/select2/v3/select2.compiled.min.css?v=20221202190234" rel="stylesheet" type="text/css" id="lnkSelect2" />
+  <script src="/TDClient/Scripts/Share.min.js?v=20221125000822"></script>
+<script src="/TDClient/Scripts/attachmentHandler.min.js?v=20221125000822"></script>
+
+
+  <script>
+
+    function ToggleFavorite() {
+      __doPostBack('ctl00$ctl00$cpContent$cpContent$btnToggleFavorite', '');
+    }
+
+    function checkRecipients() {
+      if ($('#ctl00_ctl00_cpContent_cpContent_shareRecipients').val().trim() === "") {
+        alert('You must first enter a valid email.');
+        $('#myModal').modal('toggle')
+      }
+    }
+
+    function showHideCommentInput(show) {
+      var commentEditor = CKEDITOR.instances['ctl00_ctl00_cpContent_cpContent_txtComments_txtEditor_txtBody'];
+
+      if (show) {
+        $('#ctl00_ctl00_cpContent_cpContent_btnSaveComment').progressButton().progressButton('reset');
+        $('#divComment').show();
+        commentEditor.focus();
+        $("#luFeedCommentNotification").select2("val", null, true);
+        $('#btnComment').hide();
+      } else {
+        $('#divComment').hide();
+        commentEditor.setData('');
+        $("#luFeedCommentNotification").select2("val", null, true);
+        $('#btnComment').show();
+      }
+    }
+
+    $(function () {
+
+      var attachmentHandler = new TeamDynamix.AttachmentHandler({
+        containerSelector: '.js-service-attachments',
+        resultLabelSelector: '#ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label',
+        baseControllerUrl: '/TDClient/37/uic/Shared/Attachments',
+        antiForgeryToken: 'miES8cJClQC5rRO0NgK8xcE6UNA-PZs9vjCmgWDQxD5xYdrTppwO8mPzVEOTmsVaVyAjzm9KbyV3qwhs3kLcaiBQf3w1:BKh_WNToEw0r-MlZWcPtveIwpOOO9WGOZaX2bKQLs1yXDIfjQ9ZugM0DFZIxxc_Six1KjL6HK0QBOc_3nNNzAeXJAn01',
+        itemId: 406,
+        componentId: 47
+      });
+
+      // Don't try and update the table styles if the user wanted to opt out.
+      $('#ctl00_ctl00_cpContent_cpContent_divDescription table:not(.SkipTableFixup)').each(function (table) {
+        var padding = $(this).attr('cellpadding');
+        var spacing = $(this).attr('cellspacing');
+
+        $(this).css("border-collapse", "separate");
+
+        if (spacing) {
+          $(this).css("border-spacing", spacing + "px");
+        }
+
+        $(this).find('td').each(function (cell) { $(this).css('padding', padding + 'px') });
+      });
+
+      
+
+    });
+
+    
+
+  </script>
+
+
+
+<meta property="og:title" content="Virtual Private Network (VPN)" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=406" />
+<meta property="og:image" content="https://help.uillinois.edu/TDPortal/BE/Logo/2/37" />
+<meta property="og:description" content="The Virtual Private Network&#160;service allows you to securely access resources at UIC over a non-UIC Internet connection. While connected to the VPN, the client software works with the operating system to determine when you are accessing an Internet location that the client should protect. When you ..." />
+  <meta property="og:site_name" content="University of Illinois System - Services" />
+  <meta property="article:section" content="Infrastructure" /><title>
+	Service - Virtual Private Network (VPN)
+</title></head>
+<body>
+<form method="post" action="/TDClient/37/uic/Requests/ServiceDet?ID=406" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+
+<script src="/TDClient/ScriptResource.axd?d=NJmAwtEo3Ipnlaxl6CMhvmVxW3-Ljsg_2Hna32smxrg-6ogyYAN3UTPsJQ8m1uwzn_kuf2Wpne6NSFmYui3h0wCQhJN3ZUiLTNkvhiIgZpq74-lKmofUPQGJ8own8RI2_mwAcmvlSj2WBnqwm5Wj4cyNvv81&amp;t=49337fe8" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=xtfVMqdF1exC2MBVkOJwMveStDR5kg3dbZWgIXMXZmB1xXom6CcIrWFgHa7jsp4qJuFW2L5XShudyzlBsIO3JhCfiU5HmL2BDz__mCv9dznmBlEMS7LvcYg6wTdPTrAXIXI2CvtjwlnpZd-j4Zpsx2wG_uA1&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=sp7vCoAo-SSYfpsQ1sYBBeEDnwCGxDYEwZCM0ler88yoVZIPDXMk1C3XF2L2L0xrbB8Rvhli51TswRlmPIOCZgaY58lKhPr-Pv1jTFJ1oUAu7x6RDtNFZUxbtxs3KYQGLK6FpPD5bKuB0e0NmS9HkAqRVks1&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=icMURy63hv40LPPfq4rTvmm-RfB_YkC6rEEF_2QOO68q3TseXYNBetRKKgBXJ8mn2e8UIgCPiV23HaQUZbjySMHqSgmYZgLcYltBqwD2_EK8aQ08zBuqc3ZBVZITQrbtn6w46dRxFLibMIQg0Aho73rn8Rpxrzg5YMG_JR0UOrUR0wlZ0&amp;t=638055861260000000" type="text/javascript"></script>
+<script src="/TDClient/WebResource.axd?d=1HpFfNpwNihNfEP1lyJHvdPVqbv8KRoFH4-_ZORUgPOP-bqmmtIJRvFQc7828Vf59O_-fdBXcnwdv-hYp5RptPuHmMR0kGQM0_3rS4Z7sKfC7jy9Cc_8fyfcUWa8psszacEQlAXHPXmNwyRymbGSywEmhrE1&amp;t=638055861260000000" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E24F3D79" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="8nTHer0ob73onP+oXVzkrGJlwMREwcSGev8JsPfMtT22d62LgugprjyTu3qXlLz+gY+cRzpl+4DmXLKHvxSI+L5RF0ogefPRaNhp6WnaUscUMdgnNTqSZ8pzOpY56+HWcjwwspuqq8kG8nUfocMHsSRH21uJYq5rm6cbcS5sjkAzQGlgSS04S4AhziF9yNLEGC4FrDrhiUjofR3FgcYdLd8G6lw=" />
+
+<div id="ctl00_ctl00_upMain" style="display:none;">
+	
+    <div id="ctl00_ctl00_pbMain" class="progress-box-container"><div class="progress-box-body"><div class="well shadow"><h2 class="h4 gutter-top-none">Updating...</h2><div class="progress" style="margin-bottom: 0;"><div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div></div></div></div></div>
+  
+</div>
+
+
+
+  <header role="banner">
+
+  <div id="divMstrHeader" class="master-header NoPrint" style="background-color: #fff;">
+
+  
+  
+
+  <div class="logo-header-full hidden-xs">
+
+    
+    <div class="pull-left">
+      <a href="#mainContent" class="sr-only sr-only-focusable">Skip to main content</a>
+    </div>
+
+
+    <div id="ctl00_ctl00_divPageHeader" class="container logo-header clearfix" style="padding: 5px;">
+
+      <div id="divLogo" class="pull-left logo-container">
+
+        <a href="https://www.uic.edu/"
+           target="_blank">
+          <img src="/TDPortal/BE/Logo/2/37" alt="University of Illinois System Home Page" class="js-logo img-responsive" />
+        </a>
+
+      </div>
+
+      <div class="master-header-right pull-right padding-top padding-bottom">
+
+        
+
+          <div class="pull-left topLevelSearch input-group">
+            <div id="SiteSearch-454ee5a87ce444a1ac3e38cf0d2771f0" class="gutter-bottom input-group site-search" style="max-width: 400px;">
+  <div id="SiteSearch-dropdown-454ee5a87ce444a1ac3e38cf0d2771f0" class="input-group-btn">
+    <button type="button" id="SiteSearch-filter-454ee5a87ce444a1ac3e38cf0d2771f0" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false" title="Filter your search by categories" data-component="all">
+      <span class="fa fa-globe"></span><span class="fa fa-fw fa-nopad fa-caret-down" aria-hidden="true"></span>
+      <span class="sr-only">
+        Filter your search by category. Current category:
+        <span class="js-current-component">All</span>
+      </span>
+    </button>
+    <ul class="dropdown-menu" >
+      <li>
+        <a href="javascript:void(0);" data-component-text="All" data-component="all" data-component-icon="fa-globe" title="Search all areas">
+          <span class="fa fa-fw fa-nopad fa-globe" aria-hidden="true"></span>
+          All
+        </a>
+      </li>
+
+      <li role="separator" class="divider"></li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Knowledge Base" data-component="kb" data-component-icon="fa-lightbulb-o" title="Search Knowledge Base">
+            <span class="fa fa-fw fa-nopad fa-lightbulb-o" aria-hidden="true"></span>
+            Knowledge Base
+          </a>
+        </li>
+
+        <li role="presentation">
+          <a role="menuitem" href="javascript:void(0);" data-component-text="Service Catalog" data-component="sc" data-component-icon="fa-compass" title="Search Service Catalog">
+            <span class="fa fa-fw fa-nopad fa-compass" aria-hidden="true"></span>
+            Service Catalog
+          </a>
+        </li>
+
+    </ul>
+  </div>
+
+  <label class="sr-only" for="SiteSearch-text-454ee5a87ce444a1ac3e38cf0d2771f0">Search the client portal</label>
+
+  <input id="SiteSearch-text-454ee5a87ce444a1ac3e38cf0d2771f0" type="text" class="form-control" autocomplete="off" placeholder="Search the client portal" title="To search for items with a specific tag, enter the # symbol followed by the name of the tag.
+To search for items using exact match, place double quotes around your text."/>
+
+  <span class="input-group-btn">
+    <button id="SiteSearch-button-454ee5a87ce444a1ac3e38cf0d2771f0" class="btn btn-default" type="button" title="Search">
+      <span class="fa fa-fw fa-nopad fa-search blue" aria-hidden="true"></span>
+      <span class="sr-only">Search</span>
+    </button>
+  </span>
+</div>
+
+<script>
+  $(function() {
+    var siteSearch = new TeamDynamix.SiteSearch({
+      searchUrl: "/TDClient/37/uic/Shared/Search",
+      enableAutocompleteSearch: true,
+      autocompleteSearchUrl: '/TDClient/37/uic/Shared/AutocompleteSearch',
+      autocompleteResultsPosition: 'fixed',
+      autocompleteResultsZIndex: 1000,
+      searchTextBoxSelector: '#SiteSearch-text-454ee5a87ce444a1ac3e38cf0d2771f0',
+      searchComponentFilterButtonSelector: '#SiteSearch-filter-454ee5a87ce444a1ac3e38cf0d2771f0',
+      searchButtonSelector: '#SiteSearch-button-454ee5a87ce444a1ac3e38cf0d2771f0',
+      searchFilterDropdownSelector: '#SiteSearch-dropdown-454ee5a87ce444a1ac3e38cf0d2771f0',
+      showKnowledgeBaseOption: true,
+      showServicesOption: true,
+      showForumsOption: false,
+      autoFocusSearch: false
+    });
+  });
+  </script>
+          </div>
+
+        
+          <div title="Sign In" class="pull-right gutter-top-sm">
+            <a href="/TDClient/37/uic/Login.aspx?ReturnUrl=%2fTDClient%2f37%2fuic%2fRequests%2fServiceDet%3fID%3d406">
+              Sign In
+            </a>
+          </div>
+        
+      </div>
+
+    </div>
+
+  </div>
+
+  <nav id="ctl00_ctl00_mainNav" class="navbar navbar-default themed tdbar" aria-label="Primary">
+    <div id="navContainer" class="container">
+
+      <div class="navbar-header">
+        <button type="button" class="pull-left navbar-toggle collapsed themed tdbar-button-anchored tdbar-toggle gutter-left" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="tdbar-button-anchored icon-bar"></span>
+          <span class="sr-only">Show Applications Menu</span>
+        </button>
+        <a class="navbar-brand hidden-sm hidden-md hidden-lg themed tdbar-button-anchored truncate-be" href="#">
+
+          UIC Help Center
+        </a>
+      </div>
+
+      <div id="td-navbar-collapse" class="collapse navbar-collapse">
+
+        <ul class="nav navbar-nav nav-collapsing" id="collapseMe">
+
+          
+            <li class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/37/uic/Login.aspx?ReturnUrl=%2fTDClient%2f37%2fuic%2fRequests%2fServiceDet%3fID%3d406">Sign In</a>
+            </li>
+          
+            <li id="divSearch" class="themed tdbar-button-anchored hidden-sm hidden-md hidden-lg">
+              <a href="/TDClient/37/uic/Shared/Search" title="search">Search</a>
+            </li>
+          
+              <li id="divDesktop3ea09664-ac75-4b79-9e85-2b480ba0a2da" class="themed tdbar-button-anchored">
+                <a href="/TDClient/37/uic/Home/">Home</a>
+              </li>
+            
+              <li id="divDesktop243e0e53-c185-4800-bc65-2e823174d02b" class="themed tdbar-button-anchored">
+                <a href="/TDClient/37/uic/Home/?ID=243e0e53-c185-4800-bc65-2e823174d02b">About</a>
+              </li>
+            
+
+          
+            <li id="divTDRequests" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/37/uic/Requests/ServiceCatalog">Services</a>
+            </li>
+          
+            <li id="divTDKnowledgeBase" class="themed tdbar-button-anchored sr-focusable">
+              <a href="/TDClient/37/uic/KB/">Knowledge Base</a>
+            </li>
+          
+
+          <li class="themed tdbar-button-anchored hidden-xs more-items-button" id="moreMenu">
+            <a data-toggle="dropdown" title="More Applications" href="javascript:;">
+              <span class="sr-only">More Applications</span>
+              <span class="fa fa-ellipsis-h" aria-hidden="true"></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right themed tdbar" id="collapsed"></ul>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </nav>
+
+  </div>
+
+  </header>
+
+
+
+<div id="navShim" class="hidden-xs hidden-sm"></div>
+<main role="main">
+  <div id="content">
+    <div id="mainContent" tabindex="-1"></div>
+    
+
+  
+    <nav id="divTabHeader" class="tdbar-sub NoPrint hidden-xs navbar-subnav" aria-label="Services">
+      <a href="#servicesContent" class="sr-only sr-only-focusable">Skip to Services content</a>
+      <div class="container clearfix">
+        <ul class="nav navbar-nav js-submenu" id="servicesSubMenu" style="margin-left: -15px;">
+
+          
+          <li>
+            <a href="/TDClient/37/uic/Services/ServicesAtoZ">Services A-Z</a>
+          </li>
+          
+          <li>
+            <a href="/TDClient/37/uic/Requests/ServiceCatalogSearch">Search <span class="sr-only">Services</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+
+  
+
+  <div class="container gutter-top">
+    <div id="servicesContent" tabindex="-1" style="outline:none;">
+      
+
+<span id="ctl00_ctl00_cpContent_cpContent_lblResults_ctl00" aria-live="polite" aria-atomic="true"><span id="ctl00_ctl00_cpContent_cpContent_lblResults_lblResults-label" class="red"></span></span>
+
+<ol class="breadcrumb">
+  <li><a href="ServiceCatalog">Service Catalog</a></li><li class="active"><a href="ServiceCatalog?CategoryID=153">Infrastructure</a></li><li class="active">Virtual Private Network (VPN)</li>
+</ol>
+
+
+
+<div class="row gutter-top">
+
+<div id="divMainContent" class="col-md-8">
+
+  <h1 class="wrap-text">
+    Virtual Private Network (VPN)
+  </h1>
+
+  
+
+  
+
+  
+
+  <div id="ctl00_ctl00_cpContent_cpContent_divDescription" class="gutter-top ckeShim"><h2>What Is It?</h2>
+
+<p>The Virtual Private Network&nbsp;service allows you to securely access resources at UIC over a non-UIC Internet connection. While connected to the VPN, the client software works with the operating system to determine when you are accessing an Internet location that the client should protect. When you are accessing such a location, the VPN client encrypts the data.</p>
+
+<p>There are two group options when connecting to AnyConnect:&nbsp;<strong>General-Use</strong>&nbsp;and&nbsp;<strong>Library-Resources</strong>.</p>
+
+<h3>Features</h3>
+
+<p><strong>General-Use</strong><br>
+Allows you to connect to your UIC department resources, such as research data sets. You can still access most library resources through the library website, but you will have to authenticate with your NetID and password (the way it works when you are off-campus). &nbsp;A few library resources can be accessed only on campus -- for those resources, you must use the Library-Resources group.</p>
+
+<p><strong>Library-Resources</strong><br>
+Gives you direct access to library electronic resources such as full-text articles from Google Scholar, JSTOR or PubMed, and on-campus only resources without logging in to each database.</p>
+
+<h3>Requirements</h3>
+
+<h3><span style="color: #B22222"><span style="font-size: 16px"></span></span></h3>
+
+<p>In order to connect to the VPN you must download and install the AnyConnect client <a href="https://webstore.illinois.edu/shop/product.aspx?zpid=3652" target="_blank">from the U of I WebStore</a> for Windows, macOS, or Linux. The AnyConnect app is also available for <a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=954" target="_blank">Android</a> and <a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=964" target="_blank">iOS</a>.</p>
+
+<p>VPN authentication requires a valid UIC NetID and common password.</p>
+
+<h3><span style="color: #B22222"><span style="font-size: 16px"></span></span><span style="color: #B22222"><span style="font-size: 16px"></span></span></h3>
+
+<h2>Who Is Eligible To Use It?</h2>
+
+<ul>
+	<li>Faculty</li>
+	<li>Students</li>
+	<li>Staff</li>
+</ul>
+
+<h2>Where Can I Get It?</h2>
+
+<p>Select the <strong>Download VPN Client</strong>&nbsp;button located on this page to obtain the client from the Webstore.</p>
+
+<h2>How Do I Use It?</h2>
+
+<p>Learn how to<a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet.aspx?ID=974">&nbsp;log in to the UIC VPN</a>. Network Security administrators in edge units can visit <a href="https://groups.accc.uic.edu/">groups.accc.uic.edu</a> to administer access to their unit's private network space.</p>
+
+<h2>How Much Does It Cost?</h2>
+
+<p>This service is funded by the&nbsp;<a href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=1596" target="_blank">University</a>; there are no direct costs to clients.</p>
+
+<h2>How Can I Get Support?</h2>
+
+<p>If you are experiencing a problem&nbsp;with this service, please&nbsp;<a href="https://it.uic.edu/report-a-problem" target="_blank" title="https://help.uillinois.edu/tdclient/37/uic/requests/servicedet?id=489">report it</a>.&nbsp;If you just have a question, feel free to&nbsp;<a href="https://it.uic.edu/ask-a-question" target="_blank">ask us</a>.</p>
+
+<h3>Service Levels</h3>
+
+<div class="table-responsive">
+<table border="1" cellpadding="3" cellspacing="1" class="table table-striped table-bordered" height="325" style="width: 100%" width="1073">
+	<tbody>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Service Request Fulfillment Time</th>
+			<td style="vertical-align: middle">Automatically provisioned</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Incident Resolution Time</th>
+			<td style="vertical-align: middle">2 business days</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Service Availability</th>
+			<td style="vertical-align: middle">24x7</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Maintenance Window(s)</th>
+			<td style="vertical-align: middle">Approved Technology Solutions maintenance window(s)</td>
+		</tr>
+		<tr>
+			<th scope="row" style="vertical-align: middle; width: 30%">Service Notification Channel(s)</th>
+			<td style="vertical-align: middle">IT Service Notices</td>
+		</tr>
+	</tbody>
+</table>
+</div></div>
+
+  
+
+  &nbsp;
+
+</div>
+
+<div id="divSidebar" class="col-md-4">
+
+  <span id="ctl00_ctl00_cpContent_cpContent_lnkRequest">
+    <a class="DetailAction " href="https://webstore.illinois.edu/shop/product.aspx?zpid=3652" target="_blank">  <span class="fa fa-arrow-circle-o-right fa-fw" aria-hidden="true"></span>
+Download VPN Client</a>
+  </span>
+  
+
+  <a id="ctl00_ctl00_cpContent_cpContent_btnToggleFavorite" tabindex="-1" class="hidden" aria-hidden="true" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnToggleFavorite&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">Blank</a>
+
+  <div id="ctl00_ctl00_cpContent_cpContent_divKB" class="panel panel-default gutter-top">
+
+    <div class="panel-heading">
+      <h2 class="h3 panel-title">Related Articles (11)</h2>
+    </div>
+
+    <div class="panel-body">
+      
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl00_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=977">Can I use the UIC VPN through a Remote Desktop session?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl00_ctlArticle_divSummary">
+    AnyConnect VPN access through Remote Desktop
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl01_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=1207">How can I access UIC Library resources when not on campus?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl01_ctlArticle_divSummary">
+    Some resources managed by the UIC Library require the use of the Virtual Private Network (VPN) when you are not physically on-campus.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl02_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=954">How do I install and use UIC VPN on Android?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl02_ctlArticle_divSummary">
+    This document provides instructions on the use of UIC’s Virtual Private Network solution.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl03_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=964">How do I install and use UIC VPN on iOS?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl03_ctlArticle_divSummary">
+    This document provides instructions on the use of UIC’s VPN solution. 2FA provides an additional level of security to protect your resources.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl04_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=910">How do I install and use UIC VPN on Linux?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl04_ctlArticle_divSummary">
+    This document provides instructions on use of UIC’s VPN solution. Please note that the use of this VPN solution requires you to enroll in the university’s 2-Factor Authentication (2FA) solution. 2FA provides an additional level of security to protect your resources.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl05_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=904">How do I install and use UIC VPN on MacOS?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl05_ctlArticle_divSummary">
+    This document provides instructions on the use of UIC’s Virtual Private Network solution.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl06_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=973">How do I install and use UIC VPN on Windows?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl06_ctlArticle_divSummary">
+    This document provides instructions on the use of UIC’s Virtual Private Network solution.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl07_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=974">How do I log in to the UIC VPN?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl07_ctlArticle_divSummary">
+    Below are the instructions for logging into the AnyConnect VPN client.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl08_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=936">VPN Group Administration Application</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl08_ctlArticle_divSummary">
+    Technology Solutions has developed a web application for designated administrators of unit network space to manage the end-users that are authorized to access the respective unit&#39;s network.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl09_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=948">What can I do if I am having trouble accessing UIC resources from outside the US?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl09_ctlArticle_divSummary">
+    If you are having trouble accessing UIC resources such as Blackboard, email, and more, from outside of the US, try using the UIC VPN solution.
+  </div>
+  
+</div>
+        
+          <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl10_ctlArticle_divContainer" class="gutter-top-sm gutter-bottom-lg">
+  <div class="clearfix">
+    <div class="pull-left font-md">
+      <a target="_blank" href="https://help.uillinois.edu/TDClient/37/uic/KB/ArticleDet?ID=946">Why should I use a VPN?</a>
+    </div>
+  </div>
+  <div id="ctl00_ctl00_cpContent_cpContent_rptArticles_ctl10_ctlArticle_divSummary">
+    Explains why/when using a VPN could be a good idea
+  </div>
+  
+</div>
+        
+    </div>
+
+  </div>
+
+
+  <div id="divDetails" class="panel panel-default gutter-top">
+
+    <div class="panel-heading">
+      <h2 class="h3 panel-title">Details</h2>
+    </div>
+
+    <div class="panel-body">
+
+      <div id="divServiceID">
+        <span class="control-label">Service ID: </span>
+        406
+      </div>
+
+      
+
+      
+
+      <div id="divCreated" class="disp-group">
+        <span class="control-label gutter-bottom-xs">
+          Created
+        </span>
+        <div>
+          <span id="ctl00_ctl00_cpContent_cpContent_udtCreatedDate">Mon 12/21/20 7:38 PM</span><span id="ctl00_ctl00_cpContent_cpContent_lblCreatedBy"></span>
+        </div>
+      </div>
+
+      <div id="ctl00_ctl00_cpContent_cpContent_divModified" class="disp-group">
+        <span class="control-label gutter-bottom-xs">
+          Modified
+        </span>
+        <div>
+          <span id="ctl00_ctl00_cpContent_cpContent_udtModifiedDate">Sun 6/26/22 1:57 AM</span><span id="ctl00_ctl00_cpContent_cpContent_lblModifiedBy"></span>
+        </div>
+      </div>
+
+      <div class="js-custom-attributes-container">
+	<div id="ctl00_ctl00_cpContent_cpContent_ctlAttribute2426">
+		<div id="ctl00_ctl00_cpContent_cpContent_divAttribute2426" class="disp-group"><span id="ctl00_ctl00_cpContent_cpContent_lblAttribute2426" class="control-label">Service Owner</span><div id="divAttribute2426Help" class="help-block collapse wrap-text">This person is accountable for the overall performance of this service. This is not a support contact.</div><div><div class="wrap-text"><a href="https://help.uillinois.edu/TDClient/37/uic/People/Details?ID=b2ea4854-91c9-ea11-a81d-000d3a8ea9f7&amp;popup=1" onclick="return openWinHref(event, 992, 700, 'PersonDetailb2ea485491c9ea11a81d000d3a8ea9f7');">Jelene Crehan</a></div></div></div>
+	</div><div id="ctl00_ctl00_cpContent_cpContent_ctlAttribute2127">
+		<div id="ctl00_ctl00_cpContent_cpContent_divAttribute2127" class="disp-group"><span id="ctl00_ctl00_cpContent_cpContent_lblAttribute2127" class="control-label">Service Review Date</span><div id="divAttribute2127Help" class="help-block collapse wrap-text">Date of the most recent review of this service.</div><div><span class="wrap-text">12/23/2020</span></div></div>
+	</div>
+</div>
+
+    </div>
+
+  </div>
+
+  
+
+  <div id="divAttachments" class="js-service-attachments"></div>
+
+</div>
+
+</div>
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <h3 class="modal-title h4" id="myModalLabel">
+          <span class="fa fa-share-alt fa-fw" aria-hidden="true"></span>Share
+        </h3>
+      </div>
+      <div class="modal-body">
+        <div class="form-group required">
+          <label class="control-label" for="ctl00_ctl00_cpContent_cpContent_shareRecipients">Recipient(s) <small>- separate email addresses with a comma</small></label>
+          <input name="ctl00$ctl00$cpContent$cpContent$shareRecipients" type="text" id="ctl00_ctl00_cpContent_cpContent_shareRecipients" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label class="control-label" for="ctl00_ctl00_cpContent_cpContent_shareBody_txtBody">Message</label>
+          <script src="/TDPortal/Content/nanospell/autoload.js?v=20221125000826"></script>
+
+
+<script type="text/javascript">
+
+  (function () {
+    // The "CKEDITOR-config-loaded" event is thrown after the CKEDITOR global variable has been created, but before the instance of CKEditor is ready.
+    // At this point attach a listener to the global variable for the instanceReady event so we can perform our initialization logic.
+    window.addEventListener('CKEDITOR-config-loaded', function () {
+      if (window.CKEDITOR) {
+        setConfigs()
+        initialize();
+      }       
+    });
+  })();
+
+  function setConfigs() {
+    window.CKEDITOR.config['clientScripts'] = [{"scriptPath":["/TDPortal/Content/bootstrap/3.4.1/dist/js/bootstrap.min.js","https://help.uillinois.edu/TDPortal/Content/Scripts/tdx/TDJSFramework.compiled.min.js"],"scriptDependencyPath":"/TDPortal/Content/Scripts/jquery/2.2.4/jquery.min.js"}];
+    window.CKEDITOR.config['clientStyles'] = ["/TDPortal/Content/bootstrap/3.4.1/dist/css/bootstrap.min.css","/TDClient/Styles/bootstrap_custom.min.css","/TDClient/Styles/TDStyles.min.css","https://help.uillinois.edu/TDPortal/BE/Style/2/TDClient/37"];
+    window.CKEDITOR.config['itemTemplates'] = '';
+  }
+
+  function initialize() {
+
+    window.CKEDITOR.on('instanceReady', function (evt) {
+
+      if (evt.editor.element.$.id == 'ctl00_ctl00_cpContent_cpContent_shareBody_txtBody') {
+
+        
+
+          nanospell.ckeditor('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody', {
+            dictionary: 'en',
+            server: 'asp.net'
+          });
+
+          setTimeout(function () { evt.editor.startNanospell(); }, 200);
+
+        
+
+        // Check if we should mark the editor as required
+        if ($(evt.editor.element.$).parents('div.required').length > 0) {
+          evt.editor.editable().setAttribute('aria-required', 'true');
+        }
+      }
+
+    });
+  }
+
+  
+
+</script>
+
+<span class="sr-only">Press Alt + 0 within the editor to access accessibility instructions, or press Alt + F10 to access the menu.</span>
+<textarea name="ctl00$ctl00$cpContent$cpContent$shareBody$txtBody" rows="2" cols="20" id="ctl00_ctl00_cpContent_cpContent_shareBody_txtBody">
+Check out this service I found in the UIC Help Center service catalog.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=406&quot;&gt;https://help.uillinois.edu/TDClient/37/uic/Requests/ServiceDet?ID=406&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;Virtual Private Network (VPN)&lt;br /&gt;&lt;br /&gt;The Virtual Private Network&#160;service allows you to securely access resources at UIC over a non-UIC Internet connection. While connected to the VPN, the client software works with the operating system to determine when you are accessing an Internet location that the client should protect. When you are accessing such a location, the VPN client encrypts the data.</textarea>
+
+
+        </div>
+      </div>
+      <div class="modal-footer text-left">
+        <a onclick="checkRecipients();" id="ctl00_ctl00_cpContent_cpContent_btnSendShare" type="button" class="btn btn-primary" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$cpContent$cpContent$btnSendShare&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))">
+          <span class="fa fa-paper-plane-o" aria-hidden="true"></span><span class="padding-left-xs">Send</span>
+        </a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+
+
+  </div>
+</main>
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+setNavPosition('TDRequests');window.CKEDITOR_BASEPATH = 'https://help.uillinois.edu/TDPortal/Content/ckeditor/';
+//]]>
+</script>
+<script src="https://help.uillinois.edu/TDPortal/Content/ckeditor/ckeditor.js?t=C6HH5UF" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+var CKEditor_Controls=[],CKEditor_Init=[];function CKEditor_TextBoxEncode(d,e){var f;if(typeof CKEDITOR=='undefined'||typeof CKEDITOR.instances[d]=='undefined'){f=document.getElementById(d);if(f)f.value=f.value.replace(/</g,'&lt;').replace(/>/g,'&gt;');}else{var g=CKEDITOR.instances[d];if(e&&(typeof Page_BlockSubmit=='undefined'||!Page_BlockSubmit)){g.destroy();f=document.getElementById(d);if(f)f.style.visibility='hidden';}else g.updateElement();}};(function(){if(typeof CKEDITOR!='undefined'){var d=document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');if(d)d.style.visibility='hidden';}var e=function(){var f=CKEditor_Controls,g=CKEditor_Init,h=window.pageLoad,i=function(){for(var j=f.length;j--;){var k=document.getElementById(f[j]);if(k&&k.value&&(k.value.indexOf('<')==-1||k.value.indexOf('>')==-1))k.value=k.value.replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');}if(typeof CKEDITOR!='undefined')for(var j=0;j<g.length;j++)g[j].call(this);};window.pageLoad=function(j,k){if(k.get_isPartialLoad())setTimeout(i,0);if(h&&typeof h=='function')h.call(this,j,k);};if(typeof Page_ClientValidate=='function'&&typeof CKEDITOR!='undefined')Page_ClientValidate=CKEDITOR.tools.override(Page_ClientValidate,function(j){return function(){for(var k in CKEDITOR.instances){if(document.getElementById(k))CKEDITOR.instances[k].updateElement();}return j.apply(this,arguments);};});setTimeout(i,0);};if(typeof Sys!='undefined'&&typeof Sys.Application!='undefined')Sys.Application.add_load(e);if(window.addEventListener)window.addEventListener('load',e,false);else if(window.attachEvent)window.attachEvent('onload',e);})();CKEditor_Controls.push('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody');
+CKEditor_Init.push(function(){if(typeof CKEDITOR.instances['ctl00_ctl00_cpContent_cpContent_shareBody_txtBody']!='undefined' || !document.getElementById('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody')) return;CKEDITOR.replace('ctl00_ctl00_cpContent_cpContent_shareBody_txtBody',{"autoGrow_maxHeight" : 175, "autoGrow_minHeight" : 175, "contentsCss" : ['https://help.uillinois.edu/TDPortal/Content/ckeditor/contents.css', '/TDPortal/Content/Styles/font-awesome.min.css'], "height" : "175", "htmlEncodeOutput" : true, "image_previewText" : " ", "removePlugins" : "magicline,devtools,templates,elementspath,fontawesome,youtube,uploadimage,simpleimage,remoteimageblocker", "toolbar" : "TDSimple"}); });
+//]]>
+</script>
+</form>
+
+<footer role="contentinfo">
+  
+  
+  
+
+  
+    <div class="master-footer">
+
+      <div role="contentinfo" style="margin-top: 6em; color: #000000; background-color: #E1E1E1; padding: 2rem 0">
+<div class="admin-publinks container">
+<div class="sitefooter">
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<a href="https://uic.edu"><img alt="University of Illinois Chicago" class="img-fluid" src="https://accc.uic.edu/wp-content/uploads/sites/372/2021/02/CAMP.CIRC_.SM_.RGB_.png"></a>
+<p style="padding: 8px">
+</p><address>1200 West Harrison St.<br>
+Chicago, Illinois 60607<br>
+(312) 996-7000</address>
+<p></p>
+</div>
+<div class="col-md-3">
+<div role="navigation" aria-label="Quick Links">
+<h2 class="footer-list-title"><span style="color: #D50032; font-size: 20px"><strong>QUICK LINKS</strong></span></h2>
+<ul style="list-style-type: none; padding: 0; margin-left: 0">
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://www.uicflames.com/" target="_self" rel="noopener" class="footer-list-link">Athletics</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://www.uic.edu/apps/departments-az/search" target="_self" rel="noopener" class="footer-list-link">Directory</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://disabilityresources.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Disability Resources</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://emergency.uic.edu" target="_self" rel="noopener" class="footer-list-link">Emergency Information</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://oge.uic.edu/" target="_self" rel="noopener" class="footer-list-link">International</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://it.uic.edu" target="_self" rel="noopener" class="footer-list-link">IT @ UIC Website</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uic.edu/about/job-opportunities/" class="footer-list-link">Job Opportunities</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://library.uic.edu" target="_self" rel="noopener" class="footer-list-link">Library</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://maps.uic.edu" target="_self" rel="noopener" class="footer-list-link">Maps</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uihealth.uic.edu" target="_self" rel="noopener" class="footer-list-link">UI Health</a></li>
+<li class="footer-list-item" style="padding-bottom: 24px"><a style="color: #000000" class="footer-list-link">Acerca de la UIC (en español)</a></li>
+</ul>
+</div>
+
+</div>
+
+<div class="col-md-3">
+<div role="navigation" aria-label="Resources">
+<h2 class="footer-list-title"><span style="color: #D50032; font-size: 20px"><strong>RESOURCES</strong></span></h2>
+<ul style="list-style-type: none; padding: 0; margin-left: 0">
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://catalog.uic.edu/ucat/academic-calendar/" target="_self" rel="noopener" class="footer-list-link">Academic Calendar</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu/resources/current-students" target="_self" rel="noopener" class="footer-list-link">Current Students</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://events.uic.edu" target="_self" rel="noopener" class="footer-list-link">Event Calendar</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu/resources/faculty-and-staff-resources" target="_self" rel="noopener" class="footer-list-link">Faculty and Staff</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://hospital.uillinois.edu/" target="_self" rel="noopener" class="footer-list-link">Patients</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://today.uic.edu" target="_self" rel="noopener" class="footer-list-link">UIC Today</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://uic.edu/about/visit-directions/" class="footer-list-link">Visit &amp; Directions</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="http://clery.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Clery Compliance</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://oae.uic.edu/policies/nondiscrimination-policy-statement/" target="_self" rel="noopener" class="footer-list-link">Nondiscrimination Policy</a></li>
+<li class="footer-list-item" style="padding-bottom: 6px"><a style="color: #000000" href="https://sexualmisconduct.uic.edu/" target="_self" rel="noopener" class="footer-list-link">Title IX: Sexual Misconduct</a></li>
+<li class="footer-list-item" style="padding-bottom: 24px"><a style="color: #000000" href="http://financialaid.uic.edu/consumer-information/department-education-complaint-process/" target="_self" rel="noopener" class="footer-list-link">Student Information Disclosures</a></li>
+</ul>
+</div>
+</div>
+<div class="col-md-1">
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="site-copyright" style="color: #FFFFFF; background-color: #0E1D62; padding: 2rem 0 1.5rem">
+<div class="admin-publinks container">
+<div class="sitefooter">
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+  © 2021 The Board of Trustees of the University of Illinois <span class="pipe-separator">|</span>
+  <a style="color: #FFFFFF" href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a> | <a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">Site Map
+ </a></div><a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">
+ </a><div class="col-md-6"><a style="color: #FFFFFF" href="https://help.uillinois.edu/TDClient/37/uic/SiteMap">
+ </a><a style="color: #FFFFFF" href="http://www.uillinois.edu/" target="_self" rel="noopener">University of Illinois System</a><span class="pipe-separator"> | </span><a style="color: #FFFFFF" href="http://www.illinois.edu/" target="_self" rel="noopener">Urbana-Champaign</a><span class="pipe-separator"> | </span><a style="color: #FFFFFF" href="http://www.uis.edu/" target="_self" rel="noopener">Springfield</a>
+ </div>
+ 
+</div>
+</div>
+</div>
+</div>
+</div>
+      
+
+    </div>
+  
+</footer>
+
+
+
+
+<script>
+
+    
+    
+
+      // Inject the Google Analytics isogram. This must happen here because it
+      // cannot be injected through an external javascript library.
+      (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    
+
+      // Per Incident #6707155. Need to focus on img. pseudo-class :focus-within is not supported in IE
+      (function ($) {
+        var $anchor = $('#divLogo a');
+        var $beLogo = $('#divLogo a img');
+
+        $anchor.focus(function () {
+          $beLogo.addClass('accessibility-focus-on-logo');
+        })
+          .blur(function () {
+            $beLogo.removeClass('accessibility-focus-on-logo');
+          })
+
+    })(jQuery);
+
+  </script>
+
+</body>
+</html>

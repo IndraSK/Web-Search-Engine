@@ -1,0 +1,294 @@
+<!DOCTYPE html
+  PUBLIC "XSLT-compat">
+<html xmlns:xs="http://www.w3.org/2001/XMLSchema" lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Teaching Modifier Implementation Guidance</title>
+      <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+      <style>
+					@import url('https://fonts.googleapis.com/css?family=Lato:wght@400;700');
+					@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700');
+					@import url('https://fonts.googleapis.com/css?family=Roboto:wght@400;700');
+					@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700');
+					@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700');</style>
+      <style>
+					@font-face {
+						font-family: 'Montserrat';
+						font-style: normal;
+						font-weight: 400;
+					}
+					@font-face {
+						font-family: 'Lato';
+						font-style: normal;
+						font-weight: 400;
+					}
+					@font-face {
+						font-family: 'Roboto';
+						font-style: normal;
+						font-weight: 400;
+					}
+					@font-face {
+						font-family: 'Source+Sans+Pro';
+						font-style: normal;
+						font-weight: 400;
+					}
+					@font-face {
+						font-family: 'Open+Sans';
+						font-style: normal;
+						font-weight: 400;
+					}</style>
+      				<style type="text/css">
+#main td  {
+padding:0px;
+}
+#main td .edu-uiuc-webservices-calendar-title  {
+padding-top:2px;
+padding-bottom:1px;
+padding-right:10px;
+
+}
+</style>
+
+      			</head>
+   <body style="margin:0;"><!-- SKIN ID:55563 --><!--[if (gte mso 9) | (gte IE 7)]>
+      <style>
+                    table#wrapper 
+                    { 
+                        width:800px !important; 
+                    } 
+                </style><![endif]--><!--[if mso]>
+      <style>
+					.fallback-font {
+						font-family: Arial, sans-serif !important;
+					}</style><![endif]-->
+      <style>
+                    table#wrapper
+                    {
+                        max-width:800px !important;
+                        box-shadow: 0 3px 10px -3px #666666, 0 3px 10px -10px #666666 ;
+                    }
+                    table th, 
+                    table td
+                    {
+                        padding:0 !important;
+                    }
+                    .col-2 table td {
+                    padding: 10px !important;
+                    }
+                    #outlook a
+                    {
+                        padding:0;
+                    }
+                    .ExternalClass
+                    {
+                        width:100%;
+                    }
+                    .ExternalClass, 
+                    .ExternalClass p, 
+                    .ExternalClass span, 
+                    .ExternalClass font, 
+                    .ExternalClass td, 
+                    .ExternalClass div
+                    {
+                        line-height:100% !important;
+                    }
+                    #footer a
+                    {
+                        color: #001E62;
+                        text-decoration: none;
+                    }
+                    #footer a:hover
+                    {
+                        color: #;
+                        text-decoration: underline;
+                    }
+                    #footer img
+                    {
+                        border:0;
+                    }
+					#main td{
+						padding:0;
+					}
+				</style>
+      <style>
+					span.previewText {
+						display: none !important;
+						max-height: 0;
+						overflow: hidden;
+						width: 75px;
+					}</style> <style type="text/css">
+#main td  {
+padding:0px;
+}
+#main td .edu-uiuc-webservices-calendar-title  {
+padding-top:2px;
+padding-bottom:1px;
+padding-right:10px;
+
+}
+</style>
+ <span class="previewText"> </span><div style="display: none; max-height: 0px; overflow: hidden;"> &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌
+         					&nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌ &nbsp; ‌</div><!-- SKIN BODY -->
+      <table bgcolor="#E1E1E1" style="background-color:#E1E1E1; width:100%; border-collapse:collapse; border-spacing:0;">
+         <tbody>
+            <tr>
+               <td><!-- SKIN ARCHIVE LINK -->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" id="archive-label" style="max-width:800px; border-spacing:0;"><!-- ARCHIVE_LINK_START -->
+                     <tr>
+                        <td align="left" bgcolor="#E1E1E1" style="background:#E1E1E1; line-height:12px; padding:0;">&nbsp;</td>
+                     </tr>
+                     <tr>
+                        <td align="center" bgcolor="#E1E1E1" class="fallback-font" colspan="5" style="font-size:13px; height:18px; line-height:18px; font-family:arial;"><a href="https://emails.uofi.uic.edu/newsletter/1147880512.html" style="color:#48484A;text-decoration: underline;"><span id="archive-label" style="color:#48484A;">Click here to see this online</span></a></td>
+                     </tr><!-- ARCHIVE_LINK_STOP -->
+                     <tr>
+                        <td align="left" bgcolor="#E1E1E1" style="background:#E1E1E1;line-height:12px;padding:0;">&nbsp;</td>
+                     </tr>
+                  </table><!-- SKIN TABLE -->
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" id="wrapper" style="border:none;max-width:800px;border-collapse:collapse; border-spacing:0;"><!-- HEADER ROW-->
+                     <tr id="header">
+                        <td align="left" colspan="3" style="padding:0;width:100%;border-bottom:none;"><a href="https://uic.edu/" style="border:0;"><img alt="header image" src="https://skins.webservices.illinois.edu/files/55563/wizard_header.png?iIndex=0523T094413" style="vertical-align:top;width:100%;border:0;"></a></td>
+                     </tr>
+                     <tbody>
+                        <tr>
+                           <td align="left" colspan="3" style="padding:0;width:100%;">
+                              <table background="#ffffff" bgcolor="#ffffff" cellpadding="0" cellspacing="0" id="content-tb" style="background:#ffffff; border:none; border-top:none; border-spacing:0; width:100%;">
+                                 <tbody>
+                                    <tr>
+                                       <td align="left" class="content-td" style="padding:0;width:100%;min-height:20vh;" width="100%;">
+                                          <table cellpadding="0" cellspacing="0" class="content-div" style="width:100%; border-spacing:0;">
+                                             <tr>
+                                                <td>
+                                                   <div id="system-form-header"></div>
+                                                   <table border="0" cellpadding="0" cellspacing="0" style="background:#001E62; border: none; width: 100%; border-spacing:0;">
+                                                      <tbody>
+                                                         <tr>
+                                                            <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+                                                            <td align="center" bgcolor="#001E62;" class="fallback-font" style="background: #001E62;width:90%;border-bottom:none; padding: 0; font-weight:normal; font-family: Arial;line-height:auto;color:#ffffff">
+                                                               <div style="margin: 6px 0 6px 0;color: #ffffff; text-align: center;">
+                                                                  <div class="fallback-font" style="font-size: 18px; font-family: Arial; margin-bottom:4px;"><a class="heading" href="https://faculty.uic.edu/" style="color:#ffffff;text-decoration:none;" target="_blank"><span style="color:#ffffff;">Office of the Vice Provost for Faculty Affairs</span></a></div>
+                                                                  <div class="fallback-font" style="font-size: 13px; color: #ffffff; font-family: Arial; line-height: auto;"></div>
+                                                               </div>
+                                                            </td>
+                                                            <td align="left" style="padding:0;width:5%;" width="5%">&nbsp;</td>
+                                                         </tr>
+                                                      </tbody>
+                                                   </table><!-- MESSAGE START --> <!--CONTENT_STARTS--><!-- SKIN: 55563 --><style rel="stylesheet" type="text/css"><!--[if mso]>
+			.fallback-font-heading {
+				font-family: Arial, sans-serif !important;
+			}<![endif]--></style>
+<table cellpadding="0" cellspacing="0" style="border:none;width:100%;">
+   <tr>
+      <td style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td>
+   </tr>
+</table><!-- BLOCK_content --><!-- ELEMENT_2733820_START --><style rel="stylesheet" type="text/css">
+            #content_1 a {
+                color:#001E62;
+            }
+            #content_1 p {
+                line-height: 24.0px;
+				margin: 0 0 21px 0;
+            }
+            .content-td a, .content-div a {
+                text-decoration: underline
+			;
+			}</style><a id="element_2733820" name="element_2733820"></a><table border="0" cellpadding="0" cellspacing="0" style="background:transparent; border:none; width:100%; border-spacing:0;" width="100">
+   <tr>
+      <td>
+         <table align="left" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" id="content_1" style="background:transparent; border:none; width:100%; border-spacing:0;">
+            <tbody>
+               <tr>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+                  <td class="fallback-font" style="padding: 0; font-weight:normal; font-family: Arial, arial;line-height:24.0px;font-size:15px;color:#333333"><p>Dear Colleagues,</p>
+<p>I know that many of you have been awaiting further guidance on the implementation of the teaching modifier at UIC.&nbsp; I want to thank you for your support and patience as we engaged in dialogue with the UIC Senate regarding this implementation.&nbsp; We plan to continue our discussions this Fall specifically related to the Faculty Handbook language, however, colleges and departments who are ready to move forward with the utilization of the teaching modifier may do so as early as August 16, 2022.</p>
+<p>The teaching modifier for non-tenure track faculty at the assistant, associate, and full professor ranks is intended for positions where faculty contribute to the instructional and curricular aspects of the teaching and service missions of the University.&nbsp; It is appropriate for those who work primarily in an instructional setting and engage in scholarly activities related to their discipline, including, for example conferences and seminars.&nbsp; In implementing this modifier, the expectation is that a terminal degree is generally required.&nbsp; There may be specific situations that allow for exceptions to the terminal degree requirement. Such exceptions would be considered for approval by request of the dean to the Provost only under rare circumstances, with compelling justification from the department and college including documentation substantiating the specific disciplinary accrediting body requirements, if applicable.&nbsp;</p>
+<p>Colleges and departments who choose to utilize the new teaching modifier will need to, at minimum, incorporate the modifier of &ldquo;teaching&rdquo; by reference into their policies, by-laws, and related guidelines as they already have with the &ldquo;clinical&rdquo; and &ldquo;research&rdquo; modifiers.&nbsp; More specifically, P&amp;T norms and criteria will need to be established for the teaching modifier for determining initial eligibility and promotion in rank. &nbsp;&nbsp;</p>
+<p>Once the norms and criteria have been developed, colleges and departments may begin utilizing the teaching modifier for new hires as well as for appointing current faculty for the upcoming academic year.&nbsp; For those with existing clinical faculty that may be appointed to the teaching modifier effective August 16, 2022, the Office for Access and Equity will review these through an expedited process.&nbsp; Given the transition to Cornerstone, the details of this process will be sent to your respective college HR contacts by the Office of the Vice Provost for Faculty Affairs (OVPFA) as soon as they are available.&nbsp; These requests should be submitted <u>no later than</u> July 22, 2022.&nbsp; Colleges and departments are asked to thoughtfully review the timing and applicability of appointing current faculty to this modifier.&nbsp; Please note that clinical faculty currently under a multi-year contract (MYC) may choose to remain in that modified title through the conclusion of their existing MYC period.</p>
+<p>Questions regarding the implementation may be directed to the OVPFA at: <a style="color: #001e62;" href="mailto:facultyaffairs@uic.edu"><span style="color: #001e62; font-weight: bold;">facultyaffairs@uic.edu</span></a>.</p>
+<p>Sincerely,</p>
+<p>Karen Colley<br />Acting Provost and Vice Chancellor for Academic Affairs</p></td>
+                  <td style="padding:0; width:5%;" width="5%">&nbsp;</td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</table><!-- ELEMENT_2733820_STOP --><table cellpadding="0" cellspacing="0" style="border:none;width:100%;">
+   <tr>
+      <td style="padding:0;line-height:24px;height:24px;font-size:24px;">&nbsp;</td>
+   </tr>
+</table><!--CONTENT_ENDS--> <!-- MESSAGE END -->
+                                                   <div id="skin-content-spacing" style="display:none;height:120px;">&nbsp;</div>
+                                                </td>
+                                             </tr>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </td>
+                        </tr><!-- SKIN FOOTER -->
+                        <tr>
+                           <td align="left" bgcolor="#F6F6F6" colspan="3" style="background:#F6F6F6;padding:0;line-height:25px;">&nbsp;</td>
+                        </tr>
+                        <tr id="logo-wrapper">
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;"></td>
+                           <td align="center" bgcolor="#F6F6F6" border="0" class="fallback-font" id="footer" style="width:730px;text-align:center;background-color:#F6F6F6;color:#E2E3E4;font-family: Arial, sans-serif ,arial;font-size:85%;padding:0;">
+                              <p><a href="https://uic.edu"><img alt="UIC logo" height="52" src="https://webservices.illinois.edu/webservices/images/skin/uic/logo.png" width="52"></a></p>
+                           </td>
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;"></td>
+                        </tr>
+                        <tr id="footer-wrapper">
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#F6F6F6" border="0" class="fallback-font" id="footer" style="width:730px;text-align:center;background-color:#F6F6F6;color:#001E62;font-family:Arial ,arial;font-size:95%;padding:0;line-height:24px"><p><span style="text-decoration: underline;"><strong><a href="https://faculty.uic.edu/"><span style="font-size: 17px;">Office of the Vice Provost for Faculty Affairs</span></a></strong></span></p>
+<p>2731 University Hall<br />601 S. Morgan St., Chicago, IL 60607<br /><span style="text-decoration: underline;"><a href="mailto:facultyaffairs@uic.edu">facultyaffairs@uic.edu</a></span><br /><span style="text-decoration: underline;"><a href="http://www.faculty.uic.edu">faculty.uic.edu</a></span></p></td>
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td align="left" bgcolor="#F6F6F6" colspan="3" style="background:#F6F6F6;padding:0;line-height:12px;">&nbsp;</td>
+                        </tr>
+                        <tr id="social-wrapper">
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#F6F6F6" border="0" class="fallback-font" id="social" style="width:730px;text-align:center;background-color:#F6F6F6;color:#001E62;font-family:Arial ,arial;font-size:95%;padding:0;">
+                              <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-spacing:0;">
+                                 <tr></tr>
+                              </table>
+                           </td>
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                        </tr><!-- SUBSCRIBE UNSUBSCRIBE -->
+                        <tr id="subscribe-wrapper">
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                           <td align="center" bgcolor="#F6F6F6" border="0" class="fallback-font" id="subscribe" style="width:730px;text-align:center;background-color:#F6F6F6;color:#001E62;font-family:Arial ,arial;font-size:95%;padding:0;"><span id="subscription"></span></td>
+                           <td align="left" bgcolor="#F6F6F6" style="background:#F6F6F6;padding:0;width:35px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                           <td align="left" bgcolor="#F6F6F6" colspan="3" style="background:#F6F6F6;padding:0;line-height:8px;">&nbsp;</td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+            <tr>
+               <td align="left" height="16" style="line-height:16px;height:16px;padding:0;">&nbsp;</td>
+            </tr>
+         </tbody>
+      </table><script>
+            		if(window.top != window.self)
+            		{ 
+	            		document.body.style.backgroundColor = '#E1E1E1';
+    				}
+    				//
+    				if(location.href.includes('skins.webservices'))
+    				{
+	    				document.getElementById('skin-content-spacing').style.display = 'block';
+    				}
+            	</script></body>
+</html>

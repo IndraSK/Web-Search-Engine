@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="description" content="Library Access Policy at University of Illinois Chicago School of Law in Chicago, Illinois." />
+<meta name="keywords" content="business, law, clinic" />
+
+<META name="author" content="UIC John Marshall Law School" />
+<META name="revisit-after" content="7 days" />
+<META name="robots" content="all" />
+<META name="google-site-verification" content="QqNq_hSWms7EizIXgm0iIr6hE60IQ-X-uVAJJLg_oP8" />
+<title>Library Access Policy | University of Illinois Chicago School of Law</title>
+<link rel="alternate" type="application/rss+xml" title="John Marshall News and Publications" href="http://news.jmls.edu/feed"><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><link rel="apple-touch-icon" href="/_images/icon-jmls-idevices.png"/><!--<link rel="stylesheet" href="/_css/reset.css" /><link rel="stylesheet" href="/_css/text.css" />--><link rel="stylesheet" href="/_css/960.css" /><link rel="stylesheet" href="/_css/jmls.css?ver=1.3.5" /><link rel="stylesheet" href="/_css/megamenu/jquery.megamenu.css" type="text/css" media="screen" /><link rel="stylesheet" href="/_css/jmls_ui/jquery-ui-1.8.2.custom.css" /><!--<link rel="stylesheet" href="/_css/colorbox.css" />-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- additional stylesheets links go here -->
+<script
+  src="https://code.jquery.com/jquery-1.7.2.min.js"
+  integrity="sha256-R7aNzoy2gFrVs+pNJ6+SokH04ppcEqJ0yFLkNGoFALQ="
+  crossorigin="anonymous"></script>
+<script src="/_js/jquery-ui-1.8.4.custom.min.js" type="text/javascript"></script>
+<script src="/_js/jquery.megamenu.js" type="text/javascript"></script>
+<script src="/_js/easySlider1.8.js" type="text/javascript"></script>
+<script src="/_js/jquery.colorbox-min.js" type="text/javascript"></script>
+<script src="/_js/jquery.jtwitter.min.js" type="text/javascript"></script>
+<script src="/_js/jquery.popupWindow.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+		$(document).ready(function()
+		{
+
+			// MegaMenu
+			var SelfLocation = window.location.href.split('?');
+			switch (SelfLocation[1]) {
+				case "justify_right":
+					jQuery(".megamenu").megamenu({ 'justify':'right' });
+				break;
+				case "justify_left":
+				default:
+					jQuery(".megamenu").megamenu();
+			}
+		
+			// TABS
+			$('#tabs').tabs();
+			
+			$("#slider").easySlider({
+				auto: true,
+				pause: 5500,
+				continuous: true,
+				numeric: true,
+				prevNext: false
+			});
+			
+			// Table Striping
+			$(".stripeTable tr:even").addClass("alt");
+			
+			// Colorbox Lightboxing for content
+			$('a.colorbox').colorbox();
+						
+		});	
+		
+	</script>
+	
+<script type="text/javascript" src="//use.typekit.com/fcl5avv.js"></script>	
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script><!-- additional javascript src goes here -->
+</head>
+<body id="page" />
+<!-- OneTrust Cookies Consent Notice (Production CDN, uic.edu, en-GB) start -->
+<script src="https://cdn.cookielaw.org/consent/f5cc0259-ebf9-460e-b628-c1d661e5d3b6.js" type="text/javascript" charset="UTF-8"></script>
+<script type="text/javascript">
+function OptanonWrapper() { }
+</script>
+<!-- OneTrust Cookies Consent Notice (Production CDN, uic.edu, en-GB) end -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-400422-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-400422-1');
+</script>
+  	
+<script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-400422-1");
+			pageTracker._trackPageview();
+} catch(err) {}</script>
+  	
+		<script>
+		  (function() {
+			var cx = '008902623546163794413:wrcxe3ucpfu';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		  })();
+		</script>
+		
+<!-- Tracker 2 Starts Here -->
+		
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-20665772-1"></script>
+	   <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-20665772-1');
+</script>
+	   
+	   		 <script type="text/javascript">
+		try {
+			var pageTracker = _gat._getTracker("UA-20665772-1");
+			pageTracker._trackPageview();
+} catch(err) {}</script>		 
+		   
+  <!-- Global site tag (gtag.js) - Google Analytics Ends Here --> 
+
+   	<div id="header"  class="container_16">
+    	<a href="//law.uic.edu">
+			<div id="logo" class="grid_10" style="margin-bottom: 12px;">
+				<h1>University of Illinois Chicago School of Law</h1>
+			</div>
+		</a>
+        <div class="grid_6" id="topControls">
+        	<ul>
+            	<li><a href="//alumni.law.uic.edu/" target="_blank">Alumni</a></li>
+				<li><a href="//library.law.uic.edu/" target="_blank">Law Library</a></li>
+                <li><a href="//webapps.law.uic.edu/ecommons" target="_blank">eCommons</a></li>
+                <li><a href="//give.law.uic.edu" target="_blank">Donate</a></li>
+            </ul>
+
+            <form action="https://law.uic.edu/search/" method="get">
+            	<input aria-label="Search Field" type="text" class="searchField" name="q" value="Enter Search Term(s)" onfocus="this.value==this.defaultValue?this.value='':null" /> <input class="searchSubmit" type="submit" value="GO" alt="Click to Search"/>
+            </form>
+		</div>
+	</div>
+
+    <div class="clear"></div>
+
+	<div class="bgcolor_gray">
+		<div class="container_16">
+		<!--MegaMenu Starts-->
+			<ul class="megamenu">
+			  <li><a href="//jmls.uic.edu/about/" target="_blank">About <img class="arrow" src="/_images/icon_nav_expandable.png" alt="Click to Expand" /></a>
+				<div>
+					<div class="grid_16">
+						<ul>
+							<li><a href="//law.uic.edu/about/message-from-the-dean/" target="_blank">Message from the Dean</a></li>
+							<li><a href="//law.uic.edu/about/accreditation/" target="_blank">Accreditation</a></li>
+							<li><a href="//law.uic.edu/about/directory/" target="_blank">Directory</a></li>
+							<li><a href="//law.uic.edu/about/faculty/" target="_blank">Faculty</a></li>
+						</ul>
+					</div>
+					<p class="mmclear">&nbsp;</p>
+				</div>
+			  </li>
+			  <li>
+				  <a href="//law.uic.edu/admission/" target="_blank">Admissions <img class="arrow" src="/_images/icon_nav_expandable.png" alt="Click to Expand" /></a>
+				<div>
+					<div class="grid_4 alpha omega">
+						<ul>
+							<li><a href="//law.uic.edu/admission/jd/" target="_blank">JD &amp; Transfer Admission</a></li>
+							<li><a href="//law.uic.edu/admission/graduate/" target="_blank">Graduate Law Admission</a></li>
+							<li><a href="//law.uic.edu/admission/international/" target="_blank">International Student Admission</a></li>
+							<li><a href="//law.uic.edu/admission/veterans/" target="_blank">Veteran Admission</a></li>
+						</ul>
+					</div>
+					<div class="grid_4 alpha omega">
+						<ul>
+							<li><a href="//law.uic.edu/admission/tuition/" target="_blank">Tuition &amp; Cost of Attendance</a></li>
+							<li><a href="//law.uic.edu/admission/scholarships/" target="_blank">Scholarships</a></li>
+							<li><a href="//law.uic.edu/admission/financial-aid/" target="_blank">Financial Aid</a></li>
+							<li><a href="//law.uic.edu/admission/visiting/" target="_blank">Visit UIC Law</a></li>
+							<li><a href="//law.uic.edu/admission/faqs/" target="_blank">Frequently Asked Questions</a></li>
+							<li><a href="//law.uic.edu/admission/staff/" target="_blank">Admission Staff</a></li>
+						</ul>
+					</div>
+					<p class="mmclear">&nbsp;</p>
+				</div>
+			  </li>
+			  <li><a href="//law.uic.edu/academics/" target="_blank">Academics <img class="arrow" src="/_images/icon_nav_expandable.png" alt="Click to Expand" /></a>
+				<div>
+					<div class="grid_4">
+						<ul>
+							<li><a href="//law.uic.edu/academics/jd/" target="_blank">JD Program</a></li>
+							<li><a href="//law.uic.edu/academics/joint-degrees/" target="_blank">Joint Degree Programs</a></li>
+							<li><a href="//law.uic.edu/academics/llmdegrees/" target="_blank">LLM Degree Programs</a></li>
+							<li><a href="//law.uic.edu/academics/centers/">Centers for Excellence</a></li>
+						</ul>
+					</div>
+					<p class="mmclear">&nbsp;</p>
+				</div>
+			  </li>
+			  <li><a href="https://jmls-dev.red.uic.edu/experiential-learning/" target="_blank">Experiential Learning <img class="arrow" src="/_images/icon_nav_expandable.png" alt="Click to Expand" /></a>
+				<div>
+					<div class="grid_4">
+						<ul>
+							<li><a href="//law.uic.edu/experiential-learning/clinics/" target="_blank">Community Legal Clinics</a></li>
+							<li><a href="//law.uic.edu/experiential-learning/externships/" target="_blank">Externships</a></li>
+						</ul>
+					</div>
+					<p class="mmclear">&nbsp;</p>
+				</div>
+			  </li>
+			  <li><a href="//law.uic.edu/student-support/" target="_blank">Student Support <img class="arrow" src="/_images/icon_nav_expandable.png" alt="Click to Expand" /></a>
+				<div>
+					<div class="grid_4">
+						<ul>
+							<li><a href="//law.uic.edu/student-support/academic-achievement/" target="_blank">Academic Achievement &amp; Bar Preparation </a></li>
+							<li><a href="//law.uic.edu/student-support/career-services/" target="_blank">Career Services</a></li>
+							<li><a href="//law.uic.edu/student-support/diversity/" target="_blank">Diversity, Equity &amp; Inclusion</a></li>
+							<li><a href="//law.uic.edu/student-support/office-professionalism/" target="_blank">Professionalism &amp; Career Strategy</a></li>
+							<li><a href="//law.uic.edu/student-support/registrar/" target="_blank">Registrar</a></li>
+							<li><a href="//law.uic.edu/student-support/students/" target="_blank">Student Life &amp; Leadership</a></li>
+							<li><a href="//law.uic.edu/student-support/organizations/" target="_blank">Student Organizations</a></li>
+							<li><a href="//law.uic.edu/student-support/writing-resource-center/" target="_blank">Writing Resource Center</a></li>
+						</ul>
+					</div>
+					<p class="mmclear">&nbsp;</p>
+				</div>
+			  </li>
+			</ul>
+		<!--MegaMenu Ends-->
+	</div>
+</div>
+<!-- End of Header-->
+    <div id="content" class="container_16">
+
+		<div class="grid_16 pageTitle">
+			<h2 class="title">Louis L. Biro Law Library</h2>
+		</div>
+		<div class="clear"></div>
+
+		<div class="grid_12">
+
+			<h3>Law Library Access Policy</h3>
+			
+			<p><strong>NOTICE OF TEMPORARY AMENDMENT: Due to Covid-19 building access restrictions, the UIC Law Library is presently open only to current students, faculty, and staff of UIC and UIC Law and subject to UIC Law Covid-19 policies and protocols. We will return to the full access outlined below when campus policy permits.</strong></p>
+
+			<p>The UIC Law Library is open to:</p>
+				<ol>
+					<li>Current students, faculty (full time and adjunct), and staff of the University of Illinois Chicago School of Law (UIC Law)</li>
+					<li>Current students, faculty, and staff of the University of Illinois at Chicago (UIC); the University of Illinois at Urbana-Champaign (UIUC); and the University of Illinois at Springfield (UIS), and employees of the University of Illinois System (UI System)</li>
+					<li>Alumni of the Law School</li>
+					<li>Alumni of UIC (subject to identification requirements below)</li>
+					<li>Licensed Illinois attorneys (subject to identification requirements below)</li>
+					<li>Current students and faculty of law schools that are members of the Chicago Legal Academic System (CLAS): IIT Chicago-Kent, University of Chicago, DePaul, Loyola, Northwestern, Marquette, Northern Illinois, Notre Dame, Southern Illinois, UIUC, University of Minnesota, and University of Wisconsin (subject to identification requirements below)</li>
+					<li>Individuals who present a properly completed interlibrary loan form signed by a librarian (access is limited to retrieving the library materials listed on the form)</li>
+					<li>Members of the public who desire to use the Law Library's federal depository documents collection (access is limited to use of the federal depository documents in the library)</li>
+					<li>Individuals who have received advance permission to use the National Anti-Vivisection Society (NAVS) collection</li>
+					<li>Individuals who have received special authorization from the Law Library director or associate director to use the Law Library (e.g., to access materials available only at the Law Library)</li>
+					<li>Individual students, faculty, and staff who are currently enrolled in or employed by CARLI Governing Member institutions</li>
+				</ol>
+			NOTES:
+				<ul>
+					<li>Access under this policy is limited to Law Library floors 6, 9, and 10 of the 300 S. State St. building. The Collaboration Commons on the 8th floor is accessible only to UIC Law students, faculty, and staff under a <a href="https://uofi.box.com/s/dxsd2auivhvldhx831guiksplzs8q3ja" target="_blank">separate access policy</a>. Access to other parts of campus are governed by UIC Law Campus Safety &amp; Security policies.</li>
+					<li>Due to building security requirements, individuals seeking library access under categories 8, 9, and 10 must make an appointment with a reference librarian in advance.</li>
+					<li>Students, faculty, and staff of CARLI Governing Member institutions are encouraged to contact a reference librarian in advance, so that UIC Law’s Campus Safety &amp; Security Office can be made aware of the visit.</li>
+					<li>During fall and spring reading periods and final examinations, access to the Law Library is restricted so that UIC Law students can study and take exams. Only UIC Law and UIC students, faculty, staff, and alumni; licensed Illinois attorneys; and CLAS members will be allowed access to the Law Library during these times. The Law Library reserves the right to further restrict access and hours of access to groups other than UIC Law students during reading and exam periods. All users are requested to respect studying students and maintain a quiet environment.</li>
+					<li>Only UIC Law alumni and UIC alumni will be permitted to use the library for bar exam study.</li>
+					<li>Questions about this access policy may be directed to Claire Toomey Durkin, Associate Director, Research &amp; Instruction, at <a href="mailto:ctdurkin@uic.edu">ctdurkin@uic.edu</a>.</li>
+				</ul>
+
+		  	<h5>Identification</h5>
+				<p>To enter UIC Law, patrons must swipe in at a security gate with a valid University of Illinois (UIC, UIUC, UIS, UI System) i-card or UIC Law photo ID card, or present other valid identification. UIC Law alumni can obtain a UIC Law photo ID card from the UIC Law Campus Safety &amp; Security Office. UIC alumni (non-Law) must present an alumni borrowing card issued by the UIC University Library together with a government-issued photo ID for identity verification. UIC alumni may <a href="https://library.uic.edu/help/article/1873/alumni-services" target="_blank">apply for a borrowing card online</a>. Students, faculty, and staff who are permitted access under this policy (CLAS member law schools, CARLI Governing Member institutions) must present a current school-issued photo ID card.  Licensed attorneys must present a current Illinois ARDC card and government-issued photo ID at the security desk. Visitors may be asked to sign in by UIC Law Campus Safety &amp; Security before entering.</p>
+
+				<p>Members of the public who wish to access the federal depository documents must present valid identification at the security desk to gain entry to the Law Library. They will be directed to a reference librarian for assistance with the federal depository collection.</p>
+
+		  	<h5>Check-Out Privileges</h5>
+				<p>Please note that many materials in the Law Library collection do not circulate and must be used in the Law Library. Current UIC Law and UIC students, faculty (full time and adjunct), and staff may check out circulating materials by presenting their UIC i-card at the circulation desk. Alumni of the Law School may check out materials by presenting a valid UIC Law-issued alumni card. UIC alumni will need to present a UIC alumni borrowing card and photo ID to check out materials. No other library patrons have direct check-out privileges.</p>
+
+		  	<h5>Use Policies</h5>
+		  		<p>Use of the Law Library is a privilege extended to those who comply with its rules and procedures. Law Library privileges may be withdrawn from anyone breaking these rules or exhibiting disrespect for the Law Library, its staff, or its patrons. Serious violations of Law Library rules will be reported to the appropriate disciplinary body or authorities.</p>
+
+      			<ol>
+					<li>The Law Library serves as a quiet place of study for many of its users. Please respect other users by keeping noise to a minimum, including adhering to the following policies:</li>
+					<ul>
+						<li>Please adhere to Law Library rules regarding talking. The 6th floor is designated as a group study area where quiet talking is allowed. The 9th floor is an absolute no talking zone reserved for silent, individual study. The 10th floor is a designated research floor where talking is not encouraged but, if necessary, should be very quiet.</li>
+						<li>Group study rooms are available in the Law Library for UIC Law students who would like to quietly study as a group or work collaboratively. Study rooms can be booked online via the link on the Law Library's homepage. Only current UIC Law students may use the Law Library’s group study rooms.</li>
+						<li>Technological devices (computers, cell phones, tablet devices, headphones, etc.) should be kept quiet and not be audible to other patrons.</li>
+						<li>Talking on mobile phones is not permitted in the Law Library. Please leave the Law Library or go to a stairwell to talk on your phone.</li>
+					</ul>
+
+					<li>The Law Library permits drinks in covered containers, including plastic bottles and cups with lids. Food may be brought into the Law Library, but please be respectful of fellow patrons and do not bring in food that is noisy, strong smelling, or messy. Please be sure to properly dispose of all waste material.</li>
+					<li>Failure to return materials when due may result in fines, processing fees, and replacement fees.</li>
+					<li>Remote access to online databases is restricted to current UIC and UIC Law students, faculty, and staff. Access to some law-related databases and e-books is limited to current UIC Law students, faculty, and staff. Other patrons can access various subscription databases from dedicated terminals on the 6th floor of the library. Use of the guest terminals is on a first-come, first-served basis.</li>
+					<li>Law Library staff will not attempt to locate patrons in the Law Library.</li>
+					<li>Patrons may be asked by a Law Library staff member or UIC Law Campus Safety &amp; Security to show their ID card. Refusal to do so is a violation of Law Library use policies.</li>
+					<li>Individuals who violate these policies may be asked to leave the Law Library; for serious or repeated violations, may be barred from using the Law Library; and may be subject to disciplinary action.</li>
+					<li>UIC Law may amend these access policies at any time.</li>
+				</ol>
+			
+			<p><small><em>Policy last updated October 6, 2021.</em></small></p>
+				<a href="http://www.gpo.gov/libraries/" ><img src="images/FDLP Logo.jpg"  width="46" height="42" alt="FDLP Logo"/></a>
+				<p>
+					<em>&ldquo;This library is a congressionally designated depository for</em><br />
+					<em>U.S. Government documents. Public access to the government documents</em><br />
+					<em>collection is guaranteed by public law. (Title 44 United States Code)&rdquo;</em>
+				</p>
+
+			<div class="clear"></div>
+		</div>
+		<div class="grid_4">
+			<!-- Start Sidebar -->
+			<div class="cbox_header">
+	<div class="cbh_link"></div>
+	<h3>Library Links</h3>
+</div> 
+<div class="cbox_body"> 
+	<ul class="resourceLinks">
+		<li><a href="https://library.law.uic.edu/">Library Home</a></li>
+		<li><a href="https://library.law.uic.edu/access-policy.php">Access Policy</a></li> 
+		<li><a href="https://library.law.uic.edu/hours.php">Library Hours</a></li>
+		<!--
+        <li><a href="/at/index.php">Media Services</a></li> 
+        -->
+		<li><a href="https://library.law.uic.edu/staff.php">Staff Directory</a></li> 
+		<li><a href="https://library.law.uic.edu/reference-services.php">Reference Services</a></li> 
+		<li><a href="https://library.law.uic.edu/ill-policy.php">Interlibrary Loan Policy</a></li> 
+		<li class="last"><a href="https://library.law.uic.edu/circulation-services.php">Circulation Services</a></li>
+	</ul>
+</div>
+
+<div class="cbox_separator"></div>
+
+<div class="cbox_header">
+	<div class="cbh_link"></div>
+	<h3>Resources &amp; Tools</h3>
+</div>
+<div class="cbox_body"> 
+	<ul class="resourceLinks">
+		<li><a href="http://libraryguides.law.uic.edu">Research Guides</a></li>
+       	<li><a href="https://webapps.law.uic.edu/ecommons/channel/view/?p=302" title="Exams on Reserve Login instructions">Exam Database</a></li>
+				<li><a href="http://ezproxy.jmls.edu:2048/login?url=http://heinonline.org/HOL/Welcome">HeinOnline</a></li>
+		 <li><a href="http://vf9lb7rb8v.search.serialssolutions.com/">A-Z Journal List</a></li>
+		<li class="last"><a href="http://www2.cali.org/index.php?fuseaction=lessons.home">CALI Lessons</a></li>
+      </ul>
+</div>		</div>
+
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+    <div id="footer">
+	<div class="container_16">
+		<div class="grid_4 footerCol" id="footerSocial">
+			<h4>Stay Connected</h4>
+			<div class="footerSocialMediaIcons">
+				<a class="footerfacebook" href="https://www.facebook.com/UICLaw"><img src="/_images/icon_color_facebook.png" alt="Facebook"></a>
+				<a class="footertwitter" href="https://twitter.com/uiclaw"><img src="/_images/icon_color_twitter.png" alt="Twitter"></a>
+				<a class="footerflickr" href="//www.flickr.com/photos/39866729@N03/"><img src="/_images/icon_color_flickr.png" alt="Flickr"></a>
+				<a class="footerrss" href="//news.law.uic.edu/feed/"><img src="/_images/icon_color_rss.png" alt="RSS Feeds"></a>
+			</div>
+
+			<div class="footerbtn">
+				<a href="https://give.law.uic.edu/">Give to the Law School</a>
+			</div>
+
+		</div>
+
+		<div class="grid_4 footerCol" id="footerCopy">
+			
+			<ul class="footerLinks">
+				<li class="last"><a href="https://law.uic.edu/">Home</a></li><br>
+				<li class="last"><a href="https://law.uic.edu/security/">Campus Safety &amp; Security</a></li><br>
+				<li class="last"><a href="https://law.uic.edu/student-support/its/">Information Technology Services</a></li><br>
+				<!--<li class="last"><a href="//complaints.ibhe.org/">Online Course Complaints (IBHE)</a></li><br>-->
+			</ul><br />
+			<br />
+
+		</div>
+
+		<div class="grid_4 footerCol" id="footerCopy">
+			
+			<ul class="footerLinks">
+				<li class="last"><a href="https://law.uic.edu/hours/">Hours of Operation</a></li><br>
+				<li class="last"><a href="https://law.uic.edu/policy/">Institutional Policies</a></li><br>
+				<li class="last"><a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a></li><br>
+				<li class="last"><a href="https://law.uic.edu/student-support/students/student-complaint-policy/">Student Complaint Policy</a></li><br>
+			</ul><br />
+
+
+		</div>
+		
+
+
+
+		<div class="grid_4 footerCol" id="footerLocal">
+			<h5><a class="fn org url"></a><a href="//law.uic.edu"><img src="/_images/jmls_logo_small.png" alt="UIC Law" border="0" /></a></h5>
+			<span class="adr">
+				<!--<a target="_blank" class="googleMap" title="Map of Chicago" href="https://goo.gl/maps/iabVdADUtfZgG8Gb7"><span style="visibility: hidden">Chicago Map</span></a>-->
+				<p>
+					<span class="street-address">300 S. State Street</span><br>
+					<span class="locality">Chicago</span>,
+					<span class="region">Illinois</span>
+					<span class="postal-code">60604</span><br>
+					<span class="tel">(312) 427-2737</span><br>
+					<a href="/welcome/directions.php">View Map</a>
+				</p>
+							
+
+			<div class="cookie-banner">
+
+				<a class="optanon-show-settings">Cookie Settings</a>
+
+			</div>
+			</span>
+		</div>
+		
+
+	</div>
+
+
+</div>
+
+
+
+
+
+
+<div id="footer-2">
+	<div class="container_16">
+		
+		<div class="container_16">
+	
+		<div class="grid_16 questions" id="footerLocal">
+		
+			<span class="adr">
+				<!--<a target="_blank" class="googleMap" title="Map of Chicago" href="https://goo.gl/maps/iabVdADUtfZgG8Gb7"><span style="visibility: hidden">Chicago Map</span></a>-->
+				<p style="text-align:center;">
+									
+			Questions or suggestions for this website?<br />
+			<a href="mailto:law-communications@uic.edu" style="color:white; text-decoration: none;" >Please contact UIC Law website manager.</a>
+				
+				</p><br>
+				
+								<p style="text-align:center;">
+									
+			
+			@2021 University of Illinois Chicago School of Law
+				
+				</p><br>
+
+			</span>
+		</div>
+		
+
+	</div>
+	</div>
+</div>
+</body>
+</html>

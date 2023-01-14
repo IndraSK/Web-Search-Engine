@@ -1,0 +1,830 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>BS in Chemical Engineering &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/courseleaf.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+</head>
+
+
+
+<body>
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">UIC Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<header id="header-new">
+	<div class="wrap">
+		<div class="logo-header">
+			<a href="//www.uic.edu">
+				<img src="/images/logo2021.png" alt="University of Illinois Chicago" />
+			</a>
+		</div>
+		<nav class="catalog-quicklinks" aria-label="catalog quicklink">
+			<button id="hamburger" aria-controls="mobile-menu" data-toggle="#mobile-menu" aria-expanded="false">
+				<span class="sr-only">Toggle menu</span>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</button>
+			<div id="mobile-menu">
+			<ul id="quicklinks">
+				<li><a href="/ucat/">Undergraduate</a></li>
+				<li><a href="/gcat">Graduate</a></li>
+				<li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+			</ul>
+			<div id="search" role="search">
+				<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+<input type="hidden" name="fscaturl" value="/ucat" /><input type="hidden" name="gscaturl" value="/ucat" />				</form>
+			</div><!-- end #search -->
+		</div><!-- /#mobile-menu -->
+		</nav>
+	</div>
+</header>
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <a href="/">
+			<h1>Academic Catalog</h1>
+		</a>
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<section id="banner" aria-labbledby="banner-header"
+ class="ugrad"
+>
+    <div class="wrap">
+
+		<div class="banner-text">
+			<h2 id="banner-header">2021-2023 Undergraduate Catalog</h2>
+		</div>
+
+
+
+
+
+    </div><!--end .wrap -->
+</section><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <a id="cl-menu-control" href="#" class="togglenav">
+                <span class="cl-menu-text">Catalog Navigation</span>
+                <!-- <a class="cl-menu-btn" href="#">Catalog Navigation</a> -->
+				<svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation"><title>Down arrow icon</title><g fill="none" fill-rule="evenodd"><circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"></circle><path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"></path></g></svg>
+			</a><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="active isparent"><a href="/ucat/">Undergraduate Catalog</a>
+	<ul class="nav levelone" id="/ucat/">
+		<li><a href="/ucat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/ucat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/ucat/admissions-registration-finances/">Admissions, Registration &amp;&#8203; Finances</a></li>
+		<li class="isparent"><a href="/ucat/degree-programs/">Degree Programs and Requirements</a></li>
+		<li class="active isparent"><a href="/ucat/colleges-depts/">Colleges &amp;&#8203; Departments</a>
+		<ul class="nav leveltwo" id="/ucat/colleges-depts/">
+			<li class="isparent"><a href="/ucat/colleges-depts/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/education/">College of Education</a></li>
+			<li class="active isparent"><a href="/ucat/colleges-depts/engineering/">College of Engineering</a>
+			<ul class="nav levelthree" id="/ucat/colleges-depts/engineering/">
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/bioe/">Biomedical Engineering</a></li>
+				<li class="active isparent"><a href="/ucat/colleges-depts/engineering/che/">Chemical Engineering</a>
+				<ul class="nav levelfour" id="/ucat/colleges-depts/engineering/che/">
+					<li class="active self"><a href="#" onclick="return false;">BS in Chemical Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/che/bs-ms-chemical-engineering/">BS/&#8203;MS in Chemical Engineering</a></li>
+					<li><a href="/ucat/colleges-depts/engineering/che/minor-che/">Minor in Chemical Engineering</a></li>
+				</ul>
+				</li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cme/">Civil, Materials, and Environmental Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/cs/">Computer Science</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/ece/">Electrical and Computer Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/mie/">Mechanical and Industrial Engineering</a></li>
+				<li class="isparent"><a href="/ucat/colleges-depts/engineering/addl-interdisciplinary-opps/">Additional Interdisciplinary Opportunities</a></li>
+			</ul>
+			</li>
+			<li><a href="/ucat/colleges-depts/honors-college/">Honors College</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/nursing/">College of Nursing</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/pharmacy/">College of Pharmacy</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/ucat/colleges-depts/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/ucat/colleges-depts/council-teacher-education/">Council on Teacher Education</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/ucat/course-descriptions/">Undergraduate Course Descriptions</a></li>
+		<li><a href="/ucat/archive-links/">Archive &amp;&#8203; Links</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/gcat/">Graduate Catalog</a></li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/ucat/">Undergraduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/">Colleges&nbsp;&amp;&nbsp;Departments</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/engineering/">College&nbsp;of&nbsp;Engineering</a><span class="crumbsep">/</span></li><li><a href="/ucat/colleges-depts/engineering/che/">Chemical&nbsp;Engineering</a><span class="crumbsep">/</span></li><li><span class="active">BS in Chemical Engineering</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">BS in Chemical Engineering</h1>
+
+
+
+<div id="textcontainer" class="page_content">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+<p class="program_codes"><span class="label"><strong>Program Codes:</strong> </span><br />20FQ0300BS<br /></p>	</div>
+</div>
+
+<h2>Degree Requirements</h2>
+<p>To earn a Bachelor of Science in Chemical Engineering degree from UIC, students need to complete university, college, and department degree requirements. The Department of Chemical Engineering degree requirements are outlined below. Students should consult the <a href="/ucat/colleges-depts/engineering/"><em>College of Engineering</em></a> section for additional degree requirements and college academic policies.</p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Summary of Requirements</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Nonengineering and General Education Requirements</span></td><td class="hourscol">68</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Required in the College of Engineering</span></td><td class="hourscol">51</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Selective</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Technical Elective</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Electives outside the Major Rubric</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">128</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Students in the Biochemical Engineering Concentration take a minimum of 8 hours of electives and 130 hours for the degree; see below.</em></p></td></tr></table>
+<h3>Nonengineering and General Education Requirements</h3>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ENGL%20160" title="ENGL 160" class="bubblelink code" onclick="return showCourse(this, 'ENGL 160');">ENGL 160</a></td><td>Academic Writing I: Writing in Academic and Public Contexts</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=ENGL%20161" title="ENGL 161" class="bubblelink code" onclick="return showCourse(this, 'ENGL 161');">ENGL 161</a></td><td>Academic Writing II: Writing for Inquiry and Research</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Exploring World Cultures course</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Understanding the Creative Arts course</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Understanding the Past course</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Understanding the Individual and Society course</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Understanding U.S. Society course</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MATH%20180" title="MATH 180" class="bubblelink code" onclick="return showCourse(this, 'MATH 180');">MATH 180</a></td><td>Calculus I <sup>b</sup></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MATH%20181" title="MATH 181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH 181</a></td><td>Calculus II <sup>b</sup></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=MATH%20210" title="MATH 210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH 210</a></td><td>Calculus III <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=MATH%20220" title="MATH 220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH 220</a></td><td>Introduction to Differential Equations</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=PHYS%20141" title="PHYS 141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS 141</a></td><td>General Physics I (Mechanics) <sup>b</sup></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=PHYS%20142" title="PHYS 142" class="bubblelink code" onclick="return showCourse(this, 'PHYS 142');">PHYS 142</a></td><td>General Physics II (Electricity and Magnetism) <sup>b</sup></td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHEM%20122" title="CHEM 122" class="bubblelink code" onclick="return showCourse(this, 'CHEM 122');">CHEM 122</a><br/><span style="margin-left:20px;" class="blockindent">&amp; <a href="/search/?P=CHEM%20123" title="CHEM 123" class="bubblelink code" onclick="return showCourse(this, 'CHEM 123');">CHEM 123</a></span></td><td>Matter and Energy<br/><span style="margin-left:20px;" class="blockindent">and Foundations of Chemical Inquiry I</span> <sup>b</sup></td><td class="hourscol">5</td></tr>
+<tr class="orclass even"><td class="codecol orclass">or <a href="/search/?P=CHEM%20116" title="CHEM 116" class="bubblelink code" onclick="return showCourse(this, 'CHEM 116');">CHEM 116</a></td><td colspan="2"> Honors and Majors General and Analytical Chemistry I</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHEM%20124" title="CHEM 124" class="bubblelink code" onclick="return showCourse(this, 'CHEM 124');">CHEM 124</a><br/><span style="margin-left:20px;" class="blockindent">&amp; <a href="/search/?P=CHEM%20125" title="CHEM 125" class="bubblelink code" onclick="return showCourse(this, 'CHEM 125');">CHEM 125</a></span></td><td>Chemical Dynamics<br/><span style="margin-left:20px;" class="blockindent">and Foundations of Chemical Inquiry II</span> <sup>b</sup></td><td class="hourscol">5</td></tr>
+<tr class="orclass odd"><td class="codecol orclass">or <a href="/search/?P=CHEM%20118" title="CHEM 118" class="bubblelink code" onclick="return showCourse(this, 'CHEM 118');">CHEM 118</a></td><td colspan="2"> Honors and Majors General and Analytical Chemistry II</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHEM%20222" title="CHEM 222" class="bubblelink code" onclick="return showCourse(this, 'CHEM 222');">CHEM 222</a></td><td>Analytical Chemistry <sup>c</sup></td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHEM%20232" title="CHEM 232" class="bubblelink code" onclick="return showCourse(this, 'CHEM 232');">CHEM 232</a></td><td>Structure and Function</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHEM%20233" title="CHEM 233" class="bubblelink code" onclick="return showCourse(this, 'CHEM 233');">CHEM 233</a></td><td>Synthesis Techniques Laboratory</td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHEM%20234" title="CHEM 234" class="bubblelink code" onclick="return showCourse(this, 'CHEM 234');">CHEM 234</a></td><td>Chemical Synthesis</td><td class="hourscol">3</td></tr>
+<tr class="even lastrow"><td class="codecol"><a href="/search/?P=CHEM%20342" title="CHEM 342" class="bubblelink code" onclick="return showCourse(this, 'CHEM 342');">CHEM 342</a></td><td>Physical Chemistry I</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">68</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Students should consult the <a href="/ucat/degree-programs/general-education/">General Education</a> section of the catalog for a list of approved courses in this category.</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course is approved for the Analyzing the Natural World General Education category.</em></p></td></tr><tr><td valign="top" class="symcol">c</td><td class="notecol"><p><em>Students who take <span class="sc_courseinline"><a href="/search/?P=CHEM%20116" title="CHEM 116" class="bubblelink code" onclick="return showCourse(this, 'CHEM 116');">CHEM 116</a></span> and <span class="sc_courseinline"><a href="/search/?P=CHEM%20118" title="CHEM 118" class="bubblelink code" onclick="return showCourse(this, 'CHEM 118');">CHEM 118</a></span> to fulfill the general chemistry requirement do not need to take <span class="sc_courseinline"><a href="/search/?P=CHEM%20222" title="CHEM 222" class="bubblelink code" onclick="return showCourse(this, 'CHEM 222');">CHEM 222</a></span>. Instead they should enroll in one of the following: <span class="sc_courseinline"><a href="/search/?P=CHEM%20314" title="CHEM 314" class="bubblelink code" onclick="return showCourse(this, 'CHEM 314');">CHEM 314</a></span>, <span class="sc_courseinline"><a href="/search/?P=CHEM%20452" title="CHEM 452" class="bubblelink code" onclick="return showCourse(this, 'CHEM 452');">CHEM 452</a></span>, <span class="sc_courseinline"><a href="/search/?P=CHEM%20402" title="CHEM 402" class="bubblelink code" onclick="return showCourse(this, 'CHEM 402');">CHEM 402</a></span>, or <span class="sc_courseinline"><a href="/search/?P=CHEM%20444" title="CHEM 444" class="bubblelink code" onclick="return showCourse(this, 'CHEM 444');">CHEM 444</a></span>. </em></p></td></tr></table>
+<h3>Required in the College of Engineering</h3>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ENGR%20100" title="ENGR 100" class="bubblelink code" onclick="return showCourse(this, 'ENGR 100');">ENGR 100</a></td><td>Engineering Orientation <sup>a</sup></td><td class="hourscol">1</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20201" title="CHE 201" class="bubblelink code" onclick="return showCourse(this, 'CHE 201');">CHE 201</a></td><td>Introduction To Thermodynamics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20205" title="CHE 205" class="bubblelink code" onclick="return showCourse(this, 'CHE 205');">CHE 205</a></td><td>Computational Methods in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20210" title="CHE 210" class="bubblelink code" onclick="return showCourse(this, 'CHE 210');">CHE 210</a></td><td>Material and Energy Balances</td><td class="hourscol">4</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20230" title="CHE 230" class="bubblelink code" onclick="return showCourse(this, 'CHE 230');">CHE 230</a></td><td>Molecular Systems in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20301" title="CHE 301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE 301</a></td><td>Chemical Engineering Thermodynamics</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20311" title="CHE 311" class="bubblelink code" onclick="return showCourse(this, 'CHE 311');">CHE 311</a></td><td>Transport Phenomena I</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20312" title="CHE 312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE 312</a></td><td>Transport Phenomena II</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20313" title="CHE 313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE 313</a></td><td>Transport Phenomena III</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20321" title="CHE 321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE 321</a></td><td>Chemical Reaction Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20341" title="CHE 341" class="bubblelink code" onclick="return showCourse(this, 'CHE 341');">CHE 341</a></td><td>Chemical Process Control</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20381" title="CHE 381" class="bubblelink code" onclick="return showCourse(this, 'CHE 381');">CHE 381</a></td><td>Chemical Engineering Laboratory I</td><td class="hourscol">2</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20382" title="CHE 382" class="bubblelink code" onclick="return showCourse(this, 'CHE 382');">CHE 382</a></td><td>Chemical Engineering Laboratory II</td><td class="hourscol">2</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20396" title="CHE 396" class="bubblelink code" onclick="return showCourse(this, 'CHE 396');">CHE 396</a></td><td>Senior Design I</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20397" title="CHE 397" class="bubblelink code" onclick="return showCourse(this, 'CHE 397');">CHE 397</a></td><td>Senior Design II</td><td class="hourscol">4</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CME%20260" title="CME 260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME 260</a></td><td>Properties of Materials</td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=ECE%20210" title="ECE 210" class="bubblelink code" onclick="return showCourse(this, 'ECE 210');">ECE 210</a></td><td>Electrical Circuit Analysis</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20499" title="CHE 499" class="bubblelink code" onclick="return showCourse(this, 'CHE 499');">CHE 499</a></td><td>Professional Development Seminar</td><td class="hourscol">0</td></tr>
+<tr class="odd lastrow"><td class="codecol"><a href="/search/?P=CS%20109" title="CS 109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS 109</a></td><td>Programming for Engineers with MatLab</td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">51</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em><span class="sc_courseinline"><a href="/search/?P=ENGR%20100" title="ENGR 100" class="bubblelink code" onclick="return showCourse(this, 'ENGR 100');">ENGR 100</a></span> is one-semester-hour course, but the hour does not count toward the total hours required for graduation.</em></p></td></tr></table>
+<h3>Selective</h3>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20330" title="CHE 330" class="bubblelink code" onclick="return showCourse(this, 'CHE 330');">CHE 330</a></div></td><td>Polymer Science</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20346" title="CHEM 346" class="bubblelink code" onclick="return showCourse(this, 'CHEM 346');">CHEM 346</a></div></td><td>Physical Chemistry II</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">3</td></tr></tbody>
+</table>
+
+<h3>Technical Elective</h3>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select one of the following:</span> <sup>a</sup></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20392" title="CHE 392" class="bubblelink code" onclick="return showCourse(this, 'CHE 392');">CHE 392</a></div></td><td>Undergraduate Research <sup>b</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20413" title="CHE 413" class="bubblelink code" onclick="return showCourse(this, 'CHE 413');">CHE 413</a></div></td><td>Introduction to Flow in Porous Media</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20421" title="CHE 421" class="bubblelink code" onclick="return showCourse(this, 'CHE 421');">CHE 421</a></div></td><td>Combustion Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20422" title="CHE 422" class="bubblelink code" onclick="return showCourse(this, 'CHE 422');">CHE 422</a></div></td><td>Biochemical Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20423" title="CHE 423" class="bubblelink code" onclick="return showCourse(this, 'CHE 423');">CHE 423</a></div></td><td>Catalytic Reaction Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20425" title="CHE 425" class="bubblelink code" onclick="return showCourse(this, 'CHE 425');">CHE 425</a></div></td><td>Nanotechnology for Pharmaceutical Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20433" title="CHE 433" class="bubblelink code" onclick="return showCourse(this, 'CHE 433');">CHE 433</a></div></td><td>Process Simulation With Aspen Plus</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20438" title="CHE 438" class="bubblelink code" onclick="return showCourse(this, 'CHE 438');">CHE 438</a></div></td><td>Computational Molecular Modeling</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20440" title="CHE 440" class="bubblelink code" onclick="return showCourse(this, 'CHE 440');">CHE 440</a></div></td><td>Non-Newtonian Fluids</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20441" title="CHE 441" class="bubblelink code" onclick="return showCourse(this, 'CHE 441');">CHE 441</a></div></td><td>Computer Applications in Chemical Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20450" title="CHE 450" class="bubblelink code" onclick="return showCourse(this, 'CHE 450');">CHE 450</a></div></td><td>Air Pollution Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20451" title="CHE 451" class="bubblelink code" onclick="return showCourse(this, 'CHE 451');">CHE 451</a></div></td><td>Renewable Energy Technologies</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20453" title="CHE 453" class="bubblelink code" onclick="return showCourse(this, 'CHE 453');">CHE 453</a></div></td><td>Fundamentals of Electrochemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20454" title="CHE 454" class="bubblelink code" onclick="return showCourse(this, 'CHE 454');">CHE 454</a></div></td><td>Molecular and Macromolecular Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20455" title="CHE 455" class="bubblelink code" onclick="return showCourse(this, 'CHE 455');">CHE 455</a></div></td><td>Nanoscale Systems in Chemical Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20456" title="CHE 456" class="bubblelink code" onclick="return showCourse(this, 'CHE 456');">CHE 456</a></div></td><td>Fundamentals and Design of Microelectronics Processes</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20457" title="CHE 457" class="bubblelink code" onclick="return showCourse(this, 'CHE 457');">CHE 457</a></div></td><td>Colloidal and Interfacial Phenomena</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20494" title="CHE 494" class="bubblelink code" onclick="return showCourse(this, 'CHE 494');">CHE 494</a></div></td><td>Selected Topics in Chemical Engineering</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">3</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Possible technical elective credit for a 400-level CHE course not listed above will require departmental approval by petition to the Undergraduate Committee.</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>An appropriate design-related research project may be selected with the approval of the Department of Chemical Engineering.</em></p></td></tr></table>
+<h3>Electives outside the Major Rubric</h3>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><span class="courselistcomment">Electives outside the CHE rubric</span></td><td class="hourscol">3</td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">3</td></tr></tbody>
+</table>
+
+<h2>Optional Concentrations</h2>
+<h3 class="toggle">BS in Chemical Engineering, Biochemical Engineering Concentration</h3>
+<p>Students in this concentration complete the following:</p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20422" title="CHE 422" class="bubblelink code" onclick="return showCourse(this, 'CHE 422');">CHE 422</a></td><td>Biochemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Select two electives in nonmajor rubric category from the following:</span></td><td class="hourscol">5-7</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BIOS%20350" title="BIOS 350" class="bubblelink code" onclick="return showCourse(this, 'BIOS 350');">BIOS 350</a></div></td><td>General Microbiology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BIOS%20351" title="BIOS 351" class="bubblelink code" onclick="return showCourse(this, 'BIOS 351');">BIOS 351</a></div></td><td>Microbiology Laboratory</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20352" title="CHEM 352" class="bubblelink code" onclick="return showCourse(this, 'CHEM 352');">CHEM 352</a></div></td><td>Introductory Biochemistry</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20452" title="CHEM 452" class="bubblelink code" onclick="return showCourse(this, 'CHEM 452');">CHEM 452</a></div></td><td>Biochemistry I</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">8-10</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for some of the courses, students in the concentration will be required to take a minimum of 130 semester hours for the degree.</em></p></td></tr></table>
+<h3 class="toggle">BS in Chemical Engineering, Energy and Environment Concentration</h3>
+<p>Students in this concentration complete the following:</p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20230" title="CHE 230" class="bubblelink code" onclick="return showCourse(this, 'CHE 230');">CHE 230</a></td><td>Molecular Systems in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20330" title="CHE 330" class="bubblelink code" onclick="return showCourse(this, 'CHE 330');">CHE 330</a></td><td>Polymer Science <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20451" title="CHE 451" class="bubblelink code" onclick="return showCourse(this, 'CHE 451');">CHE 451</a></td><td>Renewable Energy Technologies</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective outside the Major Rubric</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CME%20322" title="CME 322" class="bubblelink code" onclick="return showCourse(this, 'CME 322');">CME 322</a></td><td>Environmental Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Second Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20392" title="CHE 392" class="bubblelink code" onclick="return showCourse(this, 'CHE 392');">CHE 392</a></div></td><td>Undergraduate Research</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20450" title="CHE 450" class="bubblelink code" onclick="return showCourse(this, 'CHE 450');">CHE 450</a></div></td><td>Air Pollution Engineering</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20453" title="CHE 453" class="bubblelink code" onclick="return showCourse(this, 'CHE 453');">CHE 453</a></div></td><td>Fundamentals of Electrochemistry</td><td class="hourscol"></td></tr>
+<tr class="even lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A 400-level course approved by the director of undergraduate studies</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">15</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for <span style="font-size:1em">some of the courses, students in the concentration will be required to </span><span style="font-size:1em">take a minimum of 134 semester hours for the degree (6 additional semester hours).</span></em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course fulfills the degree's selective requirement.</em></p></td></tr></table>
+<h3 class="toggle">BS in Chemical Engineering, Entrepreneurship Concentration</h3>
+<p>Students in this concentration complete the following: </p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Course</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20427" title="CHE 427" class="bubblelink code" onclick="return showCourse(this, 'CHE 427');">CHE 427</a></td><td>Entrepreneurship in Engineering <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select two of the following:</span> <sup>c</sup></td><td class="hourscol">6</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ENTR%20200" title="ENTR 200" class="bubblelink code" onclick="return showCourse(this, 'ENTR 200');">ENTR 200</a></div></td><td>Survey of Entrepreneurship</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ENTR%20310" title="ENTR 310" class="bubblelink code" onclick="return showCourse(this, 'ENTR 310');">ENTR 310</a></div></td><td>Introduction to Entrepreneurship</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ENTR%20445" title="ENTR 445" class="bubblelink code" onclick="return showCourse(this, 'ENTR 445');">ENTR 445</a></div></td><td>New Venture Planning</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">400-level course approved by the Chemical Engineering director of undergraduate studies</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">9</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for some of the courses, students in the concentration will be required to take a minimum of 131 semester hours for the degree (3 additional semester hours).</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course fulfills the degree's technical elective requirement.</em></p></td></tr><tr><td valign="top" class="symcol">c</td><td class="notecol"><p><em>One non-CHE course fulfills the degree's Elective outside the Major Rubric <span style="font-size:1em">requirement</span></em></p></td></tr></table>
+<h3 class="toggle">BS in Chemical Engineering, Nanotechnology Concentration</h3>
+<p>Students in this concentration complete the following: </p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20230" title="CHE 230" class="bubblelink code" onclick="return showCourse(this, 'CHE 230');">CHE 230</a></td><td>Molecular Systems in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20330" title="CHE 330" class="bubblelink code" onclick="return showCourse(this, 'CHE 330');">CHE 330</a></td><td>Polymer Science <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20455" title="CHE 455" class="bubblelink code" onclick="return showCourse(this, 'CHE 455');">CHE 455</a></td><td>Nanoscale Systems in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective outside the Major Rubric</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ECE%20346" title="ECE 346" class="bubblelink code" onclick="return showCourse(this, 'ECE 346');">ECE 346</a></div></td><td>Solid State Device Theory</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHYS%20431" title="PHYS 431" class="bubblelink code" onclick="return showCourse(this, 'PHYS 431');">PHYS 431</a></div></td><td>Modern Physics: Condensed Matter</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ME%20418" title="ME 418" class="bubblelink code" onclick="return showCourse(this, 'ME 418');">ME 418</a></div></td><td>Transport Phenomena in Nanotechnology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ECE%20440" title="ECE 440" class="bubblelink code" onclick="return showCourse(this, 'ECE 440');">ECE 440</a></div></td><td>Nanoelectronics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ECE%20449" title="ECE/ME 449" class="bubblelink code" onclick="return showCourse(this, 'ECE 449');">ECE/ME 449</a></div></td><td>Microdevices and Micromachining Technology</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20458" title="CHEM/BIOS 458" class="bubblelink code" onclick="return showCourse(this, 'CHEM 458');">CHEM/BIOS 458</a></div></td><td>Biotechnology and Drug Discovery</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BME%20485" title="BME 485" class="bubblelink code" onclick="return showCourse(this, 'BME 485');">BME 485</a></div></td><td>Nanobiosensors</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Second Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20392" title="CHE 392" class="bubblelink code" onclick="return showCourse(this, 'CHE 392');">CHE 392</a></div></td><td>Undergraduate Research</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20425" title="CHE 425" class="bubblelink code" onclick="return showCourse(this, 'CHE 425');">CHE 425</a></div></td><td>Nanotechnology for Pharmaceutical Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20457" title="CHE 457" class="bubblelink code" onclick="return showCourse(this, 'CHE 457');">CHE 457</a></div></td><td>Colloidal and Interfacial Phenomena</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A 400-level course approved by the director of undergraduate studies</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">15-16</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for some of the courses, students in the concentration will be required to take a minimum of 134 semester hours for the degree (6 additional semester hours).</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course fulfills the degree's selective requirement.</em></p></td></tr></table>
+<h3 class="toggle">BS in Chemical Engineering, Polymers and Molecular Engineering Concentration</h3>
+<p>Students in this concentration complete the following:</p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20230" title="CHE 230" class="bubblelink code" onclick="return showCourse(this, 'CHE 230');">CHE 230</a></td><td>Molecular Systems in Chemical Engineering</td><td class="hourscol">3</td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20330" title="CHE 330" class="bubblelink code" onclick="return showCourse(this, 'CHE 330');">CHE 330</a></td><td>Polymer Science <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Technical Elective</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><a href="/search/?P=CHE%20454" title="CHE 454" class="bubblelink code" onclick="return showCourse(this, 'CHE 454');">CHE 454</a></td><td>Molecular and Macromolecular Engineering</td><td class="hourscol">3</td></tr>
+<tr class="odd areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Elective outside the Major Rubric</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol">3-4</td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BME%20485" title="BME 485" class="bubblelink code" onclick="return showCourse(this, 'BME 485');">BME 485</a></div></td><td>Nanobiosensors</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20452" title="CHEM 452" class="bubblelink code" onclick="return showCourse(this, 'CHEM 452');">CHEM 452</a></div></td><td>Biochemistry I</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHEM%20458" title="CHEM/BIOS 458" class="bubblelink code" onclick="return showCourse(this, 'CHEM 458');">CHEM/BIOS 458</a></div></td><td>Biotechnology and Drug Discovery</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHAR%20422" title="PHAR 422" class="bubblelink code" onclick="return showCourse(this, 'PHAR 422');">PHAR 422</a></div></td><td>Fundamentals of Drug Action</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHAR%20423" title="PHAR 423" class="bubblelink code" onclick="return showCourse(this, 'PHAR 423');">PHAR 423</a></div></td><td>Biomedicinal Chemistry</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHAR%20461" title="PHAR 461" class="bubblelink code" onclick="return showCourse(this, 'PHAR 461');">PHAR 461</a></div></td><td>Pharmacy and  the U.S. Healthcare System</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PHYS%20450" title="PHYS/BME 450" class="bubblelink code" onclick="return showCourse(this, 'PHYS 450');">PHYS/BME 450</a></div></td><td>Molecular Biophysics of the Cell</td><td class="hourscol"></td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Second Technical Elective</span></td><td class="hourscol">3</td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select one of the following:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20392" title="CHE 392" class="bubblelink code" onclick="return showCourse(this, 'CHE 392');">CHE 392</a></div></td><td>Undergraduate Research</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20425" title="CHE 425" class="bubblelink code" onclick="return showCourse(this, 'CHE 425');">CHE 425</a></div></td><td>Nanotechnology for Pharmaceutical Applications</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20438" title="CHE 438" class="bubblelink code" onclick="return showCourse(this, 'CHE 438');">CHE 438</a></div></td><td>Computational Molecular Modeling</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20440" title="CHE 440" class="bubblelink code" onclick="return showCourse(this, 'CHE 440');">CHE 440</a></div></td><td>Non-Newtonian Fluids</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20453" title="CHE 453" class="bubblelink code" onclick="return showCourse(this, 'CHE 453');">CHE 453</a></div></td><td>Fundamentals of Electrochemistry</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20455" title="CHE 455" class="bubblelink code" onclick="return showCourse(this, 'CHE 455');">CHE 455</a></div></td><td>Nanoscale Systems in Chemical Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHE%20457" title="CHE 457" class="bubblelink code" onclick="return showCourse(this, 'CHE 457');">CHE 457</a></div></td><td>Colloidal and Interfacial Phenomena</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td colspan="2"><div style="margin-left:20px;" class="blockindent"><span class="courselistcomment commentindent">A 400-level course approved by the director of undergraduate studies</span></div></td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">15-16</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for some of the courses, students in the concentration will be required to take a minimum of 134 semester hours for the degree (6 additional semester hours).</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course fulfills the degree's selective requirement.</em></p></td></tr></table>
+<h3 class="toggle">BS in Chemical Engineering, Process Automation Concentration</h3>
+<p>Students in this concentration complete the following:</p>
+<table class="sc_courselist" width="100%">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr class="hidden noscript">
+<th scope="col">Code</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol">Hours</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Required Courses</span> <sup>a</sup></td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><a href="/search/?P=CHE%20433" title="CHE 433" class="bubblelink code" onclick="return showCourse(this, 'CHE 433');">CHE 433</a></td><td>Process Simulation With Aspen Plus <sup>b</sup></td><td class="hourscol">3</td></tr>
+<tr class="even areaheader "><td colspan="2"><span class="courselistcomment areaheader ">Electives outside the Major Rubric</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">Select two of the following:</span></td><td class="hourscol">6</td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=ECON%20120" title="ECON 120" class="bubblelink code" onclick="return showCourse(this, 'ECON 120');">ECON 120</a></div></td><td>Principles of Microeconomics</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=IE%20201" title="IE 201" class="bubblelink code" onclick="return showCourse(this, 'IE 201');">IE 201</a></div></td><td>Financial Engineering</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=MATH%20310" title="MATH 310" class="bubblelink code" onclick="return showCourse(this, 'MATH 310');">MATH 310</a></div></td><td>Applied Linear Algebra</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=MATH%20419" title="MATH 419" class="bubblelink code" onclick="return showCourse(this, 'MATH 419');">MATH 419</a></div></td><td>Models in Applied Mathematics</td><td class="hourscol"></td></tr>
+<tr class="listsum"><td colspan="2">Total Hours</td><td class="hourscol">9</td></tr></tbody>
+</table>
+
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em>Due to structure of the concentration and the prerequisites required for some of the courses, students in the concentration will be required to take a minimum of 131 semester hours for the degree (3 additional semester hours).</em></p></td></tr><tr><td valign="top" class="symcol">b</td><td class="notecol"><p><em>This course fulfills the degree's technical elective requirement.</em></p></td></tr></table>
+<h2>Sample Course Schedule</h2>
+<table pdfnorepeatheader="true" class="sc_plangrid">
+<caption>Plan of Study Grid</caption><colgroup>
+	<col class="codecol"/>
+	<col class="titlecol"/>
+	<col class="hourscol"/>
+</colgroup>
+<tr class="plangridyear"><th id="plangrid1_0" class="year" colspan="3">Freshman Year</th></tr>
+<tr class="plangridterm"><th id="plangrid1_0_0" colspan="2">First Semester</th><th id="hoursheader" scope="col" class="hourscol">Hours</th></tr>
+<tr class="even"><td headers=" plangrid1_0_0" class="codecol"><a href="/search/?P=ENGR%20100" title="ENGR 100" class="bubblelink code" onclick="return showCourse(this, 'ENGR 100');">ENGR 100</a></td>
+<td headers=" plangrid1_0_0" class="titlecol">Engineering Orientation <sup>a</sup></td>
+<td headers="hoursheader" class="hourscol">1</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_0_0" class="codecol"><a href="/search/?P=ENGL%20160" title="ENGL 160" class="bubblelink code" onclick="return showCourse(this, 'ENGL 160');">ENGL 160</a></td>
+<td headers=" plangrid1_0_0" class="titlecol">Academic Writing I: Writing in Academic and Public Contexts</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_0_0" class="codecol"><a href="/search/?P=MATH%20180" title="MATH 180" class="bubblelink code" onclick="return showCourse(this, 'MATH 180');">MATH 180</a></td>
+<td headers=" plangrid1_0_0" class="titlecol">Calculus I</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_0_0" class="codecol"><a href="/search/?P=CHEM%20122" title="CHEM 122" class="bubblelink code" onclick="return showCourse(this, 'CHEM 122');">CHEM 122</a><br/><span style="margin-left:20px;" class="blockindent">&amp; <a href="/search/?P=CHEM%20123" title="CHEM 123" class="bubblelink code" onclick="return showCourse(this, 'CHEM 123');">CHEM 123</a></span><br/><div style="margin-left:20px;" class="blockindent">or <a href="/search/?P=CHEM%20116" title="CHEM 116" class="bubblelink code" onclick="return showCourse(this, 'CHEM 116');">CHEM 116</a></div></td>
+<td headers=" plangrid1_0_0" class="titlecol">Matter and Energy<br/><div style="margin-left:20px;" class="blockindent">or Honors and Majors General and Analytical Chemistry I</div></td>
+<td headers="hoursheader" class="hourscol">5</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_0_0" colspan="2" class="codecol"><span class="comment">General Education Core Course</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_0_0" class="titlecol">Hours</td><td headers=" plangrid1_0_0 hoursheader" class="hourscol">15</td></tr>
+<tr class="plangridterm"><th id="plangrid1_0_1" colspan="3">Second Semester</th></tr>
+<tr class="even"><td headers=" plangrid1_0_1" class="codecol"><a href="/search/?P=CS%20109" title="CS 109" class="bubblelink code" onclick="return showCourse(this, 'CS 109');">CS 109</a></td>
+<td headers=" plangrid1_0_1" class="titlecol">Programming for Engineers with MatLab</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_0_1" class="codecol"><a href="/search/?P=MATH%20181" title="MATH 181" class="bubblelink code" onclick="return showCourse(this, 'MATH 181');">MATH 181</a></td>
+<td headers=" plangrid1_0_1" class="titlecol">Calculus II</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_0_1" class="codecol"><a href="/search/?P=PHYS%20141" title="PHYS 141" class="bubblelink code" onclick="return showCourse(this, 'PHYS 141');">PHYS 141</a></td>
+<td headers=" plangrid1_0_1" class="titlecol">General Physics I (Mechanics)</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_0_1" class="codecol"><a href="/search/?P=CHEM%20124" title="CHEM 124" class="bubblelink code" onclick="return showCourse(this, 'CHEM 124');">CHEM 124</a><br/><span style="margin-left:20px;" class="blockindent">&amp; <a href="/search/?P=CHEM%20125" title="CHEM 125" class="bubblelink code" onclick="return showCourse(this, 'CHEM 125');">CHEM 125</a></span><br/><div style="margin-left:20px;" class="blockindent">or <a href="/search/?P=CHEM%20118" title="CHEM 118" class="bubblelink code" onclick="return showCourse(this, 'CHEM 118');">CHEM 118</a></div></td>
+<td headers=" plangrid1_0_1" class="titlecol">Chemical Dynamics<br/><div style="margin-left:20px;" class="blockindent">or Honors and Majors General and Analytical Chemistry II</div></td>
+<td headers="hoursheader" class="hourscol">5</td>
+</tr>
+<tr class="plangridsum even"><td> </td><td headers=" plangrid1_0_1" class="titlecol">Hours</td><td headers=" plangrid1_0_1 hoursheader" class="hourscol">16</td></tr>
+<tr class="plangridyear"><th id="plangrid1_1" class="year" colspan="3">Sophomore Year</th></tr>
+<tr class="plangridterm"><th id="plangrid1_1_0" colspan="3">First Semester</th></tr>
+<tr class="odd"><td headers=" plangrid1_1_0" class="codecol"><a href="/search/?P=ENGL%20161" title="ENGL 161" class="bubblelink code" onclick="return showCourse(this, 'ENGL 161');">ENGL 161</a></td>
+<td headers=" plangrid1_1_0" class="titlecol">Academic Writing II: Writing for Inquiry and Research</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_1_0" class="codecol"><a href="/search/?P=PHYS%20142" title="PHYS 142" class="bubblelink code" onclick="return showCourse(this, 'PHYS 142');">PHYS 142</a></td>
+<td headers=" plangrid1_1_0" class="titlecol">General Physics II (Electricity and Magnetism)</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_1_0" class="codecol"><a href="/search/?P=CHE%20201" title="CHE 201" class="bubblelink code" onclick="return showCourse(this, 'CHE 201');">CHE 201</a></td>
+<td headers=" plangrid1_1_0" class="titlecol">Introduction To Thermodynamics</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_1_0" class="codecol"><a href="/search/?P=MATH%20210" title="MATH 210" class="bubblelink code" onclick="return showCourse(this, 'MATH 210');">MATH 210</a></td>
+<td headers=" plangrid1_1_0" class="titlecol">Calculus III</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_1_0" class="codecol"><a href="/search/?P=CHEM%20222" title="CHEM 222" class="bubblelink code" onclick="return showCourse(this, 'CHEM 222');">CHEM 222</a></td>
+<td headers=" plangrid1_1_0" class="titlecol">Analytical Chemistry</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="plangridsum even"><td> </td><td headers=" plangrid1_1_0" class="titlecol">Hours</td><td headers=" plangrid1_1_0 hoursheader" class="hourscol">17</td></tr>
+<tr class="plangridterm"><th id="plangrid1_1_1" colspan="3">Second Semester</th></tr>
+<tr class="odd"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=CHE%20205" title="CHE 205" class="bubblelink code" onclick="return showCourse(this, 'CHE 205');">CHE 205</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Computational Methods in Chemical Engineering</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=CHE%20210" title="CHE 210" class="bubblelink code" onclick="return showCourse(this, 'CHE 210');">CHE 210</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Material and Energy Balances</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=CHE%20230" title="CHE 230" class="bubblelink code" onclick="return showCourse(this, 'CHE 230');">CHE 230</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Molecular Systems in Chemical Engineering</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=CHEM%20232" title="CHEM 232" class="bubblelink code" onclick="return showCourse(this, 'CHEM 232');">CHEM 232</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Structure and Function</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=CHEM%20233" title="CHEM 233" class="bubblelink code" onclick="return showCourse(this, 'CHEM 233');">CHEM 233</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Synthesis Techniques Laboratory</td>
+<td headers="hoursheader" class="hourscol">2</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_1_1" class="codecol"><a href="/search/?P=MATH%20220" title="MATH 220" class="bubblelink code" onclick="return showCourse(this, 'MATH 220');">MATH 220</a></td>
+<td headers=" plangrid1_1_1" class="titlecol">Introduction to Differential Equations</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_1_1" class="titlecol">Hours</td><td headers=" plangrid1_1_1 hoursheader" class="hourscol">18</td></tr>
+<tr class="plangridyear"><th id="plangrid1_2" class="year" colspan="3">Junior Year</th></tr>
+<tr class="plangridterm"><th id="plangrid1_2_0" colspan="3">First Semester</th></tr>
+<tr class="even"><td headers=" plangrid1_2_0" class="codecol"><a href="/search/?P=CHE%20301" title="CHE 301" class="bubblelink code" onclick="return showCourse(this, 'CHE 301');">CHE 301</a></td>
+<td headers=" plangrid1_2_0" class="titlecol">Chemical Engineering Thermodynamics</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_2_0" class="codecol"><a href="/search/?P=CHE%20311" title="CHE 311" class="bubblelink code" onclick="return showCourse(this, 'CHE 311');">CHE 311</a></td>
+<td headers=" plangrid1_2_0" class="titlecol">Transport Phenomena I</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_2_0" class="codecol"><a href="/search/?P=CHEM%20234" title="CHEM 234" class="bubblelink code" onclick="return showCourse(this, 'CHEM 234');">CHEM 234</a></td>
+<td headers=" plangrid1_2_0" class="titlecol">Chemical Synthesis</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_2_0" class="codecol"><a href="/search/?P=CHEM%20342" title="CHEM 342" class="bubblelink code" onclick="return showCourse(this, 'CHEM 342');">CHEM 342</a></td>
+<td headers=" plangrid1_2_0" class="titlecol">Physical Chemistry I</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_2_0" class="codecol"><a href="/search/?P=ECE%20210" title="ECE 210" class="bubblelink code" onclick="return showCourse(this, 'ECE 210');">ECE 210</a></td>
+<td headers=" plangrid1_2_0" class="titlecol">Electrical Circuit Analysis</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_2_0" class="titlecol">Hours</td><td headers=" plangrid1_2_0 hoursheader" class="hourscol">15</td></tr>
+<tr class="plangridterm"><th id="plangrid1_2_1" colspan="3">Second Semester</th></tr>
+<tr class="even"><td headers=" plangrid1_2_1" class="codecol"><a href="/search/?P=CHE%20312" title="CHE 312" class="bubblelink code" onclick="return showCourse(this, 'CHE 312');">CHE 312</a></td>
+<td headers=" plangrid1_2_1" class="titlecol">Transport Phenomena II</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_2_1" class="codecol"><a href="/search/?P=CHE%20313" title="CHE 313" class="bubblelink code" onclick="return showCourse(this, 'CHE 313');">CHE 313</a></td>
+<td headers=" plangrid1_2_1" class="titlecol">Transport Phenomena III</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_2_1" class="codecol"><a href="/search/?P=CHE%20321" title="CHE 321" class="bubblelink code" onclick="return showCourse(this, 'CHE 321');">CHE 321</a></td>
+<td headers=" plangrid1_2_1" class="titlecol">Chemical Reaction Engineering</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_2_1" class="codecol"><a href="/search/?P=CME%20260" title="CME 260" class="bubblelink code" onclick="return showCourse(this, 'CME 260');">CME 260</a></td>
+<td headers=" plangrid1_2_1" class="titlecol">Properties of Materials</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_2_1" colspan="2" class="codecol"><span class="comment">General Education Core Course</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_2_1" class="titlecol">Hours</td><td headers=" plangrid1_2_1 hoursheader" class="hourscol">15</td></tr>
+<tr class="plangridyear"><th id="plangrid1_3" class="year" colspan="3">Senior Year</th></tr>
+<tr class="plangridterm"><th id="plangrid1_3_0" colspan="3">First Semester</th></tr>
+<tr class="even"><td headers=" plangrid1_3_0" class="codecol"><a href="/search/?P=CHE%20381" title="CHE 381" class="bubblelink code" onclick="return showCourse(this, 'CHE 381');">CHE 381</a></td>
+<td headers=" plangrid1_3_0" class="titlecol">Chemical Engineering Laboratory I</td>
+<td headers="hoursheader" class="hourscol">2</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_3_0" class="codecol"><a href="/search/?P=CHE%20396" title="CHE 396" class="bubblelink code" onclick="return showCourse(this, 'CHE 396');">CHE 396</a></td>
+<td headers=" plangrid1_3_0" class="titlecol">Senior Design I</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_3_0" class="codecol"><a href="/search/?P=CHE%20499" title="CHE 499" class="bubblelink code" onclick="return showCourse(this, 'CHE 499');">CHE 499</a></td>
+<td headers=" plangrid1_3_0" class="titlecol">Professional Development Seminar</td>
+<td headers="hoursheader" class="hourscol">0</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_3_0" colspan="2" class="codecol"><span class="comment">General Education Core course </span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_3_0" colspan="2" class="codecol"><span class="comment">General Education Core Course</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_3_0" colspan="2" class="codecol"><span class="comment">CHE Technical Elective (select from list)</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_3_0" class="codecol"><a href="/search/?P=CHE%20330" title="CHE 330" class="bubblelink code" onclick="return showCourse(this, 'CHE 330');">CHE 330</a></td>
+<td headers=" plangrid1_3_0" class="titlecol">Polymer Science (<span class="comment">Or <a href="/search/?P=CHEM%20346" title="CHEM 346" class="bubblelink code" onclick="return showCourse(this, 'CHEM 346');">CHEM 346</a> Junior Year second semester</span>)</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_3_0" class="titlecol">Hours</td><td headers=" plangrid1_3_0 hoursheader" class="hourscol">17</td></tr>
+<tr class="plangridterm"><th id="plangrid1_3_1" colspan="3">Second Semester</th></tr>
+<tr class="even"><td headers=" plangrid1_3_1" class="codecol"><a href="/search/?P=CHE%20341" title="CHE 341" class="bubblelink code" onclick="return showCourse(this, 'CHE 341');">CHE 341</a></td>
+<td headers=" plangrid1_3_1" class="titlecol">Chemical Process Control</td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_3_1" class="codecol"><a href="/search/?P=CHE%20382" title="CHE 382" class="bubblelink code" onclick="return showCourse(this, 'CHE 382');">CHE 382</a></td>
+<td headers=" plangrid1_3_1" class="titlecol">Chemical Engineering Laboratory II</td>
+<td headers="hoursheader" class="hourscol">2</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_3_1" class="codecol"><a href="/search/?P=CHE%20397" title="CHE 397" class="bubblelink code" onclick="return showCourse(this, 'CHE 397');">CHE 397</a></td>
+<td headers=" plangrid1_3_1" class="titlecol">Senior Design II</td>
+<td headers="hoursheader" class="hourscol">4</td>
+</tr>
+<tr class="odd"><td headers=" plangrid1_3_1" colspan="2" class="codecol"><span class="comment">Elective outside the Major Rubric</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="even"><td headers=" plangrid1_3_1" colspan="2" class="codecol"><span class="comment">General Education Core course</span></td>
+<td headers="hoursheader" class="hourscol">3</td>
+</tr>
+<tr class="plangridsum odd"><td> </td><td headers=" plangrid1_3_1" class="titlecol">Hours</td><td headers=" plangrid1_3_1 hoursheader" class="hourscol">15</td></tr>
+<tr class="plangridtotal lastrow even"><td> </td><td>Total Hours</td><td headers="hoursheader" class="hourscol">128</td></tr>
+</table>
+<table role="presentation" border="0" width="100%" class="sc_footnotes"><tr><td valign="top" class="symcol">a</td><td class="notecol"><p><em><span class="sc_courseinline"><a href="/search/?P=ENGR%20100" title="ENGR 100" class="bubblelink code" onclick="return showCourse(this, 'ENGR 100');">ENGR 100</a></span> is a one-semester-hour course, but the hour does not count toward the total hours required for graduation.</em></p></td></tr></table></div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2021-2023 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" aria-labeledby="dialog-title" class="screen" role="dialog">
+	<div class="print-header">
+		<h2 id="dialog-title">Print Options</h2>
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+<div class="print-option"><div class="option-head"><a class="option-name" href="/ucat/colleges-depts/engineering/che/bs-che/bs-che.pdf" role="button">Download Page (PDF)</a></div><p class="option-desc"><em>The PDF will include all information unique to this page.</em></p></div><div class="print-option"><div class="option-head"><a class="option-name" href="/pdf/2021-23-undergraduate.pdf" target="_blank">Download PDF of the entire Undergraduate Catalog</a></div><p class="option-desc"><em>All pages in the campus catalog.</em></p></div>    </div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1031 @@
+<!doctype html>
+<html
+        lang="en-US"
+        dir="ltr"
+                    >
+<head>
+				<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+		<title>DRC Student Registration Form</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+	<link rel="shortcut icon" href="/favicon.ico">
+		<script type="text/javascript"> var RESPONSIVE_THEME = true, TAB_SESSION_LINK = "";</script>
+	<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/css/cache/e/e0565928a42cd2f82412ca9de63bafdf.css?t=1669846751&css=_core" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/css/module_prolite.css?t=1667896099&css=module_prolite" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/js/picklist/picklist.css?t=1669695584&css=picklist" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/widget_assets/selectlist/selectlist.css?t=1668113420&css=selectlist" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/css/cache/1/17d98f35d6aed1e3e9aec30014521b6f.css?t=1669856190&css=acc-ins" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/css/cache/6/6b4f8923b3d030ac5ef723836c251c81.css?t=1669856190&css=student" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/yui/build/container/assets/skins/sam/container.css?t=1309361679&css=container" media="all">
+<link rel="stylesheet" type="text/css" href="https://uic-accommodate.symplicity.com/css/print.css?t=1667896099&css=print" media="print">
+<style type='text/css' media='all'>
+/* BODY */
+#si_ei_wrap {
+	background: #feebec
+}
+.csm-nav-under-wrap {
+	background: #fbcccf	
+}
+
+/* GENERAL LINKS */
+#si_ei a:link,
+#si_ei #home-ql a:visited,
+.linker,
+#job_buttons li a:visited,
+#si_ei .icn-favorite-txt:visited,
+#si_ei #fp-feed a:visited,
+#si_ei .events_list .list-item-eventdetails a:visited {
+    color: #001844;
+}
+#si_ei a:visited {
+    color: #8090ae;
+}
+#si_ei a:hover,
+#si_ei #csm-topbar a:hover,
+#si_ei .tbrw a:hover,
+#si_ei .tbrw li > span:hover {
+    color: #00205b;
+}
+
+/* NAVIGATION, YUI MENU BAR */
+.yui-skin-sam #csm-nav {
+	background-color: #00205b;	
+}
+.yui-skin-sam #csm-nav .yuimenubaritemlabel {
+    color: #ffffff;	
+}
+.yui-skin-sam #csm-nav .yuimenubaritem {
+
+}
+.yui-skin-sam #csm-nav .yuimenubaritemlabel {
+    border-right: 1px solid #8090ae;
+}
+.yui-skin-sam #csm-nav .yuimenubaritem-last,
+.yui-skin-sam #csm-nav .yuimenubaritem-last .yuimenubaritemlabel {
+	border-right: none;
+}
+.yui-skin-sam #csm-nav li.first-of-type .yuimenubaritemlabel {
+	border-left: none;
+}
+.yui-skin-sam #csm-nav .yuimenubaritem-active {
+	background-color: #001b4d;
+}
+.yui-skin-sam #csm-nav .yuimenubaritem-selected {
+	background: #e6e9ef none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.yui-skin-sam #csm-topbar #csm-tls .yuimenuitem-selected {
+	background: #00205b;
+	color: #ffffff;
+}
+.yui-skin-sam #csm-topbar #csm-tls .yuimenuitemlabel-selected {
+	color: #ffffff;
+}
+.yui-skin-sam #csm-nav .first-of-type.yuimenubaritem-selected {
+	padding-left: 0;
+	margin-left: 0;
+}
+.yui-skin-sam #csm-nav .yuimenubaritemlabel-selected {
+	color: #001844;
+}
+#csm-nav-under {
+	background-color: #ef3340;
+}
+.yui-skin-sam #csm-nav .yuimenu .bd {
+	background: #e6e9ef;
+	border-color: #fff;	
+	border: none;
+	padding: 0;
+}
+.yui-skin-sam #csm-nav .yuimenuitemlabel,
+.yui-skin-sam #csm-nav .yuimenuitemlabel:visited {
+	color: #00205b;
+}
+.yui-skin-sam #csm-nav .yuimenuitemlabel-selected,
+.yui-skin-sam #csm-nav .yuimenuitemlabel-selected:hover {
+	background: #00205b none;
+	color: #ffffff;
+}
+.nav-tri i {
+	background: #ef3340;
+}
+#si_ei #csm-topbar li.my_account-w ul.my_account-menu a:hover,
+#si_ei #csm-topbar li.jumpto-w ul.jumpto-menu a:hover {
+	background-color: #00205b;
+	color: #ffffff;
+}
+
+/* TABS */
+#si_ei .tabs {
+	border-top-color: #00205b;
+	border-bottom-color: #e6e9ef;
+}
+#si_ei .tbrw li:hover {
+	border-right-color: #264173;
+}
+#si_ei .tbrw a:hover,
+#si_ei .tbrw li > span:hover {
+	background-color: #264173;
+	color: #ffffff;
+	border-right-color: #264173;
+	border-left-color: #264173;
+}
+#si_ei .tbrw li.hi a:link,
+#si_ei .tbrw li.hi a:visited,
+#si_ei .tbrw li.hi span {
+	background-color: #ef3340
+}
+
+/* TYPOGRAPHY */
+#si_ei h1,
+#fp-jump h4,
+#home-ql h4 {
+	color: #001844;
+}
+#home-ql h4.hi,
+h3.sb-head,
+#sb_oci_jobinfo h2,
+.sidebar_title {
+	color: #ef3340;
+}
+
+/* GENERIC GRID LIST */
+div.lst-body {
+	border-bottom-color: #bfc7d6;
+}
+#si_ei .lst-hd {
+	background-color: #00205b;
+	color: #ffffff;
+	border-color: #001b4d;
+}
+#si_ei .lst-hd.active_col {
+	background-color:#001844;
+	color:#bfc7d6;
+}
+#si_ei .lst-cl {
+	border-color: #bfc7d6;
+}
+#si_ei .lst-hd a:link,
+#si_ei .lst-hd a:visited {
+	color: #ffffff;
+}
+#si_ei .lst-hd-sort {
+	background-color: #001b4d;
+	color: #bfc7d6;
+	border-right-color: #001844;
+}
+#si_ei .lst-hd-sort a:link,
+#si_ei .lst-hd-sort a:visited {
+	color: #bfc7d6;
+}
+.lst-srt-desc a {
+	background-image: url(/si_ei/2010/arrow_desc_light.gif);
+}
+.lst-srt-asc a {
+	background-image: url(/si_ei/2010/arrow_asc_light.gif);
+}
+#si_ei .ListRow2 {
+    background-color: #e6e9ef;
+}
+/*
+#si_ei .ListRow1 .active_col {
+	background-color: #e6e9ef;
+}
+#si_ei .ListRow2 .active_col {
+	background-color: #bfc7d6;
+}
+*/
+
+.search_filter_results_box {
+	background:#ef3340;
+	color:#ffffff;
+}
+#search_filter_results_arrow {
+	background:#ef3340 url(/si_ei/2010/search_filter_results_arrow.png?2) no-repeat 0 0;
+}
+.search_filter_results_box #search_reset {
+	color:#ffffff;
+}
+
+/* HOME PAGE */
+#home-content-inner {
+	border-color: #bfc7d6;
+}
+.stats .stat_top {
+	background-color: #00205b;
+}
+.stats ul li a:hover .stat_arrow {
+	background: #00205b url("/si_ei/images/arrow-right-white-16.png") no-repeat center center;
+}
+
+/* PANEL */
+html .yui-skin-sam .yui-panel .hd {
+	background: #00205b;
+	color: #ffffff;
+	border: 1px solid #001844;
+}
+.yui-panel-container #passw_reqs h2, 
+.yui-panel-container #pin_reqs h2 {
+	color: #ffffff;
+}
+
+/* CAROUSEL */
+html .yui-carousel .yui-carousel-item-selected {
+	border: 2px solid #ef3340;
+}
+
+/* STUDENT LOGIN */
+.student_login .features,
+.student_login .features a {
+	background:#001844;
+	color:#bfc7d6 !important;
+}
+.student_login .login_reg h2 {
+	color:#001844;
+}
+.student_login .features .yui-nav li a em {
+	color:#000309;
+}
+.student_login .features .yui-nav li {
+	background:#8090ae url(/si_ei/images/student/tab_bg.png) no-repeat 0 0 !important;
+}
+.student_login .features .yui-nav li.hover {
+	background:#405884 url(/si_ei/images/student/tab_bg.png) no-repeat 0 0 !important;
+}
+.student_login .features .yui-nav .selected,
+.student_login .features .yui-nav li.selected.hover {
+	background:#00102e url(/si_ei/images/student/tab_selected_bg.png) no-repeat 0 0 !important;
+}
+.student_login .features .yui-nav .selected .selected_arrow {
+	background:#001844 url(/si_ei/images/student/tab_selected_arrow.png) no-repeat 0 0 !important;
+}
+
+/* JOBS LIST */
+#si_ei .sumlist-rw-title a:link {
+	color: #001844;
+}
+.sumlist-no {
+	color: #ef3340;
+}
+#si_ei .sumlist-bd2 .sumlist-start,
+#si_ei .sumlist-bd2 .sumlist-end,
+.sumlist-note {
+	color: #b32630;
+}
+.sumlist-itemflag {
+	background-color: #ef3340;
+	color: #f89aa0;
+}
+.featured_tag {
+	background-color: #00205b;
+	color: #ffffff;
+}
+.featured_tag .triangle {
+	border-color: transparent transparent #00102e transparent;
+}
+.list-item-title,
+.job_blast_list .job_title, .job_blast_list .student_name,
+.tooltip h2 {
+	color: #00205b;
+}
+
+/* LISTS */
+.list_rows li.selected {
+	background-color: #feebec;
+}
+
+/* JOB VIEW */
+#si_ei .jobact a:link,
+#si_ei .jobact a:hover,
+#si_ei .jobact a:visited {
+	color: #001844;
+}
+#si_ei .job-similarjobs .label {
+	color: #ef3340;
+}
+
+/* APPT SCHEDULER */
+.yui-skin-sam #calContainer .yui-calendar td.calcell a {
+	background: #e6e9ef none;
+}
+.yui-skin-sam #calContainer .yui-calendar td.calcellhover a {
+	background-color: #00205b;
+	color: #ffffff;
+}
+.yui-skin-sam #calContainer .yui-calendar td.today {
+	background-color: #feebec;
+}
+.couns-app-sec {
+}
+#overlay1_header {
+	background: #feebec;
+	color: #781a20;
+}
+#overlay1_content a {
+	color: #001844;
+}
+div.sliderRange {
+	background-color: #00205b;
+}
+
+/* Calendar */
+
+#dynamic-calendar-container.agenda #dynamic-calendar.dhx_cal_container .dhx_cal_header .dhx_agenda_line {
+	color: #ffffff;
+	border-right-color: #405884;
+}
+
+td .dhx_mini_calendar .dhx_calendar_click {
+	background-color:#00205b;
+	color: #ffffff;
+}
+
+#si_ei .dhx_cal_data .dhx_scale_holder {
+	background: #e6e9ef url(/si_ei/images/databg_trans.png);
+}
+
+
+#si_ei .dhx_cal_data .dhx_now .dhx_month_head a:link,
+#si_ei .dhx_cal_data .dhx_now .dhx_month_head a:visited {
+	color: #ffffff;	
+}
+.dhx_cal_data .dhx_cal_event_clear a{
+	color:#000000;
+}
+.dhx_cal_data .dhx_cal_event_clear{
+	color:#001844;
+}
+.dhx_cal_data .dhx_cal_event_clear a:hover{
+	color:#001844;
+}
+
+#si_ei .dhx_year_body .dhx_month_head.dhx_year_event a:link.
+#si_ei .dhx_year_body .dhx_month_head.dhx_year_event a:visited {
+	color: {color2+4_fg};	
+}
+.dhx_mini_calendar .dhx_year_body {
+	border-left-color: #cccccc;
+}
+.dhx_year_body .dhx_month_body{
+	border-bottom-color: #cccccc;
+	border-right-color: #cccccc;
+}
+.dhx_tooltip.csm_year_tooltip {
+	background:#ffffff url(/si_ei/images/databg_now.png);
+	border-color: #E2ECFA;
+}
+.dhx_tooltip.csm_year_tooltip .dhx_tooltip_line a {
+	color:#000000;
+}
+.dhx_tooltip.csm_year_tooltip .dhx_tooltip_line a:hover{
+	color:#001844;
+}
+.dhx_cal_container .dhtmlXTooltip.tooltip{
+	border-color: #405884;
+	color:#505050;
+}
+.dhx_cal_container .dhtmlXTooltip.tooltip a{
+	color:#000000;
+}
+.dhx_cal_container .dhtmlXTooltip.tooltip a:hover{
+	color:#ef3340;
+}
+.dhx_cal_light.csm_event_editor .dhx_time,
+.dhx_cal_light.csm_event_editor .dhx_title{
+	color: #cb2b36;
+}
+.dhx_cal_light.csm_event_editor .dhx_cal_event div {
+	border-color: #f89aa0;	
+	color: #000;
+}
+.dhx_cal_light.csm_event_editor{
+	background: #feebec;
+	border-color: #f89aa0;
+}
+.dhx_cal_light.csm_event_editor .dhx_cal_lsection{
+	color: #000;
+	border-bottom-color: #00205b;
+}
+.dhx_cal_light.csm_event_editor .dhx_cal_larea {
+	background:#ffffff;
+	border-color: #f89aa0;
+}
+.dhx_cal_light.csm_event_editor select{
+	color: #333333;
+}
+#dynamic-calendar.dhx_cal_container .dhx_cal_data .dhx_scale_holder_now .dhx_cal_event .dhx_body a:hover,
+#dynamic-calendar.dhx_cal_container .dhx_cal_data .dhx_scale_holder .dhx_cal_event .dhx_body a:hover,
+#dynamic-calendar.dhx_cal_container .dhx_cal_data .dhx_scale_holder_now .dhx_cal_event .dhx_body a:hover,
+	color:#001844;
+}
+#dynamic-calendar.dhx_cal_container .dhx_cal_data .dhx_scale_holder_now .dhx_cal_event .dhx_footer,
+#dynamic-calendar.dhx_cal_container .dhx_cal_data .dhx_scale_holder .dhx_cal_event .dhx_footer{
+	background: #cccccc;
+	border-color: #cccccc;
+}
+
+body .dhx_multi_day {
+	background-color: #e6e9ef;
+	border-color: #bfc7d6;	
+}
+body .dhx_multi_day_icon,
+body .dhx_multi_day_icon_small {
+	background-color: #e6e9ef;
+	border-bottom-color: #bfc7d6;	
+	border-left-color: #e6e9ef;		
+}
+body .dhx_cal_event_line a {
+	color: #000000;
+}
+/* Calendar v2 */
+#si_ei a.backtotop, #si_ei a.backtotop:link, #si_ei a.backtotop:visited {
+	background-color: #001b4d;
+	color: #ffffff;
+}
+#si_ei a.backtotop:hover {
+	background-color: #00205b;
+}
+
+/* Popup event display */
+.csm_event_editor .dhx_mark,
+.csm_event_editor .dhx_save_btn,
+.csm_event_editor .dhx_cancel_btn,
+.csm_event_editor .dhx_delete_btn{
+	background-image:url(/si_ei/images/controls-gray.gif);
+}
+.csm_event_editor .dhx_btn_set div{
+	color: #cb2b36;
+}
+
+/* Career Explorer */
+.ce_landing_searches .overhang {
+	background-color: #e6e9ef;
+	border-color: #8090ae #8090ae #405884;
+}
+.ce_landing_searches .fold_under_left {
+	border-color: transparent #405884 transparent transparent;
+}
+.ce_landing_searches .fold_under_right {
+	border-color: transparent transparent transparent #405884;
+}
+.ce_search_keywords, .ce_search_industry {
+	border-color: #001844;
+}
+.ce_search_industry .divider {
+	border-color: #bfc7d6;
+}
+
+/* Split Lists */
+.split_list .split_info h2 {
+	color: #00205b;
+}
+
+/* OCI Scheduled Interviews */
+.cal-icon .cal-date-wrap > div:first-child{
+	background: #ef3340 url(/si_ei/2010/schedule_cal_overlay.png) 0 0 repeat; 
+	color: #ffffff; 
+}
+.cal-icon .cal-date-wrap > div + div {
+	color: #00205b; 
+}
+.sch_interviews li.schedules_list_item > div:first-child{
+	color: #ef3340;
+}
+.cal-icon .cal-date-wrap {
+	background: #ffffff; 
+}
+.sch_interviews .cal-date-wrap > div:first-child{
+ background: #ef3340 url(/si_ei/2010/schedule_cal_overlay_lg.png) 0 0 repeat;  
+}
+.interviews_wrap .no_invite {
+	border-top: 1px solid #00205b;
+}
+.interviews_wrap .bid_info {
+	color: #ef3340;
+}
+
+/* DASHBOARD */
+.dashboard_panel .panel_top {
+	background-color: #00205b;
+	color: #ffffff;
+}
+
+/* WIDGETS */
+.similarjobs-prev:hover, .similarjobs-next:hover {
+	border-color: #8090ae;
+}
+.similarjob_jobinfo .similarjob_title {
+	color: #00205b;
+}
+div.sliderRange { 
+	background-color: #00205b;
+}
+
+/* RESUME BUILDER */
+#qrpicker label span.highlight {
+	background: #00205b;
+	color: #ffffff;
+}
+
+/* Video Interviews */
+.selected .interviewer_frame {
+       background: #00205b url(/images/video_interview_sprites.png) no-repeat -177px -347px;
+}
+#video_interview_question_filter .form-edit {
+       background: #00205b url(/images/video_interview_sprites.png) no-repeat 0px -200px;
+}
+.sidebar_box .attempt_title {
+       color: #00205b;
+}
+
+/* Steps */
+.steps {
+	background: #00205b url(/images/video_interview_sprites.png) no-repeat;
+}
+
+/* Accordion Container */
+.accordion-container {
+	background: #00205b url(/images/video_interview_sprites.png) -452px -256px no-repeat;
+}
+
+/* Middle Arrow */
+.list_arrow {
+	background: #00205b url(/images/video_interview_sprites.png) -900px -345px no-repeat;
+}
+
+/* Scrolling Sortable Container */
+.scrsrtlst .sort-container {
+	background: #00205b url(/images/video_interview_sprites.png) -451px -200px no-repeat;
+}
+
+h3.popover-title {
+	background: #00205b;
+	color: #ffffff;
+}
+
+/* Google Ads */
+.adsense_wrapper .ad_button,
+.adsense_wrapper .sm_rect {
+	background-color: #e6e9ef;
+}
+
+/* Interest Profiler / Career Finder*/
+#si_ei .interest_profiler .questions li.selection-made input[type='radio']:checked+a {
+	background-color: #001b4d;
+}
+.ie #si_ei .interest_profiler .questions li.selection-made a.selected {
+	background-color: #001b4d\9 !important;
+	color: #bfc7d6\9 !important;
+}
+body { margin: 0; }
+</style>
+<script type="text/javascript" src="/yui/build/yahoo-dom-event/yahoo-dom-event.js?t=1336141012"></script>
+<script type="text/javascript" src="/yui/build/connection/connection-min.js?t=1309361653"></script>
+<script type="text/javascript" src="/yui/build/dragdrop/dragdrop-min.js?t=1309361659"></script>
+<script type="text/javascript" src="/yui/build/container/container-min.js?t=1309361681"></script>
+<script type="text/javascript" src="/js/jquery/current/jquery.min.js?t=1614705114"></script>
+<script type="text/javascript" src="/js/jslib/utils/eventHelper.js?t=1669695584"></script>
+<script type="text/javascript" src="/js/jquery-migrate-3.3.2.js?t=1667896099"></script>
+<script type="text/javascript" src="/js/coolbuttons.js?t=1667896099"></script>
+<script type="text/javascript" src="/js/timeout.js?t=1667896099"></script>
+<script type="text/javascript" src="/js/picklist/picklist.js?t=1669695584"></script>
+<script type="text/javascript" src="/js/jslib/utils/AriaHelper.js?t=1669695584"></script>
+<script type="text/javascript" src="/widget_assets/selectlist/selectlist.js?t=1668113420"></script>
+<script type="text/javascript" src="/js/rpc/JSRPC-min.js?t=1669695584"></script>
+<script type="text/javascript" src="/components/valkyrie/js/jquery.scrolltabs.js?t=1669695582"></script>
+<script type="text/javascript" src="/components/valkyrie/js/utils.js?t=1669695582"></script>
+<script type="text/javascript" src="/components/valkyrie/js/readmore-toggle.js?t=1669695582"></script>
+<script type="text/javascript" src="/components/valkyrie/js/valkyrie-nav.js?t=1669695582"></script>
+<script type="text/javascript" src="/components/flickity/dist/flickity.pkgd.js?t=1522351194"></script>
+<script type="text/javascript" src="/jscache/e/e6301f87f225c3e0e2a396dd4a1a0ce9.js"></script>
+</head>
+    <body class="yui-skin-sam  responsive-section page-public  ">
+    
+        <ul class="skip-links">
+        <li><a href="#content" title="Skip to content. Accesskey: C" accesskey="c" class="sr-only sr-only-focusable">Skip to content</a></li>
+        <li><a href="#menu" title="Skip to main menu. Accesskey: M" accesskey="m" class="sr-only sr-only-focusable">Skip to main menu</a></li>
+                    <li><a href="#tabs" title="Skip to secondary menu. Accesskey: S" accesskey="s" class="sr-only sr-only-focusable">Skip to secondary menu</a></li>
+            </ul>
+	<header class="page-top" role="banner">
+	<div class="container">
+	 	<div class="header-menu">
+						<div id="page-brand">
+				<a href="/"  class="nav-brand">
+					<span class="sr-only">Visit Site</span>
+					<div style="background-image: url(https://uic-accommodate.symplicity.com/images/accommodate-logo-color.svg)"></div>
+				</a>
+			</div>
+		</div>
+		<div id="page-flex-fill"></div>
+					<div id="page-search"> </div>
+		
+			</div>
+	</header>
+	<div class="container">
+	   	    <div class="row">
+        	<div id="helpdiv"></div>
+        	
+            <div id="frame" class="no-nav">
+        		<main>
+        						                			        				<div class="page-title-wrapper">
+        					                                      <h1 class="page-title">DRC Student Registration Form</h1>
+                          					        					        				</div>
+        			
+        			<div class="page-main">
+	<div class="module">
+		<div class="content-container">
+			<a name="content"></a>
+			<div class="content-container-inner">
+				
+																<div class="form form-editmode">
+<form name="accessibility_request_form" id="accessibility_request_form" enctype="multipart/form-data" method="post">
+<div class="form_content">
+<input type="hidden" name="_____dummy" value="dnf_">
+<input type="hidden" name="so_form_prefix" value="dnf_">
+<input type="hidden" name="dnf_opt_action" value="insert">
+<input type="hidden" name="dnf_opt_template" value="nbkhE2ZRZv1yFCXBwxK754HPkOoaMyWJ69hMXbjPdMCzkkZ7XNw43EwvvCx1qt7M">
+<input type="hidden" name="dnf_opt_template_dir" value="JB9vOQjVMtEppUbGD96tgYfa0tpsGA8xyQMwVY2Z8yPGYW8xFeZot0KP3ImmU4L0M+7T1Nml4VPWXhR2K3Xsn6TuFL1O/bRQs/nn+lCDSulIJS0aNJBW4Q==">
+<input type="hidden" name="dnf_opt_subform_template" value="9j0vHTxXxnAqp/OaDb2STGF719zd85B9">
+<input type="hidden" name="dnf_opt_finalize" value="0">
+<input type="hidden" name="dnf_opt_mode" value="update">
+<input type="hidden" name="dnf_opt_target" value="">
+<input type="hidden" name="so_form_checksum" value="6WohiD3pGcmD+HaWn5qoaThBiatvOG3WdVx7QHRNXnD1swtpyXJ68876KQSKi7PmIuxWDwbgqw+G218gC1weV3oDitrIzKYp">
+<input type="hidden" name="so_form_timestamp" value="DiQUmYukPdeNHmW8iGE/P+KMnUwnalmHmHQi2YR41mdIl+y/N7Tu9Me4nOFqiNIW">
+<input type="hidden" name="so_form_options" value="q1Z3goAmwpFWdovTKlnjE6PvuFBjQu+el8nvQsUKVL7HV0ssVL1CIvgBdW+Mrj1j2a/qRRCImJI=">
+<input type="hidden" name="so_form_session" value="RXjffFQTRgFLbbaovM6SAnbv5CH7qUqh4OwgsjmGFISzxGQnlYRPNB5J/mo4POSH">
+<input type="hidden" name="so_form_key" value="e5d6bf462855ebcf35e1b026a5676af8">
+<input type="hidden" name="dnf_opt_validate" value="1">
+<input type="hidden" name="dnf_opt_suppress_write" value="1">
+<input type="hidden" name="dnf_class_values[accessibility_request][dnf_class_name]" value="accessibility_request">
+<input type="hidden" id="dnf_class_values_accessibility_request__request_id_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][request_id]" value="62ae12ed0f606bdf5aa8dfc8b44e5459">
+<input type="hidden" id="dnf_class_values_accessibility_request__workflow_status_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][workflow_status]" value="0">
+<input type="hidden" id="dnf_class_values_accessibility_request__from_external_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][from_external]" value="1">
+<div class="req-msg"><span class="req-indicator" style="color:#e31414">*</span> indicates a required field</div>
+<div class="xlate-form-w">
+</div>
+<div>
+<div id="accessibility_request_form_fieldgroup__student_section" class="fieldgroup fg-first">
+<div class="fg-title">
+<h2>
+Student Information									</h2>
+<div class="fg-blurb">
+Please enter your information									</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_fname_" class="field  first field-first"role="group"aria-labelledby="dnf_class_values_accessibility_request__student_fname__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_fname__field-label">
+<label  for="dnf_class_values_accessibility_request__student_fname_" >First Name<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__student_fname__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_fname_" size="30" minlength="0" maxlength="255" no_submit="" js_required_field="First Name" name="dnf_class_values[accessibility_request][student_fname]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_lname_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__student_lname__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_lname__field-label">
+<label  for="dnf_class_values_accessibility_request__student_lname_" >Last Name<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__student_lname__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_lname_" size="30" minlength="0" maxlength="255" no_submit="" js_required_field="Last Name" name="dnf_class_values[accessibility_request][student_lname]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_mi_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__student_mi__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_mi__field-label">
+<label  for="dnf_class_values_accessibility_request__student_mi_" >Middle Name</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__student_mi__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_mi_" size="30" minlength="0" maxlength="255" no_submit="" name="dnf_class_values[accessibility_request][student_mi]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__preferred_name_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__preferred_name__field-label"aria-describedby="dnf_class_values_accessibility_request__preferred_name__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__preferred_name__field-label">
+<label  for="dnf_class_values_accessibility_request__preferred_name_" >Preferred Name<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__preferred_name__field-blurb">
+This is the name DRC will use for correspondence, and your Letter of Accommodation.			</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__preferred_name__widget">
+<input type="text" id="dnf_class_values_accessibility_request__preferred_name_" size="30" minlength="0" maxlength="255" no_submit="" aria-describedby="dnf_class_values_accessibility_request__preferred_name__field-blurb" js_required_field="Preferred Name" name="dnf_class_values[accessibility_request][preferred_name]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_school_id_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__student_school_id__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_school_id__field-label">
+<label  for="dnf_class_values_accessibility_request__student_school_id_" >Student ID<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__student_school_id__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_school_id_" size="30" minlength="0" maxlength="255" no_submit="" js_required_field="Student ID" name="dnf_class_values[accessibility_request][student_school_id]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_email_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__student_email__field-label"aria-describedby="dnf_class_values_accessibility_request__student_email__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_email__field-label">
+<label  for="dnf_class_values_accessibility_request__student_email_" >Email<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__student_email__field-blurb">
+Please use your university issued email address			</div>
+<div class="field-widget field-widget-email" id="dnf_class_values_accessibility_request__student_email__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_email_" size="30" minlength="0" maxlength="255" no_submit="" aria-describedby="dnf_class_values_accessibility_request__student_email__field-blurb" js_required_field="Email" onblur="checkMulEmail(this, false)" name="dnf_class_values[accessibility_request][student_email]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__student_phone_number_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__student_phone_number__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__student_phone_number__field-label">
+<label  for="dnf_class_values_accessibility_request__student_phone_number_" >Student Phone Number<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__student_phone_number__widget">
+<input type="text" id="dnf_class_values_accessibility_request__student_phone_number_" size="30" minlength="0" maxlength="255" no_submit="" js_required_field="Student Phone Number" name="dnf_class_values[accessibility_request][student_phone_number]" value="" class="input-text">
+</div>
+</div>
+<fieldset id="so_formfield_dnf_class_values_accessibility_request__are_you_a_health_science_stude_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-label"aria-describedby="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-blurb">
+<legend class="field-label" id="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-label">
+<span   >Are you enrolled in a Health Science College, or the Colleges of Social Work or Education?<span class="sr-only">Required</span></span> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</legend>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-blurb">
+(e.g. AHS, Nursing, Dentistry, Medicine, Pharmacy, Public Health, Education, Social Work)			</div>
+<div class="field-widget field-widget-yesno" id="dnf_class_values_accessibility_request__are_you_a_health_science_stude__widget">
+<input aria-describedby="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-blurb" js_required_field="Are you enrolled in a Health Science College, o..." name="dnf_class_values[accessibility_request][are_you_a_health_science_stude]" type="radio" value="1" alt="Are you enrolled in a Health Science College, or the Colleges of Social Work or Education? Yes" id="dnf_class_values_accessibility_request__are_you_a_health_science_stude_01dc3be8f64fbb4e97b20bccda7c87cd" class="input-radio"><label for="dnf_class_values_accessibility_request__are_you_a_health_science_stude_01dc3be8f64fbb4e97b20bccda7c87cd" class="horizontal-radio-group"><span class="acc_hide">Are you enrolled in a Health Science College, or the Colleges of Social Work or Education?</span> Yes</label> 
+<input aria-describedby="dnf_class_values_accessibility_request__are_you_a_health_science_stude__field-blurb" js_required_field="Are you enrolled in a Health Science College, o..." name="dnf_class_values[accessibility_request][are_you_a_health_science_stude]" type="radio" value="0" alt="Are you enrolled in a Health Science College, or the Colleges of Social Work or Education? no" id="dnf_class_values_accessibility_request__are_you_a_health_science_stude_36bf88e3fa6c12731584a1502f76ff9f" class="input-radio"><label for="dnf_class_values_accessibility_request__are_you_a_health_science_stude_36bf88e3fa6c12731584a1502f76ff9f" class="horizontal-radio-group"><span class="acc_hide">Are you enrolled in a Health Science College, or the Colleges of Social Work or Education?</span> no</label> 
+</div>
+</fieldset>
+<fieldset id="so_formfield_dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active_" class="field  last field-last"role="group"aria-labelledby="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active__field-label">
+<legend class="field-label" id="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active__field-label">
+<span   >Are you a US military service member (active duty/reserves), veteran, or spouse/dependent of a veteran.<span class="sr-only">Required</span></span> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</legend>
+<div class="field-widget field-widget-yesno" id="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active__widget">
+<input js_required_field="Are you a US military service member (active du..." name="dnf_class_values[accessibility_request][are_you_a_us_military_service_member_active]" type="radio" value="1" alt="Are you a US military service member (active duty/reserves), veteran, or spouse/dependent of a veteran. Yes" id="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active_a6343bd48bafed3089cdf13124d70e8b" class="input-radio"><label for="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active_a6343bd48bafed3089cdf13124d70e8b" class="horizontal-radio-group"><span class="acc_hide">Are you a US military service member (active duty/reserves), veteran, or spouse/dependent of a veteran.</span> Yes</label> 
+<input js_required_field="Are you a US military service member (active du..." name="dnf_class_values[accessibility_request][are_you_a_us_military_service_member_active]" type="radio" value="0" alt="Are you a US military service member (active duty/reserves), veteran, or spouse/dependent of a veteran. no" id="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active_41171ad653355341dcbe59ced28c0944" class="input-radio"><label for="dnf_class_values_accessibility_request__are_you_a_us_military_service_member_active_41171ad653355341dcbe59ced28c0944" class="horizontal-radio-group"><span class="acc_hide">Are you a US military service member (active duty/reserves), veteran, or spouse/dependent of a veteran.</span> no</label> 
+</div>
+</fieldset>
+</div>
+<div id="accessibility_request_form_fieldgroup__default_section" class="fieldgroup fg-last">
+<div class="fg-title">
+<h2>
+Specific Accommodation Information									</h2>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__disability___" class="field  first field-first"role="group"aria-labelledby="dnf_class_values_accessibility_request__disability____field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__disability____field-label">
+<label  for="dnf_class_values_accessibility_request__disability___" >My diagnosed disability(ies) best fall into the following category(ies)<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-hierpicklist" id="dnf_class_values_accessibility_request__disability____widget">
+<span id="pl_p_pl_20c8073bfcc7f6f24779f4c1ae3683c0" data-config="{&quot;use_keys&quot;:1,&quot;show_default&quot;:false,&quot;default_label&quot;:&quot;Add...&quot;,&quot;default_value&quot;:null,&quot;delimiter&quot;:&quot;&lt;br&gt;\n&quot;,&quot;menu_width&quot;:272,&quot;menu_height&quot;:400,&quot;menu_item_height&quot;:20,&quot;menu_max_items&quot;:20,&quot;scroller_width&quot;:16,&quot;top_item&quot;:&quot;0&quot;,&quot;parent_top_item&quot;:&quot;0&quot;,&quot;do_not_append_top_level&quot;:false,&quot;level_length&quot;:3,&quot;max_top_val_length&quot;:50,&quot;max_value_chars&quot;:37,&quot;hierarchy_rightleaf_display&quot;:0,&quot;hierarchy_delimiter&quot;:&quot;\/&quot;,&quot;CSSclass&quot;:&quot;hp_menu&quot;,&quot;hp_selection_class&quot;:&quot;hp_selection&quot;,&quot;add_hp_selection_mouseover&quot;:&quot;&quot;,&quot;add_hp_selection_mouseout&quot;:&quot;&quot;,&quot;ms_add_ignore_hierarchy&quot;:0,&quot;repeat_parent_in_submenu&quot;:false,&quot;on_demand&quot;:false,&quot;onmousedownHook&quot;:null,&quot;custom&quot;:[],&quot;actions_menu&quot;:[],&quot;clear_button&quot;:false,&quot;nocache&quot;:true,&quot;hide_all_hack&quot;:false,&quot;show_thumbs&quot;:false,&quot;hp_onadd&quot;:false,&quot;onmousedown&quot;:false,&quot;store_widget_index_in_session&quot;:true,&quot;multiple&quot;:&quot;1&quot;,&quot;picklist_archivable&quot;:1,&quot;custom_query_callback&quot;:&quot;&quot;,&quot;append_no_selection&quot;:false,&quot;disabled&quot;:false,&quot;submitonchange&quot;:&quot;&quot;,&quot;unclickable_items&quot;:false,&quot;nochange_onchange&quot;:false,&quot;themed_buttons&quot;:false,&quot;empty_hack&quot;:0,&quot;type&quot;:&quot;picklist&quot;,&quot;picklist_table&quot;:&quot;picklist_disability_type&quot;,&quot;picklist_text_field&quot;:&quot;value&quot;,&quot;picklist_value_field&quot;:&quot;id&quot;,&quot;picklist_order_by&quot;:&quot;orderby,value&quot;,&quot;hierpicklist&quot;:true,&quot;list_show_fullpath&quot;:true,&quot;multiple_selector&quot;:&quot;1&quot;,&quot;read_only&quot;:false,&quot;ro_show_hidden&quot;:null,&quot;label_id&quot;:&quot;dnf_class_values_accessibility_request__disability__field-label&quot;,&quot;output_format&quot;:&quot;html&quot;,&quot;template_name&quot;:&quot;accessibility_request_external&quot;,&quot;exec_inline_callbacks&quot;:true,&quot;picklist_extra_columns&quot;:&quot;archived&quot;,&quot;picklist_text_format_string&quot;:&quot;{value}&amp;renderArchivedPickString({archived})&amp;&quot;,&quot;picklist_filter&quot;:&quot;(archived=&#039;0&#039;)&quot;,&quot;field_display_name&quot;:&quot;My diagnosed disability(ies) best fall into the following category(ies)&quot;,&quot;hidden_attrs&quot;:{&quot;value&quot;:null,&quot;name&quot;:&quot;dnf_class_values[accessibility_request][disability][]&quot;,&quot;blurbId&quot;:&quot;&quot;},&quot;data&quot;:[{&quot;label&quot;:&quot;ASD Related \/ Developmental&quot;,&quot;value&quot;:&quot;0220&quot;},{&quot;label&quot;:&quot;Attention Deficit\/Hyperactivity&quot;,&quot;value&quot;:&quot;0020&quot;},{&quot;label&quot;:&quot;Blind \/ Low Vision&quot;,&quot;value&quot;:&quot;0200&quot;},{&quot;label&quot;:&quot;Chronic Health&quot;,&quot;value&quot;:&quot;0040&quot;},{&quot;label&quot;:&quot;Cognitive&quot;,&quot;value&quot;:&quot;0060&quot;},{&quot;label&quot;:&quot;Communication&quot;,&quot;value&quot;:&quot;0080&quot;},{&quot;label&quot;:&quot;Deaf \/ Hard of Hearing&quot;,&quot;value&quot;:&quot;0100&quot;},{&quot;label&quot;:&quot;Learning&quot;,&quot;value&quot;:&quot;0120&quot;},{&quot;label&quot;:&quot;Mobility&quot;,&quot;value&quot;:&quot;0140&quot;},{&quot;label&quot;:&quot;Psychological&quot;,&quot;value&quot;:&quot;0160&quot;},{&quot;label&quot;:&quot;Temporary (Injury)&quot;,&quot;value&quot;:&quot;0240&quot;},{&quot;label&quot;:&quot;Temporary (Pregnancy)&quot;,&quot;value&quot;:&quot;0180&quot;}],&quot;placeholder&quot;:&quot;pl_p_pl_20c8073bfcc7f6f24779f4c1ae3683c0&quot;,&quot;id&quot;:&quot;pl_20c8073bfcc7f6f24779f4c1ae3683c0&quot;,&quot;allow_parent_selection&quot;:0}"></span>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__of_the_items_selected_above_wh_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-label"aria-describedby="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-label">
+<label  for="dnf_class_values_accessibility_request__of_the_items_selected_above_wh_" >Of the items selected above, which comes up most in an academic setting?<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-blurb">
+This question is for aggregate reporting purposes to the Illinois Board of Higher Education and will not impact your accommodations.			</div>
+<div class="field-widget field-widget-picklist" id="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__widget">
+<select size="1" aria-describedby="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-blurb" js_required_field="Of the items selected above, which comes up mos..." id="dnf_class_values_accessibility_request__of_the_items_selected_above_wh_" name="dnf_class_values[accessibility_request][of_the_items_selected_above_wh]" aria-labelledby="dnf_class_values_accessibility_request__of_the_items_selected_above_wh__field-label" class="js-selectlist-select"><option value=""></option><option value="11">ASD Related / Developmental</option>
+<option value="1">Attention Deficit/Hyperactivity</option>
+<option value="10">Blind / Low Vision</option>
+<option value="2">Chronic Health</option>
+<option value="3">Cognitive</option>
+<option value="4">Communication</option>
+<option value="5">Deaf / Hard of Hearing</option>
+<option value="6">Learning</option>
+<option value="7">Mobility</option>
+<option value="8">Psychological</option>
+<option value="13">Temporary</option>
+<option value="12">Temporary (Injury)</option>
+<option value="9">Temporary (Pregnancy)</option>
+</select>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__impairment_academic_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__impairment_academic__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__impairment_academic__field-label">
+<label  for="dnf_class_values_accessibility_request__impairment_academic_" >How does your disability affect you academically?<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__impairment_academic__widget">
+<textarea rows="12" cols="90" js_required_field="How does your disability affect you academically?" id="dnf_class_values_accessibility_request__impairment_academic_" name="dnf_class_values[accessibility_request][impairment_academic]"></textarea>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__impairment_studentlife_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__impairment_studentlife__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__impairment_studentlife__field-label">
+<label  for="dnf_class_values_accessibility_request__impairment_studentlife_" >How does your disability affect student life in general, like housing and transportation?</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__impairment_studentlife__widget">
+<textarea rows="12" cols="90" id="dnf_class_values_accessibility_request__impairment_studentlife_" name="dnf_class_values[accessibility_request][impairment_studentlife]"></textarea>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__what_if_any_accommodations_hav_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__what_if_any_accommodations_hav__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__what_if_any_accommodations_hav__field-label">
+<label  for="dnf_class_values_accessibility_request__what_if_any_accommodations_hav_" >What, if any, accommodations have you received in the past?</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__what_if_any_accommodations_hav__widget">
+<textarea rows="4" cols="40" id="dnf_class_values_accessibility_request__what_if_any_accommodations_hav_" name="dnf_class_values[accessibility_request][what_if_any_accommodations_hav]"></textarea>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__what_additional_information_wo_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__what_additional_information_wo__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__what_additional_information_wo__field-label">
+<label  for="dnf_class_values_accessibility_request__what_additional_information_wo_" >What additional information would you like DRC to know about your request?</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__what_additional_information_wo__widget">
+<textarea rows="4" cols="40" id="dnf_class_values_accessibility_request__what_additional_information_wo_" name="dnf_class_values[accessibility_request][what_additional_information_wo]"></textarea>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__what_accommodations_are_you_re_" class="field "role="group"aria-labelledby="dnf_class_values_accessibility_request__what_accommodations_are_you_re__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__what_accommodations_are_you_re__field-label">
+<label  for="dnf_class_values_accessibility_request__what_accommodations_are_you_re_" >What accommodations are you requesting</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__what_accommodations_are_you_re__widget">
+<textarea rows="4" cols="40" id="dnf_class_values_accessibility_request__what_accommodations_are_you_re_" name="dnf_class_values[accessibility_request][what_accommodations_are_you_re]"></textarea>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__document_" class="field  field-has-subform"role="group"aria-labelledby="dnf_class_values_accessibility_request__document__field-label"aria-describedby="dnf_class_values_accessibility_request__document__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__document__field-label">
+<span   >Upload supporting document(s)</span> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__document__field-blurb">
+<p>You may also upload your supporting medical documentation to our Protected Health Information (PHI) link found&nbsp;<a href="https://uofi.app.box.com/f/aa44b4d6733a43a1a0f56b9a9c366db6" target="_blank">here</a>.</p>			</div>
+<div class="field-widget field-widget-relation field-subform-widget" id="dnf_class_values_accessibility_request__document__widget">
+<div id="_hidden_subform_dnf_class_values[accessibility_request][document]_container" role="region" aria-live="polite"></div><div class="addbutton"><input type="button" name="_n1_action__dnf_class_valuesaccessibility_requestdocument" id="n1_action__dnf_class_valuesaccessibility_requestdocument" value="Add Item" aria-controls="_hidden_subform_dnf_class_values[accessibility_request][document]_container" onclick="showNewN1Subform(this, '_hidden_subform_dnf_class_values[accessibility_request][document]',null, 0)" n1counter="0" class="input-button btn btn_primary"></div>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__intake_appointment_" class="field  last field-last"role="group"aria-labelledby="dnf_class_values_accessibility_request__intake_appointment__field-label"aria-describedby="dnf_class_values_accessibility_request__intake_appointment__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__intake_appointment__field-label">
+<span   >Intake Appointment</span> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_accessibility_request__intake_appointment__field-blurb">
+<p><span style="font-size: 18pt;">IMPORTANT: Next step, schedule an intake appointment</span>. Filling out the registration form is the first of two steps to register with the DRC. Next, you must schedule an intake meeting. The intake meeting with a Disability Specialist will give you an opportunity to discuss your disability-related needs and formalize a plan for appropriate accommodations.&nbsp; These meetings typically last about 60 minutes.</p>
+<p>There are two ways to schedule:<strong> by phone, or via iAdvise</strong>.</p>
+<p>To schedule by phone, call our office at (312) 413-2183.</p>
+<p>To schedule via iAdvise, follow these steps:</p>
+<ul>
+<li>Use this link: go.uic.edu/DRCIntake and log in to navigate to the DRC page on iAdvise.&nbsp; If you are taken to your home page instead, you can search for Disability Resource Center and our page will pop up.</li>
+<li>Click the name of your DSS based on your last name and/or major.</li>
+<li>Click the "Schedule Appointment" button</li>
+<li>Click where it says "Disability Resource Center" then the "Intake" option that appears. It will show your DSS&rsquo;s available meeting times for the next week and a half. You can use the calendar on the left to search different weeks.</li>
+<li>Once you can choose whether you want to meet via phone or Zoom.</li>
+</ul>
+<p></p>
+<p>Please note: if you do not see a time that works for you in iAdvise, feel free to call in to the office and inquire about other options as they may be available.</p>			</div>
+</div>
+</div>
+</div>
+</div>
+<div class="buttonbar buttonbar-bottom">
+<input value="Submit" type="submit" name="dnf_opt_submit" onclick="this.form.dnf_opt_finalize.value='1'" class="input-submit btn btn_primary">		</div>
+</form>
+</div>
+							</div>
+		</div>
+	</div>
+</div>
+        		</main>
+        		        		        		        		        		<div class="invisible">
+        			        				<IFRAME name="__hiddenframe1" src="about:blank" width="1" height="1" frameborder="0" title="hidden frame used for system functionality"></IFRAME>
+        			        				<IFRAME name="__hiddenframe2" src="about:blank" width="1" height="1" frameborder="0" title="hidden frame used for system functionality"></IFRAME>
+        			        				<IFRAME name="__hiddenframe3" src="about:blank" width="1" height="1" frameborder="0" title="hidden frame used for system functionality"></IFRAME>
+        			        				<IFRAME name="__hiddenframe4" src="about:blank" width="1" height="1" frameborder="0" title="hidden frame used for system functionality"></IFRAME>
+        			        				<IFRAME name="__hiddenframe5" src="about:blank" width="1" height="1" frameborder="0" title="hidden frame used for system functionality"></IFRAME>
+        			        		</div>
+        		<div style="display:none" id="_hidden_subform_dnf_class_values[accessibility_request][document]"><div class="N1AjaxStandardClass" id="_hidden_subform_dnf_class_values[accessibility_request][document]__[dynamicadd]"><div class="subform subform-nplus1 subform-nplus1-last document_subform" id="document__dynamic_n1counter_">
+<a id="{n1dynamicid}" name="{n1dynamicid}_anchor"></a>
+<input type="hidden" name="dnf_class_values[document][dnf_class_name]" value="document">
+<input type="hidden" name="dnf_class_values[accessibility_request][document][dynamicadd][dnf_class_name]" value="document">
+<input type="hidden" name="dnf_class_values[accessibility_request][document][dynamicadd][dnf_action]" value="insert">
+<input type="hidden" id="dnf_class_values_accessibility_request__document__dynamicadd__document_id_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][document][dynamicadd][document_id]" value="{n1dynamicid}">
+<div class="fg-title">
+<h3 class="fg_default_section">Document Information</h3>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__document__dynamicadd__title_" class="field  first field-first"role="group"aria-labelledby="dnf_class_values_accessibility_request__document__dynamicadd__title__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__document__dynamicadd__title__field-label">
+<label  for="dnf_class_values_accessibility_request__document__dynamicadd__title_" >Document Title<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-widget field-widget-text" id="dnf_class_values_accessibility_request__document__dynamicadd__title__widget">
+<input type="text" id="dnf_class_values_accessibility_request__document__dynamicadd__title_" size="30" minlength="0" maxlength="255" no_submit="" js_required_field="Document Title" name="dnf_class_values[accessibility_request][document][dynamicadd][title]" value="" class="input-text">
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file_" class="field  field-has-subform"role="group">
+<div class="field-widget field-widget-relation field-subform-widget" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__widget">
+<div class="subform subform-nplus1 subform-nplus1-first file_subform" id="file_1">
+<a id="{n1dynamicid}" name="{n1dynamicid}_anchor"></a>
+<input type="hidden" name="dnf_class_values[file][dnf_class_name]" value="file">
+<input type="hidden" name="dnf_class_values[accessibility_request][document][dynamicadd][uploaded_file][0][dnf_class_name]" value="file">
+<input type="hidden" name="dnf_class_values[accessibility_request][document][dynamicadd][uploaded_file][0][dnf_action]" value="insert">
+<input type="hidden" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__file_id_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][document][dynamicadd][uploaded_file][0][file_id]" value="{n1dynamicid}">
+<input type="hidden" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__preview_" minlength="0" no_submit="" name="dnf_class_values[accessibility_request][document][dynamicadd][uploaded_file][0][preview]" value="">
+<div id="so_formfield_dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data_" class="field  first field-first last field-last"role="group"aria-labelledby="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data__field-label"aria-describedby="dnf_class_values_file__data__field-blurb">
+<div class="field-label" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data__field-label">
+<label  for="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data_" >File<span class="sr-only">Required</span></label> <span class="req-indicator" aria-hidden="true"><span class="req-indicator" style="color:#e31414">*</span></span>
+</div>
+<div class="field-blurb" id="dnf_class_values_file__data__field-blurb">
+Maximum file size: 10240kb			</div>
+<div class="field-widget field-widget-file" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data__widget">
+<input type="file" aria-describedby="dnf_class_values_file__data__field-blurb" js_required_field="File" id="dnf_class_values_accessibility_request__document__dynamicadd__uploaded_file__0__data_" name="dnf_class_values_leftbracket_accessibility_request_rightbracket__leftbracket_document_rightbracket__leftbracket_dynamicadd_rightbracket__leftbracket_uploaded_file_rightbracket__leftbracket_0_rightbracket__leftbracket_data_rightbracket_" aria-label="Choose File to Upload" value="0" class="input-file">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="so_formfield_dnf_class_values_accessibility_request__document__dynamicadd__description_" class="field  last field-last"role="group"aria-labelledby="dnf_class_values_accessibility_request__document__dynamicadd__description__field-label">
+<div class="field-label" id="dnf_class_values_accessibility_request__document__dynamicadd__description__field-label">
+<label  for="dnf_class_values_accessibility_request__document__dynamicadd__description_" >Description</label> <span class="req-indicator" aria-hidden="true"></span>
+</div>
+<div class="field-widget field-widget-textarea" id="dnf_class_values_accessibility_request__document__dynamicadd__description__widget">
+<textarea rows="12" cols="80" id="dnf_class_values_accessibility_request__document__dynamicadd__description_" name="dnf_class_values[accessibility_request][document][dynamicadd][description]"></textarea>
+</div>
+</div>
+<div class="buttonbar">
+<input type="button" value="Delete" onclick="if (confirm('Are you sure - this action is not reversible?')) deleteN1SubForm(this, '_hidden_subform_dnf_class_values[accessibility_request][document]__[dynamicadd]');" n1deleteclass="document" n1deleteid="{n1dynamicid}" n1relationfield="document" n1deleteparentclass="accessibility_request" n1deleteparentid="62ae12ed0f606bdf5aa8dfc8b44e5459" class="input-button btn btn_delete">
+</div>
+</div></div></div>
+        		<div class="yui-skin-sam">
+        			<div id="batcheditpanel"></div>
+        			<div id="popdiv_placeholder"></div>
+        			<div id="dialog_placeholder"></div>
+        			<div id="notice_placeholder"></div>
+        		</div>
+        	</div>
+        </div>
+	</div>
+	<script type="text/javascript" src="/components/valkyrie/js/actions-toggle.js?t=1669695582"></script>
+<script type="text/javascript" src="/jscache/b/b7d6a29a228453f7f5bef0ed16978109.js"></script>
+<script type="text/javascript">
+jQuery(function() { pl_20c8073bfcc7f6f24779f4c1ae3683c0__pick = new Picklist("{\"use_keys\":1,\"show_default\":false,\"default_label\":\"Add...\",\"default_value\":null,\"delimiter\":\"<br>\\n\",\"menu_width\":272,\"menu_height\":400,\"menu_item_height\":20,\"menu_max_items\":20,\"scroller_width\":16,\"top_item\":\"0\",\"parent_top_item\":\"0\",\"do_not_append_top_level\":false,\"level_length\":3,\"max_top_val_length\":50,\"max_value_chars\":37,\"hierarchy_rightleaf_display\":0,\"hierarchy_delimiter\":\"\\/\",\"CSSclass\":\"hp_menu\",\"hp_selection_class\":\"hp_selection\",\"add_hp_selection_mouseover\":\"\",\"add_hp_selection_mouseout\":\"\",\"ms_add_ignore_hierarchy\":0,\"repeat_parent_in_submenu\":false,\"on_demand\":false,\"onmousedownHook\":null,\"custom\":[],\"actions_menu\":[],\"clear_button\":false,\"nocache\":true,\"hide_all_hack\":false,\"show_thumbs\":false,\"hp_onadd\":false,\"onmousedown\":false,\"store_widget_index_in_session\":true,\"multiple\":\"1\",\"picklist_archivable\":1,\"custom_query_callback\":\"\",\"append_no_selection\":false,\"disabled\":false,\"submitonchange\":\"\",\"unclickable_items\":false,\"nochange_onchange\":false,\"themed_buttons\":false,\"empty_hack\":0,\"type\":\"picklist\",\"picklist_table\":\"picklist_disability_type\",\"picklist_text_field\":\"value\",\"picklist_value_field\":\"id\",\"picklist_order_by\":\"orderby,value\",\"hierpicklist\":true,\"list_show_fullpath\":true,\"multiple_selector\":\"1\",\"read_only\":false,\"ro_show_hidden\":null,\"label_id\":\"dnf_class_values_accessibility_request__disability__field-label\",\"output_format\":\"html\",\"template_name\":\"accessibility_request_external\",\"exec_inline_callbacks\":true,\"picklist_extra_columns\":\"archived\",\"picklist_text_format_string\":\"{value}&renderArchivedPickString({archived})&\",\"picklist_filter\":\"(archived=\\u00270\\u0027)\",\"field_display_name\":\"My diagnosed disability(ies) best fall into the following category(ies)\",\"hidden_attrs\":{\"value\":null,\"name\":\"dnf_class_values[accessibility_request][disability][]\",\"blurbId\":\"\"},\"data\":[{\"label\":\"ASD Related \\/ Developmental\",\"value\":\"0220\"},{\"label\":\"Attention Deficit\\/Hyperactivity\",\"value\":\"0020\"},{\"label\":\"Blind \\/ Low Vision\",\"value\":\"0200\"},{\"label\":\"Chronic Health\",\"value\":\"0040\"},{\"label\":\"Cognitive\",\"value\":\"0060\"},{\"label\":\"Communication\",\"value\":\"0080\"},{\"label\":\"Deaf \\/ Hard of Hearing\",\"value\":\"0100\"},{\"label\":\"Learning\",\"value\":\"0120\"},{\"label\":\"Mobility\",\"value\":\"0140\"},{\"label\":\"Psychological\",\"value\":\"0160\"},{\"label\":\"Temporary (Injury)\",\"value\":\"0240\"},{\"label\":\"Temporary (Pregnancy)\",\"value\":\"0180\"}],\"placeholder\":\"pl_p_pl_20c8073bfcc7f6f24779f4c1ae3683c0\",\"id\":\"pl_20c8073bfcc7f6f24779f4c1ae3683c0\",\"allow_parent_selection\":0}"); });
+initJsSelectLists();
+
+	(function addClassToNestedSubform(element, selector, level){
+		[].forEach.call(element.querySelectorAll(selector),
+			function (item, index) {
+				var className = level % 2 ? "bg-white" : "";
+				if (className) {
+					item.classList.add(className);
+				}
+				addClassToNestedSubform(item, ".subform", level+1);
+			}
+		);
+	})(document, ".subform", 0);
+
+if (typeof jQuery != 'undefined') {
+            jQuery(function($) {
+                var target = $('[name="scroll2me"]').eq(0);
+                if (target.length) {
+                    field = target.parent().find(':input:visible');
+                    if (field.length) {
+                        if (field[0].attributes.type.value === 'radio') {
+                            for (var i = 0; i < field.length; i++) {
+                                if (field[i].checked) {
+                                    field[i].focus();
+                                } 
+                            }
+                        } else {
+                            field[0].focus();
+                        }
+                        $('html,body').scrollTop(field.offset().top - 150);
+                    } else {
+                        $('html,body').scrollTop(target.eq(0).offset().top - 150);
+                    }
+                }
+            });
+        } else {
+            location.hash = 'scroll2me';
+        }
+        
+ var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-12730569-6']);
+_gaq.push(['_setDomainName', 'uic-accommodate.symplicity.com']);
+
+_gaq.push(['_setCustomVar', 1, 'Section', 'Unknown', 3]);
+_gaq.push(['_setCustomVar', 2, 'Subsection', 'None', 3]);
+_gaq.push(['_setCustomVar', 3, 'Subsystem', 'public', 2]);
+_gaq.push(['_setCustomVar', 4, 'User', 'Not Authenticated', 1]);
+_gaq.push(['_setCustomVar', 5, 'Instance', 'uic', 3]);
+
+_gaq.push(['_setCampNameKey','SectionTracker']);
+_gaq.push(['_setCampMediumKey','cpc']);
+_gaq.push(['_setCampSourceKey','csm']);
+_gaq.push(['_setCampTermKey','section']);
+_gaq.push(['_setCampContentKey','Unknown']);
+
+
+var ad_height = jQuery('.adsense_wrapper').innerHeight() || 0;
+var ad_rendered = false;
+var ad_action = false;
+if (ad_height > 100) {
+	ad_rendered = true;
+	ad_action = 'rendered'
+} else if (ad_height > 0) {
+	ad_rendered = true;
+	ad_action = 'blocked';
+}
+if (ad_rendered) {
+	_gaq.push(['_trackEvent', 'Ads', ad_action, '/public']);
+}
+_gaq.push(['_trackPageview'], '/public');
+
+
+
+  (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();
+
+
+JSRPC.Checksum = "fcd47e2a85ac6597949a2b60c74e77c1";
+JSRPC.Action = "\/public_accommodation\/index.php";
+var TAB_SESSION_LINK = "";
+var CSP_SUBSYSTEM = "public";
+var hideHint = new JSRPC.Method('hideHint', '8FR48HPW_ahR80DMOzYxsA', []);
+HideHint = JSRPC.ExtendStatic(typeof HideHint == 'undefined' ? {} : HideHint, {
+	user : null
+});</script>
+</body>
+</html>

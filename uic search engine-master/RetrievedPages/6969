@@ -1,0 +1,332 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Survey Research Methodology (Interdepartmental Graduate Concentration) &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/courseleaf.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">UIC Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<header id="header-new">
+	<div class="wrap">
+		<div class="logo-header">
+			<a href="//www.uic.edu">
+				<img src="/images/logo2021.png" alt="University of Illinois Chicago" />
+			</a>
+		</div>
+		<nav class="catalog-quicklinks" aria-label="catalog quicklink">
+			<button id="hamburger" aria-controls="mobile-menu" data-toggle="#mobile-menu" aria-expanded="false">
+				<span class="sr-only">Toggle menu</span>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</button>
+			<div id="mobile-menu">
+			<ul id="quicklinks">
+				<li><a href="/ucat/">Undergraduate</a></li>
+				<li><a href="/gcat">Graduate</a></li>
+				<li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+			</ul>
+			<div id="search" role="search">
+				<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+				</form>
+			</div><!-- end #search -->
+		</div><!-- /#mobile-menu -->
+		</nav>
+	</div>
+</header>
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <a href="/">
+			<h1>Academic Catalog</h1>
+		</a>
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<section id="banner" aria-labbledby="banner-header"
+ class="grad"
+>
+    <div class="wrap">
+
+
+		<div class="banner-text">
+			<h2 id="banner-header">2022-2024 Graduate Catalog</h2>
+		</div>
+
+
+
+
+    </div><!--end .wrap -->
+</section><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <a id="cl-menu-control" href="#" class="togglenav">
+                <span class="cl-menu-text">Catalog Navigation</span>
+                <!-- <a class="cl-menu-btn" href="#">Catalog Navigation</a> -->
+				<svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation"><title>Down arrow icon</title><g fill="none" fill-rule="evenodd"><circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"></circle><path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"></path></g></svg>
+			</a><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="isparent"><a href="/ucat/">Undergraduate Catalog</a></li>
+	<li class="active isparent"><a href="/gcat/">Graduate Catalog</a>
+	<ul class="nav levelone" id="/gcat/">
+		<li><a href="/gcat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/gcat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/gcat/graduate-study/">Graduate Study at UIC</a></li>
+		<li class="isparent"><a href="/gcat/degree-programs/">Degree Programs</a></li>
+		<li class="isparent"><a href="/gcat/colleges-schools/">Colleges &amp;&#8203; Schools</a></li>
+		<li class="isparent"><a href="/gcat/course-descriptions/">Graduate Course Descriptions</a></li>
+		<li class="active isparent"><a href="/gcat/graduate-college/">Graduate College</a>
+		<ul class="nav leveltwo" id="/gcat/graduate-college/">
+			<li class="isparent"><a href="/gcat/graduate-college/lrsc/">Learning Sciences</a></li>
+			<li class="isparent"><a href="/gcat/graduate-college/neus/">Neuroscience</a></li>
+			<li><a href="/gcat/graduate-college/neus-conc/">Neuroscience (Interdepartmental Concentration)</a></li>
+			<li class="active self"><a href="#" onclick="return false;">Survey Research Methodology (Interdepartmental Graduate Concentration)</a></li>
+		</ul>
+		</li>
+		<li><a href="/gcat/graduatefaculty/">Graduate Faculty</a></li>
+		<li><a href="/gcat/archive-links/">Archive &amp;&#8203; Links</a></li>
+		<li><a href="http://grad.uic.edu" target="_blank">Graduate College Website</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/gcat/">Graduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/gcat/graduate-college/">Graduate&nbsp;College</a><span class="crumbsep">/</span></li><li><span class="active">Survey Research Methodology (Interdepartmental Graduate Concentration)</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Survey Research Methodology (Interdepartmental Graduate Concentration)</h1>
+
+
+
+<div id="textcontainer" class="page_content">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+<p class="mailing_address"><span class="label"><strong>Mailing Address: </strong></span><br/>
+Department of Public Administration<br/>
+412 S. Peoria</p>
+<p class="mailing_address">115 CUPPAH (MC 350)<br/>
+Chicago, IL 60607<br/>
+Attn: Allyson Holbrook</p>
+<p class="campus_location"><span class="label"><strong>Contact Information: </strong></span><br/>
+<span class="campus_location">Campus Location: Department of Public Administration <br/>
+<span class="phone">(312) 996-0471</span> <br/>
+<span class="email"><a href="mailto:allyson@uic.edu">allyson@uic.edu</a></span> </span><br/>
+<a href="https://publichealth.uic.edu/academics/public-health-concentrations/survey-research-methodology-concentration" target="_blank"><span style="font-size:1em">https://publichealth.uic.edu/academics/public-health-concentrations/survey-research-methodology-concentration</span></a></p>
+<p class="administration"><span class="label"><strong>Administration: </strong></span><br/>
+Director: Allyson Holbrook</p>
+<p>The Interdepartmental Graduate Concentration in Survey Research Methodology (GCSRM) is available at both the master’s and doctoral levels, in conjunction with several participating units. The primary goal of the interdisciplinary graduate curriculum in survey research methodology is to provide graduate students with the opportunity for systematic, integrated study of issues relevant to the conduct of professional survey research. Graduate students electing the concentration receive the master's or PhD after having fulfilled the requirements of the Graduate College, their major academic units, and the Interdepartmental Graduate Concentration in Survey Research Methodology. Students in the following graduate programs may be eligible to participate in the Interdepartmental Graduate Concentration in Survey Research Methodology:</p>
+<table class="sc_sctable tbl_gneuroscienceprograms">
+<caption class="hidden noscript">G Neuroscience Grad Programs</caption>
+<colgroup><col class="column0"/><col class="column1"/></colgroup>
+<thead>
+<tr class="sctablehead">
+<th scope="col" class="column0">Graduate Program</th>
+<th scope="col" class="column1">Level</th>
+</tr>
+</thead>
+<tbody>
+<tr class="even firstrow"><td class="column0">Communication</td>
+<td class="column1">MA, PhD</td>
+</tr>
+<tr class="odd"><td class="column0">Criminology, Law, and Justice</td>
+<td class="column1">MA, PhD</td>
+</tr>
+<tr class="even"><td class="column0">Educational Psychology</td>
+<td class="column1">PhD</td>
+</tr>
+<tr class="odd"><td class="column0">Healthspan Promotion and Rehabilitation</td>
+<td class="column1">MS</td>
+</tr>
+<tr class="even"><td class="column0">Measurement, Evaluation, Statistics, and Assessment</td>
+<td class="column1">MEd</td>
+</tr>
+<tr class="odd"><td class="column0">Nursing</td>
+<td class="column1">PhD</td>
+</tr>
+<tr class="even"><td class="column0">Nursing Practice</td>
+<td class="column1">DNP</td>
+</tr>
+<tr class="odd"><td class="column0">Pharmacy </td>
+<td class="column1">MS, PhD</td>
+</tr>
+<tr class="even"><td class="column0">Political Science</td>
+<td class="column1">MA, PhD </td>
+</tr>
+<tr class="odd"><td class="column0">Public Administration</td>
+<td class="column1">MPA, PhD </td>
+</tr>
+<tr class="even"><td class="column0">Public Health-Community Health Sciences</td>
+<td class="column1">MS, PhD </td>
+</tr>
+<tr class="odd"><td class="column0">Social Work</td>
+<td class="column1">PhD </td>
+</tr>
+<tr class="even"><td class="column0">Sociology</td>
+<td class="column1">MA, PhD </td>
+</tr>
+<tr class="odd"><td class="column0">Urban Planning and Policy</td>
+<td class="column1">MUPP, PhD </td>
+</tr>
+<tr class="even last lastrow"><td class="column0">Youth Development</td>
+<td class="column1">MEd</td>
+</tr>
+</tbody>
+</table>
+
+<p><strong>Note: </strong>Other academic units may have become participants since the publication of this catalog. Students in academic units not listed above should contact the GCSRM director for current information.</p>
+<h2>Admissions Requirements</h2>
+<p>Applicants are considered on an individual basis. Applicants must be admitted or enrolled as regular graduate students in one of the participating academic units. Application forms can be obtained from the GCSRM website. Admission to the concentration must be made before the term in which the student will obtain the degree.</p>
+<h2>Degree Requirements</h2>
+<ul>
+	<li>Fulfillment of all academic unit requirements.</li>
+	<li>In the case of doctoral students who have opted to use the concentration as a minor or collateral area, the student must include a member of the Survey Research Methodology Graduate Faculty as a voting member of his/her doctoral preliminary examination committee.</li>
+	<li><strong>Minimum Semester Hours Required</strong> A minimum of 14 semester hours of course work, of which at least 7 must be from among the core courses in the concentration. If a student elects to complete both <span class="sc_courseinline"><a href="/search/?P=BSTT%20507" title="BSTT 507" class="bubblelink code" onclick="return showCourse(this, 'BSTT 507');">BSTT 507</a></span> and <span class="sc_courseinline"><a href="/search/?P=STAT%20431" title="STAT 431" class="bubblelink code" onclick="return showCourse(this, 'STAT 431');">STAT 431</a></span>, only one of those courses may be counted toward fulfilling the core course requirement.
+	
+<table class="sc_courselist">
+<caption class="hidden noscript">Course List</caption>
+<colgroup>
+<col class="codecol"/>
+<col class="titlecol"/>
+<col align="char" char="." class="hourscol"/>
+</colgroup>
+<thead>
+<tr>
+<th scope="col">Course</th>
+<th scope="col">Title</th>
+<th scope="col" class="hourscol"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="even areaheader  firstrow"><td colspan="2"><span class="courselistcomment areaheader ">Core Courses</span></td><td class="hourscol"></td></tr>
+<tr class="odd"><td colspan="2"><span class="courselistcomment">A minimum of 14 semester hours of course work. Select at least 7 semester hours from the following:</span></td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHSC%20447" title="CHSC 447" class="bubblelink code" onclick="return showCourse(this, 'CHSC 447');">CHSC 447</a></div></td><td>Survey Planning and Design</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=CHSC%20577" title="CHSC 577" class="bubblelink code" onclick="return showCourse(this, 'CHSC 577');">CHSC 577</a></div></td><td>Survey Questionnaire Design</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=BSTT%20507" title="BSTT 507" class="bubblelink code" onclick="return showCourse(this, 'BSTT 507');">BSTT 507</a></div></td><td>Sampling and Estimation Methods Applied to Public Health</td><td class="hourscol"></td></tr>
+<tr class="odd"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PA%20588" title="PA 588" class="bubblelink code" onclick="return showCourse(this, 'PA 588');">PA 588</a></div></td><td>Applied Survey Sampling and Analysis</td><td class="hourscol"></td></tr>
+<tr class="even"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=PA%20579" title="PA 579" class="bubblelink code" onclick="return showCourse(this, 'PA 579');">PA 579</a></div></td><td>Practicum in Survey Methodology</td><td class="hourscol"></td></tr>
+<tr class="odd lastrow"><td class="codecol"><div style="margin-left:20px;" class="blockindent"><a href="/search/?P=STAT%20431" title="STAT 431" class="bubblelink code" onclick="return showCourse(this, 'STAT 431');">STAT 431</a></div></td><td>Introduction to Survey Sampling</td><td class="hourscol"></td></tr>
+</tbody>
+</table>
+
+	</li>
+
+</ul>
+
+<ul>
+	<li>The remaining hours must come from survey research methodology elective courses, independent study decided in consultation with the advisor, or alternative courses approved by the advisor and the director(s). Doctoral students may not apply dissertation supervision credits toward the survey research methodology electives.</li>
+</ul></div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2022-2024 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" aria-labeledby="dialog-title" class="screen" role="dialog">
+	<div class="print-header">
+		<h2 id="dialog-title">Print Options</h2>
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+<div class="print-option"><div class="option-head"><a class="option-name" href="/gcat/graduate-college/srm-conc/srm-conc.pdf" role="button">Download Page (PDF)</a></div><p class="option-desc"><em>The PDF will include all information unique to this page.</em></p></div><div class="print-option"><div class="option-head"><a class="option-name" href="/pdf/2022-23-graduate.pdf" target="_blank">Download PDF of the entire Graduate Catalog</a></div><p class="option-desc"><em>All pages in the campus catalog.</em></p></div>    </div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+
+
+<!DOCTYPE html>
+<html lang=" en "><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zohreh Ovaisi Homepage</title>
+<meta property="og:title" content="Zohreh Ovaisi" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:description" content="Zohreh Ovaisi Homepage" />
+<meta name="keywords" content="Zohreh Ovaisi, PhD, computer science, university of Illinois, Chicago">
+<meta name="description" content="Zohreh Ovaisi Homepage" />
+<link rel="canonical" href="https://www.cs.uic.edu/~zovais2/" />
+<link rel="stylesheet" href="index.css">
+<body><div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
+      <h1>Zohreh Ovaisi</h1>
+      <h3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zovais2@uic.edu</h3>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
+      <ul class="icons"><li>
+            <a target="_blank" href="https://scholar.google.com/citations?user=UZSthjYAAAAJ&hl=en"">
+              <i class="ai ai-google-scholar-square ai-3x" title="Google Scholar" style="font-size:48px;color:DodgerBlue"></i>
+            </a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <a target="_blank" href="https://www.linkedin.com/in/zohreh-ovaisi-921ab685/">
+              <i class="fa fa-linkedin-square" title="Linkedin link" style="font-size:48px;color:DodgerBlue"></i>
+            </a>
+          </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<li>
+            <a target="_blank" href="https://twitter.com/ZohrehOvaisi">
+              <i class="fa fa-twitter-square" title="Twitter link" style="font-size:48px;color:DodgerBlue"></i>
+            </a>
+          </li></div>
+  </div>
+</div>
+<main class="container" aria-label="Content">
+        <div class="wrapper"><div class="container">
+ 
+    <div><div class="col-xs-10 col-sm-4 col-sm-3 ">
+          <img src="Z..jpg" alt="photo" width="170"  align="right">
+        </div><div class="col-xs-10 col-sm-8 col-md-6 col-print-12"> 
+        <p>I am a Computer Science Ph.D. student at the University of Illinois at Chicago (UIC) working under the supervision of professor <a href="https://www.cs.uic.edu/~elena/" target="_blank"> Elena Zheleva</a>. My interests are mainly in Machine Learning, Data Science, and Causal Inference. More specifically, I am focused on unbiased and fair learning-to-rank/recommender systems.
+        I received my bachelor's and master's degree in Electrical and Computer Engineering from Shahid Beheshti University (SBU) and UIC in 2015 and 2017 respectively.</p>
+    </div>
+</div>
+</div>
+
+<div class="container">
+<hr>
+  <h2><b><i>Publications</i></b></h2>
+    <div class="row clearfix experience">
+      
+      <div class="col-xs-12">
+		  <p> <b>[SIGIR 2021]</b> Propensity-Independent Bias Recovery in Offline Learning-to-Rank Systems [<a href="https://dl.acm.org/doi/abs/10.1145/3404835.3463097" target="_blank">PDF</a>]<br>
+		  <b>Zohreh Ovaisi</b>, Kathryn Vasilaky, Elena Zheleva<br>
+		  <i>In Proceedings of The International ACM SIGIR Conference on Research and Development in Information Retrieval</i>, July 2021, Montréal.</p>
+      </div>
+      <div class="col-xs-12">
+      <p> <b>[WWW 2020] </b> Correcting for Selection Bias in Learning-to-rank Systems [<a href="https://dl.acm.org/doi/pdf/10.1145/3366423.3380255?download=true" target="_blank">PDF</a>]<br>
+      <b>Zohreh Ovaisi</b>, Ragib Ahsan, Yifan Zhang, Kathryn Vasilaky, Elena Zheleva<br>
+      <i>In Proceedings of The Web Conference (WWW) </i>, April 2020, Taipei.</p>
+	  </div>
+      <div class="col-xs-12">
+		  <p> <b>[ICC 2018] </b> On Erasure Broadcast Channels with Hard Deadlines [<a href="ICC.pdf" target="_blank">PDF</a>]<br> 
+		  <b>Zohreh Ovaisi</b>, Natasha Devroye, Hulya Seferoglu, Besma Smida, Daniela Tuninetti<br> 
+		  <i>In proceedings of IEEE International Conference on Communications (ICC)</i>, May 2018, Kansas. <br>
+
+<hr>		  
+</div>
+
+
+<div class="container">
+<hr>
+  <h2><b><i> Work Experience </i></b></h2>
+    <div class="row clearfix experience">
+      <div class="col-xs-12">
+      <img src="logo-salesforce.svg" alt="photo" height="75" width= auto align="right">
+      <p><b>Salesforce Research</b> <br>
+      Machine Learning Research Intern (Summer 2021)<br>
+      Researched and developed a toolkit to evaluate recommender system robustness.<br>
+      <br>
+      </div>
+      <div class="col-xs-12">
+      <img src="comcast.png" alt="photo" height="35" width= auto align="right">
+      <p><b>Comcast Applied AI Lab</b> <br>
+      Machine Learning Research Intern (Summer 2020)<br>
+      Researched and developed a recommender system that balances users satisfaction and movies fairness<br>
+
+<hr>      
+</div>
+
+  
+<div class="container">
+  <h2><b><i>Teaching Experience</i></b></h2>
+    
+    <p> Teaching Assistant for <b>Mathematical Foundations of Computing</b>, UIC, Spring 2019.<br>
+     Teaching Assistant for <b>Machine Learning</b>, UIC, Fall 2018.<br>
+     Teaching Assistant for <b>Discrete Signals and Systems</b>, UIC, Spring 2018. <br>
+     Teaching Assistant for <b>Circuit Analysis</b>, UIC, Spring 2016. <br>
+     Teaching Assistant for <b>Probability and Random Process</b>, UIC, Fall 2015. <br>
+     Teaching Assistant for <b>Electronics II</b>, SBU, Fall 2013. <br>
+     Teaching Assistant for <b>Linear Control Systems</b>, SBU, Spring 2013. </p>
+
+
+        
+</div>
+
+        </div><br><br><br>
+    </body>
+
+</html>

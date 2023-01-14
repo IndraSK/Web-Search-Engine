@@ -1,0 +1,749 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mojtaba Malekpourshahraki  Personal Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+p.ex1 {
+  margin: -20px 25px;
+}
+</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<center>
+				<div class="inner">
+					
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>Mojtaba Malekpourshahraki</strong><br />
+					Welcome to my website!
+					
+					
+
+
+				</div>
+
+
+
+<br /><br /><br /><br /><br />
+		mmalek3@uic.edu<br />
+Ph.D. Candidate 
+		<br />
+ <a href="http://bits.lab.uic.edu">BITS Networked Systems Lab</a>.</h1><br />
+		<br />
+
+
+
+
+
+				<div>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/mojtaba-malekpourshahraki" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=PZYU_e0AAAAJ&hl=en&oi=ao" class="icon fa-graduation-cap"><span class="label">Google scholar</span></a></li>
+						<li><a href="https://github.com/mojtabamalekpour/" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:mmalek3@uic.edu" target="_top"" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				<!-- 	<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul> -->
+				</div>
+
+				</center>
+				
+
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About Me!</h2>
+						</header>
+						<p id='justify'>
+I'm a Ph.D. student at the <a href="https://www.uic.edu/">University of Illinois at Chicago</a>, working with <a href="https://www2.cs.uic.edu/~balajee">Balajee Vamanan</a> and <a href="https://www.cs.uic.edu/~brents">Brent Stephens</a> in <a href="https://bits.lab.uic.edu/">BITS Networked Systems Lab</a>. Before joining UIC, I completed my Master from <a href="http://www.iust.ac.ir/en">Iran University of Science and Technology</a>, where I was advised by Dr. Seyed Vahid Azhari.</br></br>
+I am interested in the field of systems and networks. My current research focuses on multi-tenant datacenter networks and low latency applications for datacenters using programmable switches. I am working at both the OS and network layers to model, design, and implement a complete system that could address major problems in the industry.
+</p>
+						
+
+<div class="row">
+  <div class="column";">
+  <h2>Research Interests</h2>
+        <ul>
+                <li>Datacenter Networks</li>
+                <li>Programmable Switches</li>
+                <li>Network Processors</li>
+                <li>RDMA</li>
+
+  </div>
+  <div class="column1";">
+  <h2>Education</h2>
+        <ul>
+                <li>Ph.D. in Computer Science, UIC - 2017-Present</li>
+                <li>M.E. in Computer and IT Engineering, IUST - 2012-2015</li>
+                <li>B.E. in Computer and IT Engineering, UoK - 2007-2011</li>
+
+  </div>
+</div>
+				</section>
+				<!-- Two -->
+					<section id="two">
+						<header class="major">
+							<h2>Curriculum Vitae</h2>
+						</header>
+							<p>
+							You may download my CV using the following link in PDF format.
+							
+							<br \>
+							 <u><i>Last Update: August 8, 2022</i></u>
+							<br \>
+							
+							</p>
+
+
+						<ul class="actions">
+							<li><a href="Resume.pdf" class="button">Download PDF</a></li>
+						</ul>
+					</section>
+
+
+                         <!-- papers -->
+                                        <section id="two">
+                                                <header class="major">
+                                                        <h2>Publications</h2>
+                                                </header>
+
+<ul>
+
+<li>
+<p>
+<b>Mojtaba Malekpourshahraki</b>, Brent E. Stephens, Balajee Vamanan. ”ADA: Arithmetic Operations with Adaptive TCAM Population in Programmable Switches”, IEEE International Conference on Distributed Computing Systems. 2022.
+<br \>
+<a href="/~mmalekpo/files/ADAPaper.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/ADA.pptx" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/ADASlides.pdf" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+<a href="/~mmalekpo/files/ADA.mp4" class="btn btn-default btn-outline btn-xs" role="button">Talk</a>
+</p>
+</li>
+
+
+
+<li>
+<p>
+<b>Mojtaba Malekpourshahraki</b>, Christopher Desiniotis, Marjan Radi, Behnam Dezfouli. "A survey on design challenges of scheduling algorithms for wireless networks." International Journal of Communication Networks and Distributed Systems 28.3 (2022): 219-265.
+<br \>
+<a href="/~mmalekpo/files/survey.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+</p>
+</li>
+
+
+
+<li>
+<p>
+Vineeth Sagar Thapeta, Komal Shinde, <b>Mojtaba Malekpourshahraki</b>, Darius Grassi, Balajee Vamanan, Brent Stephens.  "Nimble: Scalable TCP-Friendly Programmable In-Network Rate-Limiting," In ACM SIGCOMM Symposium on SDN Research (SOSR) 2021.
+<br \>
+<a href="/~mmalekpo/files/" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+</p>
+</li>
+
+
+
+
+<li>
+<p>
+<b>Mojtaba Malekpourshahraki</b>, Brent Stephens, and Balajee Vamanan. "Ward: Implementing Arbitrary Hierarchical Policies using Packet Resubmit in Programmable Switches." In ACM CoNEXT 2019-Student Workshop 2019.
+<br \>
+<a href="/~mmalekpo/files/WardPaper.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/Ward.pptx" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/WardSlides.pdf" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+</p>
+</li>
+
+
+
+<li>
+<p>
+<b>Mojtaba Malekpourshahraki</b>, Brent Stephens, and Balajee Vamanan. "Ether: Providing both Interactive Service and Fairness in Multi-Tenant Datacenters." In Proceedings of the 3rd Asia-Pacific Workshop on Networking 2019, pp. 50-56. ACM, 2019.
+<br \>
+<a href="/~mmalekpo/files/EtherPaper.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/Ether.pptx" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/EtherSlides.pdf" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+</p>
+</li>
+
+<li>
+<p>
+Yanfang Li, <b>Mojtaba Malekpourshahraki</b>, Brent Stephens, Aditya Akella, and Michael M. Swift. "On the Impact of Cluster Configuration on RoCE Application Design." In Proceedings of the 3rd Asia-Pacific Workshop on Networking 2019, pp. 64-70. ACM, 2019. 
+<b> (Best paper award!)</b>
+<br \>
+<a href="/~mmalekpo/files/RDMAPaper.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/RDMA.pptx" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/RDMASlides.pdf" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+</p>
+</li>
+
+
+<li>
+<p>
+Hamed Rezaei, <b>Mojtaba Malekpourshahraki</b>, and Balajee Vamanan. "Slytherin: Dynamic, network-assisted prioritization of tail packets in datacenter networks." In 2018 27th International Conference on Computer Communication and Networks (ICCCN), pp. 1-9. IEEE, 2018.
+<br \>
+<a href="/~mmalekpo/files/SlytherinPaper.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="/~mmalekpo/files/Slytherin.pptx" class="btn btn-default btn-outline btn-xs" role="button">Slides</a>
+<a href="/~mmalekpo/files/SlytherinSlides.pdf" class="btn btn-default btn-outline btn-xs" role="button">Slides PDF</a>
+</p>
+</li>
+
+<!--
+<li>
+<p>
+Komal Shinde,<b>Mojtaba Malekpourshahraki</b>, Brent Stephens, and Balajee Vamanan. "Clumsy: Scalable Rate-Limiting for Today’s Programmable Networks." In USENIX Symposium on Networked Systems Design and Implementation (NSDI), 2020.
+<br \>
+<a href="" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+<a href="" class="btn btn-default btn-outline btn-xs" role="button">Poster</a>
+</p>
+</li>
+-->
+
+<li>
+<p>
+<b>Mojtaba MalekpourShahraki</b>, Hadi Barghi, Seyed Vahid Azhari, and Saeed Asaiyan. "Distributed and Energy Efficient Scheduling for IEEE802. 11s Wireless EDCA Networks." Wireless Personal Communications 90, no. 1 (2016): 301-323.
+<br \>
+<a href="/~mmalekpo/files/Split.pdf" class="btn btn-default btn-outline btn-xs" role="button">PDF</a>
+</p>
+
+</li>
+</ul>
+
+                                        </section>
+
+<section id="two">
+<header class="major">
+<h2>Work Experience</h2>
+</header>
+<ul>
+<li>
+<p>
+<b>Software Engineer Internship, Meta (Facebook) - Network Delivery System - Network Monitoring </b>
+</br>  Menlo Park, California, United States, May - August 2022
+</p>
+</li>
+</ul>
+</section>
+
+
+
+                                     <section id="two">
+                                                <header class="major">
+                                                        <h2>Talks (P4 Summit)</h2>
+                                                </header>
+
+<ul>
+
+<li>
+<p>
+<b>Mojtaba Malekpourshahraki</b>, Komal Shinde, Balajee Vamanan, and Brent Stephens. "Mathematical Operations in Programmable Switches using TCAMs." In P4 Expert Roundtable Series (ONF), 2020.
+<br \>
+<a href="https://www.youtube.com/watch?v=3_W8-ZTE9K4&feature=youtu.be" class="btn btn-default btn-outline btn-xs" role="button">Talk</a>
+</p>
+</li>
+
+</ul>
+
+
+
+                                        </section>
+
+
+
+
+
+
+                         <!-- papers=============================================== 
+                                        <section id="three">
+                                                <header class="major">
+                                                        <h2>Research Projects</h2>
+                                                </header>
+
+<ul>
+
+<li>
+<p>
+<b>Practical multi-tenant performance isolation for today’s programmable switches</b>
+<br \>
+<b><i> Advisors: Prof. Balajee Vamanan, Prof. Brent Stephens</i></b>
+<br \>
+<p class="ex1">
+The way queuing and congestion notification are performed on today's switches leads to significant
+performance isolation problems. Tenants can easily game the system by opening more flows. This
+limitation is because today's switches are not capable of supporting a large enough number of virtual
+queues. To overcome this limitation, we plan to introduce the concept of logical queues, which use
+counters to approximately behave as a switch with a large number of virtual queues without the
+associated hardware costs
+</p>
+<br \>
+</p>
+</li>
+
+
+<li>
+<p>
+<b>Providing both Interactive Service and Fairness in Multi-Tenant Datacenters</b>
+<br \>
+<b><i> Advisors: Prof. Balajee Vamanan, Prof. Brent Stephens</i></b>
+<br \>
+<p class="ex1">
+Recent proposals on packet scheduling provides a wide rage of in network scheduling algorithms
+(e.g., PIFO, PIEO); however, these studies are limited to the number of available queues in switches.
+In this project we are designing a system to achieve the same set of scheduling algorithms in the
+limited number of queues using programmable switches. programmable switches provides a line rate
+packet processing resubmit option, which enable us to design multi-queue, multi-stage system.
+</p>
+<br \>
+</p>
+</li>
+
+
+
+<li>
+<p>
+<b>On the Impact of Cluster Configuration on RoCE Application Design</b>
+<br \>
+<b><i> Advisors: Prof. Brent Stephens</i></b>
+<br \>
+<p class="ex1">
+RDMA over Converged Ethernet (RoCE) allows RDMA-enabled NICs to operate in datacenter
+networks. This study focuses on identifying how different aspects of datacenter cluster configuration
+impact the latency, and throughput, and CPU utilization of different ways of transferring data in
+RoCE (RDMA verbs). We look into the impact of co-located applications competing on CPU and
+NIC as well as the impact of the network MTU.
+</p>
+<br \>
+</p>
+</li>
+
+
+<li>
+<p>
+<b>Dynamic, network-assisted prioritization of tail packets in datacenter networks</b>
+<br \>
+<b><i> Advisors: Prof. Balajee Vamanan</i></b>
+<br \>
+<p class="ex1">
+Flows in datacenter networks are mostly short and sensitive to higher percentiles flow completion
+times. We introduced Slytherin, which lowers the tail flow completion times by expediting those
+packets that faced congestion at more than one hop (switch) in datacenter networks. Slytherin detects
+these packets by certain priority tags and then schedules them in high priority queue.
+</p>
+<br \>
+</p>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+
+-->
+                                        </section>
+
+
+
+
+				<!-- Three -->
+					<section id="three">
+						<header class="major">
+						<h2>Contact</h2>
+					</header>
+
+						<div class="row">
+							<!-- <div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div> -->
+													<p>
+<strong>Mojtaba Malekpourshahraki (Malekpour Shahraki)</strong><br />
+Ph.D. Candidate in BITS Networked Systems Lab <br />
+
+						</p>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon fa-home"><span class="label">Address</span></h3>
+										851 S. Morgan St., 1300 SEO, MC 152, Chicago, Illinois 60607<br />
+Computer Science and Engineering <br />
+University of Illinois at Chicago<br />
+									</li>
+									<li>
+										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+										<a href="#">mmalek3@uic.edu</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
+							<div class="row">
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+									</ul>
+								</div>
+							</div>
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon fa-download">Icon</a></li>
+								<li><a href="#" class="button icon fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				-->
+
+			</div>
+
+		<!-- Footer -->
+			
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

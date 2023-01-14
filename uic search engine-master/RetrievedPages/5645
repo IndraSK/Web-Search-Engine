@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- iid: 378 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+<link href="https://static-assets-us.libcal.com/css163/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://static-assets-us.libcal.com/css163/jquery-ui.min.css" rel="stylesheet">
+
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://static-assets-us.libcal.com/css163/LibCal_public.min.css" rel="stylesheet">
+    <link href="https://static-assets-us.libcal.com/css163/print.min.css" rel="stylesheet" media="print">
+    
+<script src="https://static-assets-us.libcal.com/js163/jquery.min.js"></script>
+
+    <script src="https://static-assets-us.libcal.com/js163/jquery-ui.min.js"></script>
+
+<script src="https://static-assets-us.libcal.com/js163/bootstrap.min.js"></script>
+    <script src="https://static-assets-us.libcal.com/js163/LibCal_public.min.js"></script>
+        <script>
+    springSpace.dateFormat = "dddd, MMMM D, YYYY";
+    springSpace.dateShortFormat = "dddd, MMMM D, YYYY";
+    springSpace.timeFormat = "h:mma";
+    springSpace.timezone = 'America/Chicago';
+    springSpace.currency = "USD";
+    springSpace.currencySymbol = "$";
+
+    springSpace.language = 'en'; // en
+    springSpace.locale = 'en-US'; // en-US
+
+    springSpace.phpTimeFormat = 'g:ia';
+
+    springSpace.bootstrapAsset = 'https://static-assets-us.libcal.com/css163/bootstrap.min.css';
+    springSpace.publicCssAsset = 'https://static-assets-us.libcal.com/css163/LibCal_public.min.css';
+    springSpace.adminCssAsset = 'https://static-assets-us.libcal.com/css163/LibCal_admin.min.css';
+</script>
+    <script>
+         var springLang  = { eq_GoToNextAvailable: "Next Available", eq_js_add_cart_btn: "Add to Cart", eq_js_add_cc_btn: "Add to Cart & Checkout", eq_js_add_eq_btn: "Add Equipment", eq_js_add_start: "All additional items must have a starting time of", eq_js_add_to_cart: "Add Item to Cart", eq_js_booking_summary_title: "Thank you!", eq_js_cart_tt: "Create a shopping cart with these space bookings, and go to equipment booking page to add more items to the cart.", eq_js_close: "Close", eq_js_date: "Change Return Date", eq_js_det_return: "Determining return time", eq_js_from: "From:", eq_js_from_det: "from", eq_js_go_to_date: "Go To Date", eq_js_isRequired: "is required!", eq_js_rem_pending: "Remove Pending Booking", eq_js_spacew_forb_multi: "Forbidden from booking same resource multiple times in a single booking.<br><br>Please only select sequential checkboxes.", eq_js_spacew_forb_single: "Forbidden from booking different resources in a single booking.", eq_js_to: "To:", eq_js_until_det: "until...", eq_start_over: "Make Another Booking", eq_unavail: "Unavailable/Padding", eq_your_book: "Your Booking" };
+    </script>
+        <title>
+                LibCal -
+        UIC School of Law
+    </title>
+        <link rel="stylesheet" href="https://static-assets-us.libcal.com/css163/fullcalendar.min.css"/>
+    
+</head>
+<body id="index_php" class="s-lc-public s-lc-public-page-5">
+
+
+<a id="s-lc-public-skiplink" class="s-lc-skiplink alert-info" href="#s-lc-page-maincontent">Skip to Main Content</a>
+
+
+<div class="container">
+    
+    <div id="s-lc-public-bc" class="row">
+        <div class="col-md-12">
+            <nav aria-label="Breadcrumb">
+                <ol class="breadcrumb">
+                    <li><a href="https://library.law.uic.edu/">UIC School of Law</a></li>
+
+                    <li class="s-lc-desktop-only"><a href="https://libcal.law.uic.edu">LibCal</a></li>
+
+                    
+                    
+                                                        </ol>
+            </nav>
+        </div>
+    </div>
+
+    <noscript>
+        <div class="alert alert-danger" id="noscript">Your browser has javascript disabled. Without javascript some functions will not work.</div>
+    </noscript>
+
+        
+    <main>
+            <div id="s-lc-page-maincontent" role="main"><div class="s-lc-row row">
+			<div id="s-lc-page-column-0" class="s-lc-column-top col-md-12"></div>
+		</div><div class="s-lc-row row"><div id="s-lc-page-column-1" class="s-lc-page-column col-md-9"><div id="s-lc-box-22204-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-borderless s-lc-box-type-1 s-lc-box-position-1">
+				<div id="s-lc-box-22204" class="s-lc-box s-lc-box-html" role="region" aria-label="Title/Search">
+					<div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border"><h1>Title/Search </h1></div>
+					<div class="s-lc-box-content clearfix"><div id="s-lc-content-text-25142" class="s-lc-content-text s-lc-content cf">
+			<h1>LibCal</h1>
+
+		</div><div id="s-lc-content-evts-25143" class="s-lc-content-evts s-lc-content"><form action="#" role="search" method="get" onsubmit="return runSearch_25143();">
+					<label for="esq_25143" class="sr-only">Search</label>
+					<div class="input-group">
+					  <input type="text" 
+						class="form-control" 
+						name="q" id="esq_25143" 
+						placeholder="Search for event..." 
+						required="required"
+						aria-required="true" 
+						aria-label="Search for event..." 
+						autocomplete="off" 
+						minlength="2"
+						role="searchbox">
+					  <span class="input-group-btn">
+						<button class="btn btn-info" type="submit" id="esqb_25143">Search</button>
+					  </span>
+					</div>
+					</form>
+                    <div id="search_res_25143" class="margin-top-med s-lc-search_res" tabindex="-1"></div>
+                        <script>
+        function addEventDataTextTranslations(eventData) {
+            eventData.textAudience = 'Audience';
+            eventData.textCategories = 'Categories';
+            eventData.textDate = 'Date';
+            eventData.textDescription = 'Description';
+            eventData.textEventCost = 'Event\u0020Cost';
+            eventData.textFeaturedImage = 'Event\u0020featured\u0020image';
+            eventData.textFrom = 'From';
+            eventData.textGoToEvent = 'Go\u0020to\u0020event\u0020page';
+            eventData.textLocation = 'Location';
+            eventData.textMore = 'More';
+            eventData.textInPersonEvent = 'In\u002DPerson';
+            eventData.textOnlineEvent = 'Online';
+            eventData.textOnlineRegistration = 'Online\u0020Registration';
+            eventData.textInPersonRegistration = 'In\u002DPerson\u0020Registration';
+            eventData.textPresenter = 'Presenter';
+            eventData.textRegister = 'Register';
+            eventData.textRegistrationType = 'Registration\u0020Type';
+            eventData.textSeats = 'Seats';
+            eventData.textShowMoreDates = 'Show\u0020more\u0020dates';
+            eventData.textShowMoreDatesHeader = 'Future\u0020Dates';
+            eventData.textTime = 'Time';
+            eventData.textTo = 'To';
+            eventData.textViewMoreInfo = 'View\u0020More\u0020Information';
+        }
+    </script>
+
+					<script>
+						var template = "<div class=\"media s-lc-c-evt\">\n    <div class=\"media-body\">\n        <h2 class=\"media-heading s-lc-c-evt-title\">\n            <a href=\"{{url}}\">{{title}}<\/a>\n\n            {{^registration_enabled}}\n                {{#location}}\n                    {{#online_event}}\n                        <span class=\"label label-info s-lc-eventcard-pill\">\n                            {{textInPersonEvent}} \/ {{textOnlineEvent}}\n                        <\/span>\n                    {{\/online_event}}\n                    {{^online_event}}\n                        <span class=\"label label-info s-lc-eventcard-pill\">\n                            {{textInPersonEvent}}\n                        <\/span>\n                    {{\/online_event}}\n                {{\/location}}\n                {{^location}}\n                    {{#online_event}}\n                        <span class=\"label label-info s-lc-eventcard-pill\">\n                            {{textOnlineEvent}}\n                        <\/span>\n                    {{\/online_event}}\n                {{\/location}}\n            {{\/registration_enabled}}\n\n            {{#registration_enabled}}\n                {{#online_event}}\n                    {{#in_person_registration}}\n                        <span class=\"label label-info s-lc-eventcard-pill\">\n                            {{textInPersonEvent}} \/ {{textOnlineEvent}}\n                        <\/span>\n                    {{\/in_person_registration}}\n                    {{^in_person_registration}}\n                        <span class=\"label label-info s-lc-eventcard-pill\">\n                            {{textOnlineEvent}}\n                        <\/span>\n                    {{\/in_person_registration}}\n                {{\/online_event}}\n                {{^online_event}}\n                    <span class=\"label label-info s-lc-eventcard-pill\">\n                        {{textInPersonEvent}}\n                    <\/span>\n                {{\/online_event}}\n            {{\/registration_enabled}}\n        <\/h2>\n        <div class=\"s-lc-c-evt-des\">{{{shortdesc}}}\n            {{#shortdesc_was_truncated}}\n            &nbsp;<a href=\"{{url}}\" aria-label=\"{{textViewMoreInfo}}\">{{textMore}}<\/a><br>\n            {{\/shortdesc_was_truncated}}\n        <\/div>\n        <dl class=\"dl-horizontal\">\n            {{^multi_day_event}}\n                <dt>{{textDate}}:<\/dt>\n                <dd>{{date}}\n                    {{#recurring_event}}\n                        <i class=\"fa fa-calendar pad-left-med\" aria-hidden=\"true\"><\/i>\n                        <a href=\"#\" onclick=\"return springyPublic.getFutureEventDates({{id}});\">{{textShowMoreDates}}<\/a>\n                        <p id=\"future_loading_{{id}}\" style=\"display:none\"><i class=\"fa fa-spinner fa-spin fa-lg\" aria-hidden=\"true\"><\/i><\/p>\n                        <p id=\"future_{{id}}\" style=\"display:none\"><\/p>\n                    {{\/recurring_event}}\n                <\/dd>\n\n                <dt>{{textTime}}:<\/dt>\n                <dd>{{start}}{{#end}} - {{end}}{{\/end}}<\/dd>\n            {{\/multi_day_event}}\n\n            {{#multi_day_event}}\n                <dt>{{textFrom}}:<\/dt>\n                <dd>\n                    {{^all_day}}{{start}},{{\/all_day}}\n                    {{date}}\n                <\/dd>\n                <dt>{{textTo}}:<\/dt>\n                <dd>\n                    {{^all_day}}{{end}},{{\/all_day}}\n                    {{multi_day_end_date}}\n                <\/dd>\n            {{\/multi_day_event}}\n\n            {{#location}}\n                <dt>{{textLocation}}:<\/dt>\n                <dd>\n                    {{#locations}}{{name}}{{#map}} (<a href=\"{{map}}\" target=\"_blank\" title=\"Open map for {{name}}\">Map <i class=\"fa fa-external-link\" aria-hidden=\"true\"><\/i><\/a>){{\/map}}{{^last}}, {{\/last}}{{\/locations}}{{#campus}}, {{campus}}{{\/campus}}\n                <\/dd>\n            {{\/location}}\n\n            {{^location}}\n                {{#campus}}\n                    <dt>{{textLocation}}:<\/dt>\n                    <dd>{{campus}}<\/dd>\n                {{\/campus}}\n            {{\/location}}\n\n            {{#registration_cost}}\n                <dt>{{textEventCost}}:<\/dt>\n                <dd>{{registration_cost}}<\/dd>\n            {{\/registration_cost}}\n\n            {{#audiences.0}}\n            <dt>{{textAudience}}:<\/dt>\n            <dd>{{#audiences}}\n                <span class=\"s-lc-event-category-color\" style=\"background-color:{{color}}\">&nbsp;<\/span>\n                <span class=\"s-lc-event-category-link\">\n                    <a href=\"{{calendar_url}}&t=d&cal%5B%5D={{calendar_id}}&audience%5B%5D={{id}}\">{{name}}<\/a>\n                <\/span> &nbsp;\n                {{\/audiences}}\n            <\/dd>\n            {{\/audiences.0}}\n\n            {{#categories_arr.0}}\n            <dt>{{textCategories}}:<\/dt>\n            <dd>{{#categories_arr}}\n                <span class=\"s-lc-event-category-color\" style=\"background-color:{{color}}\">&nbsp;<\/span>\n                <span class=\"s-lc-event-category-link\">\n                    <a href=\"{{calendar_url}}&t=d&d=0000-00-00&cal%5B%5D={{calendar_id}}&ct%5B%5D={{cat_id}}\">{{name}}<\/a>\n                <\/span> &nbsp;\n                {{\/categories_arr}}\n            <\/dd>\n            {{\/categories_arr.0}}\n\n            {{#seats}}\n                <dt>{{textRegistrationType}}:<\/dt>\n                <dd>\n                    {{#in_person_registration}}{{textInPersonRegistration}}{{\/in_person_registration}}\n                    {{#online_registration}}{{#in_person_registration}} \/ {{\/in_person_registration}}{{textOnlineRegistration}}{{\/online_registration}}\n                <\/dd>\n            {{\/seats}}\n\n            <dt><\/dt>\n            <dd>\n                {{#seats}}\n                <dt><\/dt>\n                <dd><a href=\"{{url}}\" class=\"btn btn-success btn-sm margin-top-med\">{{textRegister}}! {{#seatsleft}} - {{seatsleft_text}}{{\/seatsleft}}<\/a><\/dd>\n                {{\/seats}}\n\n                {{#registration_msg}}\n                <dt><\/dt>\n                <dd><a href=\"{{url}}\" class=\"btn {{class}} btn-sm margin-top-med\">{{{msg}}}<\/a><\/dd>\n                {{\/registration_msg}}\n            <\/dd>\n        <\/dl>\n    <\/div>\n    {{#featured_image}}\n    <div class=\"media-right\"><a href=\"{{url}}\"> <img class=\"media-object img-thumbnail s-lc-c-evt-fi\" src=\"{{featured_image}}\" alt=\"{{title}}\"> <\/a><\/div>\n    {{\/featured_image}}\n<\/div>\n";
+
+						function runSearch_25143(){
+							var q = jQuery("#esq_25143").val();
+							var sr = jQuery("#search_res_25143");
+
+							sr.html('<p class="text-center"><br><i class="fa fa-spinner fa-spin fa-3x" aria-hidden="true"></i></p>');
+
+							$.ajax({
+								url: "/process_search.php?site_id=11518&cal_id=0&sType=&perpage=10&q="+encodeURIComponent(q),
+								dataType: "json",
+								success: function(searchData){
+
+									var output = "";
+									if(searchData.status == 0){
+										output = "<p>"+searchData.error+"</p>";
+									}
+									if(searchData.status == 1){
+
+										var results = searchData.results.length;
+										if(results < 1){
+											output = "<p class=\"s-lc-evt-search-no\">No results found!...</p>";
+										}else{
+											output += "<p class=\"s-lc-timezone-container s-lc-event-search-timezone\">Time Zone: " + searchData.timezoneDisplay + "</p>";
+
+											//Loop over each result
+											for(var i=0;i<results;i++){
+                                                var eventData = searchData.results[i];
+                                                addEventDataTextTranslations(eventData);
+												output += Mustache.render(template, eventData);
+											}
+										}
+
+									}
+									sr.html(output).addClass('s-lc-search_results').focus();
+								}
+							});
+							return false;
+						}
+
+					</script></div></div>
+					
+				</div>
+			</div><div id="s-lc-box-22205-container" class="s-lc-box-container s-lc-color-bars-border  s-lc-box-type-1 s-lc-box-position-1">
+				<div id="s-lc-box-22205" class="s-lc-box s-lc-box-html" role="region" aria-label="Upcoming Events">
+					<div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border"><h1>Upcoming Events </h1></div>
+					<div class="s-lc-box-content clearfix"><div id="s-lc-content-callist-25144" class="s-lc-content-callist s-lc-content"><div id="s-lc-content-callist-25144-cont" class="cf"><p>No calendars have been defined yet!</p></div></div><div id="s-lc-content-evt-25145" class="s-lc-content-evt s-lc-content"><div class="lc-s-evt-noupc">No events are scheduled.</div><script>
+    jQuery(function() {
+        jQuery('.s-lc-timezone-change').off('click').on('click', springyPublic.showTimezoneModal);
+    });
+</script>
+</div><div id="s-lc-content-callist-25146" class="s-lc-content-callist s-lc-content"><div id="s-lc-content-callist-25146-cont" class="cf"><div class="s-lc-content-callist-intro"><p>View More Events:</p></div><p>No calendars have been defined yet!</p></div></div></div>
+					
+				</div>
+			</div></div><div id="s-lc-page-column-2" class="s-lc-page-column col-md-3"><div id="s-lc-box-22206-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-borderless s-lc-box-type-1 s-lc-box-position-1">
+				<div id="s-lc-box-22206" class="s-lc-box s-lc-box-html" role="region" aria-label="Today's Hours">
+					<div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border"><h1>Today's Hours </h1></div>
+					<div class="s-lc-box-content clearfix"><div id="s-lc-content-hours-25147" class="s-lc-content-hours s-lc-content s-lc-content-hours-t-1"><div id="s-lc-hr-today-cont-25147" class="s-lc-hr-today-cont cf"></div>
+<script src="/js163/hours_today.js"></script>
+<script>
+    jQuery(function() {
+        jQuery.LibCalTodayHours(jQuery('#s-lc-hr-today-cont-25147'), {
+            iid: 378,
+            lid: 0,
+            isHomepage: true,
+            isSystemTimeFormat: 0,
+        });
+    });
+</script>
+</div></div>
+					
+				</div>
+			</div><div id="s-lc-box-22207-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-thinborder s-lc-box-type-1 s-lc-box-position-1">
+				<div id="s-lc-box-22207" class="s-lc-box s-lc-box-html" role="region" aria-label="Spaces and Room Bookings">
+					<div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border"><h1>Spaces and Room Bookings </h1></div>
+					<div class="s-lc-box-content clearfix"><div id="s-lc-content-rmlist-25148" class="s-lc-content-rmlist s-lc-content"><div class="s-lc-content-rmlist-intro"><p>Use our online tool to book study rooms and other spaces in the library.</p></div><div class="btn-group s-lc-content-rmlist-btn" role="navigation" aria-label="Book a Room!">
+								<button aria-expanded="false" aria-haspopup="true" class="btn btn-info dropdown-toggle" data-toggle="dropdown" type="button">Book a Room! <span class="caret"></span></button>
+								<ul class="dropdown-menu"><li><a href="/booking/studyrooms">Library Study Rooms</a></li>
+<li><a href="/booking/8thfloorcommons">Study Rooms - 8th Floor Collaboration Commons</a></li>
+</ul></div></div></div>
+					
+				</div>
+			</div><div id="s-lc-box-22208-container" class="s-lc-box-container s-lc-color-bars-border s-lc-box-thinborder s-lc-box-type-1 s-lc-box-position-1">
+				<div id="s-lc-box-22208" class="s-lc-box s-lc-box-html" role="region" aria-label="Book a Research Appointment">
+					<div class="s-lc-box-title s-lc-color-bars s-lc-color-bars-border"><h1>Book a Research Appointment </h1></div>
+					<div class="s-lc-box-content clearfix"><div id="s-lc-content-mysched-25149" class="s-lc-content-mysched s-lc-content"><div class="s-lc-content-mysched-intro"><p>Meet one on one with one of our expert librarians and get help with your research.</p></div><div class="btn-group s-lc-content-mysched-btn" role="navigation" aria-label="Schedule an Appointment">
+								<button aria-expanded="false" aria-haspopup="true" class="btn btn-info dropdown-toggle" data-toggle="dropdown" type="button">Schedule an Appointment <span class="caret"></span></button>
+								<ul class="dropdown-menu"><li class="s-lc-content-viewall"><a href="/appointments/">View All Staff</a></li><li role="separator" class="divider"></li><li><a href="/appointment/73304">Anne Abramson (Wednes.1 p.m. to 4 p.m. &amp; Thurs. 1 p.m. to 4 p.m.) Other times available upon request</a></li><li><a href="/appointment/112200">Julienne Grant</a></li><li><a href="/appointment/26105">P. Johnson</a></li><li><a href="/appointment/26280">Ramsey Donnell</a></li><li><a href="/appointment/26282">Reference Staff</a></li><li><a href="/appointment/73305">Reference Librarian</a></li><li><a href="/appointment/72271">Victor S </a></li></ul></div></div><div id="s-lc-content-text-25150" class="s-lc-content-text s-lc-content cf">
+			<script>jQuery("body").addClass("s-lc-public-hp");</script><style type="text/css">#index_php #s-lc-public-header { display:none; }</style>
+
+		</div></div>
+					
+				</div>
+			</div></div></div><div class="s-lc-row row">
+			<div id="s-lc-page-column-4" class="s-lc-column-bottom col-md-12"></div>
+		</div></div>
+    </main>
+
+    <footer id="s-lc-public-footer" class="s-lc-public-footer row">
+        <div id="s-lc-public-footer-brand">
+            <span title="libcal-us-2">Powered by</span> <a href="https://www.springshare.com">Springshare</a>.
+        </div>
+        <div id="s-lc-public-footer-rights">
+            All rights reserved.
+        </div>
+
+                    <div id="s-lc-footer-support-link">
+                <a href="mailto:philipj@uic.edu">Report a tech support issue.</a>
+            </div>
+        
+                
+        <div id="s-lc-public-footer-admin-links" role="navigation" aria-label="Admin Footer">
+                            <a id="s-lc-sign-in" href="https://jmls.libapps.com/libapps/login.php?site_id=11518&amp;target=">Login to LibApps</a>
+                    </div>
+
+        <div class="s-lc-public-footer-actions">
+    
+<div id="s-lc-language">
+    <select id="s-lc-language-selector" aria-label="Select Language">
+                <option value="cy" >Cymraeg</option>
+                <option value="en" selected>English</option>
+                <option value="es" >español</option>
+                <option value="fr" >français</option>
+                <option value="ga" >Irish</option>
+                <option value="ja" >日本語 Nihongo</option>
+                <option value="sl" >slovenski jezik</option>
+                <option value="vi" >Tiếng Việt</option>
+                <option value="zh" >中文 Zhōngwén</option>
+            </select>
+</div>
+</div>
+    </footer>
+
+    
+</div>
+
+
+    <script src="https://static-assets-us.libcal.com/js163/fullcalendar.min.js"></script>
+    <script>
+    var springyFullCalendar = {
+        commonOptions: {
+            schedulerLicenseKey: '0391239527-fcs-1659132663',
+            now: '2022\u002D12\u002D08\u002001\u003A14',
+            nowIndicator: true,
+            scrollTime: '00\u003A00\u003A00',
+            lazyFetching: false,
+            locale: springSpace.language,
+            themeSystem: 'bootstrap',
+            eventTextColor: '#222',
+            eventDisplay: 'block',
+            moreLinkClick: 'day',
+            bootstrapFontAwesome: {
+                goToDate: 'fa-calendar',
+                goToNextAvailable: 'fa-fast-forward',
+                refresh: 'fa-refresh',
+            },
+            navLinks: true, // https://fullcalendar.io/docs/navLinks
+            resourceOrder: false, // https://fullcalendar.io/docs/resourceOrder
+            stickyHeaderDates: false, // https://fullcalendar.io/docs/stickyHeaderDates && https://github.com/springshare/LibCal/issues/11801
+        },
+        timelineOptions: {
+            height: 'auto',
+            refetchResourcesOnNavigate: false,
+            eventOverlap: false,
+            displayEventTime: false,
+            slotDuration: '01\u003A00',
+            titleFormat: springSpace.dateFormat,
+            views: {
+                timelineSingleDay: {
+                    type: 'resourceTimeline',
+                    buttonText: 'Day\u0020View',
+                    duration: {days: 1},
+                    slotLabelFormat: springSpace.timeFormat,
+                },
+                timelineHourlyShort: {
+                    type: 'resourceTimeline',
+                    duration: {days: 3},
+                    slotLabelFormat: [springSpace.dateFormat, springSpace.timeFormat],
+                },
+                timelineHourlyLong: {
+                    type: 'resourceTimeline',
+                    duration: {days: 7},
+                    slotLabelFormat: [springSpace.dateFormat, springSpace.timeFormat],
+                },
+                timelineDailyLong: {
+                    type: 'resourceTimeline',
+                    slotDuration: '24:00',
+                    duration: {days: 28},
+                    slotLabelFormat: ['dd D'],
+                    nowIndicator: false
+                },
+                resourceTimeGridWeek: {
+                    buttonText: 'Week\u0020View',
+                    slotLabelFormat: springSpace.timeFormat,
+                }
+            },
+        },
+        publicTexts: {
+            allDay: 'All\u0020Day',
+            available: 'Available',
+            dayGridMonth: 'Month',
+            dayGridWeek: 'Agenda',
+            goToDate: 'Go\u0020To\u0020Date',
+            goToNextAvailable: 'Next\u0020Available',
+            next: 'Next',
+            prev: 'Previous',
+            timeGridDay: 'Day',
+            timeGridWeek: 'Week',
+            today: 'Today',
+            unavailable: 'Unavailable\/Padding',
+            yourBooking: 'Your\u0020Booking',
+            listWeek: 'Week\u0020List',
+        },
+        adminTexts: {
+            goToDate: 'Go\u0020To\u0020Date',
+            refresh: 'Refresh',
+            prev: 'Previous',
+            next: 'Next',
+            today: 'Today',
+            week: 'Week',
+            month: 'Month',
+            day: 'Day',
+            dayGridWeek: 'Agenda',
+            allDay: 'All\u0020Day',
+            atLocation: '\u0025title\u0025\u0020at\u0020\u0025location\u0025',
+        },
+        dateTimeFormats: {
+            monthViewTitle: 'MMMM YYYY',
+        },
+    };
+
+    // placeholder for dynamic content boxes with a full calendar
+    var calendarList = {};
+
+    function reRenderCalendarList() {
+        for (var calId in calendarList) {
+            calendarList[calId].render();
+        }
+    }
+</script>
+<script src="https://static-assets-us.libcal.com/js163/direct/full-calendar-common.min.js"></script>
+
+            <script>
+            jQuery(function() {
+                                jQuery('a[data-toggle="tab"]').on('shown.bs.tab', reRenderCalendarList);
+
+                                                    hit(378, 'home', 'r');
+                            });
+        </script>
+    
+
+</body>
+</html>

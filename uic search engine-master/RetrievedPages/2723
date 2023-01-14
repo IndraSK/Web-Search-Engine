@@ -1,0 +1,220 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="jsa_no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="jsa_no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="jsa_no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="jsa_no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  
+<!--  <meta http-equiv="cache-control" content="no-store" />
+  <meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+  <meta http-equiv="pragma" content="no-cache" /> -->
+        
+	<title>University of Illinois at Chicago</title>
+        <meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
+        
+        <!-- Enhanced (from functions/setup/styles.php) -->
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick.css"/> -->
+        <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.5.8/slick-theme.css"/> -->
+        
+        <link rel="stylesheet" type="text/css"  href="custom/v3/assets/css/slick.css"/>
+	    <link rel="stylesheet" type="text/css"  href="custom/v3/assets/css/slick-theme.css"/>
+        
+        <!-- Standard Loading Bootstrap -->
+        <link rel="stylesheet" href="custom/v3/assets/bootstrap/css/bootstrap.css?id=26">
+        
+        <!-- Standard CSS Generator --><link href="//services.jsatech.com/v3/assets/bootstrap/css/bootstrap-univers.css" rel="stylesheet" media="screen" type="text/css" />
+          <link rel="stylesheet" href="//services.jsatech.com/custom/cached/58/css/css_student_page.css?style=20221207234301"  type='text/css' />
+          <link rel="stylesheet" href="//services.jsatech.com/custom/v4/css/print.css?style=20221207234301"  media="print" type='text/css' />
+        <!--<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.9/css/jquery.dataTables.css">-->
+
+        <!--<link rel="stylesheet" href="custom/v3/assets/css/jquery.dataTables.css">-->
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:100,300,400,500,600,700|Gudea:100,300,400,700' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="custom/v3/assets/images/sl3favicon.png"/>
+        
+        <!--[if lt IE 9]>
+	    <script type="text/javascript" 
+	        src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+	    </script>
+	    <![endif]-->
+<link type='text/css' href='js/jquery.ui/smoothness/jquery-ui-1.7.2.custom.css' rel='stylesheet' />
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+                integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                crossorigin="anonymous"></script></head><body class="jsa_" style="background:;">
+
+    <div class="jsa_template-internal">
+          <div class="jsa_content-wrap">
+
+                <div class="jsa_header" role="banner" style="max-height:200px;">
+
+                  <a onclick="focusIt()" class="skip_to_main_content" 
+                    href="#jumptocontent">Skip to main content&nbsp;</a>
+                    
+                  <div class="hidden_text"></div>
+                                    <a href="http://www.uic.edu">
+                    
+                    <h1 style="margin:0 !important;"><img src="//services.jsatech.com/custom/cached/58/images/header_image.png" alt="University of Illinois Chicago logo" /><span class="hidden_text">University of Illinois at Chicago</span></h1>
+                </a>                <a aria-label="Site Navigation Menu" aria-expanded="false" aria-controls="jsa_menu_region" class="jsa_menu-trigger js-menu-trigger" id="leftMenuButton" href="#">
+                    <div class="jsa_lines" title="Expandable Site Navigation Menu" style="color:black">
+                        <div class="jsa_line line-1" style="background-color:black"></div>
+                        <div class="jsa_line line-2" style="background-color:black"></div>
+                        <div class="jsa_line line-3" style="background-color:black"></div>
+                    </div>
+                </a>              </div><div class="jsa_col-wrap has-slider" style="position: relative;padding-top: 15px;display:none;">                  <div class="jsa_menu no-print" id="jsa_menu_region" style="min-height:700px;"> <!-- change1 -->
+                  <!--<a onclick="focusIt()" class="skip_to_main_content" 
+                     href="#jumptocontent">Skip to main content&nbsp;</a>-->                  <nav>
+
+                    <ul class="jsa_main-nav">
+<li class="jsa_parent noactive hotbutton">
+<a href='https://wallet.uic.edu/login.php?cid=58&'><div class="jsa_icon" style="background:url('custom/v3/images/navicons/home.png');background-size:16px 16px;"></div>Student and Staff Login</a></li>
+<li class="jsa_parent noactive hotbutton">
+<a href='https://services.jsatech.com/login.php?guest=1&cid=58&'><div class="jsa_icon" style="background:url('custom/v3/images/navicons/home3.png');background-size:16px 16px;"></div>Parents and Guests Login</a></li>
+           <li class="jsa_parent noactive section2 "><a class="sublink4" aria-expanded="false" href="#"><div class="jsa_icon" style="background:url('custom/v3/images/navicons/cog.png');background-size:16px 16px;"></div><div class="menu-item-has-children nav-1 noactive"></div> My Account</a></li>
+                                <li class="child jsa_child sub-1 noactive subsection2"><a  href="changepass.php?cid=58&expand=1&" >Change Guest Password</a></li>
+           <li class="jsa_parent noactive section3 "><a class="sublink4" aria-expanded="false" href="#"><div class="jsa_icon" style="background:url('custom/v3/images/navicons/cogs.png');background-size:16px 16px;"></div><div class="menu-item-has-children nav-1 noactive"></div> Information</a></li>
+                                <li class="child jsa_child sub-1 noactive subsection3"><a  href="news.php?cid=58&expand=1&" >News</a></li>
+                                <li class="child jsa_child sub-1 noactive subsection3"><a  href="index.php?cid=58&expand=1&" >Manage Account Home</a></li>
+              </ul>
+            </nav>
+          </div> <!-- end menu -->
+
+<div class="jsa_content-interior" role="main" style="min-height:700px;">
+    <div id="">
+        <h2 id="jumptocontent" style="clear:left;">University of Illinois at Chicago</h2>
+    </div> <!-- End sitetitle -->
+
+    <div id="siteabout">
+        <p>Thank you for visiting the Card Services website!
+<ul>
+<li>Deposit to a Dragon Dollar$ account using your credit card or bank account.</li><br>
+<li>View your account balances and transaction history.</li><br>
+<li>Deactivate a lost ID card</li><br>
+<li>Create guest access for Dragon Dollar$ accounts and set up low balance warnings, automatic deposits and more!</li><br>
+</ul>
+</p>    </div> <!-- End siteabout -->
+
+   <div class="jsa_push"></div>
+         </div><!-- END content-interior -->
+      <!-- new sidebar -->
+      <!--<div class="sidebar"></div>-->
+      </div><!-- END jsa_col-wrap --><footer class="jsa_footer-global no-print" style="display:none;"><h2 class="sr-only">Footer Menu</h2>                   <div class="jsa_footer-col-wrap"><div class="jsa_col" style="text-align:top;vertical-align:top;"></div>                  <div class="jsa_col jsa_school-info" style="text-align:center;">
+                          <h3 style="color:#ffffff">ID Center</h3>
+                                  750 S Halsted St., 124 SCE, Chicago, Illinois 60607, MC 049 <br>
+Monday - Friday 8:30 AM -5:00 PM <br>
+Phone: (312) 413-5940 <br>
+Email: idcenter@uic.edu <br>
+                                  <div class="jsa_social-wrap">                                  </div>
+                  </div><div class="jsa_col" style="text-align:top;vertical-align:top;"></div>                   </div> <!-- END Footer Col Wrap -->
+      		  <div class="jsa_footer-copyright" style="padding-top:0px;">
+                <ul style="display:inline;">
+                <li style="display:inline;"><span style="position:relative;top:10px;">The University of Illinois at Chicago</span></li>          <li style="display:inline;" id="atrium_footer_logo"><a href="https://www.atriumcampus.com" target="_blank"><img style="margin-top:3px;position:relative;left:1px;top:7px;" height="31px" width="37px" src="images/atrium-logo-sm.png" alt="Atrium Logo" /></a></li>                            <li style="display:inline;"><span style="position:relative;top:10px;"> | <a href="https://www.atriumcampus.com/privacy-policy/" style="color:white" target="_blank">Privacy Policy</a> </span></li>
+                            <li style="display:inline;"><span style="position:relative;top:10px;"> | <a href="https://www.atriumcampus.com/accessibility" style="color:white" target="_blank">Accessibility</a> | </span></li>
+                            <li style="display:inline;"><span style="position:relative;top:10px;"> &nbsp; U.S. Patent No. 6,963,857</span></li>
+                        </ul>
+                    </div> <!-- END Copyright -->
+                   </footer>
+		</div> <!-- ? -->
+
+              </div> <!-- END template-internal -->
+              
+            <!--[if lt IE 7 ]>
+            <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+            <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+            <![endif]-->
+         
+            <!-- IE Fix for HTML5 Tags -->
+            <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <![endif]-->
+
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+                integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2"
+                crossorigin="anonymous"></script>
+                
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+                integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+                crossorigin="anonymous"></script>
+
+             <script src="custom/v4/js/jquery.ui.touch-punch.min.js"></script>
+             <script src="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+             <script src="custom/v4/js/access.js?id=20221207234301"></script>
+             <script src="custom/v4/js/placeholders.min.js"></script>
+
+             <script src="custom/v4/js/jquery.formatCurrency-1.4.0.min.js"></script>
+
+             <script type="text/javascript">
+                 function focusIt() {
+                     document.getElementById("jumptocontent").focus();
+                 }
+             </script>         <!--<script src="custom/v4/js/jquery.infieldlabel.min.js"></script>-->
+         <!--<script src="custom/v3/assets/js/slick.min.js"></script>-->
+         <script type="text/javascript" src="custom/v4/js/slick-1.8.1.min.js"></script>
+         <script src="custom/v4/js/jsa_scripts.min.js?unique=20221207234301"></script>
+         <script src="https://www.google.com/recaptcha/api.js"></script>         <script type="text/javascript">
+          $(document).ready(function(){
+            
+            $(".jsa_col-wrap").css('display','block');
+            $(".jsa_col-wrap").css('display','flex');            $(".jsa_footer-global").css('display','block');            $('.dataTable').each(function() {
+                dt = $(this).dataTable();
+                dt.fnDraw();
+            })
+        
+          });
+         </script>         <script src="custom/v3/assets/js/leftmenu3.js?id=1"></script>            <script>
+            $(document).ready(function(){
+                $('.jsa_single-item').slick({
+                        autoplay: !1,
+                        autoplaySpeed: 8000,
+                        speed: 500,
+                        arrows: true,
+                        lazyLoad: 'progressive'
+                });
+            });
+            </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41988811-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-41988811-1', {
+            'cookie_flags': 'max-age=7200;secure;samesite=none;'
+        });
+        </script>
+
+        </div> <!-- end jsa_template-internal -->
+
+      </body>
+
+      <div id="jsa_timeout"></div>
+      <script>
+        window.onload = function() {
+          form_error = document.getElementById("form-error")
+          if (form_error){
+              document.getElementById("form-error").focus();
+          }
+        }
+      </script>
+</html>
+
+
+    <script>
+        $('.dataTables_filter').hide();
+    </script>
+
+    <style>
+        .dataTables_wrapper {padding-bottom:1px;margin-bottom:1px;}
+    </style>
+

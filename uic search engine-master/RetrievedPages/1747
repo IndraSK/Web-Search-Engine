@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US" ng-app="campuskudosWebApp" ng-class="[backgroundClass, modalBox]" ng-style="backgroundStyle" class="ckbg">
+  <head ng-controller="BodyCtrl">
+    <meta charset="utf-8">
+    <!-- Compatiblity mode for latest IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge;">
+    <title ng-bind="pageTitle.title()"></title>
+    <meta name="fragment" content="!">
+    <meta name="description" content="{{metaInformation.metaDescription()}}">
+    <meta name="keywords" content="{{metaInformation.metaKeywords()}}">
+    <meta name="viewport" content="width=device-width">
+
+    <!-- OG/Twitter META TAGS -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{metaInformation.socialSharingTitle() || pageTitle.title() || 'Welcome'}}">
+    <meta property="og:description" content="{{metaInformation.socialSharingText()}}">
+    <meta property="og:image" content="{{metaInformation.socialImage()}}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@PeopleGroveCo">
+    <meta name="twitter:creator" content="@PeopleGroveCo">
+
+    <base href="/">
+
+    <!-- inject:css -->
+    <link rel="stylesheet" href="styles/main-de56b68d52.css">
+    <link rel="stylesheet" href="styles/vendor-3ae3c4a002.css">
+    <!-- endinject -->
+
+    <!-- bower:css -->
+    <!-- endinject -->
+
+    <script async src="https://apis.google.com/js/client.js"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
+    <script defer="defer" src="//static.filestackapi.com/filestack-js/3.23.1/filestack.min.js"></script>
+
+    <!-- BEGIN IFRAMELY -->
+    <script async charset="utf-8" src="//cdn.iframe.ly/embed.js?key=155c6006ee6df99ff4c5bf3a68ef7a73"></script>
+    <!-- END IFRAMELY -->
+    
+    <script async src="https://cdn.logrocket.io/LogRocket.min.js" crossorigin="anonymous"></script>
+    <script async src="https://maps-api.peoplegrove.com/g-maps-api/?libraries=places"></script>
+    <script defer="defer" src="https://www.gstatic.com/firebasejs/5.9.2/firebase-app.js"></script>
+    <script defer="defer" src="https://www.gstatic.com/firebasejs/5.9.2/firebase-auth.js"></script>
+    <script defer="defer" src="https://www.gstatic.com/firebasejs/5.9.2/firebase-database.js"></script>
+    <script defer="defer" src="https://www.gstatic.com/firebasejs/5.9.2/firebase-firestore.js"></script>
+    <script defer="defer" src="https://www.google.com/recaptcha/api.js?render=explicit" async></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/igojolgolbceapgmkoknicggafeceiml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" integrity="sha256-VBrFgheoreGl4pKmWgZh3J23pJrhNlSUOBek+8Z2Gv0=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.peoplegrove.com/admin/1635591341675uppy.min.css">
+  </head>
+  <body ng-class="[
+      'ckbg',
+      {'pg-admin': $root.isAdminApp()},
+      $root.backgroundClass,
+      $root.modalBox,
+      $root.bodyNoPad,
+      $root.showScroll,
+      $root.getClusterCoreSetting('branding','useCustomCss'),
+      $root.hideHubNavBarClass,
+      $root.hideClusterNavBarClass,
+      'ck-cluster-theme',
+      'pg-hide-icon'
+    ]" ng-style="backgroundStyle" ng-init="setIframeTitle()">
+    <noscript><div class="no-script">This site requires Javascript for this page to display correctly and for purposes of
+      <a href="https://userway.org">website accessibility</a></div></noscript>
+
+    <div ng-include="'modules/helpers/cover-loading/coverLoading.html'" class="full-cover-loading-container" ng-show="fullCoverLoading"></div>
+    <div ng-include="'views/browserCompatibility.html'" ng-if="!browser.compatible"></div>
+    <div class="full-cover-loading-content" ng-class="{ 'full-cover-loading-content-active': fullCoverLoading }" ng-if="browser.compatible">
+      <cluster-nav ng-if="!$root.hideNavBar && $root.clusterInfo" role="navigation"></cluster-nav>
+      <div ng-include="'views/loading.html'"></div>
+      <div ng-include="'views/transparent-loading.html'"></div>
+      <main id="main" tabindex="-1" class="main-view-container" ng-hide="$root.loading" ng-if="!$root.detailPageObject.open">
+        <div class="main-view fade-in" ng-view="" autoscroll="true" ng-class="bodyBlurred ? 'blurred' : ''">
+        </div>
+      </main>
+      <main id="main" ng-include="'modules/helpers/detail-object-page/detailObjectPage.html'" ng-if="$root.detailPageObject.open"></main>
+      <!-- THE BELOW CODE IS USED FOR HIDING THE USERWAY WIDGET FROM OUR APP -->
+      <span id="accessibilityWidget"></span>
+    </div>
+    <support-widget role="complementary" aria-labelledby="support-widget" ng-if="$root.currentUser.isAdmin || $root.currentUser.isClusterAdmin || $root.isHubAdmin() || $root.isAnyGroupAdmin()"></support-widget>
+    <alert-ribbon ng-if="$root.currentUser.isAdmin">
+    <!-- bower:js -->
+    <!-- endinject -->
+
+    <!-- inject:js -->
+    <script src="scripts/vendor-7fafcf191f.js" crossorigin="anonymous"></script>
+    <script src="scripts/scripts-509ce3d1d4.js" crossorigin="anonymous"></script>
+    <!-- endinject -->
+
+    <!-- <script async src="http://localhost:8080/service.js"></script> -->
+    <script async src="https://support-widget.prod.static.pg.services/service.js?v4"></script>
+  <script>(function(){var js = "window['__CF$cv$params']={r:'7762ff85a956231b',m:'ZWUaNZxOjF_zjtXLoISsobZugQExmp0lL9wUxtrzZwU-1670476263-0-AWHwHg/vEVKTucCzkqfyqEV6fbQBD41D+ctmN/pL9JJ/xlxxp9KFvwOuGP/rcyPnTjxSPVoY+SeIFZ4/J7LpjhsBczXqevqsLTkE0qIgIDFFxTQbSTMdzWThzq43ZTM81A==',s:[0x84e53da86d,0x972b47ec35],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
+</html>

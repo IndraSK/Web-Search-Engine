@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Joseph E Michaelis</title>
+<link href="singlePage.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Main Container -->
+<container>
+<!-- Navigation -->
+<header>	
+
+	<a href="">
+    	<h4 class="logo"><img class = "logo_image" src ="images/UIC_Logo.png" style="width:40px;height:40px;" alt="mobile-image">
+		Joseph E Michaelis
+		</h4>
+    </a>
+
+	
+<span class="topnav" id="myTopnav">
+  <a href="#main" class="topnav active">Home</a>
+  <a href="#lab" class="topnav">UIC LIT Lab</a>
+  <a href="#pubs" class="topnav">Publications</a>
+  <a href="#courses" class="topnav">Courses</a>
+  <a href="summer.html">Summer Robotics Program</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</span>
+
+</header>	
+
+
+  <!-- Hero Section -->
+  
+<section class="hero" id="main">
+	<div class = "row">
+		<div class = "col-md-4">
+		<img src="images/Michaelis_head_shot_2.jpg" class="hero img-fluid" style="center" alt="mobile-image">
+		
+<!--
+		<p class="tagline">Assitant Professor<br>University of Illinois at Chicago</p>
+		<p class="tagline"></p>
+-->
+		</div>
+
+		<div class = "col-md-8" style = "background-color: lightgray">
+			<h2 class="hero_header">Joseph E Michaelis<a href = "https://twitter.com/STEMinterest"><img src ="images/Twitter_Logo_Blue.png" style="width:40px;height:40px;"></a><a href = "https://scholar.google.com/citations?user=4eFjSTIAAAAJ&hl=en&oi=ao"> <i class="ai ai-google-scholar-square ai-sm" ></i></a> <a href = "pubs/Joseph Michaelis CV.pdf"><i class="ai ai-cv ai-sm" style = "color:black;"></i> </a> </h2><br><br>
+			<p class = "light">I am an Assistant Professor of Learning Sciences, and of Computer Science at the University of Illinois at Chicago in UIC’s College of Engineering. My research sits at the nexus of learning sciences and human-computer interaction disciplines with a focus on long-term interactions and developing interest in STEM. In this work, I design and assess educational technologies by utilizing human-centered methods and interaction modeling in HCI, and on interest, motivation and social-cultural learning perspectives in the learning sciences. These technologies are designed for social connection-making with learners to support learning and interest through long-term engagement, in ways that seamlessly integrate into existing educational activities in classrooms, informal learning environments, and at home.<br><br>
+            My current research focuses on designing learning companion robots to work with children while they read at home and while learning science in formal and informal settings. These companion robots “talk” to children while they read augmented books or participate in science activities by providing comments tailored to their interests and ability. The goal of each child-robot interaction is to build social connections, provide comprehension support, and promote interest in reading and STEM learning.
+            </p>
+			
+		</div>
+	
+	</div>
+
+</section>
+	
+</container>
+  <!-- Parallax Section -->
+  <section class="banner" id = "lab">
+    <h2 class="parallax"><u><a href=https://www.uiclitlab.com style="color:white">UIC LIT Lab</a></u></h2>
+    <p class="parallax_description">I am the director of the UIC LIT Lab. Our mission is to design and develop STEM interest scaffolding in technology-based learning. We specialize in developing learning-companion robots for children to support in-home learning and interest development for science, engineering, and related fields. <br/><br/>For more information about the lab, visit our site at <u><a href=https://www.uiclitlab.com style="color:white">www.uiclitlab.com</a></u></p>
+  </section>
+  <!-- More Info Section -->
+	
+<section class = "pubs" id = "pubs">
+	<containter>
+		<h2 class = "hidden" style = "height:58px;">Pub Spacing</h2><br>
+		<h2 class="pub_header" style = "center">Select Publications</h2><br>
+	<div class = "pub_list" id = "pub_list">
+		<b>Michaelis, J. E.</b>, Siebert-Evenstone, A., Shaffer, D. W. &amp; Mutlu, B. (2020, April). Collaborative or Simply Uncaged? Understanding Human-Cobot Interactions in Automation. In CHI 2020, April 25-30, Honolulu, HI.<a href ="pubs/Michaelis & Mutlu 2020 - CHI Author's Copy.pdf"> PDF</a><br><br>
+<!--
+
+<b>Michaelis, J. E.</b> &amp; Mutlu, B. (2020, April) Social Aptitude from an Educational Robot Helps Promote Interest in Science Learning. Presented at the 2020 Annual Meeting of the American Educational Research Association, San Francisco, CA.<br><br>
+
+<b>Michaelis, J. E.</b> &amp; Nathan, M. J. (2020, April) A Case Study of Enculturation Practices that Support Emerging STEM Interest in an Out-of-School Program. Presented at the 2020 Annual Meeting of the American Educational Research Association, San Francisco, CA.<br><br>
+-->
+
+<b>Michaelis, J. E.</b>, &amp; Mutlu, B. (2019, June). Supporting interest development in science learning with a social robot. ACM Interaction Design and Children Conference. Boise, Idaho.<a href ="pubs/Michaelis & Mutlu - IDC 2019.pdf"> PDF</a><br><br>
+		
+<b>Michaelis, J. E.</b>, &amp; Mutlu, B. (2018). Reading socially: Transforming the in-home reading experience with a learning-companion robot. Science Robotics, 3(21).<a href = "pubs/Michaelis & Mutlu 2019 - Science Robotics - Author's Copy.pdf"> PDF</a><br><br>
+
+<!--<b>Michaelis, J. E.</b>, &amp; Mutlu, B. (2018). Social reading: Field study with an in-home learning companion robot. In J. Kay &amp; R. Luckin (Eds.), Rethinking Learning in the Digital Age: Making the Learning Sciences Count, 13th International Conference of the Learning Sciences (ICLS) 2018, Volume 1. (pp. 1675-76). London, UK: International Society of the Learning Sciences.<br><br>-->
+<!--
+
+		Walkington, C. A., Swart, M.I., Kwon, O.H., Vinsonhaler, R., <b>Michaelis, J. E.</b>, Biznak, J.V., Schenck, K.E., McGinty, J.D., Sung, Y., Nathan, M.J. (2018, October). Kinecting geometric proof concepts using gestures.  In Proceedings of North American Chapter of the International Group for the Psychology of Mathematics Education. Greenville, South Carolina.<br><br>
+-->
+<!--
+
+Acuna, S., <b>Michaelis, J. E.</b>, Roth, J, &amp; Towles, J. (2018, June). Intervention designed to increase interest in engineering for low-interest, K-12 girls did so for boys and girls. Paper presented at 2018 ASEE Annual Conference &amp; Exposition, Salt Lake City, Utah.<br><br>
+
+<b>Michaelis, J. E.</b>, Wu, S. P. W., Rau. M. A., Nathan, M. J. (2018, April). Testing the four-phase interest development survey for Chemistry. Paper presented at the 2018 Annual Meeting of the American Educational Research Association, New York, NY.<br><br>
+
+Nathan, M. J., Walkington, C., Vinsonhaler, R., <b>Michaelis, J. E.</b>, McGinty, J., Binzak, J. V., &amp; Kwon, O., H. (2018, April). Embodied account of geometry proof, insight, and intuition among novices, experts, and english language learners. Paper presented at the 2018 Annual Meeting of the American Educational Research Association, New York, NY.<br><br>
+-->
+
+<b>Michaelis, J. E.</b> (2017). The role of interest and motivation in science investigation and engineering design instruction. Paper commissioned for the National Academies of Sciences, Engineering, and Medicine committee on Science Investigations and Engineering Design for Grades 6-12.<a href ="pubs/Michaelis 2017 - NAS paper online edition.pdf"> PDF</a>  <br><br>
+
+<!--Francis, C. A, <b>Michaelis, J. E.</b>, Acuna, S. A. Towles, J. (2017, June). Impact of biomechanics-based activities on situational and individual interest among K-12 students. Paper presented at 2017 ASEE Annual Conference &amp; Exposition, Columbus, OH.<br><br>-->
+
+<b>Michaelis, J. E.</b>, &amp; Mutlu, B. (2017, May). Someone to read with: Design of and experiences with an in-home learning companion robot for reading. In CHI 2017, May 06-11, Denver.<a href = "pubs/chi17-michaelis.pdf"> PDF</a><br><br>
+
+<b>Michaelis, J. E.</b>, &amp; Nathan, M. J. (2016, June). Observing and measuring interest development among high school students in an out-of-school robotics competition. Paper presented at 2016 ASEE Annual Conference &amp; Exposition, New Orleans, LA. <a href = "pubs/Michaelis & Nathan ASEE 2016 Conference Copy.pdf"> PDF</a><br><br>
+
+<!--
+Clinton, V. E., Cooper, J. L., <b>Michaelis, J. E.</b>, Alibali, M. W., Nathan, M. (2016). How revisions to mathematical visuals affect cognition: Evidence from eye tracking. In B. Morris, C. Was &amp; F. Sansosti (Eds.) Eye-Tracking technology applications in educational research. New York, NY: IGI<br><br>
+
+<b>Michaelis, J. E.</b>, Clinton, V. E., Cooper, J. L., Nathan, M. J., Alibali, M. W. (2016, April) Cognitive principles for effective uses of visual information improve mathematics learning by encouraging deeper processing. Presented at the 2016 Annual Meeting of the American Educational Research Association, Washington, D.C.<br><br>
+-->
+
+<b>Michaelis, J. E.</b>, &amp; Nathan, M. J. (2015, June). The Four-Phase Interest Development in Engineering Survey. Paper presented at 2018 ASEE Annual Conference &amp; Exposition, Educational Research Methods (ERM) Division. Seattle, WA. <a href = "pubs/Michaelis & Nathan 2015 - The Four-Phase Interest Development in Engineering Survey - ASEE Conference Paper.pdf"> PDF</a><br><br>
+
+<!--
+Rau, M. A., <b>Michaelis, J. E.</b>, &amp; Fay, N. (2015). Connection making between multiple graphical representations: A multi-methods approach for domain-specific grounding of an intelligent tutoring system for chemistry. Computers &amp; Education, 82(0), 460-485. <br><br>
+<b>Michaelis, J. E.</b>, &amp; Nathan, M. J. (2015, April). The role of feedback in interest development in an out-of-school engineering setting. Paper presented at the 2015 Annual Meeting of the American Educational Research Association, Chicago, IL
+<br><br>
+
+<b>Michaelis, J. E.</b>, Nathan, M.J. (2014). The role of feedback in interest development in an out-of-school engineering setting. In Polman, J. L., Kyza, E. A., O'Neill, D. K., Tabak, I., Penuel, W. R., Jurow, A. S., O'Connor, K., Lee, T., and D'Amico, L. (Eds.). Learning and becoming in practice: The International Conference of the Learning Sciences (ICLS) 2014, Volume 3. Boulder, CO: ISLS. (pp. 1525-1526)<br><br>
+-->
+
+	</div>	
+	
+	</containter>
+	
+	
+	
+	</section>
+  <footer id = "footer">
+<!--
+    <article class="footer_column">
+      <h3>SOCIAL ROBOTS</h3>
+      <img src="images/Misty.png" class="cards"/>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
+    </article>
+-->
+
+
+  <!-- Footer Section -->
+  <section class="footer_banner" id="courses">
+	<h2 class="pub_header" style = "center"> Courses</h2><br>
+	<div class = "row">
+		<div class = "col-md-2"></div>
+    	<div class = "col-md-8">
+			<ul class = "ul-courses">
+				<li class = "li-courses">
+					<div class = "date">
+						<div class = "date_top">Fall</div>
+						<div class = "date_bottom">2021</div>
+						
+					</div>
+					<div class = "courses_column">
+						<h5 style = "center">CS 594: Social Robotics and Human-Robot Interaction</h5>	
+						<p>Theory, design, and research methods in HRI with a focus on social robotic interactions. </p>
+					</div>
+
+				</li>
+				<li class = "li-courses">
+					<div class = "date">
+						<div class = "date_top">Spring</div>
+						<div class = "date_bottom">2021</div>
+						
+					</div>
+					<div class = "courses_column">
+						<h5 style = "center">LRSC 512: Design of Learning Environments</h5>	
+						<p>Design and evaluation of formal and informal learning environments from learner-centered, knowledge-centered, assessment-centered, and community-centered perspectives. </p>
+					</div>
+
+				</li>
+				<li class = "li-courses">
+					<div class = "date">
+						<div class = "date_top">Fall</div>
+						<div class = "date_bottom">2020</div>
+						
+					</div>
+					<div class = "courses_column">
+						<h5 style = "center">CS 422: User Interface Design and Programming</h5>	
+						<p>User interface design, implementation, and evaluation: user-centered design methodologies, I/O techniques, event-loop programming, user studies. Programming projects. </p>
+					</div>
+
+				</li>
+				
+				<li class = "li-courses">
+					<div class = "date">
+						<div class = "date_top">Spring</div>
+						<div class = "date_bottom">2020</div>
+						
+					</div>
+					<div class = "courses_column">
+						<h5 style = "center">LRSC 540: Journal Club</h5>	
+						<p>Special topics course in Learning Sciences including a Speaker Series and discussion of current issues and culture in the discipline.</p>
+					</div>
+
+				</li>
+				<li class = "li-courses">
+					<div class = "date">
+						<div class = "date_top">Fall</div>
+						<div class = "date_bottom">2019</div>
+						
+					</div>
+					<div class = "courses_column">
+						<h5 style = "center">CS 422: User Interface Design and Programming</h5>	
+						<p>User interface design, implementation, and evaluation: user-centered design methodologies, I/O techniques, event-loop programming, user studies. Programming projects. </p>
+					</div>
+
+				</li>
+
+
+			</ul>
+		</div>
+		<div class = "col-md-2"></div>
+	  </div>
+  <!-- Copyrights Section -->
+  <div class="copyright">&copy;2022- <strong>Joseph E Michaelis</strong></div>
+</section>
+	
+<!-- Main Container Ends -->
+
+<script>
+// Add active class to the current button on clicking for nav (highlight it)
+var header = document.getElementById("myTopnav");
+var btns = header.getElementsByClassName("topnav");
+
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+	  console.log("Enter");
+	  console.log(i);
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+
+// Add active class to the current button on scrolling for nav (highlight it)
+var sections = document.getElementsByTagName("section");
+
+for (var j = 0; j < sections.length; j++) {
+	
+	sections[j].addEventListener("mouseover", function(){
+		
+		var current = document.getElementsByClassName("active");
+  		current[0].className = current[0].className.replace(" active", "");
+
+		if (this.id === "main"){
+			btns[0].className = "topnav active";
+		}
+		if (this.id === "lab"){
+			btns[1].className = "topnav active";
+		}
+		if (this.id === "pubs"){
+			btns[2].className = "topnav active";
+		}
+		if (this.id === "courses"){
+			btns[3].className = "topnav active";
+		}
+	});
+}
+	
+	
+//Goes to Hamburger Menu for smaller screens
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+	
+</script> 
+
+</body>
+</html>

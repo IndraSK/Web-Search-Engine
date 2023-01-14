@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-35008513-1"></script>
+<script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments)};gtag("js", new Date());gtag("set", "developer_id.dMDhkMT", true);gtag("config", "UA-35008513-1", {"groups":"default","anonymize_ip":true,"page_placeholder":"PLACEHOLDER_page_path"});</script>
+<link rel="canonical" href="https://sdgs.un.org/" />
+<link rel="shortlink" href="https://sdgs.un.org/" />
+<meta name="Generator" content="Drupal 9 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta http-equiv="x-ua-compatible" content="ie=edge" />
+<link rel="icon" href="/themes/custom/porto/favicon.ico" type="image/vnd.microsoft.icon" />
+<script src="/sites/default/files/google_tag/primary/google_tag.script.js?rm5tng" defer></script>
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Home | Sustainable Development</title>
+    <link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/core.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/autocomplete.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/menu.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/ajax-progress.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/autocomplete-loading.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tabledrag.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/farbtastic/farbtastic.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/modules/contrib/video_embed_field/css/video_embed_field.responsive-video.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/core/assets/vendor/jquery.ui/themes/base/theme.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/modules/contrib/addtoany/css/addtoany.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/modules/contrib/genpass/css/genpass.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/modules/contrib/search_api_autocomplete/css/search_api_autocomplete.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/user.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/progress.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/affix.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/alerts.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/book.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/comments.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/contextual.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/feed-icon.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/field.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/header.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/help.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/icons.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/image-button.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/item-list.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/list-group.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/node-preview.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/page.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/search-form.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/shortcut.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/sidebar.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/site-footer.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/skip-link.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/table.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tabledrag.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tableselect.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tablesort-indicator.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/ui.widget.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/tabs.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/vertical-tabs.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/views.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/ui-dialog.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/custom/porto/css/colors.css?rm5tng" />
+<link rel="stylesheet" media="all" href="//use.fontawesome.com/releases/v5.1.0/css/all.css" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap_barrio/css/components/form.css?rm5tng" />
+<link rel="stylesheet" media="print" href="/themes/contrib/bootstrap_barrio/css/print.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/custom/porto/css/bundle.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/custom/porto/css/style.css?rm5tng" />
+<link rel="stylesheet" media="all" href="/themes/custom/porto/color/preview.css?rm5tng" />
+
+    
+
+      </head>
+  <body class="layout-no-sidebars dir-ltr lang-en path-frontpage">
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W462QP5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="HomePage">
+	<header>
+					
+
+<nav class="navbar navbar-expand-md navbar-language">
+	<div class="container">
+		<a href="#" class="navbar-brand"><img src="/themes/custom/porto/assets/images/home.svg" alt="">
+			Welcome to the United Nations</a>
+		<button type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler blue">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+												  <div class="row region region-language-menu">
+          <div class="content">
+        
+  
+  <nav class="links nav links-inline">
+    <ul class="navbar-nav"><li hreflang="ar" data-drupal-link-system-path="&lt;front&gt;" class="ar nav-item"><a href="/ar" class="language-link nav-link" hreflang="ar" data-drupal-link-system-path="&lt;front&gt;">عربي</a></li><li hreflang="zh-hans" data-drupal-link-system-path="&lt;front&gt;" class="zh-hans nav-item"><a href="/zh" class="language-link nav-link" hreflang="zh-hans" data-drupal-link-system-path="&lt;front&gt;">中文</a></li><li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="en nav-item is-active"><a href="/" class="language-link nav-link is-active" hreflang="en" data-drupal-link-system-path="&lt;front&gt;">English</a></li><li hreflang="fr" data-drupal-link-system-path="&lt;front&gt;" class="fr nav-item"><a href="/fr" class="language-link nav-link" hreflang="fr" data-drupal-link-system-path="&lt;front&gt;">Français</a></li><li hreflang="ru" data-drupal-link-system-path="&lt;front&gt;" class="ru nav-item"><a href="/ru" class="language-link nav-link" hreflang="ru" data-drupal-link-system-path="&lt;front&gt;">Русский</a></li><li hreflang="es" data-drupal-link-system-path="&lt;front&gt;" class="es nav-item"><a href="/es" class="language-link nav-link" hreflang="es" data-drupal-link-system-path="&lt;front&gt;">Español</a></li></ul>
+  </nav>
+
+    </div>
+  
+
+
+  </div>
+
+							
+		</div>
+	</div>
+</nav>
+
+<div class="container">
+	<div class="row header-banner header-form">
+		<div class="col-lg-8 col-md-12 d-flex flex-column flex-md-row mb-3 mb-lg-0">
+			<a href="/">
+				<img id="logo" src="/themes/custom/porto/assets/images/logo-en.svg" alt="United Nations" class="d-none d-md-block logo">
+			</a>
+			<img src="/themes/custom/porto/assets/images/logo-en.svg" alt="United Nations" class="d-md-none logo-mobile mb-3"><span class="header-title">Department of Economic and Social Affairs<span>
+					Sustainable Development</span>
+			</span>
+		</div>
+		<div class="col-lg-4 col-md-12">
+			<div class="row align-items-center">
+				<div class="col-10">
+																		  <div class="row region region-search-bar">
+    <div class="views-exposed-form form-exposed-filter-style settings-tray-editable block block-views block-views-exposed-filter-blocksearch-results-search-page" data-drupal-selector="views-exposed-form-search-results-search-page" id="block-exposedformsearch-resultssearch-page" data-drupal-settingstray="editable">
+  
+    
+      <div class="content">
+      
+<form action="/search" method="get" id="views-exposed-form-search-results-search-page" accept-charset="UTF-8">
+  <div class="d-flex mb-1 search-form" id="main-search">
+	
+
+
+		<fieldset class="js-form-item js-form-type-search-api-autocomplete form-type-search-api-autocomplete js-form-item-keyword form-item-keyword form-no-label form-group col-auto">
+												<input data-drupal-selector="edit-keyword" data-search-api-autocomplete-search="search_results" class="form-autocomplete form-text form-control" data-autocomplete-path="/search_api_autocomplete/search_results?display=search_page&amp;&amp;filter=keyword" data-msg-maxlength="This field field has a maximum length of 128." type="text" id="edit-keyword" name="keyword" value="" size="30" maxlength="128" />
+														</fieldset>
+	<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-group" id="edit-actions"><button  data-twig-suggestion="search_results_submit" class="search-box__button_sd button js-form-submit form-submit btn btn-primary" data-drupal-selector="edit-submit-search-results" type="submit" id="edit-submit-search-results" value=""><img src="/themes/custom/porto/assets/images/search.svg"></button></div>
+
+	</div>
+
+</form>
+
+    </div>
+  </div>
+
+  </div>
+
+																				</div>
+				<div class="col-2">
+					<div
+						class="actions d-xs-flex justify-content-md-end">
+												<a href="/user">
+							<button data-toggle="modal" data-target="#exampleModal" class="button button-circle user"></button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			  <nav role="navigation" aria-labelledby="block-porto-main-menu-menu" id="block-porto-main-menu" class="settings-tray-editable block block-menu navigation menu--main navbar navbar-expand-lg navbar-custom test123" data-drupal-settingstray="editable">
+  <div class="container d-flex">
+    <button type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    <div id="navbarToggle" class="collapse navbar-collapse">
+                                
+      <h2 class="sr-only" id="block-porto-main-menu-menu">Main navigation</h2>
+      
+
+                    
+              <ul block="block-porto-main-menu" class="clearfix nav navbar-nav mr-auto">
+                              <li class="nav-item">
+                                      <a href="/" class="nav-link is-active" data-drupal-link-system-path="&lt;front&gt;">Home</a>
+                      </li>
+                            <li class="nav-item menu-item--expanded dropdown">
+                                      <span class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">SDG Knowledge</span>
+                            <ul class="dropdown-menu w-100">
+        <div class="container">
+                              <li class="dropdown-item">
+                                      <a href="/goals" class="dropdown-item" data-drupal-link-system-path="goals">Sustainable Development Goals</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/topics" class="dropdown-item" data-drupal-link-system-path="topics">Key Topics</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/2030agenda" class="dropdown-item" data-drupal-link-system-path="node/24494">2030 Agenda</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/topics/capacity-development" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/1167">Capacity Development</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/publications" class="dropdown-item" data-drupal-link-system-path="publications">Publications</a>
+                      </li>
+                          </div>
+            </ul>
+  
+                      </li>
+                            <li class="nav-item menu-item--expanded dropdown">
+                                      <span class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Intergovernmental Processes</span>
+                            <ul class="dropdown-menu w-100">
+        <div class="container">
+                              <li class="dropdown-item">
+                                      <a href="https://hlpf.un.org/" class="dropdown-item" title="HLPF">High-level Political Forum on Sustainable Development</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/conferences" class="dropdown-item" data-drupal-link-system-path="conferences">UN Conferences and High-Level Events related to sustainable development</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/tfm/sti-forum" class="dropdown-item" title="STI Forum" data-drupal-link-system-path="node/24648">Multi-stakeholder Forum on Science, Technology and Innovation for the SDGs</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="https://www.un.org/en/ga/second/index.shtml" class="dropdown-item" title="Economic and Financial Committee (Second Committee)">Second Committee of the UN General Assembly ⭧</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="https://sustainabledevelopment.un.org/sids/samoareview" class="dropdown-item">SAMOA Pathway</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="https://www.un.org/ecosoc/en/ecosoc-partnerships-forum" class="dropdown-item">ECOSOC Partnership Forum ⭧</a>
+                      </li>
+                          </div>
+            </ul>
+  
+                      </li>
+                            <li class="nav-item">
+                                      <a href="https://hlpf.un.org/" class="nav-link" title="United Nations High-level Political Forum">HLPF</a>
+                      </li>
+                            <li class="nav-item menu-item--expanded dropdown">
+                                      <a href="/topics/small-island-developing-states" class="nav-link dropdown-toggle" title="Small Island Developing States" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="taxonomy/term/1194">SIDS</a>
+                            <ul class="dropdown-menu w-100">
+        <div class="container">
+                              <li class="dropdown-item">
+                                      <a href="/topics/small-island-developing-states" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/1194">Small Island Developing States</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/topics/small-island-developing-states/mvi" class="dropdown-item" data-drupal-link-system-path="node/32598">Multidimensional Vulnerability Index for SIDS</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/topics/small-island-developing-states/united-nations-sids-partnerships-awards-2022" class="dropdown-item">United Nations SIDS Partnerships Awards</a>
+                      </li>
+                          </div>
+            </ul>
+  
+                      </li>
+                            <li class="nav-item menu-item--expanded dropdown">
+                                      <a href="/topics/multi-stakeholder-partnerships-and-voluntary-commitments" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" data-drupal-link-system-path="taxonomy/term/1188">Partnerships</a>
+                            <ul class="dropdown-menu w-100">
+        <div class="container">
+                              <li class="dropdown-item">
+                                      <a href="/topics/multi-stakeholder-partnerships-and-voluntary-commitments" class="dropdown-item" data-drupal-link-system-path="taxonomy/term/1188">About partnerships</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/partnerships" class="dropdown-item" data-drupal-link-system-path="node/34743">The Partnership Platform</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/events/ecosoc-partnership-forum-2023" class="dropdown-item" data-drupal-link-system-path="node/48935">ECOSOC Partnership Forum 2023</a>
+                      </li>
+                          </div>
+            </ul>
+  
+                      </li>
+                            <li class="nav-item menu-item--expanded dropdown">
+                                      <span class="nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Engage</span>
+                            <ul class="dropdown-menu w-100">
+        <div class="container">
+                              <li class="dropdown-item">
+                                      <a href="/events" class="dropdown-item" data-drupal-link-system-path="events">Events</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/webinars" class="dropdown-item" data-drupal-link-system-path="webinars">Webinars</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="https://sustainabledevelopment.un.org/memberstates" class="dropdown-item">Member States</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/unsystem" class="dropdown-item" data-drupal-link-system-path="node/24503">UN System</a>
+                      </li>
+                            <li class="dropdown-item">
+                                      <a href="/stakeholders" class="dropdown-item" data-drupal-link-system-path="node/24901">Stakeholder Engagement</a>
+                      </li>
+                          </div>
+            </ul>
+  
+                      </li>
+                            <li class="nav-item">
+                                      <a href="/news" class="nav-link" data-drupal-link-system-path="news">News</a>
+                      </li>
+                            <li class="nav-item">
+                                      <a href="/about" class="nav-link" data-drupal-link-system-path="node/24502">About</a>
+                      </li>
+                    </ul>
+  
+
+
+          </div>
+  </div>
+</nav>
+
+
+	
+	</header>
+	<div class="home-banner position-relative overflow-hidden" style="background-image:url(&#x27;themes/custom/porto/assets/home-banner.jpg&#x27;);background-repeat:no-repeat;background-size:cover;background-position:center center">
+		<div class="container h-100 d-flex align-items-center">
+			<div class="col-lg-5 col-md-6 col-sm-12">
+				<h1>MAKE THE SDGS A 
+					<span>REALITY </span>
+				</h1>
+				<a href="#goal_section" class="btn btn-un btn-transparent arrow-down">Discover The Goals </a>
+			</div>
+		</div>
+	</div>
+	<div class="home-video home-banner">
+		<video controls=""  preload="none"  poster="themes/custom/porto/assets/cover.jpg" muted="true" autoplay loop>
+			<source src="themes/custom/porto/assets/video/1920x1080-home-video.mp4" type="video/mp4"/>
+		</video>
+		<div class="overlay">
+			<div class="container h-100 d-flex align-items-center">
+				<div class="col-lg-6 col-md-7 col-sm-12">
+					<h1>MAKE THE SDGS A 
+						<span>REALITY</span>
+					</h1>
+					<a href="#goal_section" class="btn btn-un btn-transparent arrow-down">Discover The Goals </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div class="container-full">
+			<div class="row">
+							</div>
+
+										<div>
+					  <div class="views-element-container settings-tray-editable block block-views block-views-blockhomepage-featured-hp-featured1-block" id="block-views-block-homepage-featured-hp-featured1-block" data-drupal-settingstray="editable">
+  
+    
+      <div class="content">
+      <div><div class="view view-homepage-featured view-id-homepage_featured view-display-id-hp_featured1_block js-view-dom-id-6745a03f0c0b14fa29e8784f16268039ec22da77d4030ed1ae0df8a4000cb931">
+	
+		
+			
+			<div class="view-content row">
+			    
+
+	
+<div class="card card-custom news-01 col-12 col-sm-4">
+	<div class="card-body">
+		<a href="/news/sdg-pavilion-united-nations-climate-change-conference-cop27-33361">
+			<span class="card-date">7 Nov 2022</span>
+			<h3 class="card-title">SDG Pavilion at the United Nations Climate Change Conference (COP27)</h3>
+			<p class="card-text">7-18 November 2022
+
+The SDG Pavilion at the United Nations Climate…</p>
+			<span class="card-link">Read More</span>
+		</a>
+							<div class="label-group">
+				<a>
+					<span class="label-group-text">Related Goals</span>
+				</a>
+				<div class="label-group-content">
+					
+
+<span class="badge badge-primary goal-13">
+	<a href="/goals/goal13">13</a>
+</span>
+
+				</div>
+			</div>
+			</div>
+</div>
+    
+
+	
+<div class="card card-custom news-01 col-12 col-sm-4">
+	<div class="card-body">
+		<a href="/gsdr/gsdr2023">
+			<span class="card-date">8 Dec 2022</span>
+			<h3 class="card-title">Global Sustainable Development Report (GSDR) 2023</h3>
+			<p class="card-text">The…</p>
+			<span class="card-link">Read More</span>
+		</a>
+							<div class="label-group">
+				<a>
+					<span class="label-group-text">Related Goals</span>
+				</a>
+				<div class="label-group-content">
+					
+
+<span class="badge badge-primary goal-1">
+	<a href="/goals/goal1">1</a>
+</span>
+
+<span class="badge badge-primary goal-2">
+	<a href="/goals/goal2">2</a>
+</span>
+
+<span class="badge badge-primary goal-3">
+	<a href="/goals/goal3">3</a>
+</span>
+
+<span class="badge badge-primary goal-4">
+	<a href="/goals/goal4">4</a>
+</span>
+
+<span class="badge badge-primary goal-5">
+	<a href="/goals/goal5">5</a>
+</span>
+
+<span class="badge badge-primary goal-6">
+	<a href="/goals/goal6">6</a>
+</span>
+
+<span class="badge badge-primary goal-7">
+	<a href="/goals/goal7">7</a>
+</span>
+
+<span class="badge badge-primary goal-8">
+	<a href="/goals/goal8">8</a>
+</span>
+
+<span class="badge badge-primary goal-9">
+	<a href="/goals/goal9">9</a>
+</span>
+
+<span class="badge badge-primary goal-10">
+	<a href="/goals/goal10">10</a>
+</span>
+
+<span class="badge badge-primary goal-11">
+	<a href="/goals/goal11">11</a>
+</span>
+
+<span class="badge badge-primary goal-12">
+	<a href="/goals/goal12">12</a>
+</span>
+
+<span class="badge badge-primary goal-13">
+	<a href="/goals/goal13">13</a>
+</span>
+
+<span class="badge badge-primary goal-14">
+	<a href="/goals/goal14">14</a>
+</span>
+
+<span class="badge badge-primary goal-15">
+	<a href="/goals/goal15">15</a>
+</span>
+
+<span class="badge badge-primary goal-16">
+	<a href="/goals/goal16">16</a>
+</span>
+
+<span class="badge badge-primary goal-17">
+	<a href="/goals/goal17">17</a>
+</span>
+
+				</div>
+			</div>
+			</div>
+</div>
+    
+
+	
+<div class="card card-custom news-01 col-12 col-sm-4">
+	<div class="card-body">
+		<a href="/events/sdg-summit-2023-49092">
+			<span class="card-date">20 Sep 2023</span>
+			<h3 class="card-title">SDG Summit 2023</h3>
+			<p class="card-text">During the United Nations General Assembly high-level week in September 2023, Heads of State and…</p>
+			<span class="card-link">Read More</span>
+		</a>
+							<div class="label-group">
+				<a>
+					<span class="label-group-text">Related Goals</span>
+				</a>
+				<div class="label-group-content">
+					
+
+<span class="badge badge-primary goal-1">
+	<a href="/goals/goal1">1</a>
+</span>
+
+<span class="badge badge-primary goal-2">
+	<a href="/goals/goal2">2</a>
+</span>
+
+<span class="badge badge-primary goal-3">
+	<a href="/goals/goal3">3</a>
+</span>
+
+<span class="badge badge-primary goal-4">
+	<a href="/goals/goal4">4</a>
+</span>
+
+<span class="badge badge-primary goal-5">
+	<a href="/goals/goal5">5</a>
+</span>
+
+<span class="badge badge-primary goal-6">
+	<a href="/goals/goal6">6</a>
+</span>
+
+<span class="badge badge-primary goal-7">
+	<a href="/goals/goal7">7</a>
+</span>
+
+<span class="badge badge-primary goal-8">
+	<a href="/goals/goal8">8</a>
+</span>
+
+<span class="badge badge-primary goal-9">
+	<a href="/goals/goal9">9</a>
+</span>
+
+<span class="badge badge-primary goal-10">
+	<a href="/goals/goal10">10</a>
+</span>
+
+<span class="badge badge-primary goal-11">
+	<a href="/goals/goal11">11</a>
+</span>
+
+<span class="badge badge-primary goal-12">
+	<a href="/goals/goal12">12</a>
+</span>
+
+<span class="badge badge-primary goal-13">
+	<a href="/goals/goal13">13</a>
+</span>
+
+<span class="badge badge-primary goal-14">
+	<a href="/goals/goal14">14</a>
+</span>
+
+<span class="badge badge-primary goal-15">
+	<a href="/goals/goal15">15</a>
+</span>
+
+<span class="badge badge-primary goal-16">
+	<a href="/goals/goal16">16</a>
+</span>
+
+<span class="badge badge-primary goal-17">
+	<a href="/goals/goal17">17</a>
+</span>
+
+				</div>
+			</div>
+			</div>
+</div>
+
+		</div>
+	
+					</div>
+</div>
+
+    </div>
+  </div>
+<div class="views-element-container settings-tray-editable block block-views block-views-blockhomepage-featured-hp-featured2-block" id="block-views-block-homepage-featured-hp-featured2-block" data-drupal-settingstray="editable">
+  
+    
+      <div class="content">
+      <div><div class="view view-homepage-featured view-id-homepage_featured view-display-id-hp_featured2_block js-view-dom-id-45cd74212894554f7aab0d298919361cff83225729d7eda3b6fa73d0f42b82aa">
+	
+		
+			
+			<div class="view-content row">
+			    
+
+
+	<div class="card card-custom featured-01 col-sm-4 col-12" style="background-image: url(&quot;/sites/default/files/styles/homepage_featured/public/2020-09/turtle%20island.jpg?itok=zBxkCHUy&quot;);">
+	<a href="/sustainable-development-topics">
+		<div class="card-body">
+			<h3 class="card-title">Sustainable Development Topics</h3>
+			<div class="link">Read More</div>
+		</div>
+	</a>
+</div>
+
+    
+
+
+	<div class="card card-custom featured-01 col-sm-4 col-12" style="background-image: url(&quot;/sites/default/files/styles/homepage_featured/public/2021-12/screenshot_20211201-150459_advanced_web_explorer.jpg?itok=bWcLoMok&quot;);">
+	<a href="/events/un-ocean-conference-2022-34704">
+		<div class="card-body">
+			<h3 class="card-title">UN Ocean Conference 2022</h3>
+			<div class="link">Read More</div>
+		</div>
+	</a>
+</div>
+
+    
+
+
+	<div class="card card-custom featured-01 col-sm-4 col-12" style="background-image: url(&quot;/sites/default/files/styles/homepage_featured/public/2022-09/waterconference-bg2.jpg?itok=30k2y_wo&quot;);">
+	<a href="/un-water-conference-2023">
+		<div class="card-body">
+			<h3 class="card-title">UN Water Conference 2023</h3>
+			<div class="link">Read More</div>
+		</div>
+	</a>
+</div>
+
+
+		</div>
+	
+					</div>
+</div>
+
+    </div>
+  </div>
+
+
+				</div>
+			
+
+		</div>
+					<a id="main-content"></a>
+			  <div class="container">
+	<div class="heading-block">
+		<div class="row">
+			
+			<div class="heading-text col-12 col-sm-6 col-lg-4">
+				<div class="views-element-container settings-tray-editable block block-views block-views-blockevents-featured-events-homepage" id="block-views-block-events-featured-events-homepage" data-drupal-settingstray="editable">
+											<h2>Events</h2>
+									</div>
+			</div>
+			
+			<div class="heading-button col-12 col-sm-3">
+				<button class="btn btn-un btn-primary" onclick="window.location.href = '/events';">See all events</button>
+			</div>
+		</div>
+	</div>
+</div>
+	<div class="content">
+		<div><section class="mb-5">
+	<div class="view view-events view-id-events view-display-id-featured_events_homepage js-view-dom-id-00b1773f94362631daf3311af696fe4b4b924c54e704e954cbb2f7d0f9502395">
+		
+     			
+					<div class="view-header">
+				
+			</div>
+						
+					<div class="container">
+				<div class="view-content row">
+
+					    
+<div class="card card-events events-01 col-12 col-sm-6 col-md-6 col-lg-4">
+  <div class="card-events-child">
+    <div class="card-body">
+      <a href="/events/expert-group-meeting-science-technology-and-innovation-sdgs-meeting-iatt-and-10-member-group">
+        <span class="event-day">11</span>
+        <span class="event-date">Jan 2023</span>
+        <h3 class="event-title">Expert Group Meeting on Science, Technology, and Innovation for the SDGs - Meeting of the IATT and 10-Member Group under the TFM in preparation for the Multi-Stakeholder Meeting on Science, Technology, and Innovation for the SDGs 2023</h3>
+        <div class="event-place">
+          <span class="room">United Nations Headquarters, New York</span>
+        </div>
+      </a>
+                          <div class="label-group">
+            <span class="label-group-text">Related Goals</span>
+            <div class="label-group-content">
+              
+<span class="badge badge-primary goal-17">
+	<a href="/goals/goal17">17</a>
+</span>
+
+<span class="badge badge-primary goal-13">
+	<a href="/goals/goal13">13</a>
+</span>
+
+<span class="badge badge-primary goal-11">
+	<a href="/goals/goal11">11</a>
+</span>
+
+            </div>
+          </div>
+            </div>
+  </div>
+</div>
+    
+<div class="card card-events events-01 col-12 col-sm-6 col-md-6 col-lg-4">
+  <div class="card-events-child">
+    <div class="card-body">
+      <a href="/events/regional-consultations-western-asia-49031">
+        <span class="event-day">24</span>
+        <span class="event-date">Jan 2023</span>
+        <h3 class="event-title">Regional Consultations on Western Asia</h3>
+        <div class="event-place">
+          <span class="room">Qatar </span>
+        </div>
+      </a>
+                          <div class="label-group">
+            <span class="label-group-text">Related Goals</span>
+            <div class="label-group-content">
+              
+<span class="badge badge-primary goal-17">
+	<a href="/goals/goal17">17</a>
+</span>
+
+            </div>
+          </div>
+            </div>
+  </div>
+</div>
+    
+<div class="card card-events events-01 col-12 col-sm-6 col-md-6 col-lg-4">
+  <div class="card-events-child">
+    <div class="card-body">
+      <a href="/events/ecosoc-partnership-forum-2023">
+        <span class="event-day">31</span>
+        <span class="event-date">Jan 2023</span>
+        <h3 class="event-title">ECOSOC Partnership Forum 2023</h3>
+        <div class="event-place">
+          <span class="room">Trusteeship Chamber (in person)/ Online</span>
+        </div>
+      </a>
+                          <div class="label-group">
+            <span class="label-group-text">Related Goals</span>
+            <div class="label-group-content">
+              
+<span class="badge badge-primary goal-17">
+	<a href="/goals/goal17">17</a>
+</span>
+
+            </div>
+          </div>
+            </div>
+  </div>
+</div>
+
+				</div>
+			</div>
+		
+											</div>
+</section></div>
+
+	</div>
+
+
+<div class="goals-wrapper" id="goal_section">
+	<div class="container">
+		<div class="heading-block">
+			<div class="row justify-content-between">
+				
+				<div class="col-12 col-sm-6 col-lg-4">
+					<div class="views-element-container settings-tray-editable block block-views block-views-blockgoals-featured-goals-block" id="block-views-block-goals-featured-goals-block" data-drupal-settingstray="editable">
+													<h2>THE 17 GOALS</h2>
+											</div>
+				</div>
+				<div class="col-12 col-sm-6 col-md-6 col-lg-7 headinginfo-wrapper">
+					<div class="headinginfo">
+						<p class="headinginfo-number">169</p>
+						<p class="headinginfo-text">Targets</p>
+					</div>
+					<div class="headinginfo">
+						<p class="headinginfo-number">3530</p>
+						<p class="headinginfo-text">Events</p>
+					</div>
+					<div class="headinginfo">
+						<p class="headinginfo-number">1329</p>
+						<p class="headinginfo-text">Publications</p>
+					</div>
+					<div class="headinginfo">
+						<p class="headinginfo-number">6633</p>
+						<p class="headinginfo-text">Actions</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+			<div class="content">
+			<div><div class="container-full view view-goals view-id-goals view-display-id-featured_goals_block js-view-dom-id-2a5ea4e61005112d31d3c574876edae852011ec3798f043b189b55c3f423af2f">
+	
+		
+			
+			<div class="mb-5 row">
+			    
+<div data-toggle="modal" data-target="#goal-1" class="card card-goal goal-1 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal1" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-1.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">1</span>
+			<h3 class="goal-title">Goal 1</h3>
+			<p class="goal-text">End poverty in all its forms everywhere.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">7</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">56</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">37</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1185</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-01.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-2" class="card card-goal goal-2 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal2" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-2.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">2</span>
+			<h3 class="goal-title">Goal 2</h3>
+			<p class="goal-text">End hunger, achieve food security and improved nutrition and promote sustainable agriculture.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">8</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">46</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">14</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1080</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-02.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-3" class="card card-goal goal-3 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal3" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-3.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">3</span>
+			<h3 class="goal-title">Goal 3</h3>
+			<p class="goal-text">Ensure healthy lives and promote well-being for all at all ages.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">13</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">19</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">35</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">987</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-03.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-4" class="card card-goal goal-4 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal4" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-4.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">4</span>
+			<h3 class="goal-title">Goal 4</h3>
+			<p class="goal-text">Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">10</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">22</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">8</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1526</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-04.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-5" class="card card-goal goal-5 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal5" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-5.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">5</span>
+			<h3 class="goal-title">Goal 5</h3>
+			<p class="goal-text">Achieve gender equality and empower all women and girls.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">9</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">35</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">34</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1294</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-05.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-6" class="card card-goal goal-6 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal6" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-6.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">6</span>
+			<h3 class="goal-title">Goal 6</h3>
+			<p class="goal-text">Ensure availability and sustainable management of water and sanitation for all.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">8</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">19</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">32</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">933</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-06.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-7" class="card card-goal goal-7 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal7" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-7.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">7</span>
+			<h3 class="goal-title">Goal 7</h3>
+			<p class="goal-text">Ensure access to affordable, reliable, sustainable and modern energy for all.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">5</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">13</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">32</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">850</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-07.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-8" class="card card-goal goal-8 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal8" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-8.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">8</span>
+			<h3 class="goal-title">Goal 8</h3>
+			<p class="goal-text">Promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">12</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">57</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">36</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1597</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-08.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-9" class="card card-goal goal-9 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal9" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-9.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">9</span>
+			<h3 class="goal-title">Goal 9</h3>
+			<p class="goal-text">Build resilient infrastructure, promote inclusive and sustainable industrialization and foster innovation.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">8</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">43</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">14</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">782</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-09.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-10" class="card card-goal goal-10 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal10" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-10.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">10</span>
+			<h3 class="goal-title">Goal 10</h3>
+			<p class="goal-text">Reduce inequality within and among countries.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">10</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">37</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">11</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">781</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-10.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-11" class="card card-goal goal-11 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal11" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-11.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">11</span>
+			<h3 class="goal-title">Goal 11</h3>
+			<p class="goal-text">Make cities and human settlements inclusive, safe, resilient and sustainable.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">10</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">39</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">17</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">942</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-11.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-12" class="card card-goal goal-12 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal12" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-12.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">12</span>
+			<h3 class="goal-title">Goal 12</h3>
+			<p class="goal-text">Ensure sustainable consumption and production patterns.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">11</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">11</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">13</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1274</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-12.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-13" class="card card-goal goal-13 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal13" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-13.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">13</span>
+			<h3 class="goal-title">Goal 13</h3>
+			<p class="goal-text">Take urgent action to combat climate change and its impacts.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">5</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">18</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">33</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1534</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-13.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-14" class="card card-goal goal-14 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal14" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-14.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">14</span>
+			<h3 class="goal-title">Goal 14</h3>
+			<p class="goal-text">Conserve and sustainably use the oceans, seas and marine resources for sustainable development.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">10</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">62</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">38</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">2591</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-14.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-15" class="card card-goal goal-15 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal15" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-15.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">15</span>
+			<h3 class="goal-title">Goal 15</h3>
+			<p class="goal-text">Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">12</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">16</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">31</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">940</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-15.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-16" class="card card-goal goal-16 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal16" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-16.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">16</span>
+			<h3 class="goal-title">Goal 16</h3>
+			<p class="goal-text">Promote peaceful and inclusive societies for sustainable development, provide access to justice for all and build effective, accountable and inclusive institutions at all levels.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">12</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">21</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">11</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">835</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-16.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+    
+<div data-toggle="modal" data-target="#goal-17" class="card card-goal goal-17 col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+	<a href="/goals/goal17" style="background-image: url(&quot;/themes/custom/porto/assets/goals/images/img-goal-17.jpg&quot;);">
+		<div class="card-body">
+			<span class="goal-number">17</span>
+			<h3 class="goal-title">Goal 17</h3>
+			<p class="goal-text">Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.</p>
+			<div class="goal-info">
+				<div class="col-6">
+					<span class="number">19</span>
+					<p class="feature">Targets</p>
+				</div>
+				<div class="col-6">
+					<span class="number">138</span>
+					<p class="feature">
+						Events</p>
+				</div>
+				<div class="col-6">
+					<span class="number">62</span>
+					<p class="feature">Publications</p>
+				</div>
+				<div class="col-6">
+					<span class="number">1728</span>
+					<p class="feature">Actions</p>
+				</div>
+			</div>
+			<button type="button" class="btn btn-goal">More info</button>
+		</div><img src="/sites/default/files/goals/E_SDG_Icons-17.jpg" alt="goal logo" class="goal-logo">
+	</a>
+</div>
+
+			<div class="card  goal-global col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+				<a href="/goals">
+					<img src="themes/custom/porto/assets/goals/global-goals.png" class="goal-image" alt="goal image">See all
+					
+				</a>
+			</div>
+
+		</div>
+	
+					</div>
+</div>
+
+		</div>
+	</div>
+
+
+				<section class="container">
+			<div class="footer-links mb-5">
+									<a id="featured_bottom_first"></a>
+					<ul class="nav flex-column">
+						  
+<li>
+	<button class="nav-link dropdown-toggle important collapsed" type="button" id="about" data-toggle="collapse" data-target="#aboutDSDG" aria-expanded="true" aria-controls="aboutDSDG">
+		<h5 id="block-aboutdsdg-menu">
+			About DSDG
+		</h5>
+	</button>
+</li>
+
+
+	<div id="aboutDSDG" class="dropwdown-collapse collapse" aria-labelledby="about">
+		
+                            <li class="nav-item">
+                                      <a href="/about" class="nav-link" data-drupal-link-system-path="node/24502">Division for Sustainable Development Goals</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/topics" class="nav-link" data-drupal-link-system-path="topics">Our topics</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/contact" class="nav-link" data-drupal-link-system-path="webform/contact">Contact us</a>
+                      </li>
+        
+
+
+	</div>
+
+
+					</ul>
+													<a id="featured_bottom_second"></a>
+					<ul class="nav flex-column">
+						  
+<li>
+	<button class="nav-link dropdown-toggle important collapsed" type="button" id="about" data-toggle="collapse" data-target="#aboutDSDG" aria-expanded="true" aria-controls="aboutDSDG">
+		<h5 id="block-quicklinks-menu">
+			Quick links
+		</h5>
+	</button>
+</li>
+
+
+	<div id="aboutDSDG" class="dropwdown-collapse collapse" aria-labelledby="about">
+		
+                            <li class="nav-item">
+                                      <a href="/goals" class="nav-link" data-drupal-link-system-path="goals">The Sustainable Development Goals</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/2030agenda" class="nav-link" data-drupal-link-system-path="node/24494">2030 Agenda</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="https://hlpf.un.org/" class="nav-link">High-Level Political Forum</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/tfm" class="nav-link" data-drupal-link-system-path="node/24660">Technology Facilitation Mechanism</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/topics/small-island-developing-states" class="nav-link" title="Small Island Developing States" data-drupal-link-system-path="taxonomy/term/1194">Small Island Developing States</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/publications/agenda21" class="nav-link" data-drupal-link-system-path="node/16913">Agenda 21</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="http://www.harmonywithnatureun.org/" class="nav-link">Harmony with Nature</a>
+                      </li>
+        
+
+
+	</div>
+
+
+					</ul>
+													<a id="featured_bottom_third"></a>
+					<ul class="nav flex-column">
+						  
+<li>
+	<button class="nav-link dropdown-toggle important collapsed" type="button" id="about" data-toggle="collapse" data-target="#aboutDSDG" aria-expanded="true" aria-controls="aboutDSDG">
+		<h5 id="block-onlinedatabases-menu">
+			Online Databases
+		</h5>
+	</button>
+</li>
+
+
+	<div id="aboutDSDG" class="dropwdown-collapse collapse" aria-labelledby="about">
+		
+                            <li class="nav-item">
+                                      <a href="/partnerships/action-networks/acceleration-actions" class="nav-link" data-drupal-link-system-path="partnerships/action-networks/acceleration-actions">SDG Acceleration Actions</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/sdg-good-practices" class="nav-link" data-drupal-link-system-path="node/25003">SDG Good Practices</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/UNSDGimplementation" class="nav-link" data-drupal-link-system-path="node/44044">UN System SDG Implementation</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="https://sustainabledevelopment.un.org/vnrs/" class="nav-link">Voluntary National Reviews Database</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="https://sustainabledevelopment.un.org/inputs/" class="nav-link">Inputs to HLPF</a>
+                      </li>
+        
+
+
+	</div>
+
+
+					</ul>
+													<a id="featured_bottom_fourth"></a>
+					<ul class="nav flex-column">
+						  
+<li>
+	<button class="nav-link dropdown-toggle important collapsed" type="button" id="about" data-toggle="collapse" data-target="#aboutDSDG" aria-expanded="true" aria-controls="aboutDSDG">
+		<h5 id="block-partnershipsandvcommitments-menu">
+			Partnerships
+		</h5>
+	</button>
+</li>
+
+
+	<div id="aboutDSDG" class="dropwdown-collapse collapse" aria-labelledby="about">
+		
+                            <li class="nav-item">
+                                      <a href="/topics/multi-stakeholder-partnerships-and-voluntary-commitments" class="nav-link" data-drupal-link-system-path="taxonomy/term/1188">About partnerships</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/partnerships" class="nav-link" data-drupal-link-system-path="node/34743">The Partnership Platform</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="/partnerships/action-networks/ocean-commitments" class="nav-link" data-drupal-link-system-path="partnerships/action-networks/ocean-commitments">Ocean Voluntary Commitments Registry</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="https://sustainabledevelopment.un.org/sids/partnershipframework" class="nav-link">Small Island Developing States Partnership Framework</a>
+                      </li>
+                        <li class="nav-item">
+                                      <a href="https://partnershipaccelerator.netlify.app/" class="nav-link">Partnership Accelerator</a>
+                      </li>
+        
+
+
+	</div>
+
+
+					</ul>
+							</div>
+		</section>
+	</main>
+	<footer class="footer-dark mt-10">
+	<div class="container">
+		<div class="footer-social"><img src="/themes/custom/porto/assets/images/logo-footer-en.svg" alt="United Nations " class=" footer__logo">
+			<div class="footer-actions">
+				<div class="d-flex align-items-center">
+					<span>
+						Join the conversation:</span>
+					<a href="https://www.facebook.com/SustDev" class="contact-icon" target="_blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+					<a href="https://twitter.com/SustDev" class="contact-icon" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+					<a href="https://www.youtube.com/user/uncsd2012/featured" class="contact-icon" target="_blank">
+						<i class="fab fa-youtube"></i>
+					</a>
+					<a href="https://www.flickr.com/photos/sustdev" class="contact-icon" target="_blank">
+						<i class="fab fa-flickr"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="footer__links d-flex">
+												  <div class="row region region-bottom-footer">
+                
+  <h2 class="sr-only" id="block-porto-footer-menu">Footer menu</h2>
+  
+
+        
+              <ul block="block-porto-footer" class="clearfix nav">
+                    <li class="nav-item">
+                <a href="/contact" class="nav-link" data-drupal-link-system-path="webform/contact">Contact</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.un.org/en/sections/about-website/copyright/" class="nav-link">Copyright</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.un.org/en/sections/about-website/fraud-alert/" class="nav-link">Fraud Alert</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.un.org/en/sections/about-website/privacy-notice/" class="nav-link">Privacy Notice</a>
+              </li>
+                <li class="nav-item">
+                <a href="https://www.un.org/en/sections/about-website/terms-use/" class="nav-link">Terms of Use</a>
+              </li>
+        </ul>
+  
+
+
+  
+  </div>
+
+									</div>
+	</div>
+</footer>
+</div>
+
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"home","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"addtoany\/addtoany,bootstrap_barrio\/form,bootstrap_barrio\/global-styling,bootstrap_barrio\/links,clientside_validation_jquery\/cv.jquery.ckeditor,clientside_validation_jquery\/cv.jquery.validate,genpass\/genpass,google_analytics\/google_analytics,porto\/color.preview,porto\/fontawesome,porto\/global-styling,search_api_autocomplete\/search_api_autocomplete,system\/base,video_embed_field\/responsive-video,views\/views.module","theme":"porto","theme_token":null},"ajaxTrustedUrl":{"\/search":true},"clientside_validation_jquery":{"validate_all_ajax_forms":2,"force_validate_on_blur":false,"messages":{"required":"This field is required.","remote":"Please fix this field.","email":"Please enter a valid email address.","url":"Please enter a valid URL.","date":"Please enter a valid date.","dateISO":"Please enter a valid date (ISO).","number":"Please enter a valid number.","digits":"Please enter only digits.","equalTo":"Please enter the same value again.","maxlength":"Please enter no more than {0} characters.","minlength":"Please enter at least {0} characters.","rangelength":"Please enter a value between {0} and {1} characters long.","range":"Please enter a value between {0} and {1}.","max":"Please enter a value less than or equal to {0}.","min":"Please enter a value greater than or equal to {0}.","step":"Please enter a multiple of {0}."}},"google_analytics":{"account":"UA-35008513-1","trackOutbound":true,"trackMailto":true,"trackTel":true,"trackDownload":true,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"search_api_autocomplete":{"search_results":{"auto_submit":true}},"user":{"uid":0,"permissionsHash":"f78790d85934eaaf1905891bea279738dd3e0d8ccff63782ce44e91cf23e5d2d"}}</script>
+<script src="/sites/default/files/js/js_3J14ccxpdfGQXcEKSSdtVOlBFpxe2RQIyLbj0fzhhs0.js"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/sites/default/files/js/js_XtP1l07d3DZC52PlZb0BVqdEurhbZDDx9SyPTyfR_aE.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js"></script>
+<script src="/sites/default/files/js/js_vE6w6IH4Z9qC2LHofdyZ7DBfGIu9Bf2JV_Lv6tagHMk.js"></script>
+
+  </body>
+</html>

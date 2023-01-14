@@ -1,0 +1,270 @@
+<!doctype html>
+<html xml:lang="en" lang="en" dir="ltr">
+
+<head>
+<title>Joint PharmD/PhD Program &lt; University of Illinois at Chicago</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="search" type="application/opensearchdescription+xml"
+			href="/search/opensearch.xml" title="Catalog" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<link href="/favicon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="/css/courseleaf.css" />
+<link rel="stylesheet" type="text/css" href="/fonts/font-awesome/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/css/screen.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="only screen and (max-width: 767px)" />
+<link rel="stylesheet" type="text/css" href="/css/print.css" media="print" />
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/lfjs.js"></script>
+<script type="text/javascript" src="/js/lfjs_any.js"></script>
+<link rel="stylesheet" type="text/css" href="/js/lfjs.css" />
+<script type="text/javascript" src="/js/courseleaf.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+<!--htdig_noindex-->
+<div class="accessible noscript">
+    <div class="accessible-menu" role="navigation" aria-label="Accessible Navigation">
+		<ul>
+			<li><a href="#content" rel="section">Skip to Content</a></li>
+			<li><a href="/azindex/">AZ Index</a></li>
+			<li><a href="/">Catalog Home</a></li>
+			<li><a href="http://www.uic.edu">UIC Home</a></li>
+		</ul>
+	</div>
+</div>
+<!--/htdig_noindex-->
+
+<header id="header-new">
+	<div class="wrap">
+		<div class="logo-header">
+			<a href="//www.uic.edu">
+				<img src="/images/logo2021.png" alt="University of Illinois Chicago" />
+			</a>
+		</div>
+		<nav class="catalog-quicklinks" aria-label="catalog quicklink">
+			<button id="hamburger" aria-controls="mobile-menu" data-toggle="#mobile-menu" aria-expanded="false">
+				<span class="sr-only">Toggle menu</span>
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</button>
+			<div id="mobile-menu">
+			<ul id="quicklinks">
+				<li><a href="/ucat/">Undergraduate</a></li>
+				<li><a href="/gcat">Graduate</a></li>
+				<li><a href="#" onclick="showPrintDialog(); return false;">Print / Download Options</a></li>
+			</ul>
+			<div id="search" role="search">
+				<form id="cl-search" action="/search/" class="clearfix">
+				<label for="name">Search Catalog</label>
+				<input type="text" name="search" size="25" placeholder="Search catalog..." class="searchbox" id="name" title="Search Catalog" />
+				<input type="submit" value="Search" class="submit" />
+				</form>
+			</div><!-- end #search -->
+		</div><!-- /#mobile-menu -->
+		</nav>
+	</div>
+</header>
+
+<!--htdig_noindex-->
+<div id="header" role="header">
+    <div class="wrap clearfix">
+        <a href="/">
+			<h1>Academic Catalog</h1>
+		</a>
+    </div><!--end .wrap -->
+</div><!-- end #header -->
+<!--/htdig_noindex-->
+
+<!--htdig_noindex-->
+<section id="banner" aria-labbledby="banner-header"
+ class="grad"
+>
+    <div class="wrap">
+
+
+		<div class="banner-text">
+			<h2 id="banner-header">2022-2024 Graduate Catalog</h2>
+		</div>
+
+
+
+
+    </div><!--end .wrap -->
+</section><!--end #navigation -->
+<!--/htdig_noindex-->
+
+<div id="wrapper">
+
+    <div id="container" class="clearfix">
+        <div id="nav-col" role="complementary">
+            <a id="cl-menu-control" href="#" class="togglenav">
+                <span class="cl-menu-text">Catalog Navigation</span>
+                <!-- <a class="cl-menu-btn" href="#">Catalog Navigation</a> -->
+				<svg aria-label="Down arrow icon" width="32" height="32" viewBox="0 0 32 32" role="presentation"><title>Down arrow icon</title><g fill="none" fill-rule="evenodd"><circle class="_circle" stroke-width="1" stroke="#007Da5" fill="#fff" cx="16" cy="16" r="15"></circle><path class="_arrow" stroke-width="2" stroke="#001E62" stroke-linecap="round" d="M12 17l4 4 4-4M16 20v-9"></path></g></svg>
+			</a><!--end #cl-menu-control-->
+            
+            <!-- Begin Regular Nav -->
+            <div id="cl-menu" role="navigation" aria-label="Secondary Navigation">
+<ul class="nav levelzero" id="/">
+	<li class="isparent"><a href="/ucat/">Undergraduate Catalog</a></li>
+	<li class="active isparent"><a href="/gcat/">Graduate Catalog</a>
+	<ul class="nav levelone" id="/gcat/">
+		<li><a href="/gcat/academic-calendar/">Academic Calendar</a></li>
+		<li class="isparent"><a href="/gcat/the-university/">The University</a></li>
+		<li class="isparent"><a href="/gcat/graduate-study/">Graduate Study at UIC</a></li>
+		<li class="isparent"><a href="/gcat/degree-programs/">Degree Programs</a></li>
+		<li class="active isparent"><a href="/gcat/colleges-schools/">Colleges &amp;&#8203; Schools</a>
+		<ul class="nav leveltwo" id="/gcat/colleges-schools/">
+			<li class="isparent"><a href="/gcat/colleges-schools/applied-health-sciences/">College of Applied Health Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/architecture-design-arts/">College of Architecture, Design, and the Arts</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/business-administration/">College of Business Administration</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/dentistry/">College of Dentistry</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/education/">College of Education</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/engineering/">College of Engineering</a></li>
+			<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+			<li><a href="/gcat/colleges-schools/law/">School of Law</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/liberal-arts-sciences/">College of Liberal Arts and Sciences</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/medicine/">College of Medicine</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/nursing/">College of Nursing</a></li>
+			<li class="active isparent"><a href="/gcat/colleges-schools/pharmacy/">College of Pharmacy</a>
+			<ul class="nav levelthree" id="/gcat/colleges-schools/pharmacy/">
+				<li><a href="/gcat/colleges-schools/pharmacy/pharmd/">Pharmacy (Professional Program: PharmD)</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/cer/">Comparative Effectiveness Research</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/forensic-sci/">Forensic Science</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/forensic-tox/">Forensic Toxicology</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/pharmaceutical-sciences/">Pharmaceutical Sciences</a></li>
+				<li class="isparent"><a href="/gcat/colleges-schools/pharmacy/psop/">Pharmacy</a></li>
+				<li class="active self"><a href="#" onclick="return false;">Joint PharmD/&#8203;PhD Program</a></li>
+			</ul>
+			</li>
+			<li class="isparent"><a href="/gcat/colleges-schools/public-health/">School of Public Health</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/social-work/">Jane Addams College of Social Work</a></li>
+			<li class="isparent"><a href="/gcat/colleges-schools/urban-planning-public-affairs/">College of Urban Planning and Public Affairs</a></li>
+			<li><a href="/gcat/colleges-schools/council-teacher-education/">Council on Teacher Education</a></li>
+			<li><a href="/gcat/colleges-schools/addl-opps/">Additional Opportunities for Graduate and Professional Study</a></li>
+		</ul>
+		</li>
+		<li class="isparent"><a href="/gcat/course-descriptions/">Graduate Course Descriptions</a></li>
+		<li class="isparent"><a href="/gcat/graduate-college/">Graduate College</a></li>
+		<li><a href="/gcat/graduatefaculty/">Graduate Faculty</a></li>
+		<li><a href="/gcat/archive-links/">Archive &amp;&#8203; Links</a></li>
+		<li><a href="http://grad.uic.edu" target="_blank">Graduate College Website</a></li>
+	</ul>
+	</li>
+	<li class="isparent"><a href="/all-course-descriptions/">All Course Descriptions</a></li>
+</ul>
+			   </div><!--end #cl-menu-->
+            <!-- End Nav -->
+        </div><!-- end #nav-col -->		    
+    		    
+        <div id="content-col">
+            <div id="content" role="main">
+
+<div id="breadcrumb" class="clearfix" role="navigation" aria-label="Breadcrumb Navigation">
+<ul><li><a href="/">Home</a><span class="crumbsep">/</span></li><li><a href="/gcat/">Graduate&nbsp;Catalog</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/">Colleges&nbsp;&amp;&nbsp;Schools</a><span class="crumbsep">/</span></li><li><a href="/gcat/colleges-schools/pharmacy/">College&nbsp;of&nbsp;Pharmacy</a><span class="crumbsep">/</span></li><li><span class="active">Joint PharmD/PhD Program</span></li></ul>
+</div><!-- end #breadcrumb -->
+
+			<h1 class="page-title">Joint PharmD/PhD Program</h1>
+
+
+
+<div id="textcontainer" class="page_content">
+
+<div class="sidebar">
+	<div id="sidebar-contact">
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+<p class="mailing_address"><span class="label"><strong>Mailing Address: </strong></span><br/>
+Pharmaceutical Scientist Training Program (PharmD/PhD)<br/>
+College of Pharmacy c/o Director of Research and Graduate Resources (MC 874)<br/>
+833 South Wood Street<br/>
+Chicago, IL 60612</p>
+<p class="campus_location"><span class="label"><strong>Contact Information: </strong></span><br/>
+<span class="email"><a href="mailto:lmcquade@uic.edu">lmcquade@uic.edu</a></span> <br/>
+<span class="website"><a href="https://pharmacy.uic.edu/programs/pharmd/joint-degree-programs/pharmd-phd-program">pharmacy.uic.edu/programs/pharmd/joint-degree-programs/pharmd-phd-program</a></span></p>
+<p>The UIC College of Pharmacy offers a select number of highly qualified students the opportunity to work toward both the PharmD and PhD degrees in an integrated fashion. The objective of the joint program is to train students for careers in academic pharmacy and research. Students admitted to this highly competitive program participate in the PharmD curriculum and pursue original doctoral research projects in the laboratories of the university’s graduate faculty.</p>
+<p>The first two to three years of the program are used to complete the P-1 through P-3 didactic PharmD curriculum. Choice of a permanent thesis advisor can take place at any point before moving to the graduate focused years (G-1 through G-3 or more). Students in the graduate phase of the program work side-by-side with PhD students in the graduate program of choice and meet all departmental requirements of the PhD degree. Original publications and presentations at national meetings are expected. Following completion of the PhD phase of the program, students rejoin other PharmD students to complete PharmD clerkship requirements.</p>
+<h2>Application Procedure</h2>
+<p>Application to the program is normally made at the time of application to the College of Pharmacy. However, candidates will also be considered during their first two years of PharmD training in the UIC College of Pharmacy. Admission to the program requires acceptance by the Admissions Committees of the College of Pharmacy and the Graduate Program of interest. Criteria for admission to the program include academic excellence in pre-pharmacy and other subjects, prior research experience, potential for independent creative research, and commitment to a career in pharmaceutical research. Laboratory work, beyond traditional laboratory courses, concentrating in biology, chemistry, physics, biophysics, or socioeconomics is helpful in preparing for the training program. The admissions policy is flexible enough to accommodate those students who have already identified the field in which they wish to carry out research as well as those who are still undecided about their area of research specialization.</p>
+<p>In addition to the application to the College of Pharmacy through PharmCAS, the program requires the submission of several documents to the joint program:</p>
+<ol>
+	<li><a href="PSTP_form_V1-0-8.docx">Supplemental application form</a>, which is available on the program’s website.</li>
+	<li>GRE test scores, if required by the chosen PhD program</li>
+	<li>A statement of purpose for the joint program</li>
+	<li>Optional curriculum vitae</li>
+	<li>If necessary, updated transcripts since PharmCAS application</li>
+</ol>
+<p>Applicants are encouraged to submit one or two additional letters of recommendation, focusing on the applicant’s research experience, directly to the program office. Applications for simultaneous admission to the joint program are encouraged in the autumn of the year preceding admission to provide the fullest opportunity for consideration, since rolling admissions procedure is used.</p>
+<h2>Degree Requirements</h2>
+<p>Students in the joint program complete requirements of the College of Pharmacy for the PharmD degree and requirements of their chosen research program for the PhD degree. Please see the descriptions of the specific programs (PharmD and PhD) for details on the requirements of each program. The joint program makes it possible for students to earn both degrees more quickly than would be possible if each were done sequentially by allowing requirements completed concurrently and to be counted toward the completion of both degrees.</p>
+<h2>More Information for Prospective Students</h2>
+<ul>
+	<li><a href="https://pharmacy.uic.edu/programs/pharmd/" target="_blank">Information about PharmD</a>, including pre-pharmacy course work and admission requirements</li>
+	<li><a href="https://pharmacy.uic.edu/programs/graduate-programs/" target="_blank">Information about graduate programs</a>, including links to individual program pages</li>
+	<li><a href="https://pharmacy.uic.edu/programs/pharmd/joint-degree-programs/pharmd-phd-program/">Information about the Joint PharmD/PhD degree program</a></li>
+</ul></div><!--end #textcontainer -->
+
+
+
+            </div> <!-- end #content -->
+        </div><!--end #content-col -->
+    </div><!-- end #container -->
+</div><!-- end #wrapper --> 
+
+<div id="footer" class="clearfix" role="contentinfo">
+    <div class="wrap">
+        <div id="foot-logo">
+            <a href="/">University of Illinois at Chicago</a>
+        </div><!-- end #foot-logo -->
+        
+        <p><a href="http://admissions.uic.edu/apply-now">Apply Online</a> | <a href="http://admissions.uic.edu/contact-admissions">Contact Admissions</a> | <a href="https://www.vpaa.uillinois.edu/resources/web_privacy">Privacy Statement</a><br />
+        Having problems accessing this site? <a href="mailto:ccmelby@uic.edu">Contact the Webmaster</a>.<br />
+        &copy; 2022-2024 The Board of Trustees of the University of Illinois</p>
+    </div>
+</div><!-- end #footer -->
+
+<a href="#header" id="totop">Back to Top</a>
+
+<div id="print-dialog" aria-labeledby="dialog-title" class="screen" role="dialog">
+	<div class="print-header">
+		<h2 id="dialog-title">Print Options</h2>
+	</div>
+	<div class="print-body">
+		<div class="print-option">
+			<div class="option-head">
+				<a href="#" onclick="hidePrintDialog();window.print();return false">Send Page to Printer</a>
+			</div>
+			<p>
+				<em>Print this page.</em>
+			</p>
+		</div>
+<div class="print-option"><div class="option-head"><a class="option-name" href="/gcat/colleges-schools/pharmacy/pharmd-phd/pharmd-phd.pdf" role="button">Download Page (PDF)</a></div><p class="option-desc"><em>The PDF will include all information unique to this page.</em></p></div><div class="print-option"><div class="option-head"><a class="option-name" href="/pdf/2022-23-graduate.pdf" target="_blank">Download PDF of the entire Graduate Catalog</a></div><p class="option-desc"><em>All pages in the campus catalog.</em></p></div>    </div>
+	<div class="buttons clearfix">
+		<div class="cancel">
+			<a href="#" onclick="hidePrintDialog(); return false;">Cancel</a>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
